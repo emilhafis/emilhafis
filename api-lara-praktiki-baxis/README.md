@@ -1,2 +1,2 @@
-# API-lara praktiki baxış
+# API-lara praktiki b
 
