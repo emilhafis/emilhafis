@@ -36,13 +36,11 @@ Məsələn burada istifadə etdiyimiz GET metodunu və ya endpoint nədir sualı
 
 ### Activity. Postman ilə sorğunun göndərilməsi&#x20;
 
+> Burada biz Postman-dən istifadə edərək verilmiş tarix və aeroportlar üzrə [travelpayouts aviabilet API](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)-larını yoxlayayıb qiymətlərini öyrənəcəyik. Sorğu göndərmək üçün:
 >
->
-> In this exercise, you’ll use Postman to make a request using OpenWeatherMap’s [current weather data API endpoint](https://openweathermap.org/current). To make the request:
->
-> 1. If you haven’t already done so, download and install the Postman app at [https://www.getpostman.com/downloads/](https://www.getpostman.com/downloads/). (Make sure you download the app and not the deprecated Chrome extension.)
-> 2. Start the Postman app and sign in when prompted. Close any welcome screens so you can make a request.
-> 3. Insert the following endpoint into the box next to **GET**: `https://api.openweathermap.org/data/2.5/weather`
+> 1. Əgər sizdə Postman yoxdursa o zaman onu yükləyib quraşdırmaq lazımdır ( [https://www.getpostman.com/downloads](https://www.getpostman.com/downloads/)). Əmin olun ki, Chrome extension yox, Postman applikasiyasın yükləmisiniz.
+> 2. Postman app-ı start edib qeydiyyatdan keçin.&#x20;
+> 3. Göstərilmiş endpoint-i **GET** sorğusunun yanındakı xanaya daxil edin: [`https://api.travelpayouts.com/aviasales/v3/prices_for_dates`](https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates)``
 > 4.  Click the **Params** tab (below the box where you inserted the endpoint) and then add the following three parameters in the **key** and **value** rows:
 >
 >     * key: `zip` / value: `95050`
