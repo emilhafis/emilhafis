@@ -19,10 +19,14 @@ Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya
 > Travelpayouts-dan API Key əldə etmək üçün:
 >
 > 1. [https://www.travelpayouts.com/en/](https://www.travelpayouts.com/en/) səhifəsinə daxil oluruq
-> 2. Qeydiyyatdan keçirik
+> 2. Qeydiyyatdan keçirib dashboarda daxil oluruq
 > 3. Qeydiyyatdan keçdikdən sonra **Create Project** klik edib yeni layihə yaradırıq
-> 4. Layihə məqsədi **Others** seçib layihəmizin adın daxil edirik, məsələn Test
-> 5. Daha sonra **Avisales** proqramına qoşuluruq
-> 6. Qeydiyyatdan keçib Dashboard-a daxil oluruq
+> 4. Layihə məqsədi Others seçib layihəmizin adın daxil edirik, məsələn Test
+> 5. **Aviasales** proqramına qoşuluruq
+> 6. Program bölməsin seçdikdən sonra API bölməsinə keçirik və oradakı API Key-i əldə edirik
+
+![Create Project](<../.gitbook/assets/travel\_create\_project (1).png>) ![Join Aviasales](<../.gitbook/assets/aviasales (1).png>)
+
+![API Key](<../.gitbook/assets/api\_key (1).png>)
 
 ###
