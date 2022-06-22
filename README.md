@@ -4,6 +4,8 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 # Giriş
 
+![](.gitbook/assets/1\_F-tvvVEmXLS5bZ3xV3bKjA.png)
+
 ### Kurs üzrə ümumi məlumat
 
 > API-ın hazırlanmasından onun kodlaşdırılmasına kimi prosesləri əhatə edən kursumuzda mücərrrəd uzun uzadı danışmaq əvəzinə praktiki yanaşma ilə sizlərə biliklərimi çatdırmağa çalışacağam.
