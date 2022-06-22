@@ -126,4 +126,4 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 > * **cURL yoxlanılması** - cURL quraşdırıldığından əmin olmaq üçün Mac-da Terminalı, Windows-da isə Command Prompt-u açıb bunu qeyd edin `curl --location --request GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c63416a24d3b969da6df9271faa9d6e'` Əgər JSON cavabı alırsınızsa dmeək ki, hər şey qaydasındadır.
 
-![](.gitbook/assets/curl\_check.png)
+![](<.gitbook/assets/curl\_check (1).png>)

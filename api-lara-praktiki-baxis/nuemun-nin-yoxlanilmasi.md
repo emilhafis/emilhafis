@@ -20,9 +20,9 @@ Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya
 >
 > 1. [https://www.travelpayouts.com/en/](https://www.travelpayouts.com/en/) səhifəsinə daxil oluruq
 > 2. Qeydiyyatdan keçirik
-> 3. Qeydiyyatdan keçdikdən sonra <mark style="color:blue;">**Create Project**</mark> klik edib yeni layihə yaradırıq
-> 4. Xanaları doldururuq (URL yerinə test.az qeyd edə bilərsiniz)
-> 5.
+> 3. Qeydiyyatdan keçdikdən sonra **Create Project** klik edib yeni layihə yaradırıq
+> 4. Layihə məqsədi **Others** seçib layihəmizin adın daxil edirik, məsələn Test
+> 5. Daha sonra **Avisales** proqramına qoşuluruq
 > 6. Qeydiyyatdan keçib Dashboard-a daxil oluruq
 
 ###

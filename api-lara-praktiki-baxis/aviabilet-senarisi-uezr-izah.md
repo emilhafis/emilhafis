@@ -121,7 +121,7 @@ description: Proqramçı kimi API-lardan necə istifadə etmək lazımdır?
 >
 >
 
-![Travel insight](../.gitbook/assets/Travel\_insight.png)
+![Travel insight](<../.gitbook/assets/Travel\_insight (1).png>)
 
 ### Müxtəlif aviabilet məlumatları üzrə platformalar
 
