@@ -5,7 +5,7 @@
   * [API-lara praktiki baxış](api-lara-praktiki-baxis/api-lara-praktiki-baxis.md)
   * [Aviabilet senarisi üzrə izah](api-lara-praktiki-baxis/aviabilet-senarisi-uezr-izah.md)
   * [Nümunənin yoxlanılması](api-lara-praktiki-baxis/nuemun-nin-yoxlanilmasi.md)
-  * [Postman ilə sorğunun göndərilməsi](api-lara-praktiki-baxis/postman-il-sorgunun-goend-rilm-si.md)
+  * [Postman](api-lara-praktiki-baxis/postman-il-sorgunun-goend-rilm-si.md)
 * [Page 2](page-2.md)
 
 ## Guides

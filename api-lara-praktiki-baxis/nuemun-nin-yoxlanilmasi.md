@@ -38,17 +38,17 @@ Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya
 ![API Key](<../.gitbook/assets/api\_key (1).png>)
 
 {% hint style="info" %}
-Keep in mind how users authorize calls with an API — this is something you usually cover in API documentation. Later in the course, we will dive into [authorization methods](https://idratherbewriting.com/learnapidoc/docapis\_more\_about\_authorization.html) in more detail.
+Daha sonrakı dərslərdə autorisation metodlarının detallarına enəcəyik. Hazırda ümumi olaraq başa düşün ki, avtorizasiya prosesi necə həyata keçirilir və API sənədləşməsində hansı formalarda qeyd edilir.
 {% endhint %}
 
 ### Text editor-un olmasından əmin olun
 
-> In the upcoming activities, you’ll work with code in a text file. When you’re working with code, you use a text editor (to work in plain text) instead of a rich text editor (which would provide a WYSIWYG interface). Here are a few choices for text editors:
+> Növbəti praktikalarda siz kodları text faylda analiz edəcəksiniz. Kodlarla işləyəndə siz əsasən text editor-lardan (plain text) istifadə edəcəksiniz. Aşağıda text editorlar üzrə nümunələr göstərirəm.
 >
 > * [Sublime Text](https://www.sublimetext.com/) (Mac or PC)
 > * [Notepad++](https://notepad-plus-plus.org/) (PC)
 > * [Atom](https://atom.io/) (Mac or Windows)
 >
-> These editors provide features that let you better manage the text. Choose the one you want. (My preference is to use Sublime Text when I’m working with independent code samples, and Atom when I’m working with Jekyll projects.) Avoid using TextEdit since it adds some formatting behind the scenes that can corrupt your content.
+> Bu editorlar text-ləri idarə etmək üçün yaxşı imkanlar yaradır. İstədiyinizi seçə bilərsiniz. Əgər indi başqasından istifadə edirsinizsə və sizi qane edirsə onu saxlaya bilərsiniz. Mənim üstünlük verdiyim ilk ikisidir.
 
 ###
