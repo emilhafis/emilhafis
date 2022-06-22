@@ -2,7 +2,6 @@
 
 * [Giriş](README.md)
 * [API-lara praktiki baxış](api-lara-praktiki-baxis/README.md)
-  * [API-lara praktiki baxış](api-lara-praktiki-baxis/api-lara-praktiki-baxis.md)
   * [Aviabilet senarisi üzrə izah](api-lara-praktiki-baxis/aviabilet-senarisi-uezr-izah.md)
   * [Nümunənin yoxlanılması](api-lara-praktiki-baxis/nuemun-nin-yoxlanilmasi.md)
   * [Postman](api-lara-praktiki-baxis/postman-il-sorgunun-goend-rilm-si.md)
