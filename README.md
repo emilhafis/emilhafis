@@ -46,13 +46,13 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 >
 > Bu bölmələrin hər birinin mənimsənilməyi sizlərə daha yaxşı REST API sənədləşdirilməsi necə yaradılmalısını başa düşməyə imkan verəcəkdir. Siz həmçinin API üçün konseptual bölmələri necə sənədləşdirməli lazım olduğunu öyrənəcəksiniz, məsələn ilkin təlimatlar (Getting started tutorial),  məhsulun icmalı (product overview), status və xəta kodları, sorğu icazəsi (request authorisation) və s.
 >
-> <mark style="color:red;">Siz həmçinin müxtəlif yollar ilə REST API sənədləşməsinin publish olunmasına, yeni tool-ların, GitHub kimi spesifikasiyaların, Jekyll kimi statik sayt generatorları və başqa docs-ad-codes yanaşmalarını öyrənəcəksiniz.</mark>
+> Siz həmçinin müxtəlif yollar ilə REST API sənədləşməsinin publish olunmasına, yeni tool-ların, GitHub kimi spesifikasiyaların, Jekyll kimi statik sayt generatorları və başqa docs-ad-codes yanaşmalarını öyrənəcəksiniz.
 >
-> <mark style="color:red;">Biz həmçinin OpenAPI spesifikasiyası və Swagger UI (OpenAPI spesifikasiyası üçün vasitələr) detallarına düşmüş olacağıq. Əlavə olaraq siz native library API-ları necə sənədləşdirməyi və Javadoc-u necə generasiya etməli olduğunuzu öyrənəcəksiniz.</mark>
+> Biz həmçinin OpenAPI spesifikasiyası və Swagger UI (OpenAPI spesifikasiyası üçün vasitələr) detallarına düşmüş olacağıq. Əlavə olaraq siz native library API-ları necə sənədləşdirməyi və Javadoc-u necə generasiya etməli olduğunuzu öyrənəcəksiniz.
 >
-> <mark style="color:red;">Vasitə və texnologiyalardan savayı biz proses və metodologiyaları dərindən araşdırıb, böyük və kiçik sənədləşmə layihələrini necə idarə etməyi, sənədlərlə bağlı rəyləri necə toplamağı və maraqlı tərəfləri necə məmnun etməyi öyrənəcəyik.</mark>
+> Vasitə və texnologiyalardan savayı biz proses və metodologiyaları dərindən araşdırıb, böyük və kiçik sənədləşmə layihələrini necə idarə etməyi, sənədlərlə bağlı rəyləri necə toplamağı və maraqlı tərəfləri necə məmnun etməyi öyrənəcəyik.
 >
-> <mark style="color:red;">Mən həmçinin</mark> hərtərəfli keyfiyyət yoxlama siyahısını əks etdirən <mark style="color:red;">metrics and measurement bölməsini kuersa daxil etmişəm.</mark> Təsvir edilən meyarlar öz developer portalınızı  ən yaxşı təcrübələrinə qarşı saysız-hesabsız üsullarla qiymətləndirməyə kömək edə bilər.
+> Mən həmçinin hərtərəfli keyfiyyət yoxlama siyahısını əks etdirən metrics and measurement bölməsini kuersa daxil etmişəm. <mark style="color:red;"></mark> Təsvir edilən meyarlar öz developer portalınızı  ən yaxşı təcrübələrinə qarşı saysız-hesabsız üsullarla qiymətləndirməyə kömək edə bilər.
 >
 > Bu kurs boyu mən bu anlayışları praktiki fəaliyyətlər və demolarla real, tətbiq oluna bilən kontekstlərə göstərəcəyəm.
 
@@ -67,26 +67,8 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 ### Kursun mündəricatı
 
-> The course consists of the following sections:
->
->
->
-> * [I: Introduction to REST APIs](https://idratherbewriting.com/learnapidoc/docapis\_introtoapis.html)
-> * ****[**Giriş**](./#kurs-uezr-uemumi-m-lumat)****
-> * [II: Using an API like a developer](https://idratherbewriting.com/learnapidoc/likeadeveloper.html)
-> * [III: Documenting API endpoints](https://idratherbewriting.com/learnapidoc/docendpoints.html)
-> * [IV: OpenAPI spec and generated reference docs](https://idratherbewriting.com/learnapidoc/restapispecifications.html)
-> * [V: Step-by-step OpenAPI code tutorial](https://idratherbewriting.com/learnapidoc/openapi\_tutorial.html)
-> * [VI: Testing API docs](https://idratherbewriting.com/learnapidoc/testingdocs.html)
-> * [VII: Conceptual topics in API docs](https://idratherbewriting.com/learnapidoc/docconceptual.html)
-> * [VIII: Code tutorials](https://idratherbewriting.com/learnapidoc/docapiscode.html)
-> * [IX: The writing process](https://idratherbewriting.com/learnapidoc/writing\_process.html)
-> * [X: Publishing API docs](https://idratherbewriting.com/learnapidoc/publishingapis.html)
-> * [XI: Thriving in the API doc space](https://idratherbewriting.com/learnapidoc/jobapis.html)
-> * [XII: Native library APIs](https://idratherbewriting.com/learnapidoc/nativelibraryapis.html)
-> * [XIII: Processes and methodology](https://idratherbewriting.com/learnapidoc/docapis\_managing\_doc\_processes.html)
-> * [XIV: Metrics and measurement](https://idratherbewriting.com/learnapidoc/docapis\_metrics\_and\_measurement.html)
-> * [XV: Additional resources](https://idratherbewriting.com/learnapidoc/resources.html)
+> * Giriş
+> * API-lara praktiki baxış
 
 ****
 
@@ -115,7 +97,6 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > * **curl -** [curl](https://curl.haxx.se/)  command line-dan endpoint-lərə sorğuların göndərilməsi üçün əsas vasitədir. curl MAC-da by default qurulmuş olur, amma Windows-da by default deyildir ( bəzi Windows 10-dakı Powershell-də vardır).  Windows-da Command Prompt-u açıb `curl -V` qeyd edin. Əgər qurulu deyilsə [confusedbycode.com/curl](http://confusedbycode.com/curl) səhifəsindən yükləyə bilərsiniz ( “With Administrator Privileges (free), 64-bit”). Command Prompt-u bağlayıb yenidən açın və `curl -V` yazıb nəticəsinə baxın.
 > * **Gi**<mark style="color:red;">**t**</mark><mark style="color:red;">.</mark> [<mark style="color:red;">Git</mark>](https://git-scm.com/) <mark style="color:red;">is a version control tool developers often use to collaborate on code. For Windows, see</mark> [<mark style="color:red;">https://gitforwindows.org/</mark>](https://gitforwindows.org/) <mark style="color:red;">to set up Git and the Git BASH terminal emulator. For Mac, see</mark> [<mark style="color:red;">Downloading Git</mark>](https://git-scm.com/download/mac)<mark style="color:red;">.</mark>&#x20;
 > * **GitHub account**. [GitHub](https://github.com) müxtəlif fəaliyyətlər üçün, bəzən Git-də iş prosesini nümayiş etdirmək üçün, bəzən isə müxtəlif developer tool-lara daxil olmaq üçün autentifikasiya vasitəsi üçün istifadə edilir.  Əgər GitHub hesabınız yoxudrsa, yaradın.
-> * **OpenWeatherMap API key**. We’ll be using the OpenWeatherMap API for some exercises. It <mark style="color:red;">takes a couple of hours for the OpenWeatherMap API key to become active, so it’s best if you get the API key ahead of time — then when you get to the OpenWeatherMap API activities, you’ll be all set. To get your (free) OpenWeatherMap API key, go to</mark> [<mark style="color:red;">https://openweathermap.org/</mark>](https://openweathermap.org/)<mark style="color:red;">. Click Sign Up in the top nav bar and create an account. After you sign up, OpenWeatherMap sends you an API key to your email. you can also find it when you log in and click the API Keys tab from the dashboard. Copy the key into a place you can easily find it.</mark>
 
 ### Proqram təminatlarının yoxlanılması <a href="#testing-your-setup" id="testing-your-setup"></a>
 
