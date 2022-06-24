@@ -104,6 +104,37 @@ Burada daha detallı olaraq Bakıdan (Heydər Əliyev aeroportu) İstanbula (Ata
 https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2022-07-11&return_at=2022-07-18&currency=azn&token=3c63416a24d3b969da6df9271faa9d6e
 ```
 
-> Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsiniz.
+{% hint style="info" %}
+Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsiniz.
+{% endhint %}
+
+{% hint style="warning" %}
+`List` formatında qayıdan cavabı analiz edin və ən ucuz bileti tapmağa çalışın.
+{% endhint %}
+
+#### Digər parametrlərin yoxlanılması
+
+> Make one more OpenWeatherMap API request, this time changing the way you specify the location. Instead of specifying the location by zip code, specify the location using `lat` and `lon` geocoordinates instead. For example:
 >
-> `List` formatında qayıdan cavabı analiz edin və ən ucuz bileti tapmağa çalışın.
+> ```
+> https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=-121.9689848&units=imperial&appid=APIKEY
+> ```
+>
+> (In the above code, replace `APIKEY` with your actual API key.)
+>
+> Postman has a lot of other functionality you can use. We’ll revisit Postman later in the course for some other activities.
+>
+> Bu dəfə də əlavə parametr artıraraq birbaşa uçuş olan məlumatları tapmağa çalışaq. bunun üçün [travelpayouts-un API doc ](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)parametrlərinə baxırıq.&#x20;
+>
+> Orada **Request parametrs** bölməsində key olaraq `direct` və **decriptionda** "non-stop tickets, `true` or `false`. By default:  `false`" məlumatını görürük. Əgər bizə buradakı kimi iki formada dəyər daxil etmək göstərilirsə, bilin ki bu field-in type-ı boolean-dır. Data type-lar mövzusunda bu məsələlərə bir daha qayıdacağıq.
+>
+> Sonda bizim **endpointimiz** bu formada olacaqdır.&#x20;
+
+```javascript
+https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2022-07-11&return_at=2022-07-18&direct=true&currency=azn&token=3c63416a24d3b969da6df9271faa9d6e
+```
+
+{% hint style="info" %}
+Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsiniz.
+{% endhint %}
+
