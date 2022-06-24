@@ -122,7 +122,7 @@ Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsin
 >
 > (In the above code, replace `APIKEY` with your actual API key.)
 >
-> Postman has a lot of other functionality you can use. We’ll revisit Postman later in the course for some other activities.
+>
 >
 > Bu dəfə də əlavə parametr artıraraq birbaşa uçuş olan məlumatları tapmağa çalışaq. bunun üçün [travelpayouts-un API doc ](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)parametrlərinə baxırıq.&#x20;
 >
@@ -137,4 +137,6 @@ https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destinati
 {% hint style="info" %}
 Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsiniz.
 {% endhint %}
+
+> Postman-nın xeyli sayda digər funksionallıqları da vardır. Gələcəkdəki dərslərimizdə Postman-a yenə qayıdacağıq.
 
