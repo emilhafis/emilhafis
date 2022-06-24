@@ -81,7 +81,5 @@ Məsələn burada istifadə etdiyimiz GET metodunu və ya endpoint nədir sualı
 > 7\. **Save** düyməsinə klik edin.
 >
 > Saxlanılmış sorğular Postman interfeysinin sol küncündə görünəcəkdir. Əgər Collection sütunun görmürsünüzsə sol tərəfdə 1-ci sırada duran Collection düməsinə klik edin.&#x20;
->
-> Saved requests appear in the left side pane on the Collections tab. (If you don’t see the Collections pane, click the **Show Sidebar** button ![](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/show\_hide\_sidebar.png) in the lower-left corner to expand it.
 
-![](<../.gitbook/assets/Postman\_save (2).png>)
+![Postman saved request](<../.gitbook/assets/Postman\_save (2).png>)
