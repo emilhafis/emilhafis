@@ -51,10 +51,16 @@ Məsələn burada istifadə etdiyimiz GET metodunu və ya endpoint nədir sualı
 >
 > Yekunda sizin Postman interfeysiniz bu formada görünəcəkdir.&#x20;
 
-![](../.gitbook/assets/Postman\_request.png)
+![Postman endpoints & params](../.gitbook/assets/Postman\_request.png)
 
 > Siz bu parametrləri əlavə edəndə onlar GET box-da göstərilən endpoint URL-də "query string" kimi əlavə edilir. Məsələn, sizin endpointiniz bu formada görünməlidir:
 >
 > ``[`https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c63416a24d3b969da6df9271faa9d6e`](https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates?origin=GYD\&token=3c63416a24d3b969da6df9271faa9d6e) `` (sizin API Key `token` value-dakından fərqli olacaqdır). Query string parametrləri endpoint-də sual  `?` işarəsindən sonra əlavə edilir və bir birindən ampersand `&` işarəsi ilə ayrılır. Query string parametrlərinin sıralamadakı yerlərinin önəmi olmur.&#x20;
 >
 > Qeyd etmək lazımdır ki, bir çox API sorğularında API key **URL-də** `query string parametri` əvəzinə **`Header`-**də ötürülür. Əgər belə hal olarsa siz **Headers** tab-na klik edib tələb olunan `key-value` məlumatın oraya əlavə etməlisiniz. Bizim keysimizdə travelpayouts API key məlumatını `query string parametr` kimi **URL**-də göndərir.
+
+> 5\. **Send** düyməsinə klik edin.
+>
+> Cavab Postman-ın aşağı pəncərəsində görünməlidir. Bu formada:
+
+![](../.gitbook/assets/Postman\_response.png)
