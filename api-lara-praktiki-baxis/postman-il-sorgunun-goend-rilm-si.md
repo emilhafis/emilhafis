@@ -53,9 +53,13 @@ Məsələn burada istifadə etdiyimiz GET metodunu və ya endpoint nədir sualı
 
 ![Postman endpoints & params](../.gitbook/assets/Postman\_request.png)
 
-> Siz bu parametrləri əlavə edəndə onlar GET box-da göstərilən endpoint URL-də "query string" kimi əlavə edilir. Məsələn, sizin endpointiniz bu formada görünməlidir:
->
-> ``[`https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c63416a24d3b969da6df9271faa9d6e`](https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates?origin=GYD\&token=3c63416a24d3b969da6df9271faa9d6e) `` (sizin API Key `token` value-dakından fərqli olacaqdır). Query string parametrləri endpoint-də sual  `?` işarəsindən sonra əlavə edilir və bir birindən ampersand `&` işarəsi ilə ayrılır. Query string parametrlərinin sıralamadakı yerlərinin önəmi olmur.&#x20;
+> Siz bu parametrləri əlavə edəndə onlar GET box-da göstərilən endpoint URL-də "query string" kimi əlavə edilir. Məsələn, sizin endpointiniz bu formada görünməlidir.
+
+```javascript
+https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c63416a24d3b969da6df9271faa9d6e
+```
+
+> Sizin API Key `token` value-dakından fərqli olacaqdır. Query string parametrləri endpoint-də sual  `?` işarəsindən sonra əlavə edilir və bir birindən ampersand `&` işarəsi ilə ayrılır. Query string parametrlərinin sıralamadakı yerlərinin önəmi olmur.&#x20;
 >
 > Qeyd etmək lazımdır ki, bir çox API sorğularında API key **URL-də** `query string parametri` əvəzinə **`Header`-**də ötürülür. Əgər belə hal olarsa siz **Headers** tab-na klik edib tələb olunan `key-value` məlumatın oraya əlavə etməlisiniz. Bizim keysimizdə travelpayouts API key məlumatını `query string parametr` kimi **URL**-də göndərir.
 
@@ -86,7 +90,7 @@ Məsələn burada istifadə etdiyimiz GET metodunu və ya endpoint nədir sualı
 
 #### Activity 2. Əlavə parametrlər ilə sorğunun göndərilməsi
 
-Burada daha detallı olaraq Bakıdan (Heydər Əliyev aeroportu) İstanbula (Atatürk aeroportu) seçdiyimiz tarixlər üzrə (məsələn 11.07.2022-18.07.2022) mövcud olan gediş və qayıdış biletləri ilə tanış olacağıq.
+Burada daha detallı olaraq Bakıdan (Heydər Əliyev aeroportu) İstanbula (Atatürk aeroportu) seçdiyimiz tarixlər üzrə (məsələn 11.07.2022-18.07.2022) mövcud olan gediş və qayıdış biletləri ilə tanış olacağıq. Əlavə olaraq bilet qiymətininin valyutasını `AZN`-də edəcəyik.
 
 > Now instead of getting the current weather, let’s use another OpenWeatherMap endpoint to get the forecast. Enter details into Postman for the [5 day forecast request](https://openweathermap.org/forecast5). In Postman, you can click a new tab, or click the arrow next to Save and choose **Save As**. Then choose your collection and request name.
 >
@@ -95,3 +99,11 @@ Burada daha detallı olaraq Bakıdan (Heydər Əliyev aeroportu) İstanbula (Ata
 > Qeyd etdiyimiz şərtlərə uyğun [parametrləri](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API) Postman-a daxil edin. Postman-da new tab klik edib yeni sorğu yarada bilərsiniz və ya saxladığınız sorğuya [API parametrlərini](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API) əlavə edib sorğunu yoxlaya bilərsiniz.&#x20;
 >
 > Endpointiniz bu formada görünməlidir:
+
+```javascript
+https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2022-07-11&return_at=2022-07-18&currency=azn&token=3c63416a24d3b969da6df9271faa9d6e
+```
+
+> Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsiniz.
+>
+> `List` formatında qayıdan cavabı analiz edin və ən ucuz bileti tapmağa çalışın.
