@@ -63,4 +63,17 @@ Məsələn burada istifadə etdiyimiz GET metodunu və ya endpoint nədir sualı
 >
 > Cavab Postman-ın aşağı pəncərəsində görünməlidir. Bu formada:
 
-![](../.gitbook/assets/Postman\_response.png)
+![Postman response](../.gitbook/assets/Postman\_response.png)
+
+> **6. Sorğunun saxlanılması**
+>
+> 1. Postman-da **Send** düyməsinin üzərində **Save** düyməsinə klik edin. Klik etdikdən sonra dialog box açılacaqdır.
+> 2. **Request name** xanasında sorğu üçün özünüzə rahat olan adı daxil edin, məsələn "Travelpayouts Flight check"
+> 3. **Request description (Optional)** xanasında sorğuya aid ümumi təsviri qeyd edin, məsələn "Ticket from Baku to Istanbul"
+> 4. Aşağıdakı bölmədə **New Collection** klik edib sorğunuzu saxlamaq üçün yeni qovluq yaradın. Qovluğun adını verin, məsələn "Travelpayouts" və **Create** düyməsinə klik edin. Yekunda yaratdığınız qovluğa daxil olun.&#x20;
+>
+> &#x20; **Collection** yaratdıqdan sonra sorğununun saxlanılması üçün **Save** düyməsi aktivləşəcəkdir.&#x20;
+>
+> &#x20; Görünüş bu formada olacaqdır.     &#x20;
+
+![](../.gitbook/assets/Postman\_collection.png)
