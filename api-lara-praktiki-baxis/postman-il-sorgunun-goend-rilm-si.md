@@ -41,13 +41,12 @@ Məsələn burada istifadə etdiyimiz GET metodunu və ya endpoint nədir sualı
 > 1. Əgər sizdə Postman yoxdursa o zaman onu yükləyib quraşdırmaq lazımdır ( [https://www.getpostman.com/downloads](https://www.getpostman.com/downloads/)). Əmin olun ki, Chrome extension yox, Postman applikasiyasın yükləmisiniz.
 > 2. Postman app-ı start edib qeydiyyatdan keçin.&#x20;
 > 3. Göstərilmiş endpoint-i **GET** sorğusunun yanındakı xanaya daxil edin: [`https://api.travelpayouts.com/aviasales/v3/prices_for_dates`](https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates)``
-> 4. Click the **Params** tab (below the box where you inserted the endpoint) and then add the following three parameters in the **key** and **value** rows:
-> 5. Params tab-na (endpoint-i daxil etdiyiniz yerin aşağısında) aşağıdakı dəyərləri daxil edin:
+> 4. Params tab-na (endpoint-i daxil etdiyiniz yerin aşağısında) aşağıdakı dəyərləri daxil edin:
 >
 > &#x20;     **key**: `origin` / **value**: `GYD`
 >
 > &#x20;     **key**: `token`/ **value**: \<API key - nizi daxil edin>
 >
-> For the value for `appid`, use your own API key. (If you didn’t [get an API key](https://idratherbewriting.com/learnapidoc/docapis\_get\_auth\_keys.html), use [one of the keys here](http://idratherbewriting.site/apikeys).) Your Postman UI should look like this:
+> `token` üçün [əldə etdiyiniz API key-dən](nuemun-nin-yoxlanilmasi.md#activity.-travelpayouts-api-key-ld-olunmasi) istifadə edin. Əgər API key almamısınızsa və ya hər hansı problem varsa [bunlardan birin](nuemun-nin-yoxlanilmasi.md#activity.-travelpayouts-api-key-ld-olunmasi) istifadə edə bilərsiniz.
 >
-> `token` üçün əldə etdiyiniz API key-dən istifadə edin. Əgər API key almamısınızsa və ya hər hansı problem varsa bunlardan birin istifadə edə bilərsiniz.&#x20;
+> Yekunda sizin Postman interfeysiniz bu formada görünəcəkdir.&#x20;
