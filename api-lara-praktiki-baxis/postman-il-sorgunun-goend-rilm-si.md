@@ -34,9 +34,9 @@ Bizim örəndiyimiz ənənəvi metod ondan ibarətdir ki, biz ilk öncə öyrən
 Məsələn burada istifadə etdiyimiz GET metodunu və ya endpoint nədir sualına cavab axtarmayacağıq, bunun üçün xüsusi mövzumuz olacaqdır - API endpoint-lərinin dokumentasiyası
 {% endhint %}
 
-### Activity. Postman ilə sorğunun göndərilməsi&#x20;
+### Activity 1. İlkin sorğunun göndərilməsi&#x20;
 
-> Burada biz Postman-dən istifadə edərək verilmiş tarix və aeroportlar üzrə [travelpayouts aviabilet API](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)-larını yoxlayayıb qiymətlərini öyrənəcəyik. Sorğu göndərmək üçün:
+> Burada biz Postman-dən istifadə edərək Bakıdan (Heydər Əliyev aerorportundan) olan üçuşlarını [travelpayouts aviabilet API](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)-ları vasitəsilə yoxlayıb qiymətlərini öyrənəcəyik. Sorğu göndərmək üçün:
 >
 > 1. Əgər sizdə Postman yoxdursa o zaman onu yükləyib quraşdırmaq lazımdır ( [https://www.getpostman.com/downloads](https://www.getpostman.com/downloads/)). Əmin olun ki, Chrome extension yox, Postman applikasiyasın yükləmisiniz.
 > 2. Postman app-ı start edib qeydiyyatdan keçin.&#x20;
@@ -83,3 +83,15 @@ Məsələn burada istifadə etdiyimiz GET metodunu və ya endpoint nədir sualı
 > Saxlanılmış sorğular Postman interfeysinin sol küncündə görünəcəkdir. Əgər Collection sütunun görmürsünüzsə sol tərəfdə 1-ci sırada duran Collection düməsinə klik edin.&#x20;
 
 ![Postman saved request](<../.gitbook/assets/Postman\_save (2).png>)
+
+#### Activity 2. Əlavə parametrlər ilə sorğunun göndərilməsi
+
+Burada daha detallı olaraq Bakıdan (Heydər Əliyev aeroportu) İstanbula (Atatürk aeroportu) seçdiyimiz tarixlər üzrə (məsələn 11.07.2022-18.07.2022) mövcud olan gediş və qayıdış biletləri ilə tanış olacağıq.
+
+> Now instead of getting the current weather, let’s use another OpenWeatherMap endpoint to get the forecast. Enter details into Postman for the [5 day forecast request](https://openweathermap.org/forecast5). In Postman, you can click a new tab, or click the arrow next to Save and choose **Save As**. Then choose your collection and request name.
+>
+> A sample endpoint for the 5 day forecast, which specifies location by zip code, looks like this:
+>
+> Qeyd etdiyimiz şərtlərə uyğun [parametrləri](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API) Postman-a daxil edin. Postman-da new tab klik edib yeni sorğu yarada bilərsiniz və ya saxladığınız sorğuya [API parametrlərini](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API) əlavə edib sorğunu yoxlaya bilərsiniz.&#x20;
+>
+> Endpointiniz bu formada görünməlidir:
