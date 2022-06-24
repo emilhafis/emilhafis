@@ -2,7 +2,7 @@
 description: Postman ilə sorğunun göndərilməsi
 ---
 
-# Postman
+# GUI-dən sorğunun göndərilməsi
 
 Hazırda bir neçə REST GUI klientləri (proqram təminatları) vardır ki, onlar ilə rahatlıqla endpoint-ləri (yəni API-ləri) və onların parametrlərin yoxlamaq olar. Siz həmçinin cURL (növbəti dərslərin mövzularından biri olacaqdır) istifadə edə bilərsiniz. Amma GUI klientləri ilə REST API testləşdirmələri daha sadədir.
 
@@ -139,4 +139,17 @@ Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsin
 {% endhint %}
 
 > Postman-nın xeyli sayda digər funksionallıqları da vardır. Gələcəkdəki dərslərimizdə Postman-a yenə qayıdacağıq.
+
+### Digər GUI-yə nəzər salaq
+
+> Although Postman is a popular REST client, you can also use others, such as Paw. The following image shows the same current weather API request made in [Paw (for Mac)](https://paw.cloud/):
+>
+> \
+> Baxmayaraq ki, Rest client kimi Postman çox məşhurdur, həmçinin də sizə digər GUI klientlərindən istifadə edə bilərsiniz. Etdiyimi sorğuların eynisini digər GUI interfeys olan [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo) (Chrome browser extension) vasitəsilə yoxlayaq.
+
+![Advanced Rest Client](../.gitbook/assets/advanced\_rest\_client.png)
+
+> Postman kimi [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo) (Chrome browser extension) bizə sorğuları, cavabları və digər məlumatları rahatlıqla göstərə bilir.&#x20;
+
+
 
