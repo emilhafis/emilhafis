@@ -20,7 +20,7 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 > API akronimi yəni açılışı Application Programming İnterfeysdir. Yəni iki proqram təminatının bir biri ilə danışmasına xidmət edir. Hər dəfə siz telefonunuzda YouTuba, Facebook-a daxil olanda, mesaj göndərəndə və ya hava proqnozuna baxanda API-lardan istifadə edirsiniz.
 
-### API nümunələri
+### API nümunəli izah
 
 > Siz nə telefonunuzda hər hansı bir tətbiqi işlətdiyiniz vaxt, tətbiq internetə bağlanır və məlumatları serverə göndərir. Server məlumatları aldıqdan sonra lazımı prosesləri icra edir və məlumatları yenidən sizin telefonunuza daha dəqiq telefonunzdakı tətbiqinizə qaytarır. Tətbiq daha sonra həmin məlumatları emal edir və istədiyiniz məlumatları oxunaqlı şəkildə sizə təqdim edir.
 >
@@ -81,6 +81,10 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > Bu kursun əsas məqsədi API-First yanaşmasının tətbiq edilməsi, API sənədləşməsinin hazırlanması və nəticədə proqramçılara aydın və dəqiq tələbləri onlara daha rahat formada çatırmaqdan ibarətdir. Həmçinin də, hazırlanmış proqram təminatının tələblərə uyğun hazırlanmasının yoxlanılmasıdır. Biz bu keyfiyyətləri mənimsəmək üçün proseslərin dərinliyinə enəcəyik.&#x20;
 >
 > Sadalanan keyfiyyətlərə malik olan şəxslərə isə bu gün tələblər daha yüksəkdir və artıq xaricdə Tech Writer tələbləri ilə kifayət qədər xeyli vakansiyalar mövcuddur. Əminəm ki, qısa zamanda ölkəmizdə də sırf belə mütəxəssislər axtaracaqlar.
+>
+> Aşağıda real iş imkanlarından bəzilərini görə bilərsiniz:
+
+![](<.gitbook/assets/tech\_writer vacancy.png>)
 
 ### Proqramlaşdırma bacarıqları tələb olunmur <a href="#no-programming-skills-required" id="no-programming-skills-required"></a>
 
@@ -109,4 +113,4 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 > * **cURL yoxlanılması** - cURL quraşdırıldığından əmin olmaq üçün Mac-da Terminalı, Windows-da isə Command Prompt-u açıb bunu qeyd edin `curl --location --request GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c63416a24d3b969da6df9271faa9d6e'` Əgər JSON cavabı alırsınızsa dmeək ki, hər şey qaydasındadır.
 
-![](<.gitbook/assets/curl\_check (1).png>)
+![cURL](<.gitbook/assets/curl\_check (1).png>)
