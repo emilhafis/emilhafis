@@ -102,7 +102,7 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 >
 > Kurs ərzində JavaScript-dən istifadə etdikcə ümumi prinsiplə sizi tanış edəcəm.
 
-### Kurs üçün hansı vasitələr (tools) lazımdır?
+### Kurs üçün hansı vasitələr (tools) lazım olacaqdır?
 
 > * **Kompüter**.
 > * **Text editor -** Əgər sizin hazırda istifadə etdiyiniz text editor yoxdursa [Sublime Text](https://www.sublimetext.com/) istifadə edə bilərsiniz (həm Mac, həm də Windows üçün pulsuzdur). Əgər başqa editor-lardan (məs, [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/) və ya [Notepad++](https://notepad-plus-plus.org/)) istifadə etməyinizdə kifayətdir.&#x20;

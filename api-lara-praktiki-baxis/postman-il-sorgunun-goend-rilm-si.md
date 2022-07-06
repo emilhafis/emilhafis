@@ -28,14 +28,14 @@ Hazırda bir neçə REST GUI klientləri (proqram təminatları) vardır ki, onl
 > bu proqram təminatlarının arasında Postman fikrimcə ən yaxşı seçimdir. Çünki o bizə sorğu göndərmək, cavabı almaq müxtəlif əməliyyatları pulsuz formada keçirməyə imkan verir. Həmçinin də müxtəlif əməliyyat sistemlərini (MAC,  Windows, Ubuntu) dəstəkləyir.
 
 {% hint style="info" %}
-Bizim örəndiyimiz ənənəvi metod ondan ibarətdir ki, biz ilk öncə öyrənəcəyimiz mövzunun və ya hansısa prosesi ilk öncə nəzərəiyyəsi ilə tanış olub sonradan onun təcrübə tərəfinə keçirik. Amma mən bu kursda bildirdiyim kimi təcrübədən nəzərəiyyəyə keçəcəm ki, həm başa düşmək rahat olsun, həm də çoxlu informasiya ilə sizi yükləməyim.
+Bizim ənənəvi öyrənmə üsullarımız ondan ibarət olurdu ki, biz ilk öncə öyrənəcəyimiz mövzunun və ya hansısa prosesin nəzəriyyəsi ilə tanış olub sonradan onun təcrübə tərəfinə keçirikdir. Amma mən bu kursda bildirdiyim kimi təcrübədən nəzəriyyəyə keçəcəm ki, həm başa düşmək rahat olsun, həm də çoxlu informasiya ilə sizi yükləməyim.
 
-Məsələn burada istifadə etdiyimiz GET metodunu və ya endpoint nədir sualına cavab axtarmayacağıq, bunun üçün xüsusi mövzumuz olacaqdır - API endpoint-lərinin dokumentasiyası
+Məsələn aşağıda istifadə edəcəyimiz **GET** metoduna və ya endpoint nədir sualına cavab axtarmayacağıq, bunun üçün xüsusi mövzumuz olacaqdır.
 {% endhint %}
 
 ### Activity 1. İlkin sorğunun göndərilməsi&#x20;
 
-> Burada biz Postman-dən istifadə edərək Bakıdan (Heydər Əliyev aerorportundan) olan üçuşlarını [travelpayouts aviabilet API](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)-ları vasitəsilə yoxlayıb qiymətlərini öyrənəcəyik. Sorğu göndərmək üçün:
+> Burada biz Postman-dən istifadə edərək Bakıdan (Heydər Əliyev aeroportundan) olan uçuşların [travelpayouts aviabilet API](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)-ları vasitəsilə yoxlayıb qiymətlərini öyrənəcəyik. Sorğu göndərmək üçün:
 >
 > 1. Əgər sizdə Postman yoxdursa o zaman onu yükləyib quraşdırmaq lazımdır ( [https://www.getpostman.com/downloads](https://www.getpostman.com/downloads/)). Əmin olun ki, Chrome extension yox, Postman applikasiyasın yükləmisiniz.
 > 2. Postman app-ı start edib qeydiyyatdan keçin.&#x20;
@@ -91,10 +91,6 @@ https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c6
 
 Burada daha detallı olaraq Bakıdan (Heydər Əliyev aeroportu) İstanbula (Atatürk aeroportu) seçdiyimiz tarixlər üzrə (məsələn 11.07.2022-18.07.2022) mövcud olan gediş və qayıdış biletləri ilə tanış olacağıq. Əlavə olaraq bilet qiymətininin valyutasını `AZN`-də edəcəyik.
 
-> Now instead of getting the current weather, let’s use another OpenWeatherMap endpoint to get the forecast. Enter details into Postman for the [5 day forecast request](https://openweathermap.org/forecast5). In Postman, you can click a new tab, or click the arrow next to Save and choose **Save As**. Then choose your collection and request name.
->
-> A sample endpoint for the 5 day forecast, which specifies location by zip code, looks like this:
->
 > Qeyd etdiyimiz şərtlərə uyğun [parametrləri](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API) Postman-a daxil edin. Postman-da new tab klik edib yeni sorğu yarada bilərsiniz və ya saxladığınız sorğuya [API parametrlərini](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API) əlavə edib sorğunu yoxlaya bilərsiniz.&#x20;
 >
 > Endpointiniz bu formada görünməlidir:
