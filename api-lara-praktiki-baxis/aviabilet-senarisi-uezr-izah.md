@@ -10,7 +10,7 @@ description: Proqramçı kimi API-lardan necə istifadə etmək lazımdır?
 >
 > Gəlin real API nümunəsi ilə tanış olaq.&#x20;
 >
-> Yəqin ki, hamımız onlayn aviabiletlərin axtarışı prosesi ilə yaxından tanışıq. Əvvəlki nümunədə göstərdiyimiz restoran API nümunəsində biz menyudan müxtəlif parametrlər ilə yeməklər sifariş edə bilirdik, həmçinin də burada müxtəlif parametrlər ilə (müxtəlif şəhərlər, gediş və qayıdış tarixləri və s.) aviabilet seçməyimiz üçün seçimlərimiz olur.
+> Yəqin ki, hamımız onlayn aviabiletlərin axtarışı prosesi ilə yaxından tanışıq. [Əvvəlki nümunədə göstərdiyimiz restoran API nümunəsində](../#api-nuemun-li-izah) biz menyudan müxtəlif parametrlər ilə yeməklər sifariş edə bilirdik, həmçinin də burada müxtəlif parametrlər ilə (müxtəlif şəhərlər, gediş və qayıdış tarixləri və s.) aviabilet seçməyimiz üçün seçimlərimiz olur.
 >
 > Təsəvvür edək ki, bir aviaşirkətin saytında (məs, [https://www.azal.az/az/](https://www.azal.az/az/)) biletinizi bron edirsiniz. Siz gediş şəhəri və tarixini, qayıdış şəhərini və tarixini, kabin sinfini, həmçinin digər dəyişənləri seçirsiniz. Uçuşunuzu bron etmək üçün siz aviaşirkətin vebsaytı vasitəsilə onların məlumat bazası ilə əlaqə yaradıb həmin tarixlərdə hər hansı biletin olub olmadığını və ya bilet qiymətlərini görürsünüz.
 
