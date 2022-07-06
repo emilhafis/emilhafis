@@ -29,12 +29,20 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > Təsəvvür edin ki, siz restoranda oturmusunuz və qarşısınızda bir çox seçim olan menyu vardır. Mətbəx isə sizin sifarişlərinizi hazır edən "sistemin" bir hissəsidir. buradan çatışmayan məsələ seçdiyiniz sifarişin mətbəxə çatdırılması və hazırlanmış sifarişin mətbəxdən sizə gətirilməsidir. Sırf burada isə bizim köməyimizə ofisiant və ya API gəlmiş olur. Ofisiant sorğunuzu və ya sifarişinizi qəbul edən və mətbəxə – sistemə nə etməli olduğunuzu söyləyən vasitə və ya API-dir. Yekunda ofisiant cavabı sizə çatdırır; yəni bizim keysimizdə yeməyi bizə gətirir.
 >
 > Burada biz - mobil telefondakı tətbiq, mətbəx - server, ofisiant - API və menyudakı seçimlər isə API parametrləridir.
+
+![API vs Real life](.gitbook/assets/blueprint-APIs-requests.jpg)
+
+> Real həyatda biz artıq bir çox yerdə rastlaşırıq ki, yemək isfarişlərini online və ya restoran daxilində elektron cihazdan (planşet, mobil telefon və s) vermək mümkündür.&#x20;
 >
-> Bir azdan real nümunələr ilə daha da prosesi aydın formada izah edəcəyəm.
+> Burada proses bəs necə qurulmuşdur?&#x20;
+>
+> Məsələ çox sadədir, biz istədiyimiz sifarişi elektron cihazdan seçib təsdiq etdikdən sonra, cihaz internet üzərindən bizim sorğumuzu mətbəxdə yerləşən cihaza çatdırır. Aşpaz həmin cihaza baxaraq bizim nə sifariş etdiyimiz ilə tanış olur. Aşağıdakı şəkildə bunun texniki təsvirini daha yaxşı görə bilərsiniz. Burada biz mətbəxə bir ədə burgeri mobil cihaz üzərindən sifariş veririk.
+
+![](.gitbook/assets/request\_response.png)
+
+> Npvbəti mövzularda real nümunələr ilə daha da prosesi aydın formada izah edəcəyəm.
 >
 > API-ların əsas üstünlüklərindən və məqsədlərindən biri də ondan ibarətdir ki, sistemin daxildə necə işlədiyini gizlətmək və yalnız proqramçılara (inteqratorlara) lazım olan hissələrə kənara çıxarmaqdır. Yəni, sistemdən API vasitəsilə istifadə edən tərəflərə dəyişiklikləri bildirməməklə sistemin daxili tələbləri və funksiyalarını sonradan dəyişməyin mümkünlüyüdür. Məsələn bizim nümunəmizdə - mətbəxdəki işçilərin dəyişdirilməsi, yemək hazırlanma standartlarının dəyişdirilməsi nə biz (yəni müraciət edən tətbiq), nə də ofisiant (yəni API) tərəfdə hər hansı dəyişikliyə səbəb olmur.&#x20;
-
-![](.gitbook/assets/blueprint-APIs-requests.jpg)
 
 ### Real təcrübədən sənədləşməyə doğru
 
@@ -103,6 +111,8 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > * **curl -** [curl](https://curl.haxx.se/)  command line-dan endpoint-lərə sorğuların göndərilməsi üçün əsas vasitədir. curl MAC-da by default qurulmuş olur, amma Windows-da by default deyildir ( bəzi Windows 10-dakı Powershell-də vardır).  Windows-da Command Prompt-u açıb `curl -V` qeyd edin. Əgər qurulu deyilsə [confusedbycode.com/curl](http://confusedbycode.com/curl) səhifəsindən yükləyə bilərsiniz ( “With Administrator Privileges (free), 64-bit”). Command Prompt-u bağlayıb yenidən açın və `curl -V` yazıb nəticəsinə baxın.
 > * **Gi**<mark style="color:red;">**t**</mark><mark style="color:red;">.</mark> [<mark style="color:red;">Git</mark>](https://git-scm.com/) <mark style="color:red;">is a version control tool developers often use to collaborate on code. For Windows, see</mark> [<mark style="color:red;">https://gitforwindows.org/</mark>](https://gitforwindows.org/) <mark style="color:red;">to set up Git and the Git BASH terminal emulator. For Mac, see</mark> [<mark style="color:red;">Downloading Git</mark>](https://git-scm.com/download/mac)<mark style="color:red;">.</mark>&#x20;
 > * **GitHub account**. [GitHub](https://github.com) müxtəlif fəaliyyətlər üçün, bəzən Git-də iş prosesini nümayiş etdirmək üçün, bəzən isə müxtəlif developer tool-lara daxil olmaq üçün autentifikasiya vasitəsi üçün istifadə edilir.  Əgər GitHub hesabınız yoxudrsa, yaradın.
+> * Gitbook tool
+> * Swagger
 
 ### Proqram təminatlarının yoxlanılması <a href="#testing-your-setup" id="testing-your-setup"></a>
 

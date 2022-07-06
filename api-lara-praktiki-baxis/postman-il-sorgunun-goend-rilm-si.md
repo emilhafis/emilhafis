@@ -138,6 +138,8 @@ https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destinati
 Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsiniz.
 {% endhint %}
 
+![](../.gitbook/assets/postman\_parametrs.png)
+
 > Postman-nın xeyli sayda digər funksionallıqları da vardır. Gələcəkdəki dərslərimizdə Postman-a yenə qayıdacağıq.
 
 ### Digər GUI-yə nəzər salaq
