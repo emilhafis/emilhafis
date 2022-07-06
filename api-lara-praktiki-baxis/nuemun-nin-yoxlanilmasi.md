@@ -4,8 +4,6 @@ Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya
 
 ### Nə üçün avtorizasiya lazımdır?
 
-> Requiring authorization allows API publishers to do the following:
->
 > Avtorizasiyanın olması API-ı hazırlayan tərəflərə aşağıdakı üstünlükləri verir:
 >
 > * API-lara giriş üzrə icazə (lisenziya) verilməsi
