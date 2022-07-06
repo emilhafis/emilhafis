@@ -15,7 +15,6 @@ Hazırda bir neçə REST GUI klientləri (proqram təminatları) vardır ki, onl
 > Siz GUI REST klinet ilə:
 >
 > * Sorğularınızı saxlayıb daha sonra rahat formada istifadə edə bilərsiniz
-> * Düzgün formatda məlumatları rahatlıqla daxil edə bilərsiniz
 > * Qayıdan cavabları strukturlaşdırılmış JSON formatında görüb analiz edə bilərsiniz
 > * Rahatlıqla parametləri əlavə edə bilərsiniz
 
