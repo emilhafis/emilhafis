@@ -24,7 +24,7 @@ description: Proqramçı kimi API-lardan necə istifadə etmək lazımdır?
 
 ### Nümunə senari. Ən ucuz bilet neçiyədir?
 
-> Deyək ki, siz veb proqramçısınız və sizdən aviabilet satışını həyata keçirən sayt yaratmaq sifariş olunub. Sizdən isə əsas tələb olunan tapşırıq istifadəçilərə ən ucuz bileti tapması üçün imkanın yaradılmasıdır. Məsələn bu məlumatları verən bir sayt yaradılmasını istəyiblər:&#x20;
+> Deyək ki, siz veb proqramçısınız və sizdən aviabilet satışını həyata keçirən sayt yaratmaq sifariş olunub. Əsas tələb olunan tapşırıq istifadəçilərə ən ucuz bileti tapması üçün imkanın yaradılmasıdır. Məsələn bu məlumatları verən bir sayt yaradılmasını istəyiblər:&#x20;
 
 ![](../.gitbook/assets/flight\_html.png)
 
