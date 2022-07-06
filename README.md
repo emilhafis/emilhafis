@@ -113,6 +113,8 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > * **GitHub account**. [GitHub](https://github.com) müxtəlif fəaliyyətlər üçün, bəzən Git-də iş prosesini nümayiş etdirmək üçün, bəzən isə müxtəlif developer tool-lara daxil olmaq üçün autentifikasiya vasitəsi üçün istifadə edilir.  Əgər GitHub hesabınız yoxudrsa, yaradın.
 > * Gitbook tool
 > * Swagger
+> * Amazon API Gateway
+> * Apigee API Management | Google Cloud
 
 ### Proqram təminatlarının yoxlanılması <a href="#testing-your-setup" id="testing-your-setup"></a>
 
