@@ -109,16 +109,6 @@ Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsin
 
 #### Digər parametrlərin yoxlanılması
 
-> Make one more OpenWeatherMap API request, this time changing the way you specify the location. Instead of specifying the location by zip code, specify the location using `lat` and `lon` geocoordinates instead. For example:
->
-> ```
-> https://api.openweathermap.org/data/2.5/weather?lat=37.3565982&lon=-121.9689848&units=imperial&appid=APIKEY
-> ```
->
-> (In the above code, replace `APIKEY` with your actual API key.)
->
->
->
 > Bu dəfə də əlavə parametr artıraraq birbaşa uçuş olan məlumatları tapmağa çalışaq. bunun üçün [travelpayouts-un API doc ](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)parametrlərinə baxırıq.&#x20;
 >
 > Orada **Request parametrs** bölməsində key olaraq `direct` və **decriptionda** "non-stop tickets, `true` or `false`. By default:  `false`" məlumatını görürük. Əgər bizə buradakı kimi iki formada dəyər daxil etmək göstərilirsə, bilin ki bu field-in type-ı boolean-dır. Data type-lar mövzusunda bu məsələlərə bir daha qayıdacağıq.
@@ -139,9 +129,6 @@ Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsin
 
 ### Digər GUI-yə nəzər salaq
 
-> Although Postman is a popular REST client, you can also use others, such as Paw. The following image shows the same current weather API request made in [Paw (for Mac)](https://paw.cloud/):
->
-> \
 > Baxmayaraq ki, Rest client kimi Postman çox məşhurdur, həmçinin də sizə digər GUI klientlərindən istifadə edə bilərsiniz. Etdiyimi sorğuların eynisini digər GUI interfeys olan [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo) (Chrome browser extension) vasitəsilə yoxlayaq.
 
 ![Advanced Rest Client](../.gitbook/assets/advanced\_rest\_client.png)
