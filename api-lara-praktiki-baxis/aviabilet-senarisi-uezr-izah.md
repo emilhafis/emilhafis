@@ -135,7 +135,7 @@ RapidAPI dünyada ən böyük API Hub-dır. Milyonlarla proqramçılar tərəfin
 
 ### Aşağıdakı suallara cavab verməyə çalışın
 
-> 1. Travel insights with [Aviasales Data API-dan](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API) bizə lazım olan məlumatı qaytarır? Gediş, gəliş aeroprtu, tarix, qiymət və s.
+> 1. Travel insights with [Aviasales Data API-dan](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API) bizə lazım olan məlumatı qaytarır? Gediş, gəliş aeroport, tarix, qiymət və s.
 > 2. Nümunə sorğu hansı formada olmalıdır?
 > 3. Hansı avtorizasiya credential-ları tələb olunur?
 > 4. Bu API-lərdən istifadə edərək daha hansı məlumatları əldə etmək olar?
