@@ -4,7 +4,7 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 # Giriş
 
-![](.gitbook/assets/1\_F-tvvVEmXLS5bZ3xV3bKjA.png)
+![API First](.gitbook/assets/API-Interface.png)
 
 ### Kurs üzrə ümumi məlumat
 
