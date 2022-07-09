@@ -80,7 +80,12 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > * Giriş
 > * API-lara proqramçı gözü ilə baxış
 > * REST API Dizayn
-> * ### Authentication, Authorization, and OAuth
+> * Autentifikasiya, Avtorizasiya və OAuth
+> * API endpoint-lərinin hazırlanması
+>
+>
+>
+>
 
 ****
 
