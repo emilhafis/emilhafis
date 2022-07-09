@@ -95,6 +95,8 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > * [Thriving in the API doc space](https://idratherbewriting.com/learnapidoc/jobapis.html) (özüm üçün)
 > * [Metrics and measurement](https://idratherbewriting.com/learnapidoc/docapis\_metrics\_and\_measurement.html)(özüm üçün
 > * [Additional resources](https://idratherbewriting.com/learnapidoc/resources.html) (özüm üçün
+> * Google Apigee
+> * AWS API
 
 >
 >
