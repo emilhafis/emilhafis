@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Overview](README.md)
+* [General Overview](README.md)
 
 ## Autentifikasiya və Avtorizasiya
 
@@ -19,13 +19,15 @@
 * [Access/Refresh Token](oauth/access-refresh-token.md)
 * [Terminologiya](oauth/terminologiya/README.md)
   * [Scope](oauth/terminologiya/scope.md)
-* [Grant növləri](oauth/grant-noevl-ri/README.md)
-  * [Overview](oauth/grant-noevl-ri/overview.md)
-  * [Ümumi proses](oauth/grant-noevl-ri/uemumi-proses.md)
-  * [Client Credentials](oauth/grant-noevl-ri/client-credentials.md)
-  * [Resource Owner Password](oauth/grant-noevl-ri/resource-owner-password.md)
-  * [Authorization Code](oauth/grant-noevl-ri/authorization-code/README.md)
-    * [Authorization Code with PKCE](oauth/grant-noevl-ri/authorization-code/authorization-code-with-pkce.md)
+
+## OAuth Grant növləri
+
+* [Overview](oauth-grant-noevl-ri/overview.md)
+* [Ümumi proses](oauth-grant-noevl-ri/uemumi-proses.md)
+* [Client Credentials](oauth-grant-noevl-ri/client-credentials.md)
+* [Resource Owner Password](oauth-grant-noevl-ri/resource-owner-password.md)
+* [Authorization Code](oauth-grant-noevl-ri/authorization-code/README.md)
+  * [Authorization Code with PKCE](oauth-grant-noevl-ri/authorization-code/authorization-code-with-pkce.md)
 
 ***
 

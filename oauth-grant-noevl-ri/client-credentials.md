@@ -1,6 +1,6 @@
 # Client Credentials
 
-![](../../.gitbook/assets/Clent\_crd\_grant.png)
+![](../.gitbook/assets/Clent\_crd\_grant.png)
 
 ## Nədir?
 
@@ -12,7 +12,7 @@
 
 ### Necə işləyir?
 
-![](../../.gitbook/assets/Client\_credentials2.png)
+![](../.gitbook/assets/Client\_credentials2.png)
 
 > Yuxarıdakı sxemə uyğun olaraq **proses** aşağıdakı formada həyata keçirilir:
 >
@@ -30,16 +30,16 @@
 {% endhint %}
 
 {% hint style="info" %}
-Digər **grant** növlərindən fərqli olaraq **Client credential grant** növündə adətən [**Refresh token**](../access-refresh-token.md#refresh-token) qaytarılmır.&#x20;
+Digər **grant** növlərindən fərqli olaraq **Client credential grant** növündə adətən [**Refresh token**](../oauth/access-refresh-token.md#refresh-token) qaytarılmır.&#x20;
 
-Belə ki, **Refresh token** istifadəçinin məxfi məlumatlarını təkrar təkrar göndərməsinin qarşısını almaq üçün istifadə olunduğundundan və burada da istifadəçi məlumatları olmadığından [**Resfresh token**](../access-refresh-token.md#refresh-token-istifad-si)-in istifadəsi zəruri olmur.
+Belə ki, **Refresh token** istifadəçinin məxfi məlumatlarını təkrar təkrar göndərməsinin qarşısını almaq üçün istifadə olunduğundundan və burada da istifadəçi məlumatları olmadığından [**Resfresh token**](../oauth/access-refresh-token.md#refresh-token-istifad-si)-in istifadəsi zəruri olmur.
 {% endhint %}
 
 ## <mark style="color:blue;">Google Apigee nümunəsi</mark>
 
 > Bu bölmədə **Google**-da **Client credentials grant** növü üzrə proses necə gedir onu qısa olaraq göstərməyə çalışacam.
 
-### [Access tokenin](../access-refresh-token.md#access-token-n-dir) yaradılması
+### [Access tokenin](../oauth/access-refresh-token.md#access-token-n-dir) yaradılması
 
 > Nəzərə almaq lazımdır ki, Google-da və bir çox digər sxemlərdə **Backend servis**i tokenin yaradılmasında iştirak etmir.
 >
@@ -47,7 +47,7 @@ Belə ki, **Refresh token** istifadəçinin məxfi məlumatlarını təkrar tək
 
 ### Access token sorğusu
 
-![](../../.gitbook/assets/Token\_creation\_1.png)
+![](../.gitbook/assets/Token\_creation\_1.png)
 
 > 1. **Client** (burada müxtəlif **Application**-lar nəzərdə tutulur) token endpoint-nə (**API Gateway / Auth server -** Burada Google üzrə **Apigee** adlandırılıb) **Client credentials grant** növü ilə **POST** sorğusu göndərir. Sorğuya **Application**-nun `Client ID` və `Client secret`-də əlavə edilir.
 
@@ -62,36 +62,36 @@ Amma bəzi senarilərdə bunun üçün GET metodundan istifadə olunduğunuda g�
 > 3\. Əgər etibarlı olarsa **Access token**-i, **Token** üzrə bitmə tarixini göndərir.
 
 {% hint style="warning" %}
-Qeyd edtdiyimiz kimi, burada da istifadəçi məlumatları (credentials) istifadə olunmadığı üçün [**Refresh token**](../access-refresh-token.md#refresh-token) **** generasiya edilmir.
+Qeyd edtdiyimiz kimi, burada da istifadəçi məlumatları (credentials) istifadə olunmadığı üçün [**Refresh token**](../oauth/access-refresh-token.md#refresh-token) **** generasiya edilmir.
 {% endhint %}
 
 ### Google API Request və Response nümunəsi
 
-![](<../../.gitbook/assets/Apigee get token.png>)
+![](<../.gitbook/assets/Apigee get token.png>)
 
 > Nümunədə **API** sorğusu və cavabı üzrə əks olunan dəyərlər qeyd olunur. Bu sorğu Google servisinə **Client credentials grant** növündə **POST** metodu ilə göndərilmişir.&#x20;
 
 ### Basic Authentication
 
-![](<../../.gitbook/assets/Apigee get token 2.png>)
+![](<../.gitbook/assets/Apigee get token 2.png>)
 
-> `Client ID` və `Client Secret` `Authorisation header`-də [encode](../../avtorizasiya-noevl-ri/basic-auth.md#base-64-encode-v-decode) olunaraq göndərilir.&#x20;
+> `Client ID` və `Client Secret` `Authorisation header`-də [encode](../avtorizasiya-noevl-ri/basic-auth.md#base-64-encode-v-decode) olunaraq göndərilir.&#x20;
 >
-> Google autnetifikasiya üsulu kimi [basic authentication](../../avtorizasiya-noevl-ri/basic-auth.md)-dan istifadə edir.
+> Google autnetifikasiya üsulu kimi [basic authentication](../avtorizasiya-noevl-ri/basic-auth.md)-dan istifadə edir.
 >
-> **Application**-nun credential məlumatları olan `Client ID` və `Client Secret` encode olunmuş  [**Base64**](../../avtorizasiya-noevl-ri/basic-auth.md#base-64-encode-v-decode) formatında `Header` dəyəri kimi göndərilir.
+> **Application**-nun credential məlumatları olan `Client ID` və `Client Secret` encode olunmuş  [**Base64**](../avtorizasiya-noevl-ri/basic-auth.md#base-64-encode-v-decode) formatında `Header` dəyəri kimi göndərilir.
 
 {% hint style="warning" %}
-Bir daha qyed edək ki, [`base64 encoding`](../../avtorizasiya-noevl-ri/basic-auth.md#base-64-encode-v-decode) `` şifrələmə demək deyil. Siz base64 formatına konvertasiya olunmuş məlumatı əvvəlki dəyərnə qaytara bilərsiniz.
+Bir daha qyed edək ki, [`base64 encoding`](../avtorizasiya-noevl-ri/basic-auth.md#base-64-encode-v-decode) `` şifrələmə demək deyil. Siz base64 formatına konvertasiya olunmuş məlumatı əvvəlki dəyərnə qaytara bilərsiniz.
 {% endhint %}
 
 > Göründüyü kimi, **Google** App credential-larını (`Client ID` və `Client Secret )` yalnız **encode** edir yəni **şifrələmir**.&#x20;
 >
-> Qeyd edirlər ki, biz [TLS (SSL)](../terminologiya/#tls-ssl-https) vasitəsilə sorğu və cavabı encrypt etdiyimiz üçün məlumat mübadiləsində bütün məlumatlar qorunur.
+> Qeyd edirlər ki, biz [TLS (SSL)](../oauth/terminologiya/#tls-ssl-https) vasitəsilə sorğu və cavabı encrypt etdiyimiz üçün məlumat mübadiləsində bütün məlumatlar qorunur.
 
 ### Access token bitmə tarixi
 
-![](<../../.gitbook/assets/Apigee Get Token 4.png>)
+![](<../.gitbook/assets/Apigee Get Token 4.png>)
 
 > Application üçün **Access token**in bitmə tarixini bilmək çox vacibdir.
 >
@@ -99,7 +99,7 @@ Bir daha qyed edək ki, [`base64 encoding`](../../avtorizasiya-noevl-ri/basic-au
 
 ### Token istifadəsi
 
-![](<../../.gitbook/assets/Apigee use token.png>)
+![](<../.gitbook/assets/Apigee use token.png>)
 
 > **Google** **Token**-nin `Authorization header`-də göndərilməsini tələb edir. Şəkildə `Bearer` qarşısında gördüyünüz **Token** nümunəsidir.
 >

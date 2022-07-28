@@ -8,7 +8,7 @@ Biz bildirdik ki, hazırda istifadəçi məlumatları (credentials) üçün ən 
 
 ### Ümumi məlumat
 
-Qeyd etdiyimiz kimi, Public client-lər (məsələn, [native](authorization-code-with-pkce.md#native-apps) və [single-page applications](authorization-code-with-pkce.md#single-page-apps)) [Auth Code grant növü ](./)əsasında [Access token](../../access-refresh-token.md#access-token-n-dir) üçün sorğu etdikdə, əlavə təhlükəsizlik məsələləri ortaya çıxır. Bunun səbəbləri:
+Qeyd etdiyimiz kimi, Public client-lər (məsələn, [native](authorization-code-with-pkce.md#native-apps) və [single-page applications](authorization-code-with-pkce.md#single-page-apps)) [Auth Code grant növü ](./)əsasında [Access token](../../oauth/access-refresh-token.md#access-token-n-dir) üçün sorğu etdikdə, əlavə təhlükəsizlik məsələləri ortaya çıxır. Bunun səbəbləri:
 
 #### **Native apps**
 
@@ -45,7 +45,7 @@ Hər iki metodun özünə uyğun müsbət və mənfi tərəfləri vardır. [Bura
 >
 > Bu `secret`  `Code Verifier` adlanır.&#x20;
 >
-> Əlavə olaraq sorğunu göndərən Application `Code Verifier` -in mübadiləsi üçün `Code Challenge` adlandırılan dəyər formalaşdırır və [`HTTPS (TLS/SSL)`](../../../avtorizasiya-noevl-ri/basic-auth.md#https) üzərindən `Authorization Code` əldə etmək üçün **API Gateway / Auth server-**nə göndərir. Belə olduqda fırıldaqçılar yalnız `Authorization Code` əldə edə bilərlər və onlar `Code Verifier` olmadan `Authorization Code` ilə [`Access Token`](../../access-refresh-token.md) `` əldə edə bilməzlər.
+> Əlavə olaraq sorğunu göndərən Application `Code Verifier` -in mübadiləsi üçün `Code Challenge` adlandırılan dəyər formalaşdırır və [`HTTPS (TLS/SSL)`](../../avtorizasiya-noevl-ri/basic-auth.md#https) üzərindən `Authorization Code` əldə etmək üçün **API Gateway / Auth server-**nə göndərir. Belə olduqda fırıldaqçılar yalnız `Authorization Code` əldə edə bilərlər və onlar `Code Verifier` olmadan `Authorization Code` ilə [`Access Token`](../../oauth/access-refresh-token.md) `` əldə edə bilməzlər.
 
 ### Necə işləyir?
 
@@ -53,7 +53,7 @@ Hər iki metodun özünə uyğun müsbət və mənfi tərəfləri vardır. [Bura
 Bu növ [**Authorization code grant**](./) **** növü ilə demək olar ki, eynilik təşkil edir. Fərq yalnız ondadır ki, Application əldə etdiyi`Client ID` və `Client Secret` əvəzinə proses zamanı özünün generasiya etdiyi`Code Verifier və Code Challenge` dəyərlərindən istifadə edir.
 {% endhint %}
 
-![](../../../.gitbook/assets/auth\_pcka-2.png)
+![](../../.gitbook/assets/auth\_pcka-2.png)
 
 > Proses aşağıdakı formada həyata keçirilir:
 >
