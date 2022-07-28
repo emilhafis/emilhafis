@@ -24,7 +24,7 @@ description: Bu bölmədə API sənədləşmədə istifadə olunan autentifikasi
 > * Autentifikasiya məlumatlarında **məxfilik** (sensitivity) məlumatları hansılar olur.
 > * **Token** bitmə tarixi nə vaxt olur.
 
-> Əgər sizin **API**-larda həm `public`, həm də `private key` olarsa, siz göstərməlisiniz ki, bunlar harda istifadə olunur və qeyd etməlsiniz ki, `private key`-lər paylaşılmamlıdır.&#x20;
+> Əgər sizin **API**-larda həm `public`, həm də `private key` olarsa, siz göstərməlisiniz ki, bunlar harda istifadə olunur və qeyd etməlsiniz ki, `private key`-lər paylaşılmamalıdır.&#x20;
 >
 > Müxtəlif **API** sorğularını çağırmaq üçün müxtəlif lisenziya səviyyələrindən **(`license tier)`** istifadə edilərsə, bunlar haqqında məlumat sizin **autentifikasiya** bölmənizdə və ya digər yerdə açıq şəkildə göstərilməlidir.
 >
@@ -44,7 +44,7 @@ Müxtəlif platformaların  autentifikasiya və ya avtorizasiya bölmələri üz
 
 ### [Ebay](https://developer.ebay.com/api-docs/static/oauth-tokens.html)
 
-> Həmçinində Ebay OAuth 2.0 protokolundan istifadə edir və [developer bölmədə](https://developer.ebay.com/api-docs/static/oauth-tokens.html) istifadə üzrə detallı təfərrüatların qeyd etmişlər.
+> Həmçinində Ebay OAuth 2.0 protokolundan istifadə edir və [developer bölmədə](https://developer.ebay.com/api-docs/static/oauth-tokens.html) istifadə üzrə detallı təfərrüatları qeyd etmişlər.
 
 ![](.gitbook/assets/ebay\_oauth.PNG)
 

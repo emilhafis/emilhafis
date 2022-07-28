@@ -11,7 +11,7 @@ Belə ki, tətbiq (sxemdə Client) tokenə ehtiyacı müəyyən edir, yeni [**Ac
 > Sxemdə 3 istinad nöqtəsi göstərilmişdir.
 >
 > 1. Tətbiqdən sorğu göndərən **Client** (burada Client qismində istifadəçi+tətbiq birlikdə göstərilmişdir)
-> 2. **API Gateway** və ya **Authorsation server.** Token bu serverdə yaradılır və yoxlanılır.&#x20;
+> 2. **API Gateway** və ya **Authorisation server.** Token bu serverdə yaradılır və yoxlanılır.&#x20;
 > 3. Məlumatları təmin edən **Backend API** və ya **Backend servis.**
 
 ![](../.gitbook/assets/common\_token\_creation.png)
@@ -29,7 +29,7 @@ Belə ki, tətbiq (sxemdə Client) tokenə ehtiyacı müəyyən edir, yeni [**Ac
 > **Backend servis**i sorğuya uyğun cavabı qaytarır.
 
 {% hint style="info" %}
-Bəzi digər proseslərdə Token alındıqdan sonra **API Gateway/ Auth server**-nə deyil, birbaşa **Backend API** və ya **Backend servisi-**nə token ilə müraciət göndərilib lazımı məlumatlar istənilir.&#x20;
+Bəzi digər proseslərdə Token alındıqdan sonra **API Gateway/ Auth server**-nə deyil, birbaşa **Backend API** və ya **Backend servisi-**nə token ilə müraciət göndərilib lazımi məlumatlar istənilir.&#x20;
 
 Tövsiyə olunandır ki, bütün sorğular ilk öncə **API Gateway/ Auth server** göndərilsin və burada token yoxlanılsın. Əgər proses uğurlu olarsa bu servis özü **Backend API** və ya **Backend servisi-**nə müraciət göndərsin.
 

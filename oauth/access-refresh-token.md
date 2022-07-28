@@ -12,9 +12,9 @@ OAuth **Access token** (giriş token) müəyyən bir müddət ərzində xüsusi 
 >
 > Biz [**Rapid API** saytında qeydiyyatdan keçən zaman](overview.md#rapid-api-platformasi) **Google** üzərindən autentifikasiyanı seçiriksə, bu zaman Google bizdən gmail accountu üçün `şifrə:parol` istəyir. Biz düzgün məlumatları daxil etdikdən sonra, Google **Rapid** saytına bizə bağlı `Access token` verir. Sonradan **Rapid** saytı bu `Access token` ilə müraciət edib bizim icazə verdiyimiz məlumatları (məsələn, ad,soyad) **Google**-dan götürə bilər.
 >
-> Xüsusi resurslara məhdud giriş (limited access) isə o deməkdir ki, istifadəçinin resurslarına/məlumatlarına tam girişə ehtiyhac olmur. `Access tokenlər`i də məhdud zaman üçün etibarlı olur. `Access token` üçün etibarlılıq müddətinin təyin olunması təhlükəsizlik effektini yüksəldir.
+> Xüsusi resurslara məhdud giriş (limited access) isə o deməkdir ki, istifadəçinin resurslarına/məlumatlarına tam girişə ehtiyac olmur. `Access tokenlər`i də məhdud zaman üçün etibarlı olur. `Access token` üçün etibarlılıq müddətinin təyin olunması təhlükəsizlik effektini yüksəldir.
 >
-> Access token-lər ləğv edilə bilər, belə olduqda artıq onlar ilə giriş uğurlu olmayacaqdır. Bu ləğv etmə tokeni verə server tərəfindən və ya istifadəçi tərəfindən həyata keçirilə bilər.&#x20;
+> Access token-lər ləğv edilə bilər, belə olduqda artıq onlar ilə giriş uğurlu olmayacaqdır. Bu ləğv etmə tokeni verən server tərəfindən və ya istifadəçi tərəfindən həyata keçirilə bilər.&#x20;
 
 {% hint style="info" %}
 **Google** OAuth **Access token**ləri "`opaque strings`"-dir. Yəni token hər hansı bir məlumat əsasında şifrələnmiş, encode edilmiş dəyər deyil, sadəcə ixtiyari dəyərlərdən formalaşır. Bunun əsas üstünlüyü odur ki, tokeni formalaşdırmaq üçün lazım olan bütün məlumatlar avtorizasiya serverində saxlanılır. Yəni, digər serverə məlumat üçün müraciət edilmir (məsələn, istifadəçi məlumatları).
@@ -30,13 +30,13 @@ OAuth **Access token** (giriş token) müəyyən bir müddət ərzində xüsusi 
 
 > Daha sonra, resursun sahibi (istifadəçi), avtorizasiya serverində öz məlumatları ilə autentifikasiya olunmalıdır.&#x20;
 >
-> Bundan əvvəl bildiridyimi kimi, [Rapid API](https://rapidapi.com/) saytında istifadəçi (resurs sahibi) qeydiyyat zamanı `Sign up with Google` seçimi seçdikdən sonra, öz gmail hesabının `username:password` nu daxil edib orada autentifikasiyadan keçir. Bununla istifadəçi təsdiq edir ki, resursun sahibi (gmail) həqiqətəndə odur və sayta daxil olmağı təsdiq edir. Nəticədə **Google** **Rapid**-ə **Access token** verir.
+> Bundan əvvəl bildirdiyim kimi, [Rapid API](https://rapidapi.com/) saytında istifadəçi (resurs sahibi) qeydiyyat zamanı `Sign up with Google` seçimi seçdikdən sonra, öz gmail hesabının `username:password` nu daxil edib orada autentifikasiyadan keçir. Bununla istifadəçi təsdiq edir ki, resursun sahibi (gmail) həqiqətəndə odur və sayta daxil olmağı təsdiq edir. Nəticədə **Google** **Rapid**-ə **Access token** verir.
 
 > İstəyə bağlı olaraq `Access token`-ə məhdud yerlərə giriş icazələri verilə bilər. Bu, token üçün icazə verilməli olan giriş səviyyəsini təyin edəcəkdir. Yəni token üçün sorğu göndərilərkən bu token-lə hansı məlumatları əldə etmək və ya hansı əməliyyatları etmək istənildiyi göstərilir. Token-i verən resurs yoxlama nəticəsində görsə ki, həqiqətəndə bu icazələr verilə bilər o zaman sorğuya uyğun cavabı qaytarır.
 
 ### Refresh token
 
-> **Refresh token** etibarlılıq müddəti bitmiş **Access token**-i yenidən almaq üçün istifadə olunur. Yəni, bu proses arxa fonda gedir və istifadəçinin bundan xəbəri olmur. **Refresh token** olmasa gərək istifadəçi etibarlılıq müddəti bitmiş **Access token** üçün hər dəfə öz məlumatlarını (credentials) daxil edib prosesi yenidən başlatssın.
+> **Refresh token** etibarlılıq müddəti bitmiş **Access token**-i yenidən almaq üçün istifadə olunur. Yəni, bu proses arxa fonda gedir və istifadəçinin bundan xəbəri olmur. **Refresh token** olmasa gərək istifadəçi etibarlılıq müddəti bitmiş **Access token** üçün hər dəfə öz məlumatlarını (credentials) daxil edib prosesi yenidən başlatsın.
 
 ### Refresh token istifadəsi
 
@@ -59,7 +59,7 @@ Burada çox dayanmayın, növbəti bölmələrdə sizə tam aydın olacaq.
 {% hint style="info" %}
 Edilə biləcək hər hansı bir təhlükənin qarşısını almaq üçün **Access token**-nin etibarlılıq müddəti olur.
 
-**Access token** üçün qəbul edilmiş ümumi bitmə müddəti 5 dəqiqədir. Təsəvvür edə bilrisinizmi, **Refresh token** olmasa idi, hər 5 dəqiqədən bir istifadəçilər öz istifadəçi adını və şifrələrini daxil etməyə məcbur olacaqdırlar. Bu səbəbdən də biz **Refresh token**-dən istifadə edirik.
+**Access token** üçün qəbul edilmiş ümumi bitmə müddəti 5 dəqiqədir. Təsəvvür edə bilrisinizmi, **Refresh token** olmasa idi, hər 5 dəqiqədən bir istifadəçilər öz istifadəçi adını və şifrələrini daxil etməyə məcbur olacaqdılar. Bu səbəbdən də biz **Refresh token**-dən istifadə edirik.
 {% endhint %}
 
 > Adətən **Refresh token** istifadə edildikdə yenisi yaradılaraq **Access token** ilə birgə göndərilir.

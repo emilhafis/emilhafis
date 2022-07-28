@@ -14,7 +14,7 @@ description: API-lar üçün avtorizasiya framework-u
 
 > Bu cümlə bir az qəliz oldu, gəlin onu sadələşdirək.
 >
-> OAuth API-lara giriş zamanı icazələrin kontrol edilməsi üçün istifadə edilən avtorizasiya framework-dur. Məsələn, biz tez tez görürük ki, hansısa platformaya daxil olmaq istədikdə bizdən əlavə variantlar kimi Google və ya Facebook vasitəsilə daxil olmaq seçimləri də verilir. Məsələn, [Rapid API](https://rapidapi.com/) saytında qeydiyyat zamanı `Sign up with Google` seçimi də verilir.&#x20;
+> OAuth API-lara giriş zamanı icazələrin kontrol edilməsi üçün istifadə edilən avtorizasiya framework-dur. Məsələn, biz tez-tez görürük ki, hansısa platformaya daxil olmaq istədikdə bizdən əlavə variantlar kimi Google və ya Facebook vasitəsilə daxil olmaq seçimləri də verilir. Məsələn, [Rapid API](https://rapidapi.com/) saytında qeydiyyat zamanı `Sign up with Google` seçimi də verilir.&#x20;
 >
 > Bu seçimə klik etdikdə, gmail hesabınızın məlumatlarını istəyir. Əgər məlumatları düzgün daxil edirsinizsə bu zaman **Google** sizin şəxsi məlumatlarınızı **Rapid** saytı ilə paylaşmadan onlara bildirir ki, bu şəxsin mənim platformama daxil olması üçün istifadəçi adı və parolu doğrudur və səndə icazə verə bilərsən.&#x20;
 >
@@ -40,7 +40,7 @@ Bir sözlə müxtəlif API-ları bir yerə toplayan böyük bir platformadır. S
 
 > OAuth-un bir neçə adlandırma növü də vardır - **one-legged OAuth** və **three-legged OAuth.**&#x20;
 >
-> **One-legged OAuth** o zaman istifadə olunur ki, sizin qoruduğunuz həssas (sensitive) məlumatlar olmur. Məsələn, siz yalnız ümumi məlumatları və yaxudda oxuna bilən (read-only) məlumatları əldə edirsiniz.
+> **One-legged OAuth** o zaman istifadə olunur ki, sizin qoruduğunuz həssas (sensitive) məlumatlar olmur. Məsələn, siz yalnız ümumi məlumatları və yaxud da oxuna bilən (read-only) məlumatları əldə edirsiniz.
 >
 > Bunun əksinə olaraq **three-legged OAuth** həssas məlumatları qorumaq lazım olanda istifadə edilir. Bu senaridə 3 qrup qarşılıqlı fəaliyyət göstərir:
 >
@@ -55,9 +55,9 @@ Bir sözlə müxtəlif API-ları bir yerə toplayan böyük bir platformadır. S
 > Növbəti bölmələrdə prosesi daha dərindən analiz edəcəyik.
 
 {% hint style="info" %}
-**OAuth-un ən əsas xüsusiyyəti** - əgər siz API server rolunda çıxış edirsənizsə, yəni sorğular sizə göndərilirsə bu zaman, siz öz bazanızda saxladığınız istifadəçilərin məlumatın paylaşmadan digər resurslara öz resursunuz vasitəsilə icazə verə bilərsiniz. Yəni istifadəçi artıq 1 dəfə sizin resursa daxil olubsa, artıq digər resurslara sizin vasitənizlə daxil ola bilər.&#x20;
+**OAuth-un ən əsas xüsusiyyəti** - əgər siz API server rolunda çıxış edirsənizsə, yəni sorğular sizə göndərilirsə bu zaman, siz öz bazanızda saxladığınız istifadəçilərin məlumatını paylaşmadan digər resurslara öz resursunuz vasitəsilə icazə verə bilərsiniz. Yəni istifadəçi artıq 1 dəfə sizin resursa daxil olubsa, artıq digər resurslara sizin vasitənizlə daxil ola bilər.&#x20;
 
-Siz bu giriş icazəsin [**Access token**](access-refresh-token.md)-dən istifadə etməklə verə bilirsiz.
+Siz bu giriş icazəsini [**Access token**](access-refresh-token.md)-dən istifadə etməklə verə bilirsiz.
 
 Növbəti bölmələrdə daha detallı danışacağıq.
 {% endhint %}

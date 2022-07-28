@@ -32,7 +32,7 @@
 {% hint style="info" %}
 Digər **grant** növlərindən fərqli olaraq **Client credential grant** növündə adətən [**Refresh token**](../oauth/access-refresh-token.md#refresh-token) qaytarılmır.&#x20;
 
-Belə ki, **Refresh token** istifadəçinin məxfi məlumatlarını təkrar təkrar göndərməsinin qarşısını almaq üçün istifadə olunduğundundan və burada da istifadəçi məlumatları olmadığından [**Resfresh token**](../oauth/access-refresh-token.md#refresh-token-istifad-si)-in istifadəsi zəruri olmur.
+Belə ki, **Refresh token** istifadəçinin məxfi məlumatlarını təkrar-təkrar göndərməsinin qarşısını almaq üçün istifadə olunduğundan və burada da istifadəçi məlumatları olmadığından [**Refresh token**](../oauth/access-refresh-token.md#refresh-token)-in istifadəsi zəruri olmur.
 {% endhint %}
 
 ## <mark style="color:blue;">Google Apigee nümunəsi</mark>
@@ -54,7 +54,7 @@ Belə ki, **Refresh token** istifadəçinin məxfi məlumatlarını təkrar tək
 {% hint style="info" %}
 Bu keysdə Google token sorğusunun əldə olunması üçün **POST** metodundan istifadə edir.
 
-Amma bəzi senarilərdə bunun üçün GET metodundan istifadə olunduğunuda görürük. GET sorğuları bookmark və ya cach-də saxlana bilər və belə olduqda bu token sorğusu üçün uyğun olmur. Belə ki, OAuth token yaradılma funksionallığı digər tətbiqin backend servislərinin müraciət etdiyi servisdə yox digər servislərdə idarə olunur.&#x20;
+Amma bəzi senarilərdə bunun üçün GET metodundan istifadə olunduğunu da görürük. GET sorğuları bookmark və ya cach-də saxlana bilər və belə olduqda bu token sorğusu üçün uyğun olmur. Belə ki, OAuth token yaradılma funksionallığı digər tətbiqin backend servislərinin müraciət etdiyi servisdə yox digər servislərdə idarə olunur.&#x20;
 {% endhint %}
 
 > 2\. **Apigee** `Client ID` və `Client secret` yoxlayır.&#x20;
@@ -62,14 +62,14 @@ Amma bəzi senarilərdə bunun üçün GET metodundan istifadə olunduğunuda g�
 > 3\. Əgər etibarlı olarsa **Access token**-i, **Token** üzrə bitmə tarixini göndərir.
 
 {% hint style="warning" %}
-Qeyd edtdiyimiz kimi, burada da istifadəçi məlumatları (credentials) istifadə olunmadığı üçün [**Refresh token**](../oauth/access-refresh-token.md#refresh-token) **** generasiya edilmir.
+Qeyd etdiyimiz kimi, burada da istifadəçi məlumatları (credentials) istifadə olunmadığı üçün [**Refresh token**](../oauth/access-refresh-token.md#refresh-token) **** generasiya edilmir.
 {% endhint %}
 
 ### Google API Request və Response nümunəsi
 
 ![](<../.gitbook/assets/Apigee get token.png>)
 
-> Nümunədə **API** sorğusu və cavabı üzrə əks olunan dəyərlər qeyd olunur. Bu sorğu Google servisinə **Client credentials grant** növündə **POST** metodu ilə göndərilmişir.&#x20;
+> Nümunədə **API** sorğusu və cavabı üzrə əks olunan dəyərlər qeyd olunur. Bu sorğu Google servisinə **Client credentials grant** növündə **POST** metodu ilə göndərilmişdir.&#x20;
 
 ### Basic Authentication
 
@@ -77,15 +77,15 @@ Qeyd edtdiyimiz kimi, burada da istifadəçi məlumatları (credentials) istifad
 
 > `Client ID` və `Client Secret` `Authorisation header`-də [encode](../avtorizasiya-noevl-ri/basic-auth.md#base-64-encode-v-decode) olunaraq göndərilir.&#x20;
 >
-> Google autnetifikasiya üsulu kimi [basic authentication](../avtorizasiya-noevl-ri/basic-auth.md)-dan istifadə edir.
+> Google autentifikasiya üsulu kimi [basic authentication](../avtorizasiya-noevl-ri/basic-auth.md)-dan istifadə edir.
 >
 > **Application**-nun credential məlumatları olan `Client ID` və `Client Secret` encode olunmuş  [**Base64**](../avtorizasiya-noevl-ri/basic-auth.md#base-64-encode-v-decode) formatında `Header` dəyəri kimi göndərilir.
 
 {% hint style="warning" %}
-Bir daha qyed edək ki, [`base64 encoding`](../avtorizasiya-noevl-ri/basic-auth.md#base-64-encode-v-decode) `` şifrələmə demək deyil. Siz base64 formatına konvertasiya olunmuş məlumatı əvvəlki dəyərnə qaytara bilərsiniz.
+Bir daha qeyd edək ki, [`base64 encoding`](../avtorizasiya-noevl-ri/basic-auth.md#base-64-encode-v-decode) `` şifrələmə demək deyil. Siz base64 formatına konvertasiya olunmuş məlumatı əvvəlki dəyərinə qaytara bilərsiniz.
 {% endhint %}
 
-> Göründüyü kimi, **Google** App credential-larını (`Client ID` və `Client Secret )` yalnız **encode** edir yəni **şifrələmir**.&#x20;
+> Göründüyü kimi, **Google** App credentiallarını (`Client ID` və `Client Secret )` yalnız **encode** edir, yəni **şifrələmir**.&#x20;
 >
 > Qeyd edirlər ki, biz [TLS (SSL)](../oauth/terminologiya/#tls-ssl-https) vasitəsilə sorğu və cavabı encrypt etdiyimiz üçün məlumat mübadiləsində bütün məlumatlar qorunur.
 
@@ -95,7 +95,7 @@ Bir daha qyed edək ki, [`base64 encoding`](../avtorizasiya-noevl-ri/basic-auth.
 
 > Application üçün **Access token**in bitmə tarixini bilmək çox vacibdir.
 >
-> Bu səbəbdəndə **Google** **Tokeni** **Application**-a qaytararkən onun bitmə tarixini və digər parametrləridə göstərir.
+> Bu səbəbdən də **Google** **Tokeni** **Application**-a qaytararkən onun bitmə tarixini və digər parametrləri də göstərir.
 
 ### Token istifadəsi
 
@@ -105,4 +105,4 @@ Bir daha qyed edək ki, [`base64 encoding`](../avtorizasiya-noevl-ri/basic-auth.
 >
 > Google OAuthV2 siyasətinə uyğun olaraq Tokeni yoxlayır.
 >
-> Yoxlama bu formada həyata keçirilir - ilk öncə tokenin etibarlı və istifadə müddəti yoxlanılır, əgər yoxlama uğurlu olarsa sorğulanan resursa (məsələn burada **items**) token-in icazəsinin olub olmaması yoxlanılır. Əgər icazə olmazsa, `401 Unauthorized` qaytarılır, əks halda uğurlu cavab ilə istənilən məlumatlar qaytarılır.&#x20;
+> Yoxlama bu formada həyata keçirilir - ilk öncə tokenin etibarlı olması və istifadə müddəti yoxlanılır, əgər yoxlama uğurlu olarsa sorğulanan resursa (məsələn burada **items**) token-in icazəsinin olub olmaması yoxlanılır. Əgər icazə olmazsa, `401 Unauthorized` qaytarılır, əks halda uğurlu cavab ilə istənilən məlumatlar qaytarılır.&#x20;

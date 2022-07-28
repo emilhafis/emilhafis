@@ -4,9 +4,9 @@
 
 > **`Grant types:`**` ``Authentication usage scenarios supported by OAuth 2.0` - Grant types (icazə hüquqları) OAuth tərəfindən tərtib edilən müxtəlif avtorizasiya senarilərini təyin edir. Grant növlərini növbəti bölmələrdə daha ətraflı qeyd edəcəyik.&#x20;
 
-> **`Client IDs and client secrets:`**` ``used to identify and authenticate apps` - Tətbiqləri identifikasiya və autentifikasiya etmək üçün **Client ID** və **Client secret** dəyərndən istifadə olunur.&#x20;
+> **`Client IDs and client secrets:`**` ``used to identify and authenticate apps` - Tətbiqləri identifikasiya və autentifikasiya etmək üçün **Client ID** və **Client secret** dəyərindən istifadə olunur.&#x20;
 >
-> Məsələn, əvvəlki bölmədə qeyd etdiyimiz **Rapid** saytı **Google** vasitəsilə girişi tətbiq edən zaman, ilk öncə Google-da qeydiyyatdan keçib öz platformasın tanıtmış və **Google** **Rapid** platformasına **Client ID** və **Client Secret** təqdim etmişdir.&#x20;
+> Məsələn, əvvəlki bölmədə qeyd etdiyimiz **Rapid** saytı **Google** vasitəsilə girişi tətbiq edən zaman, ilk öncə Google-da qeydiyyatdan keçib öz platformasını tanıtmış və **Google** **Rapid** platformasına **Client ID** və **Client Secret** təqdim etmişdir.&#x20;
 
 {% hint style="info" %}
 Google-da bunların alternativi müvafiq olaraq **Client ID** kimi **Consumer key**, **Client secret** kimi isə **Consumer secret** dəyərləridir.
@@ -20,7 +20,7 @@ Google-da bunların alternativi müvafiq olaraq **Client ID** kimi **Consumer ke
 >
 > Siz çox güman ki, **TLS**-i **SSL** və ya **Secure Sockets Layer** və ya **HTTPS** kimi tanıyırsınız. **TLS** **SSL**-in davamçısıdır və **SSL** artıq istifadə edilməməlidir.
 >
-> **TLS** vasitəsilə **API** sorğuları və cavabları client (Rapid) və server (Google) arasında ötürülərkən şifrələrnir. OAuth-un ciddi tələbi var ki, bütün OAuth trafiki, o cümlədən token-ə malik istənilən API sorğusu şifrələnsin. Şifrələmə tokenləri, **Client ID** və **Client secret**-ləri 3-cü tərəflərin əlinə keçməsindən qoruyur.
+> **TLS** vasitəsilə **API** sorğuları və cavabları client (Rapid) və server (Google) arasında ötürülərkən şifrələnir. OAuth-un ciddi tələbi var ki, bütün OAuth trafiki, o cümlədən token-ə malik istənilən API sorğusu şifrələnsin. Şifrələmə tokenləri, **Client ID** və **Client secret**-ləri 3-cü tərəflərin əlinə keçməsindən qoruyur.
 
 ### Tətbiq növləri
 

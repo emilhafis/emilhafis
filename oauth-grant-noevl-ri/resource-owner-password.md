@@ -4,7 +4,7 @@ description: Bu bölmədə Password grant növündən dnaışacağıq
 
 # Resource Owner Password
 
-![](../../.gitbook/assets/pass\_ovner.png)
+![](../.gitbook/assets/pass\_ovner.png)
 
 ### Ümumi məlumat
 
@@ -14,7 +14,7 @@ description: Bu bölmədə Password grant növündən dnaışacağıq
 >
 > **Password grant** növü qorunan istifadəçi məlumatlarına giriş icazəsi olduqda istifadə edilə bilər. bu növ icazə, yalnız **trusted** proqram təminatı üçün uyğundur ki, onu yaradan şirkətin artıq istifadəçi məlumatlarına icazəsi/girişi olsun.
 >
-> İstifadəçin öz məlumatlarını (istifadəçi adı, şifrə) proqram təminatına təqdim etməyə əmin deyilsə, o zaman bu növdən istifadə edilməməlidir.
+> İstifadəçi öz məlumatlarını (istifadəçi adı, şifrə) proqram təminatına təqdim etməyə əmin deyilsə, o zaman bu növdən istifadə edilməməlidir.
 >
 > Bu növün əsas üstünlüyü ondan ibarətdir ki, proqrama daxil olarkən əlavə proseslər azalır, yəni başqa səhifəyə yönləndirilmə və s. olmur.
 >
@@ -22,7 +22,7 @@ description: Bu bölmədə Password grant növündən dnaışacağıq
 
 ### Necə işləyir?
 
-![](../../.gitbook/assets/pass\_grant-2.png)
+![](../.gitbook/assets/pass\_grant-2.png)
 
 > Proses aşağıdakı formada həyata keçirilir:
 >

@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 Biz bildirdik ki, hazırda istifadəçi məlumatları (credentials) üçün ən çox istifadə olunan grant növü [**Authorization code**](./)-dur. Bu növdə də, **Client** tərəf, yəni sayt tərəf qeydiyyat zamanı təqdim olunan `Client ID` və `Client Secret` dəyərlərini təhlükəsiz formada saxlamalıdır.
 
-Əgər Client tərəf bunu etmək istəmirsə və ya etmək üçün gücü yoxdursa nə edilməlidir? Belə çıxır ki, [Authorization code grant](./) növüdə etibarlı deyil?
+Əgər Client tərəf bunu etmək istəmirsə və ya etmək üçün gücü yoxdursa nə edilməlidir? Belə çıxır ki, [Authorization code grant](./) növü də etibarlı deyil?
 {% endhint %}
 
 ### Ümumi məlumat
@@ -16,8 +16,8 @@ Qeyd etdiyimiz kimi, Public client-lər (məsələn, [native](authorization-code
 **Native application -** xüsusi əməliyyat sistemləri üzrə yazılmış tətbiqlərdir. Məsələn iOS və ya Android üçün yazılmış mobil bankçılıq.
 {% endhint %}
 
-> * `Client ID` və`Client Secret`-i təhlükəsiz formada saxlaya bilmir. Tətbiqi decompile (yəni mobil tətbiqin mənbə kodlarının alınması) etdikdə, orada mənbə kodları ilə yanaşı `Client ID` və `Client Secret` dəyərlərinidə əldə etmək olur. Bu dəyərlər isə bildiyimiz kimi bu tətbiqdən istifadə edəcək bütün istifadəçilərə şamil olunur.&#x20;
-> * Həmçinində fırıldaqçılıq üçün xüsusi URL sxemdən istifadə edilərək sizin göndərdiyiniz `Authorisation code` əldə edilə bilər.
+> * `Client ID` və`Client Secret`-i təhlükəsiz formada saxlaya bilmir. Tətbiqi decompile (yəni mobil tətbiqin mənbə kodlarının alınması) etdikdə, orada mənbə kodları ilə yanaşı `Client ID` və `Client Secret` dəyərlərini də əldə etmək olur. Bu dəyərlər isə bildiyimiz kimi bu tətbiqdən istifadə edəcək bütün istifadəçilərə şamil olunur.&#x20;
+> * Həmçinin də fırıldaqçılıq üçün xüsusi URL sxemdən istifadə edilərək sizin göndərdiyiniz `Authorisation code` əldə edilə bilər.
 
 #### **Single-page apps**
 
@@ -28,7 +28,7 @@ Bir sözlə səhifə yenilənməsinə ehtiyac olmur və belə olduqda sürət ə
 
 Hazırda Gmail, Facebook, Trello, Google Maps və başqaları bu mexanizmdən istifadə edir.
 
-Ənənəvi **Multiple-page applications** - da isə hər dəfə səhifə yenilənir. Düzdür hazırda AJAX vasitəsilə bunun iş prinsipi dahada sadələşmişdir.
+Ənənəvi **Multiple-page applications** - da isə hər dəfə səhifə yenilənir. Düzdür hazırda AJAX vasitəsilə bunun iş prinsipi daha da sadələşmişdir.
 
 Hər iki metodun özünə uyğun müsbət və mənfi tərəfləri vardır. [Buradan tanış ola bilərsiniz.](https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58)
 {% endhint %}
@@ -57,16 +57,16 @@ Bu növ [**Authorization code grant**](./) **** növü ilə demək olar ki, eyni
 
 > Proses aşağıdakı formada həyata keçirilir:
 >
-> 1. İstifadəçi tətbiq və ya sayt daxilində **Login** bölməsin seçir.
+> 1. İstifadəçi tətbiq və ya sayt daxilində **Login** bölməsini seçir.
 > 2. App ixtiyari rəqəmlərdən ibarət kriptoqrafik `code_verifier` və bundan isə `code_challenge yaradır.`
 > 3. Sayt istifadəçini **API Gateway / Auth server**-nin login və avtorizasiya bölməsinə `code_challenge` ilə birlikdə yönləndirir.
-> 4. **API Gateway / Auth server-**in **login** bölməsi isitfadəçiyə çıxarılır ([nümunə](./#pop-up)).
-> 5. İstifadəçi göstərilən login metodlarından birini seçir və həmçinində, tələb edilirsə bəzi məlumatlarının götürülməsi üçün icazəni təsdiq edir ([nümunə](./#icaz)).
+> 4. **API Gateway / Auth server-**in **login** bölməsi istifadəçiyə çıxarılır ([nümunə](./#pop-up)).
+> 5. İstifadəçi göstərilən login metodlarından birini seçir və həmçinin də, tələb edilirsə bəzi məlumatlarının götürülməsi üçün icazəni təsdiq edir ([nümunə](./#icaz)).
 > 6. **API Gateway / Auth server** `code_challenge` saxlayır və istifadəçini geriyə, tətbiqə `authorization code` ilə birlikdə yönləndirir.
 > 7. App bu `authorization code`-u və 2-ci addımda yaradılmış olan `code_verifier` dəyərini **API Gateway / Auth server**-nə **** göndərir.
 > 8. **API Gateway / Auth serve** `code_challenge` və `code_verifier` yoxlayır.
 > 9. Yoxlama uğurlu olduqda **API Gateway / Auth server** `Access token` (lazım olduqda R**efresh token**) generasiya edib App-a qaytarır.
 > 10. **App** `Access token`-dən istifadə edərək lazımı məlumatı əldə etmək üçün sorğu göndərir.
 > 11. Token etibarlı olarsa **API Gateway / Auth server** sorğunu **Backend API / Backend Servis**-ə göndərir.
-> 12. **Backend API / Backend Servis** lazımı məlumatları **API Gateway / Auth server**-nə qaytarır.
+> 12. **Backend API / Backend Servis** lazımi məlumatları **API Gateway / Auth server**-nə qaytarır.
 > 13. **API Gateway / Auth server** məlumatları **Application**-a göndərir.
