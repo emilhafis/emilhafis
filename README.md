@@ -1,7 +1,6 @@
 ---
 cover: .gitbook/assets/api-security.jpg
 coverY: 0
-layout: editorial
 ---
 
 # Overview
@@ -16,13 +15,12 @@ Bu sualları cavablandırmağa çalışacam.
 
 **Toxunacağımız mövzular:**
 
-* [Giriş (Autentifikasiya və Avtorizasiya);](autentifikasiya-v-avtorizasiya/overview.md)
-* [Avtorizasiya növləri:](avtorizasiya-noevl-ri/overview.md)
+* [Overview (Autentifikasiya və Avtorizasiya);](autentifikasiya-v-avtorizasiya/overview.md)
+* [Overview (Avtorizasiya növləri)](autentifikasiya-v-avtorizasiya/overview.md):
   * [API Key](avtorizasiya-noevl-ri/api-key.md)
   * [Basic Auth](avtorizasiya-noevl-ri/basic-auth.md)
   * [HMAC](avtorizasiya-noevl-ri/hmac.md)
-  * [OAuth](broken-reference)
-    * [Overview](oauth/overview.md)
+  * [Overview (OAuth)](oauth/overview.md):
     * [Access/Refresh Token](oauth/access-refresh-token.md)
     * [Terminologiya](oauth/terminologiya/)
       * [Scope](oauth/terminologiya/scope.md)
