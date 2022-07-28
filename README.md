@@ -17,9 +17,9 @@ Bu sualları cavablandırmağa çalışacam.
 
 * ****[**General Overview**](./)**;**
 * **Autentifikasiya və Avtorizasiya;**
-  * [Overview;](autentifikasiya-v-avtorizasiya/overview.md)
+  * [Overview;](giris.md)
 * **Avtorizasiya növləri:**
-  * [Overview](autentifikasiya-v-avtorizasiya/overview.md):
+  * [Overview](giris.md):
   * [API Key](avtorizasiya-noevl-ri/api-key.md)
   * [Basic Auth](avtorizasiya-noevl-ri/basic-auth.md)
   * [HMAC](avtorizasiya-noevl-ri/hmac.md)
