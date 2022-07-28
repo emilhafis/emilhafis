@@ -1,6 +1,7 @@
 ---
 cover: .gitbook/assets/api-security.jpg
 coverY: 0
+layout: editorial
 ---
 
 # Overview
