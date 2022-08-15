@@ -121,6 +121,13 @@ Tesləşdirmə, qayıdan error kodları və s.haqqında növbəti məqalələrim
 Avtorizasiya və Authentifikasiya üzrə detallı məlumat ilə bundan əvvəlki mövzumda tanış ola bilərsiniz. [API Təhlükəsizliyi](https://multibank.gitbook.io/api-security/)
 {% endhint %}
 
+### Path parameters
+
+> Path parametri endpointin bir hissəsi olaraq daxil edilməsi zəruridir. Məsələn, aşağıdakı endpoint-də <mark style="color:orange;">`{user}`</mark> və <mark style="color:orange;">`{bicycleId}`</mark> dəyərləri path parameter-ləri kimi zəruri dəyərlərdir.
+
+\
+
+
 \
 
 
