@@ -125,6 +125,16 @@ Avtorizasiya və Authentifikasiya üzrə detallı məlumat ilə bundan əvvəlki
 
 > Path parametri endpointin bir hissəsi olaraq daxil edilməsi zəruridir. Məsələn, aşağıdakı endpoint-də <mark style="color:orange;">`{user}`</mark> və <mark style="color:orange;">`{bicycleId}`</mark> dəyərləri path parameter-ləri kimi zəruri dəyərlərdir.
 
+{% code overflow="wrap" %}
+```json
+/service/myresource/user/{user}/bicycles/{bicycleId}
+```
+{% endcode %}
+
+> Path parameters are usually set off with curly braces, but some API doc styles precede the value with a colon or use a different syntax. When you document path parameters, indicate the default values, the allowed values, and other details.
+>
+> Path parameter-ləri adətən qeyd etdiyimiz kimi fiqurlu mötərizədə <mark style="color:orange;">{}</mark> göstərilir. Amma bu mütlə qayda deyil, bəzi API doc dizaynda path parametri iki nöqtədən <mark style="color:orange;">:</mark> sonra, bəzilərində isə fərqli formada göstərilir.
+
 \
 
 
