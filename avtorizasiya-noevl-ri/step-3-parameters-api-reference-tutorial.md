@@ -118,7 +118,7 @@ Tesləşdirmə, qayıdan error kodları və s.haqqında növbəti məqalələrim
 > header parametr-ləri sorğu başlığına (request header) əlavə edilir. Adətən bu dəyərlər bütün endpoint-lərə aid olmaqla avtorizasiya parametrləri olur və bütün endpointlərə aid olur; yəni header parametrin sənədləşmədə bir dəfə göstərilir və o bütün endpoint-lərdə təkara göstərilmir. Buna baxmayaq, Header parametrləri üzrə avtorizasiya detalları sənədləşmədə ayrıca bölmə kimi adətən **avtorizasiya tələbləri** bölməsində göstərilir.
 
 {% hint style="info" %}
-Avtorizasiya və Authentifikasiya üzrə detallı məlumat ilə bundan əvvəlki mövzumda tanış ola bilərsiniz. API Təhlükəsizliyi
+Avtorizasiya və Authentifikasiya üzrə detallı məlumat ilə bundan əvvəlki mövzumda tanış ola bilərsiniz. [API Təhlükəsizliyi](https://multibank.gitbook.io/api-security/)
 {% endhint %}
 
 \
