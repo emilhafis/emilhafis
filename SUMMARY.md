@@ -4,12 +4,12 @@
 
 ## Autentifikasiya və Avtorizasiya
 
-* [Overview](autentifikasiya-v-avtorizasiya/overview.md)
+* [Overview](giris.md)
 
 ## Avtorizasiya növləri
 
 * [Overview](avtorizasiya-noevl-ri/overview.md)
-* [REST API Dizayn Part I](avtorizasiya-noevl-ri/rest-api-dizayn-part-i.md)
+* [REST API Dizayn Part I](avtorizasiya-noevl-ri/api-key.md)
 * [Resources](avtorizasiya-noevl-ri/resources.md)
 * [Use HTTP verbs for CRUD operations](avtorizasiya-noevl-ri/use-http-verbs-for-crud-operations.md)
 * [Keep verbs out of URLs](avtorizasiya-noevl-ri/keep-verbs-out-of-urls.md)
