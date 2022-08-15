@@ -185,3 +185,27 @@ Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdi
 
 ### Request bodies <a href="#request_bodies" id="request_bodies"></a>
 
+> Frequently, with POST requests (where you’re creating something), you submit a JSON object in the request body. This is known as a request body, and the format is usually JSON. This JSON object may be a lengthy list of key-value pairs with multiple levels of nesting.
+>
+> Məsələn, endpoint sadə ola bilər - `/surfreport/`<mark style="color:orange;">`{beachId}`</mark>. Amma siz sorğu mətnində (request body) JSON obyekt ilə xeyli sayda dəyərlər göndərə bilərsiniz. Aşağıdakı formada^
+
+```javascript
+{
+"days": 2,
+"units": "imperial",
+"time": 1433524597
+}
+```
+
+> In OpenAPI v2.0, request bodies were classified as a type of parameter, but in v3.0, they are not considered a parameter but rather a path property. Given that the request body functions like a parameter, I’ve decided to leave them classified as a parameter for now. However, note that in the OpenAPI spec, request bodies are technically not a parameter.
+
+#### Documenting complex request bodies <a href="#documenting-complex-request-bodies" id="documenting-complex-request-bodies"></a>
+
+> JSON məlumatları (sorğu və cavabda) API sənədləşməsində ən çətin hissələrindən biridir. JSON obyektləri sadə olarsa,məsələn eyni səviyyəli bir neçə key-value cütlüyü o zaman onların sənədləməsidə çox sadə olar. Amma JSOn obyektində bir neçə obyektlər bir birinin içərisində olarsa, uzun şərti məlumatlar olarsa belə API-ların sənədləşməsi də çətin olur. Və sizin 100 sətr və ya 1000 sətr məlumatlarınız olarsa çox ehtiyatla fikirləşməlisinizki, bunları hansı formada verək.
+>
+> Cədvəllər JSON-u sənədləşdirmək üçün yaxşı vasitədir, lakin cədvəldə yuxarı səviyyəli və alt səviyyəli elementləri ayırd etmək çətin ola bilər.Belə ki, bir obyekt digər bir obyektdən, digər obyekt isə digər obyektdən iibarət olarsa onları cədvəl şəklində göstərmək çaşqınlıq yarada bilər.
+>
+> By all means, if the JSON object is relatively small, a table is probably your best option. But there are other approaches that designers have taken as well.
+>
+> Take a look at eBay’s [findItemsByProduct](https://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html) resource. Here’s the request body (in this case, the format is XML):
+
