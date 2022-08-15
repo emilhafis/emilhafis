@@ -205,7 +205,9 @@ Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdi
 >
 > Cədvəllər JSON-u sənədləşdirmək üçün yaxşı vasitədir, lakin cədvəldə yuxarı səviyyəli və alt səviyyəli elementləri ayırd etmək çətin ola bilər.Belə ki, bir obyekt digər bir obyektdən, digər obyekt isə digər obyektdən iibarət olarsa onları cədvəl şəklində göstərmək çaşqınlıq yarada bilər.
 >
-> By all means, if the JSON object is relatively small, a table is probably your best option. But there are other approaches that designers have taken as well.
+> Hər bir halda, əgər JSON obyekti nisbətən kiçikdirsə, cədvəl yəqin ki, ən yaxşı seçiminizdir. Lakin dizaynerlərin qəbul etdiyi başqa yanaşmalar da var.
 >
-> Take a look at eBay’s [findItemsByProduct](https://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html) resource. Here’s the request body (in this case, the format is XML):
+> Take a look at eBay’s resource. Here’s the request body (in this case, the format is XML):
+>
+> eBay-in [findItemsByProduct](https://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html)  resursuna nəzər salın. Burada request body göstərilmişdir (bu keysdə format XML-dir):
 
