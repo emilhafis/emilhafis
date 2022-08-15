@@ -134,6 +134,41 @@ Avtorizasiya və Authentifikasiya üzrə detallı məlumat ilə bundan əvvəlki
 > Path parameters are usually set off with curly braces, but some API doc styles precede the value with a colon or use a different syntax. When you document path parameters, indicate the default values, the allowed values, and other details.
 >
 > Path parameter-ləri adətən qeyd etdiyimiz kimi fiqurlu mötərizədə <mark style="color:orange;">{}</mark> göstərilir. Amma bu mütlə qayda deyil, bəzi API doc dizaynda path parametri iki nöqtədən <mark style="color:orange;">:</mark> sonra, bəzilərində isə fərqli formada göstərilir.
+>
+> Aşağıdakı şəkildə Stripe API üzrə path parametrinin iki nöqtədən <mark style="color:orange;">:</mark> sonra əlavə edildiyini görə bilərsiniz.&#x20;
+
+![](../.gitbook/assets/Stripe.png)
+
+#### Color coding the path parameters <a href="#color-coding-the-path-parameters" id="color-coding-the-path-parameters"></a>
+
+> Endpoint-də Path parameter-lərin fərqli rənglə göstərməyiniz onları daha başa düşülən formaya salacaqdır. Path parametrlərin rəngli göstərəndə dərhal bilmək olur ki, endpoint-də path parametrləri hansılardır.&#x20;
+>
+> Məsələn siz aşağıdakı şəkildəki kimi path parameter-ləri göstərməyiniz məsləhətdir.&#x20;
+
+![](../.gitbook/assets/param.PNG)
+
+> You could then use the same color for these parameters in later descriptions:
+
+| Path Parameter	                                  | Description        |
+| ------------------------------------------------ | ------------------ |
+| <mark style="color:orange;">**user**</mark>      | Description user   |
+| <mark style="color:orange;">**bicycleId**</mark> | Description bcycle |
+|                                                  |                    |
+
+> By color coding the parameters, it’s easy to see the parameter being defined and how it relates to the endpoint definition.
+
+### Query string parameters
+
+> Query string paramter-ləri endpoint-ə sual işarəsindən <mark style="color:orange;"></mark> <mark style="color:orange;"></mark><mark style="color:orange;">`(?)`</mark> <mark style="color:orange;"></mark><mark style="color:orange;"></mark> sonra əlavə edilir. sual işarəsindən <mark style="color:orange;"></mark> <mark style="color:orange;"></mark><mark style="color:orange;">`(?)`</mark> sonra gələn parameterlər və onların dəyərləri "query string" adlanır.&#x20;
+>
+> Query string-də hər bir parametr bir birinin ardınca siyahılanır və  ampersand <mark style="color:orange;">(</mark><mark style="color:orange;">`&`</mark><mark style="color:orange;">)</mark> işarəsi ilə bir birindən ayrılır.
+
+{% hint style="warning" %}
+Query string parameter-lərinin sıra ardıcıllığı zəruri deyildir.
+{% endhint %}
+
+\
+
 
 \
 
