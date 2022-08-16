@@ -1,8 +1,10 @@
-# Step 1: Resource description (API reference tutorial)
+# Addım 1: Resursun təsviri
 
-| Step I ->                                                                                                                                                                                          | Step II ->                                                                                                                              | Step III ->                                     | Step IV ->                                           | Step V                                                                                                                                                                                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <mark style="color:orange;">****</mark>[<mark style="color:orange;">**Resource description**</mark>](step-1-resource-description-api-reference-tutorial.md)<mark style="color:orange;">****</mark> | <p><mark style="color:blue;"><strong>Endpoints</strong></mark> </p><p><mark style="color:blue;"><strong>and methods</strong></mark></p> | <mark style="color:blue;">**Parameters**</mark> | <mark style="color:blue;">**Request example**</mark> | <p><mark style="color:blue;"><strong>Response</strong></mark> </p><p><mark style="color:blue;"><strong>example and</strong></mark> </p><p><mark style="color:blue;"><strong>schema</strong></mark></p> |
+
+
+| Step I ->                                                                                                                                                                                          | Step II ->                                                                                                                                                                                                                                                                                                                                                                            | Step III ->                                     | Step IV ->                                           | Step V                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <mark style="color:orange;">****</mark>[<mark style="color:orange;">**Resource description**</mark>](step-1-resource-description-api-reference-tutorial.md)<mark style="color:orange;">****</mark> | <p><mark style="color:blue;"><strong></strong></mark><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:blue;"><strong>Endpoint</strong></mark> </a></p><p><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:blue;"><strong>və metodlar</strong></mark> </a><mark style="color:blue;"><strong></strong></mark></p> | <mark style="color:blue;">**Parameters**</mark> | <mark style="color:blue;">**Request example**</mark> | <p><mark style="color:blue;"><strong>Response</strong></mark> </p><p><mark style="color:blue;"><strong>example and</strong></mark> </p><p><mark style="color:blue;"><strong>schema</strong></mark></p> |
 
 > “Resources” API-dan qayıdan məlumatlara deyilir. Bir çox API-larda müxtəlif kateqoriyalı məlumatlar cə ya müxtəlif resurslar qayıda bilər.
 >
@@ -97,7 +99,21 @@ The description of the resource is likely something you’ll re-use in different
 >
 > API refrens bölməsinin təsviri resursun ehtiva etdiyi məlumatın 1-3 cümləlik xülasəsini təqdim etsə də,  **User guides/tutorials-da** bu barədə daha ətraflı məlumat verə bilərsiniz. Siz Referens bölməsində **User guides/tutorials**-a link verərək daha detaaalı məlumatın alınması üçün şərait yarada bilərsiniz.&#x20;
 
+```
+// Some code
+```
 
+### Get account balance endpointi üçün resurs təsviri <a href="#resource-description-for-the-surfreport-endpoint" id="resource-description-for-the-surfreport-endpoint"></a>
+
+> Let’s review the [surf report wiki page](https://idratherbewriting.com/learnapidoc/docapis\_new\_endpoint\_to\_doc.html#surf\_report\_api) (which contains the information about the resource) and try to describe the resource in 1-3 sentences. Here’s my approach:
+>
+> Gəlin bir daha Get account balans wiki page (ümumi təsviri verilən hissəsinə) və 1-3 cümlə ilə resursu təsvir etməyə çalışaq. Aşağıda nümunə əlavə edirəm.
+
+{% hint style="success" %}
+## Get account balance
+
+Hesab üzrə balansın əldə olunmasını əhatə edir. Həmçinin də, bu API-dan istifadə edərək hesabın valyutasını, kredit xətti üzrə limiti, istifadə olunmuş balansı, overdraft xəttin və s. təyin etmək mümkündür.
+{% endhint %}
 
 > Now it’s time to list out the [endpoints and methods](https://idratherbewriting.com/learnapidoc/docapis\_resource\_endpoints.html) for the resource.
 
