@@ -38,7 +38,7 @@ Sizə həmin mövzunu göndərəcəm, əgər tələbat çox olarsa online olaraq
 >
 > Sonda isə artıq biz API prinsiplərin başa düşmüş olacağıq.
 
-### The wiki page: "Get Balance API"
+### The wiki page: "Get account balance API"
 
 >
 >
