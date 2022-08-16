@@ -24,3 +24,5 @@
 * [Addım 1: Resursun təsviri](avtorizasiya-noevl-ri/step-1-resource-description-api-reference-tutorial.md)
 * [Step 2: Endpoints and methods (API reference tutorial)](avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
 * [Step 3: Parameters (API reference tutorial)](avtorizasiya-noevl-ri/step-3-parameters-api-reference-tutorial.md)
+* [Step 4: Request example (API reference tutorial)](api-reference-tutorial/step-4-request-example-api-reference-tutorial.md)
+* [Page 2](api-reference-tutorial/page-2.md)
