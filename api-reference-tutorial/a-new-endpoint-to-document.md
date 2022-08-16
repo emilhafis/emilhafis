@@ -38,7 +38,9 @@ Sizə həmin mövzunu göndərəcəm, əgər tələbat çox olarsa online olaraq
 >
 > Sonda isə artıq biz API prinsiplərin başa düşmüş olacağıq.
 
-> ### The wiki page: "Surf Report API"
+### The wiki page: "Get Balance API"
+
+>
 >
 > Yeni Endpointimiz budur   /accounts/{AccountId}/balances. Bu endpoint 3-cü tərəf təşkilatlar və ya banklar üçün nəzərdə tutulmuşdur. {AccountId} həmin hesab üzrə balansı qaytarır.
 >
