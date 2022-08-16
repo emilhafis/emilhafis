@@ -86,4 +86,88 @@ https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c6
 >
 > Buna baxmayaraq əksər API-lar bir neçə fərqli proqramlaşdırma dillərində nümunələr təqdim edirlər:
 >
+> Məsələn aşağıda [Stripe üzrə](https://stripe.com/docs/api/customer\_bank\_accounts/object?lang=python) görə bilərsiniz ki, bir neçə seçim imkanı verilir.
+
+![](../.gitbook/assets/stripe\_code\_snip.png)
+
+> You can select which language you want for the sample request: C#, curl, Java, Node.js, PHP, Python, or Ruby.
+
+> You can see the request in Shell (curl), Ruby, Node, or Python. Developers can easily copy the needed code into their applications, rather than figuring out how to translate the curl request into a particular programming language.
 >
+> However, don’t feel so intimidated by this smorgasbord of code samples. Some API doc tools (such as [Readme.com](https://readme.com/) or [SwaggerHub](https://idratherbewriting.com/learnapidoc/pubapis\_swaggerhub\_smartbear.html)) can automatically generate these code samples because the patterns for making REST requests in different programming languages follow a common template.
+
+{% hint style="info" %}
+Many times, product managers know which programming languages the target users develop applications with. If you know the target audience’s preferred programming language, you can focus your code samples on that language only.
+{% endhint %}
+
+### Auto-generating code samples
+
+> If you’re not using an authoring tool that auto-generates code examples, and you want to provide these code snippets, you can auto-generate code samples from both Postman and Paw, if desired.
+>
+> Əgər siz API doc platformalarından istifadə etmirsinizsə və qeyd etdiyimiz kimi fərqli dillərdə kod nümunələri vermək istəyirsinizsə narahat olmayan bunun sadə yolu var. Belə ki, API testing üçün geniş istifadə olunan Postman-dan istifadə edərək cURL və müxtəlif proqramlaşdırma dilləri üzrə kod nümunələri generasiya edə bilərsiniz.
+
+
+
+> Postman-da göndərəcyiniz sorğuları qeyd edirsiniz və şəkildə göstərilən bölməyə daxil olub isiyahını açırsınız.
+
+![](<../.gitbook/assets/Screenshot from 2022-08-16 16-20-29 (1).png>)
+
+> Siyahıdan Python seçilən zaman, bizə Pythona uyğun kod nümunəsi təqdim olunur.
+
+![](<../.gitbook/assets/postman\_python (1).png>)
+
+> Hazırda bizə sənədləşmədə göstərmək üçün cURl lazımdır, ona görə də cURL üzrə nümunəni də götürək.
+
+![](<../.gitbook/assets/postman\_cUrl (1).png>)
+
+test
+
+```javascript
+curl --location --request GET 'http://obank-test.example.az:50000/api/obis/v1.0/accounts/AZ83MOSZ00000000000019988155/balances' \
+--header 'Sender-Participant-Code: AZERAZ20' \
+--header 'Receiver-Participant-Code: MOSZAZ20' \
+--header 'PSU-Device-ID-Type: IMEI' \
+--header 'PSU-Device-ID: 43437437347347' \
+--header 'PSU-IP-Address: 333' \
+--header 'Consent-ID: qwer3456tzui7890' \
+--header 'Authorization: Basic QVpFUkFaMjBBWFhYOjE='
+```
+
+{% hint style="danger" %}
+Although these code generators are probably helpful, they may or may not work for your API. Always review code samples with developers. In most cases, developers supply the code samples for the documentation, and technical writers briefly comment on the code samples.
+{% endhint %}
+
+{% hint style="info" %}
+Postman, cURL, API doc platformaları (SwaggerHub, ReDoc və s) üzrə ayrıca mövzularımız olacaqdır.
+{% endhint %}
+
+### Request example for the surfreport endpoint <a href="#request-example-for-the-surfreport-endpoint" id="request-example-for-the-surfreport-endpoint"></a>
+
+> Let’s return to the `surfreport/{beachId}` endpoint in our [sample scenario](https://idratherbewriting.com/learnapidoc/docapis\_new\_endpoint\_to\_doc.html) and create a request example for it. Here’s my approach:
+>
+> İndi isə bizə verilən taska qayıdaq və&#x20;
+
+{% hint style="info" %}
+### <mark style="color:blue;">**Sorğu nümunəsi**</mark>
+
+```javascript
+curl --location --request GET 'http://obank-test.example.az:50000/api/obis/v1.0/accounts/AZ83MOSZ00000000000019988155/balances' \
+--header 'Sender-Participant-Code: AZERAZ20' \
+--header 'Receiver-Participant-Code: MOSZAZ20' \
+--header 'PSU-Device-ID-Type: IMEI' \
+--header 'PSU-Device-ID: 43437437347347' \
+--header 'PSU-IP-Address: 333' \
+--header 'Consent-ID: qwer3456tzui7890' \
+--header 'Authorization: Basic QVpFUkFaMjBBWFhYOjE='
+```
+
+(In the above code, replace `APIKEY` with your actual API key.)
+{% endhint %}
+
+
+
+
+
+
+
+\
