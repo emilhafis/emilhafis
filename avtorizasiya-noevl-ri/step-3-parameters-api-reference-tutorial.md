@@ -44,7 +44,7 @@ Parameter-ləri hansı formada verməyinizdən asılı olarmayaraq tövsiyyə ed
 
 > REST API-nin qeyd etdiyimiz kimi bir neçə parameter növü vardır:
 >
-> * **Header parameter:** Request header-ə əlavə olunan dəyərlərdir və adətən avtorizasiya ilə əlaqəli olur. Bundan əvvəlki API təhlükəsizlik mövzusunda buna istinad etmişdik.
+> * **Header parameter:** Request header-ə əlavə olunan dəyərlərdir və adətən avtorizasiya/autentifikasiya ilə əlaqəli olur. Bundan əvvəlki API təhlükəsizlik mövzusunda buna istinad etmişdik.
 > * **Path parameter:** Endpoint daxilində query string **(?)** işarəsindən əvvəl gələn dəyərlərdir. Adətən fiqurlu mötərizə **({})** ilə göstərirlər.
 > * **Query string parameter:** Endpoint-in query string dəyərləridir. !uery string **(?)** işarəsindən sonra gəlir.
 >
@@ -234,12 +234,42 @@ Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdi
 >
 > Biz burdan [Parameter növlərini ](step-3-parameters-api-reference-tutorial.md#parameter-noevl-ri)təyin etməliyik.
 >
-> Bu mövzuda öyrəndik ki, _**Path parameteri** Endpoint daxilində query string **(?)** işarəsindən əvvəl gəlir və adətən fiqurlu mötərizə <mark style="color:orange;">**({})**</mark> ilə göstərilir._ Deməli burada __ <mark style="color:orange;">{AccountId</mark>} Path parametridir.
+> Bu mövzuda öyrəndik ki, _**Path parameteri** Endpoint daxilində query string **(?)** işarəsindən əvvəl gəlir və adətən fiqurlu mötərizə <mark style="color:orange;">**({})**</mark> ilə göstərilir._ Deməli burada __ <mark style="color:orange;">{AccountId}</mark> Path parametridir.
 >
 > _**Query string parameteri isə** Endpointdə query string **(?)** işarəsindən sonra gələn parametrlər olur. Bu endpoint-də isə elə dəyərlər yoxdur._ Demək burada **Query string parameterləri** iştirak etmir.
 >
 > Deməli, digər parametrlər **Header parametrləridir.**
 
+{% tabs %}
+{% tab title="First Tab" %}
+### <mark style="color:blue;">**Parameter-lər**</mark>
+
+<mark style="color:blue;">**Path parameter-ləri**</mark>
+
+| Path parameter                                 | Description            |   |
+| ---------------------------------------------- | ---------------------- | - |
+| <mark style="color:orange;">{AccountId}</mark> | Account identification |   |
+
 {% hint style="info" %}
-###
+Path parametri qeyd etdiyimiz kimi hər zaman mandatory olur. O səbəbdən də burada filed-in mandatory və ya optional olmasını qeyd etməyə ehtiyac yoxdur
+{% endhint %}
+
+####
+
+#### <mark style="color:blue;">Header parameter-ləri</mark>
+
+| Query string parameter | Required / optional | Description |
+| ---------------------- | ------------------- | ----------- |
+|                        |                     |             |
+|                        |                     |             |
+|                        |                     |             |
+{% endtab %}
+
+{% tab title="Second Tab" %}
+<mark style="color:blue;"></mark>
+{% endtab %}
+{% endtabs %}
+
+{% hint style="info" %}
+### <mark style="color:blue;"></mark>
 {% endhint %}
