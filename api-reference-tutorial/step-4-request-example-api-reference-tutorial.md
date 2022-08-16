@@ -43,3 +43,15 @@ Bu formada dizaynı ilk dəfə Stripe gətirmişdir. Mənim bu dizayn çox xoşu
 > * curl shows the method used with the request.
 >
 > In general, use curl to show your sample request.&#x20;
+
+#### [Travelpayouts](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)
+
+{% hint style="info" %}
+nədir travel
+{% endhint %}
+
+![](../.gitbook/assets/travel-request\_example.PNG)
+
+```javascript
+https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c63416a24d3b969da6df9271faa9d6e
+```
