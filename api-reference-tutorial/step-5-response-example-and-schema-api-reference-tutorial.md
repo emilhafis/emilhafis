@@ -44,9 +44,19 @@ Həmçinin də, əmin olun ki, response məlumatlarının içərisində real mü
 
 ### Format the JSON and use code syntax highlighting <a href="#format-the-json-and-use-code-syntax-highlighting" id="format-the-json-and-use-code-syntax-highlighting"></a>
 
-> Use proper JSON formatting for the response. A tool such as [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) can make sure the spacing is correct.
 >
-> If you can add syntax highlighting as well, definitely do it. If you’re using a static site generator such as [Jekyll](https://idratherbewriting.com/learnapidoc/pubapis\_jekyll.html) or markdown syntax with [GitHub](https://idratherbewriting.com/learnapidoc/pubapis\_github\_wikis.html), you can probably use the [Rouge](https://github.com/jneen/rouge) built-in syntax highlighter. Other static site generators might use [Pygments](http://pygments.org/) or similar extensions.
+>
+> Qeyd etdiyimiz kimi, Response JSON formatında olur. Ona görə də, response nümunəsi hazırlayarkən [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) istifadə edib cavabı səqliəli formada göstərin.
+>
+> Əgər "syntax highlighting" istifadə edə bilirsəniz mütləq edin.&#x20;
+
+{% hint style="info" %}
+Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, GitBook vəs.) haqqında danışacağıq. Orada görəcəksiniz ki, syntax highlighting hansı fromada olur.
+{% endhint %}
+
+
+
+> If you can add  as well, definitely do it. If you’re using a static site generator such as [Jekyll](https://idratherbewriting.com/learnapidoc/pubapis\_jekyll.html) or markdown syntax with [GitHub](https://idratherbewriting.com/learnapidoc/pubapis\_github\_wikis.html), you can probably use the [Rouge](https://github.com/jneen/rouge) built-in syntax highlighter. Other static site generators might use [Pygments](http://pygments.org/) or similar extensions.
 >
 > Rouge and Pygments rely on “lexers” to indicate how the code should be highlighted. For example, some common lexers are `java`, `json`, `html`, `xml`, `cpp`, `dotnet`, and `javascript`.
 >
