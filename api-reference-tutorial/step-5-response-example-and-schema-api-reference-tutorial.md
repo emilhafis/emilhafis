@@ -92,6 +92,54 @@ Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, 
 
 > [Sample API senarisində](a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) göstərdiyimiz  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq. Aşağıda yanaşmamaı qeyd etmişəm.
 
+{% hint style="info" %}
+### Sample response
+
+The following is a sample response from the `surfreport/{beachId}` endpoint:
+
+
+
+```json
+{
+    "surfreport": [
+        {
+            "beach": "Santa Cruz",
+            "monday": {
+                "1pm": {
+                    "tide": 5,
+                    "wind": 15,
+                    "watertemp": 80,
+                    "surfheight": 5,
+                    "recommendation": "Go surfing!"
+                },
+                "2pm": {
+                    "tide": -1,
+                    "wind": 1,
+                    "watertemp": 50,
+                    "surfheight": 3,
+                    "recommendation": "Surfing conditions are okay, not great."
+                },
+                "3pm": {
+                    "tide": -1,
+                    "wind": 10,
+                    "watertemp": 65,
+                    "surfheight": 1,
+                    "recommendation": "Not a good day for surfing."
+                }
+                ...
+            }
+        }
+    ]
+}
+```
+
+#### Response definitions
+
+The following table describes each item in the response.
+
+
+{% endhint %}
+
 \
 
 
