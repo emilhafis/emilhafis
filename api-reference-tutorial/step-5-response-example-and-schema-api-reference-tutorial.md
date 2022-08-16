@@ -76,4 +76,22 @@ Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, 
 
 
 
+### Three-column designs
+
+> Some APIs put the response in a right column so you can see it while also looking at the resource description and parameters. Stripe’s API made this three-column design popular:
+
+> Stripe’s design juxtaposes the sample response in a right side pane with the response schema in the main window. The idea is that you can see both at the same time. The description won’t always line up with the response, which might be confusing. Still, separating the response example from the response schema in separate columns helps differentiate the two.
+>
+> A lot of APIs have modeled their design after Stripe’s. For example, see [Slate](https://github.com/tripit/slate) or [Spectacle](https://github.com/sourcey/spectacle). Should you use a three-column layout with your API documentation? Maybe. But if the response example and description don’t line up, the viewer’s focus is somewhat split, and the user must resort to more up-and-down scrolling. Additionally, if your layout uses three columns, your middle column will have some narrow constraints that don’t leave much room for screenshots and code examples.
+
+### What about status codes?
+
+> Response bölməsində bir çox hallarda mümkün statusu və qaytarılan xəta kodlarını göstərilir. Bununla belə, bu kodlar adətən API-nin bütün son nöqtələrinə aid olduğu üçün çox vaxt ayrıca bölmələrdə sənədləşdirilir. Bu səbəbdən də, bunları ayrıca mövzuda müzakirə edəcyik.
+
+\
+
+
+\
+
+
 \
