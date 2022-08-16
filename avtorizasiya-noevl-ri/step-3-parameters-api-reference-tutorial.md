@@ -211,3 +211,35 @@ Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdi
 >
 > eBay-in [findItemsByProduct](https://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html)  resursuna nəzər salın. Burada request body göstərilmişdir (bu keysdə format XML-dir):
 
+### Parameters for the surfreport endpoint <a href="#parameters-for-the-surfreport-endpoint" id="parameters-for-the-surfreport-endpoint"></a>
+
+### Get account balance üçün parameterlər
+
+> Bizə t[əqdim olunan məlumatlarda](../api-reference-tutorial/a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) parametr-lər üzrə yalnız bu məlumatlar qeyd edilmişdir.
+>
+> Mandatory parameter-lər:
+>
+> * AccountId:&#x20;
+> * Receiver-Participant-Code:&#x20;
+> * PSU-Device-ID-Type:&#x20;
+> * PSU-Device-ID
+> * PSU-IP-Address
+> * Consent-ID
+>
+> Optional parameter-lər.
+>
+> * Sender-Participant-Code
+>
+> Bundan əlavə olaraq, həm də bilirik ki, endpointimiz bu formadadır -  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances.
+>
+> Biz burdan [Parameter növlərini ](step-3-parameters-api-reference-tutorial.md#parameter-noevl-ri)təyin etməliyik.
+>
+> Bu mövzuda öyrəndik ki, _**Path parameteri** Endpoint daxilində query string **(?)** işarəsindən əvvəl gəlir və adətən fiqurlu mötərizə <mark style="color:orange;">**({})**</mark> ilə göstərilir._ Deməli burada __ <mark style="color:orange;">{AccountId</mark>} Path parametridir.
+>
+> _**Query string parameteri isə** Endpointdə query string **(?)** işarəsindən sonra gələn parametrlər olur. Bu endpoint-də isə elə dəyərlər yoxdur._ Demək burada **Query string parameterləri** iştirak etmir.
+>
+> Deməli, digər parametrlər **Header parametrləridir.**
+
+{% hint style="info" %}
+###
+{% endhint %}

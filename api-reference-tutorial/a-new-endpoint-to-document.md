@@ -40,6 +40,65 @@ Sizə həmin mövzunu göndərəcəm, əgər tələbat çox olarsa online olaraq
 
 ### The wiki page: "Get account balance API"
 
+{% hint style="info" %}
+### <mark style="color:blue;">Get account balance API</mark>
+
+Yeni Endpointimiz budur   /accounts/{AccountId}/balances. Bu endpoint 3-cü tərəf təşkilatlar və ya banklar üçün nəzərdə tutulmuşdur. {AccountId} həmin hesab üzrə balansı qaytarır.
+
+Mandatory parameter-lər:
+
+* AccountId:&#x20;
+* Receiver-Participant-Code:&#x20;
+* PSU-Device-ID-Type:&#x20;
+* PSU-Device-ID
+* PSU-IP-Address
+* Consent-ID
+
+Optional parameter-lər.
+
+* Sender-Participant-Code
+
+The response-a  will include the surf height, the wind, temp, the tide, and overall recommendation.
+
+Sample endpoint with parameters:
+
+```
+https://api.openweathermap.org/com/surfreport/123?&days=2&units=metrics&hour=1400
+```
+{% endhint %}
+
+{% hint style="info" %}
+<pre><code>{
+<strong>  "Data": {
+</strong>    "Balance": [
+      {
+        "AccountId": "AZ29VTBA00000000000160209170",
+       "Amount": {
+          "Amount": "1230.00",
+          "Currency": "AZN"
+        },
+        "CreditDebitIndicator": "Credit",
+        "Type": "InterimAvailable",
+        "DateTime": "2017-04-05T10:43:07+00:00",
+        "CreditLine": [
+          {
+            "Included": true,
+            "Amount": {
+              "Amount": "1000.00",
+              "Currency": "AZN"
+            },
+            "Type": "Pre-Agreed"
+          }
+        ]
+      }
+    ]
+  },
+  "Links": {
+    "Self": {"href": "/accounts/22289/balances"}
+  }
+}</code></pre>
+{% endhint %}
+
 >
 >
 > Yeni Endpointimiz budur   /accounts/{AccountId}/balances. Bu endpoint 3-cü tərəf təşkilatlar və ya banklar üçün nəzərdə tutulmuşdur. {AccountId} həmin hesab üzrə balansı qaytarır.
