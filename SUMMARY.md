@@ -15,6 +15,7 @@
 * [Keep verbs out of URLs](avtorizasiya-noevl-ri/keep-verbs-out-of-urls.md)
 * [Basic Auth](avtorizasiya-noevl-ri/basic-auth.md)
 * [HMAC](avtorizasiya-noevl-ri/hmac.md)
+* [A new endpoint to document](avtorizasiya-noevl-ri/a-new-endpoint-to-document.md)
 * [Step 1: Resource description (API reference tutorial)](avtorizasiya-noevl-ri/step-1-resource-description-api-reference-tutorial.md)
 * [Step 2: Endpoints and methods (API reference tutorial)](avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
 * [Step 3: Parameters (API reference tutorial)](avtorizasiya-noevl-ri/step-3-parameters-api-reference-tutorial.md)
