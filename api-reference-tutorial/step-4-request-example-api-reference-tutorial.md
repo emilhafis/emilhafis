@@ -145,7 +145,7 @@ Postman, cURL, API doc platformaları (SwaggerHub, ReDoc və s) üzrə ayrıca m
 
 > Let’s return to the `surfreport/{beachId}` endpoint in our [sample scenario](https://idratherbewriting.com/learnapidoc/docapis\_new\_endpoint\_to\_doc.html) and create a request example for it. Here’s my approach:
 >
-> İndi isə bizə verilən taska qayıdaq və&#x20;
+> İndi isə [bizə verilən taska](a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) qayıdaq və `/accounts/`<mark style="color:orange;">`{AccountId}/`</mark>`balances` endpointi üçün sorğu nümunəsi hazrılayaq.&#x20;
 
 {% hint style="info" %}
 ### <mark style="color:blue;">**Sorğu nümunəsi**</mark>
@@ -163,6 +163,13 @@ curl --location --request GET 'http://obank-test.example.az:50000/api/obis/v1.0/
 
 (In the above code, replace `APIKEY` with your actual API key.)
 {% endhint %}
+
+### Növbəti addım
+
+> Now that we’ve created a sample request, the next steps naturally follow — include a sample response that corresponds with the same request. We’ll also document the model or schema of the response in general. Go to [Step 5: Response example and schema (API reference tutorial)](https://idratherbewriting.com/learnapidoc/docapis\_doc\_sample\_responses\_and\_schema.html).
+>
+> [\
+> ](https://www.buymeacoffee.com/learnapidoc)
 
 
 
