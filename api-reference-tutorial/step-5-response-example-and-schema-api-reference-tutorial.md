@@ -48,18 +48,32 @@ Həmçinin də, əmin olun ki, response məlumatlarının içərisində real mü
 >
 > Qeyd etdiyimiz kimi, Response JSON formatında olur. Ona görə də, response nümunəsi hazırlayarkən [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) istifadə edib cavabı səqliəli formada göstərin.
 >
-> Əgər "syntax highlighting" istifadə edə bilirsəniz mütləq edin.&#x20;
+> Əgər "syntax highlighting" istifadə edə bilirsəniz mütləq edin. Səliqəli və  "syntax highlighting"  istifadə edilmiş cavab nümunəsini aşağıda göstərirəm.
+
+```javascript
+{
+"id": 10,
+"name": "doggie",
+"category": {
+"id": 1,
+"name": "Dogs"
+},
+"photoUrls": [
+"string"
+],
+"tags": [
+{}
+],
+"status": "available"
+}
+```
+
+> If you don’t have any syntax highlighters to integrate directly into your authoring tool, you can use an online syntax highlighter such as [tohtml.com/jScript/](https://tohtml.com/jScript/). However, manually pasting code into these editors will be tedious and probably unsustainable.
 
 {% hint style="info" %}
 Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, GitBook vəs.) haqqında danışacağıq. Orada görəcəksiniz ki, syntax highlighting hansı fromada olur.
 {% endhint %}
 
 
-
-> If you can add  as well, definitely do it. If you’re using a static site generator such as [Jekyll](https://idratherbewriting.com/learnapidoc/pubapis\_jekyll.html) or markdown syntax with [GitHub](https://idratherbewriting.com/learnapidoc/pubapis\_github\_wikis.html), you can probably use the [Rouge](https://github.com/jneen/rouge) built-in syntax highlighter. Other static site generators might use [Pygments](http://pygments.org/) or similar extensions.
->
-> Rouge and Pygments rely on “lexers” to indicate how the code should be highlighted. For example, some common lexers are `java`, `json`, `html`, `xml`, `cpp`, `dotnet`, and `javascript`.
->
-> If you don’t have any syntax highlighters to integrate directly into your authoring tool, you can use an online syntax highlighter such as [tohtml.com/jScript/](https://tohtml.com/jScript/). However, manually pasting code into these editors will be tedious and probably unsustainable.
 
 \
