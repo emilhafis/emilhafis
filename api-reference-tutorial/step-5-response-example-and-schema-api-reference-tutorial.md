@@ -18,8 +18,37 @@
 
 ![](../.gitbook/assets/mailchimp\_response\_sample.png)
 
-> Aşağıdakı şəkildən göründüyü kimi burada qayıdan cavabda JSON fieldlərin hamsı eyni səviyyəli deyil. Yəni `recepients` obyektinin daxilində bir neçə obyekt yer alır. Qeyd etdiyimiz kimi buna `nested object` deyilir. mailchimp rahat başa düşülə bilinməsi üçün `recepients`  obeyktinin altındakı field-ləri əlaqəli şəkildə göstərmişdir.
+> Aşağıdakı şəkildən göründüyü kimi burada qayıdan cavabda JSON fieldlərin hamsı eyni səviyyəli deyil. Yəni `recepients` obyektinin daxilində bir neçə obyekt yer alır. Qeyd etdiyimiz kimi buna `nested object` deyilir. mailchimp rahat başa düşülə bilinməsi üçün `recepients`  obeyktinin altındakı field-ləri əlaqəli şəkildə "expand" formasında göstərmişdir.
 
 ![](../.gitbook/assets/mailchim\_nested\_object.png)
+
+> The definition of the response is called the _schema_ or _model_ (the terms are used synonymously) and aligns with the [JSON schema language and descriptions](https://json-schema.org/). What works particularly well with the SendGrid example is the use of expand/collapse tags to mirror the same structure as the example, with objects at different levels.
+>
+>
+
+### Do you need to define the response? <a href="#do-you-need-to-define-the-response" id="do-you-need-to-define-the-response"></a>
+
+> Some API documentation omits the response schema because the responses might seem self-evident or intuitive. In Twitter’s API, the responses aren’t explained (you can see an [example here](https://developer.twitter.com/en/docs/accounts-and-users/manage-account-settings/api-reference/get-account-settings))
+>
+> However, most documentation would be better off with the response described, especially if the properties are abbreviated or cryptic. Developers sometimes abbreviate the responses to increase performance by reducing the amount of text sent. In one endpoint I documented, the response included about 20 different two-letter abbreviations. I spent days tracking down what each abbreviation meant, and found that many developers who worked on the API didn’t even know what many of the responses meant.
+
+### Use realistic values in the example response <a href="#use-realistic-values-in-the-example-response" id="use-realistic-values-in-the-example-response"></a>
+
+> In the example response, the values should be realistic without being real. If developers give you a sample response, make sure the values are reasonable and not so fake they’re distracting (such as users consisting of comic book character names).
+>
+> Also, the sample response should not contain real customer data. If you get a sample response from an engineer, and the data looks real, make sure it’s not just from a cloned production database, which is commonly done. Developers may not realize that the data needs to be fictitious but representative, and scraping a production database may be the easiest approach for them.
+>
+> \
+>
+
+### Format the JSON and use code syntax highlighting <a href="#format-the-json-and-use-code-syntax-highlighting" id="format-the-json-and-use-code-syntax-highlighting"></a>
+
+> Use proper JSON formatting for the response. A tool such as [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) can make sure the spacing is correct.
+>
+> If you can add syntax highlighting as well, definitely do it. If you’re using a static site generator such as [Jekyll](https://idratherbewriting.com/learnapidoc/pubapis\_jekyll.html) or markdown syntax with [GitHub](https://idratherbewriting.com/learnapidoc/pubapis\_github\_wikis.html), you can probably use the [Rouge](https://github.com/jneen/rouge) built-in syntax highlighter. Other static site generators might use [Pygments](http://pygments.org/) or similar extensions.
+>
+> Rouge and Pygments rely on “lexers” to indicate how the code should be highlighted. For example, some common lexers are `java`, `json`, `html`, `xml`, `cpp`, `dotnet`, and `javascript`.
+>
+> If you don’t have any syntax highlighters to integrate directly into your authoring tool, you can use an online syntax highlighter such as [tohtml.com/jScript/](https://tohtml.com/jScript/). However, manually pasting code into these editors will be tedious and probably unsustainable.
 
 \
