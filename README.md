@@ -21,8 +21,8 @@ Bu sualları cavablandırmağa çalışacam.
 * **Avtorizasiya növləri:**
   * [Overview](giris.md):
   * [API Key](avtorizasiya-noevl-ri/api-key.md)
-  * [Basic Auth](avtorizasiya-noevl-ri/basic-auth.md)
-  * [HMAC](avtorizasiya-noevl-ri/hmac.md)
+  * [Basic Auth](broken-reference)
+  * [HMAC](broken-reference)
 * **OAuth:**
   * [Overview](broken-reference):
   * [Access/Refresh Token](broken-reference)

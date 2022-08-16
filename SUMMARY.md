@@ -13,9 +13,6 @@
 * [Resources](avtorizasiya-noevl-ri/resources.md)
 * [Use HTTP verbs for CRUD operations](avtorizasiya-noevl-ri/use-http-verbs-for-crud-operations.md)
 * [Keep verbs out of URLs](avtorizasiya-noevl-ri/keep-verbs-out-of-urls.md)
-* [Basic Auth](avtorizasiya-noevl-ri/basic-auth.md)
-* [HMAC](avtorizasiya-noevl-ri/hmac.md)
-* [Page 1](avtorizasiya-noevl-ri/page-1.md)
 
 ## API Reference Tutorial
 
