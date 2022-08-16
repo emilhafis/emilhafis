@@ -1,10 +1,8 @@
 # Step 2: Endpoints and methods (API reference tutorial)
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+|                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |   |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
+| <mark style="color:blue;">**Resursun təsviri**</mark> | <p><mark style="color:orange;"></mark><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:orange;"><strong>Endpoint</strong></mark> </a><mark style="color:orange;"></mark></p><p><mark style="color:orange;"></mark><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:orange;"><strong>və metodlar</strong></mark> </a><mark style="color:orange;"><strong></strong></mark></p> |   |
 
 ### Endpoint və metod nədir?
 
@@ -92,6 +90,14 @@ If you can, put the path parameter in another color to set it off:
 
 > Since there’s not much to say about the method itself, it makes sense to group the method with the endpoint. Here’s an example from the Box API:
 
+#### Endpointimiz üzrə metodu təyin edək
+
+> Məlumatlarda qeyd edildiyi kimi, 3-cü tərəf təşkilatlar banklardan hesab üzrə balansları əldə edəcəklər. Məlumatın əldə edilməsi üçündə **GET** metodundan istifadə edilir.
+
+{% hint style="success" %}
+Endpointimiz üçün metod - <mark style="color:blue;">**GET**</mark>
+{% endhint %}
+
 #### [Stripe API](https://stripe.com/docs/api/customer\_bank\_accounts)
 
 ![](../.gitbook/assets/Stripe.PNG)
@@ -142,6 +148,15 @@ Bu səbəbdəndə, hər dəfə Endpoint yazarkən full resurs URL göstərməyin
 ### Endpoint for surfreport API <a href="#endpoint-for-surfreport-api" id="endpoint-for-surfreport-api"></a>
 
 > Let’s create the Endpoints and methods section for our [fictitious surfreport API](https://idratherbewriting.com/learnapidoc/docapis\_new\_endpoint\_to\_doc.html). Here’s my approach:
->
-> \
->
+
+{% hint style="success" %}
+<mark style="color:green;">**Endpoint**</mark>
+
+<mark style="color:blue;">**GET**</mark>**   /accounts/**<mark style="color:orange;">**{AccountId}/**</mark>**balances**
+
+**Hesab üzrə balansı əldə et (Request to get account balance)**
+{% endhint %}
+
+### Next step
+
+> Now that we’ve described the resource and listed the endpoints and methods, it’s time to tackle one of the most important parts of an API reference topic: the [parameters section](https://idratherbewriting.com/learnapidoc/docapis\_doc\_parameters.html).
