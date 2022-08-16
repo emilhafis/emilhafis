@@ -25,4 +25,4 @@
 * [Step 2: Endpoints and methods (API reference tutorial)](avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
 * [Step 3: Parameters (API reference tutorial)](avtorizasiya-noevl-ri/step-3-parameters-api-reference-tutorial.md)
 * [Step 4: Request example (API reference tutorial)](api-reference-tutorial/step-4-request-example-api-reference-tutorial.md)
-* [Page 2](api-reference-tutorial/page-2.md)
+* [Step 5: Response example and schema (API reference tutorial)](api-reference-tutorial/step-5-response-example-and-schema-api-reference-tutorial.md)
