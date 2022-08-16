@@ -88,6 +88,13 @@ Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, 
 
 > Response bölməsində bir çox hallarda mümkün statusu və qaytarılan xəta kodlarını göstərilir. Bununla belə, bu kodlar adətən API-nin bütün son nöqtələrinə aid olduğu üçün çox vaxt ayrıca bölmələrdə sənədləşdirilir. Bu səbəbdən də, bunları ayrıca mövzuda müzakirə edəcyik.
 
+### Response example and schema for the surfreport endpoint
+
+> [Sample API senarisində](a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) göstərdiyimiz  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq. Aşağıda yanaşmamaı qeyd etmişəm.
+
+\
+
+
 \
 
 
