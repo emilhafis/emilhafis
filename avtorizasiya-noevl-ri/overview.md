@@ -10,3 +10,19 @@
 {% hint style="info" %}
 **API Dizayn** dedikdə - API sənədləşməsi və "API-First approach" nəzərdə tutulur.
 {% endhint %}
+
+{% swagger method="get" path="" baseUrl="" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+{% endswagger %}
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+```
+// Some code
+```

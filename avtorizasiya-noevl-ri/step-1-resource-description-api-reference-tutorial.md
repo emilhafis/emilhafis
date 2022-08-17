@@ -1,24 +1,36 @@
+---
+description: Resource description
+---
+
 # Addım 1: Resursun təsviri
 
 
 
-| Step I ->                                                                                                                                                                                       | Step II ->                                                                                                                                                                                                                                                                                                                                                                            | Step III ->                                     | Step IV ->                                           | Step V                                                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <mark style="color:orange;">****</mark>[<mark style="color:orange;">**Resoursun təsviri**</mark>](step-1-resource-description-api-reference-tutorial.md)<mark style="color:orange;">****</mark> | <p><mark style="color:blue;"><strong></strong></mark><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:blue;"><strong>Endpoint</strong></mark> </a></p><p><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:blue;"><strong>və metodlar</strong></mark> </a><mark style="color:blue;"><strong></strong></mark></p> | <mark style="color:blue;">**Parameters**</mark> | <mark style="color:blue;">**Request example**</mark> | <p><mark style="color:blue;"><strong>Response</strong></mark> </p><p><mark style="color:blue;"><strong>example and</strong></mark> </p><p><mark style="color:blue;"><strong>schema</strong></mark></p> |
+![](../.gitbook/assets/resource.png)
 
-> “Resources” API-dan qayıdan məlumatlara deyilir. Bir çox API-larda müxtəlif kateqoriyalı məlumatlar cə ya müxtəlif resurslar qayıda bilər.
+> **Resurs** - API-dan qayıdan məlumatlara deyilir. Bir çox API-larda müxtəlif kateqoriyalı məlumatlar və ya müxtəlif resurslar qayıda bilər.
 >
-> Resursun təsviri qısa olur (1-3 cümləlik) və adətən feil ilə başlayır. Adətən resurslara giriş üçün resurslar üzrə müxxtəlif endpoint-lər olur və hər mir endpoint üzrə də bir neçə metodlarlar mövcud olur.&#x20;
+> API sənədləşməsində **Resursun təsviri** qısa olur (1-3 cümləlik). Adətən **resurslara** giriş üçün müxtəlif **endpoint**-lər olur və hər bir **endpoint** üzrə də bir neçə metodlar mövcud olur.&#x20;
 >
-> Adətən 1 səhifədə resurslara giriş üçün istifadə olunan enpoint-lər ümumi resursun təsviri ilə birgə göstərilir.&#x20;
+> Adətən 1-ci səhifədə resurslara giriş üçün istifadə olunan enpoint-lər ümumi resursun təsviri ilə birgə göstərilir.&#x20;
 
-### Examples of resource descriptions
+{% hint style="warning" %}
+Bilirəm qarışıq oldu. Narahat olmayın ind hamsını başa düşəcəksiniz.
+{% endhint %}
 
-> Aşağıda Mailchimp API’s [Campaigns resource](https://developer.mailchimp.com/documentation/mailchimp/reference/campaigns/) üzrə nümunə göstərilmişdir.
+### Resurs təsviri üzrə nümunə
+
+> Aşağıda [Mailchimp Campaigns resource API](https://developer.mailchimp.com/documentation/mailchimp/reference/campaigns/) üzrə nümunə göstərilmişdir.
 
 ![](<../.gitbook/assets/mailchimp (1).png>)
 
-> Adətən API-larda eyni resurs daxilində bir çox endpoint-lər olur. Bu senaridə ümumir resurs (Campaingns) və resurs üzrə endpoint-lər göstərilmişdir. Yəni Campaings resursu daxilində bir neçə enpoint vardır.
+{% hint style="info" %}
+Mailchim API - e-mail göndərmək üçün marketing platformasıdır.
+{% endhint %}
+
+> Adətən API-larda eyni **resurs** daxilində bir çox **endpoint**-lər olur. Bu senaridə ümumir resurs (**Campaingns**) və resurs üzrə **endpoint**-lər göstərilmişdir. Yəni **Campaings** resursu daxilində bir neçə enpoint vardır.
+>
+> Bir sözlə burada resurslar çox ola bilər, məsələn - komapniya (Campaigns) resursu, endirimlər resursu və s. Resurs bir platforma üzrə müxtəlif istqamətləri göstərir.
 
 {% code lineNumbers="true" %}
 ```javascript
@@ -42,9 +54,15 @@ POST /campaigns/{campaign_id}/actions/unschedule
 
 ![](../.gitbook/assets/youtube\_api.PNG)
 
+> ****[**YouTube**](https://developers.google.com/youtube/v3/docs/comments) üzrədə gördüyünüz kimi **Comment** resursun işarələmişəm. Bu resursla yanaşı sol tərəfdə YouTube üzrə bir neçə resurs vardır. Məsələn - **Memebers, Playlist** və s.
+>
+> **Comment** resursu üzrə də bir neçə metod (**list, insert, update** və s.) mövcuddur.
+
 #### [Trello](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-group-cards)
 
 ![](../.gitbook/assets/trello.PNG)
+
+> Digər nümunə isə [Trello](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-group-cards)-dur. Burada da gördüyünüz kimi sol tərəfdə bir çox resurslar mövcuddur. bizim seçdiyimiz resurs **Cards**-dır və onun üzrə aşağıdakı metdolar mövcuddur.
 
 ```java
 POST /1/cards
@@ -55,6 +73,10 @@ GET /1/cards/{id}/{field}
 GET /1/cards/{id}/actions
 və digərləri
 ```
+
+{% hint style="info" %}
+**Trello** - Task management sistemidir. Təqdim etdiyi API-ları öz platformanıza inteqrasiya edib task management-i birbaşa oradan idarə edə bilərsiniz.
+{% endhint %}
 
 >
 >
