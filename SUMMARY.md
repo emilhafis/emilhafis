@@ -12,8 +12,8 @@
 
 ## API Dizayn
 
-* [API Dizayn](api-dizayn/api-dizayn.md)
-* [Endpoint Dizayn](api-dizayn/endpoint-dizayn.md)
+* [API dizayn](api-dizayn/api-dizayn.md)
+* [Endpoint dizayn](api-reference-tutorial/a-new-endpoint-to-document.md)
 * [API reference tutorial overview](api-reference-tutorial/api-reference-tutorial-overview.md)
 * [Addım 1: Resursun təsviri](avtorizasiya-noevl-ri/step-1-resource-description-api-reference-tutorial.md)
 * [Step 2: Endpoints and methods (API reference tutorial)](avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)

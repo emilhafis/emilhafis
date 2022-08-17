@@ -1,38 +1,28 @@
-# Endpoint Dizayn
+# Endpoint dizayn
 
->
+### Yeni Endpointin sənədləşdirilməsi
 
-{% hint style="warning" %}
-Əgər qeyd etdiklərim üzrə məlumatınız yoxdursa, Linkedin postunun rəy bölməsində "API-lara proqramçı baxışı" adlı mövzunu məndən istəyin. Mövzu API nədir, API-dan necə istifadə edirlər və s. bölmələri əhatə edir. Real nümunələr ilə başa düşürsünüzki proqramçılar API-lardan necə istifadə edirlər.
-
-Sizə həmin mövzunu göndərəcəm, əgər tələbat çox olarsa online olaraqda görüş keçirərik.
-{% endhint %}
-
-> Gəlin indi güman edək ki, siz Tech Writer-siz və Payment team ilə işləyirsiniz. Komandanız sizə bildirir ki, yeni API var onu sənədləşdirmək lazımdır. Bunun üçün nələr etməlisiniz, ümumiyyətlə məsələyə necə yanaşmalısınız?&#x20;
-
-### You have a new endpoint to document
-
-> The project manager calls you over and says the team has a new endpoint for you to document for the next release. (Sometimes teams will also refer to each endpoint as an “API” as well.)
-
-> Qeyd etdiyimiz kimi, Layihə meneceri /Product Owner sizə bildiri ki, növbəti reliz üçün yeni endpoint hazırlanıb onu sənədləşdirmək lazımdır. Yəni, sizin bu&#x20;
+> Qeyd etdiyimiz kimi, Layihə meneceri / Product Owner sizə bildirir ki, növbəti reliz üçün yeni **endpoint** hazırlanıb onu sənədləşdirmək lazımdır.&#x20;
 
 {% hint style="info" %}
-Çox vaxt, endpoint yerinə API-da deyilir. Yeni API hazırlanıb.
+Çox vaxt, **endpoint** yerinə **API**-da deyilir.
 {% endhint %}
 
 > Və sizə detalları əks etdirən məlumatları təqdim edirlər. Buradakı məlumatlar dağınıq formada və nizamsız düzülüşdədir.
 >
-> Bir çox tech writer-lər layihə üzrə sıfırdan sənədləşmələri etmirlər. Arxitektlər adətən vacib məlumatları özləri üçün note götürürlər və ya görüşlər zamanı uzun uzadı müzakriələr nəticəsində lazımı məlumatları alırlar.
+> Bir çox **Tech writer**-lər layihə üzrə sıfırdan sənədləşmələri etmirlər. Arxitektlər adətən vacib məlumatları özləri üçün qeyd götürürlər və ya görüşlər zamanı uzun uzadı müzakriələr nəticəsində lazımı məlumatları alırlar və sonda özləridə bir çox məlumatları sənədləşmələrə əlavə edirlər. Bu məlumatlarda çox vaxt tam olmur və bu səbəbdən də **development** zamanı <mark style="color:red;">problemlər çox olur</mark>.&#x20;
 >
-> note-lar və ya görüşlər zamanı alınmış məlumatlar çox vaxt tam olmur və bu səbəbdəndə development zamanı problemlər çox olur.&#x20;
+> Yekunda hazırlanmış məlumatlar dağınıq olur, dərhal başa düşmək olmur və ya həssas daxili məsələlər (məsələn, database scheme, test login və s) sənədləşmələrin tərkbində yer alır.
 >
-> Təqdim edilmiş məlumatlar isə dağınıq, dərhal başa düşmək olmur və ya daxili məsələlər (məsələn, database scheme, test login və s) olur.
+> Nəticədə, bu məlumatları bu layihədə iştirak etməyən proqramçılara yönlədirmək lazım olur və bu proqramçılarda nəyə necə başlayacaqlarını bilmirlər.
 >
-> Nəticədə, bu məlumatları bu layihədə iştirak etməyən proqramçılara yönlədirmək lazım olacaqdır. Tech writer kimi bizim işimiz həmin məlumatları auditoriyamıza tam, dəqiq, səliqəli və faydalı məlumat kimi çatdırmaq olacaqıdr. Artıq bu məlumatlarla işləyən proqramçıların devleopent zamanı artıq heç bir sualları qalmayacaqdırş.
+> **Tech writer** kimi bizim işimiz həmin məlumatları auditoriyamıza tam, dəqiq, səliqəli və faydalı məlumat kimi çatdırmaqdan ibratədir.&#x20;
 
-### Wiki page with information about the new endpoint
+### Yeni Endpoint üzrə məlumatlar
 
-> İndi sizin vəzifəniz bu mock wiki səhifəsindəki məlumatları çeşidləmək və ondan sənədləşmə hazırlamaqdır. Buna qədər API tələblərin artıq digər Tech writer hazırlayıb, bizim taskımız sadəcə sənədləşmədir. Növbəti mövzularımızda artıq sıfırdan API tələblərində özümüz hazırlayacağıq.&#x20;
+> Təsəvvür edək ki, bizə aşağıdakı kimi məlumatları təqdim ediblər.
+>
+> Bizim vəzifəmiz həmin məlumatları çeşidləmək və ondan sənədləşmə hazırlamaqdır. Buna qədər API tələblərin artıq digər Tech writer hazırlayıb, bizim taskımız sadəcə sənədləşmədir. Növbəti mövzularımızda artıq sıfırdan API tələblərində özümüz hazırlayacağıq.&#x20;
 >
 > Məlumatları başa düşmək üçün aşağıdakı wiki səhifəsinə baxın. Növbəti mərhələlərdə APı refrence topic vasitəsilə hissə hissə necə sənədləşmə lazımdırsa onu öyrənəcəyik.
 >

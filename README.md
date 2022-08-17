@@ -11,6 +11,8 @@ coverY: 0
 >
 > Sizə həmin mövzunu göndərəcəm, əgər tələbat çox olarsa online olaraqda görüş keçirərik.
 
+> Open banking məlumatları və burdakı vəzifəmiz api yaratmaq deyil o sonranın işidir
+
 > * **API təhlükəsizliyi** nə deməkdir?&#x20;
 > * **API Dizayn** edərkən **Tech Writer** nəyə fikir verməlidir?
 > * Hansı **avtorizasiya növündən** istifadə olunmalıdır?

@@ -215,7 +215,7 @@ Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdi
 
 ### Get account balance üçün parameterlər
 
-> Bizə t[əqdim olunan məlumatlarda](../api-dizayn/endpoint-dizayn.md#the-wiki-page-get-account-balance-api) parametr-lər üzrə yalnız bu məlumatlar qeyd edilmişdir.
+> Bizə t[əqdim olunan məlumatlarda](../api-reference-tutorial/a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) parametr-lər üzrə yalnız bu məlumatlar qeyd edilmişdir.
 >
 > Mandatory parameter-lər:
 >
