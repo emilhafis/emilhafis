@@ -145,7 +145,7 @@ Postman, cURL, API doc platformaları (SwaggerHub, ReDoc və s) üzrə ayrıca m
 
 > Let’s return to the `surfreport/{beachId}` endpoint in our [sample scenario](https://idratherbewriting.com/learnapidoc/docapis\_new\_endpoint\_to\_doc.html) and create a request example for it. Here’s my approach:
 >
-> İndi isə [bizə verilən taska](a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) qayıdaq və `/accounts/`<mark style="color:orange;">`{AccountId}/`</mark>`balances` endpointi üçün sorğu nümunəsi hazrılayaq.&#x20;
+> İndi isə [bizə verilən taska](../api-dizayn/endpoint-dizayn.md#the-wiki-page-get-account-balance-api) qayıdaq və `/accounts/`<mark style="color:orange;">`{AccountId}/`</mark>`balances` endpointi üçün sorğu nümunəsi hazrılayaq.&#x20;
 
 {% hint style="info" %}
 ### <mark style="color:blue;">**Sorğu nümunəsi**</mark>

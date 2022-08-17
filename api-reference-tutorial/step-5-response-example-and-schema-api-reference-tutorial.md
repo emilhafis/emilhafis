@@ -90,7 +90,7 @@ Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, 
 
 ### Response example and schema for the surfreport endpoint
 
-> [Sample API senarisində](a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) göstərdiyimiz  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq. Aşağıda yanaşmamaı qeyd etmişəm.
+> [Sample API senarisində](../api-dizayn/endpoint-dizayn.md#the-wiki-page-get-account-balance-api) göstərdiyimiz  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq. Aşağıda yanaşmamaı qeyd etmişəm.
 
 {% hint style="info" %}
 ### Sample response

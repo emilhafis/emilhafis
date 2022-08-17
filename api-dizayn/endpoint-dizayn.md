@@ -1,4 +1,4 @@
-# A new endpoint to document
+# Endpoint Dizayn
 
 > Bu mövzunu API-dan azda olsa məlumatlı olan şəxslər üçün nəzərdə tutumuşam. Yəni onlar API nədir, proqramçılar ondan necə istifadə edirlər artıq onu bilirlər.
 
