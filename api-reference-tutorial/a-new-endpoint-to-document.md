@@ -1,3 +1,7 @@
+---
+description: Qəbul etdiyimiz tapşırıq nümunəsi
+---
+
 # Endpoint dizayn
 
 ### Yeni Endpointin sənədləşdirilməsi
@@ -85,15 +89,8 @@ CreditLine
 >
 > 1 . Məlumatları tam dəqiqləşdirmək
 >
-> 2\. Məlumatları API best practice-ə uyğunstrukturlaşdırmaq&#x20;
->
-> API reference məlumatını beş standart bölmədə strukturlaşdırmaqla, məlumat daha çox forma alacaq və daha oxunaqlı olacaq.
+> 2\. Məlumatları API best practice-ə uyğun strukturlaşdırmaq&#x20;
 
-###
+### Növbəti addım
 
-
-
-\
-
-
-\
+> Növbəti [bölmədə](api-reference-tutorial-overview.md) API üzrə qeyd etdiyimiz 5 əsas hissə ilə tanış olacağıq.&#x20;
