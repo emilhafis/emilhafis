@@ -82,7 +82,7 @@ və digərləri
 Resursun təsviri çox vacibdir və ondan müxtəlif yerlərdə istifadə edəcəksiniz. Bu səbəbdən də onu hazırlayarkən elə edin ki, qısa olsun və resursun mahiyyətin mümkün qədər aydın göstərsin.&#x20;
 {% endhint %}
 
-### Recognize the difference between reference docs versus user guides <a href="#recognize-the-difference-between-reference-docs-versus-user-guides" id="recognize-the-difference-between-reference-docs-versus-user-guides"></a>
+### API Referens sənədi (Reference docs) və istifadəçi bələdçisi (User guides) arasındakı fərqlər <a href="#recognize-the-difference-between-reference-docs-versus-user-guides" id="recognize-the-difference-between-reference-docs-versus-user-guides"></a>
 
 > Resursun təsviri (həmçinin də endpoint təsviri) adətən qısa olur və 1-3 cümlə ilə göstərilir. Bəs 3 cümlə ilə bütün fikri tam izah edə bilməyəndə və daha çox detalların əlavə edilməsi lazım olanda nə edə bilərik? Belə olduqda bilinki, bunun üçün user guide-lar/tutorial-lar mövcuddur. Gəlin Reference sənədləşməsi ilə user guides/tutorials arasında nə fərqlər var baxaq.
 >
