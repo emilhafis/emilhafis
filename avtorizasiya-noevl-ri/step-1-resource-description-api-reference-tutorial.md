@@ -94,19 +94,17 @@ Resursun təsviri çox vacibdir və ondan müxtəlif yerlərdə istifadə edəc�
 > **API refrens bölməsinin təsvirində** resursun ehtiva etdiyi məlumatlar üzrə 1-3 cümləlik xülasisəni təqdim edib, **istifadəçi bələdçisində** bu barədə daha ətraflı məlumat verə bilərsiniz.&#x20;
 
 {% hint style="info" %}
-Siz **referens bölməsində istifadəçi bələdçisinə** <mark style="color:blue;">link</mark> verərək daha detallı məlumatın alınması üçün şərait yarada bilərsiniz.&#x20;
+Siz referens bölməsində istifadəçi bələdçisinə **** <mark style="color:blue;">link</mark> verərək daha detallı məlumatın alınması üçün şərait yarada bilərsiniz.&#x20;
 {% endhint %}
 
-### Get account balance endpointi üçün resurs təsviri <a href="#resource-description-for-the-surfreport-endpoint" id="resource-description-for-the-surfreport-endpoint"></a>
+### Tapşırıq üçün resurs təsviri <a href="#resource-description-for-the-surfreport-endpoint" id="resource-description-for-the-surfreport-endpoint"></a>
 
-> Let’s review the [surf report wiki page](https://idratherbewriting.com/learnapidoc/docapis\_new\_endpoint\_to\_doc.html#surf\_report\_api) (which contains the information about the resource) and try to describe the resource in 1-3 sentences. Here’s my approach:
->
-> Gəlin bir daha Get account balans wiki page (ümumi təsviri verilən hissəsinə) və 1-3 cümlə ilə resursu təsvir etməyə çalışaq. Aşağıda nümunə əlavə edirəm.
+> [Get account balance API ](../api-reference-tutorial/a-new-endpoint-to-document.md#get-account-balance-api-nuemun-si)tapşırığını analiz edib, 1-3 cümlə ilə **resursu** təsvir etməyə çalışaq. Aşağıda nümunə əlavə edirəm.
 
 {% hint style="success" %}
 ## Get account balance
 
-Hesab üzrə balansın əldə olunmasını əhatə edir. Həmçinin də, bu API-dan istifadə edərək hesabın valyutasını, kredit xətti üzrə limiti, istifadə olunmuş balansı, overdraft xəttin və s. təyin etmək mümkündür.
+**`Balans`** resursu 1 hesab üzrə balansı əldə etmək üçün istifadə edilir. Həmçinin də, bu API-dan istifadə edərək hesabın valyutasını, kredit xətti üzrə limiti, istifadə olunmuş balansı, overdraft xəttin və s. öyrənmək mümkündür.
 {% endhint %}
 
 > Now it’s time to list out the [endpoints and methods](https://idratherbewriting.com/learnapidoc/docapis\_resource\_endpoints.html) for the resource.
