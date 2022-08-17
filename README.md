@@ -17,9 +17,9 @@ Bu sualları cavablandırmağa çalışacam.
 
 * ****[**General Overview**](./)**;**
 * **Autentifikasiya və Avtorizasiya;**
-  * [Overview;](giris.md)
+  * [Overview;](broken-reference)
 * **Avtorizasiya növləri:**
-  * [Overview](giris.md):
+  * [Overview](broken-reference):
   * [API Key](avtorizasiya-noevl-ri/api-key.md)
   * [Basic Auth](broken-reference)
   * [HMAC](broken-reference)

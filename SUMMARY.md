@@ -2,10 +2,6 @@
 
 * [General Overview](README.md)
 
-## Autentifikasiya və Avtorizasiya
-
-* [Overview](giris.md)
-
 ## Avtorizasiya növləri
 
 * [Overview](avtorizasiya-noevl-ri/overview.md)
@@ -14,12 +10,13 @@
 * [Use HTTP verbs for CRUD operations](avtorizasiya-noevl-ri/use-http-verbs-for-crud-operations.md)
 * [Keep verbs out of URLs](avtorizasiya-noevl-ri/keep-verbs-out-of-urls.md)
 
-## API Reference Tutorial
+## API Dizayn
 
-* [A new endpoint to document](api-reference-tutorial/a-new-endpoint-to-document.md)
-* [API reference tutorial overview](api-reference-tutorial/api-reference-tutorial-overview.md)
-* [Addım 1: Resursun təsviri](avtorizasiya-noevl-ri/step-1-resource-description-api-reference-tutorial.md)
-* [Step 2: Endpoints and methods (API reference tutorial)](avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
-* [Step 3: Parameters (API reference tutorial)](avtorizasiya-noevl-ri/step-3-parameters-api-reference-tutorial.md)
-* [Step 4: Request example (API reference tutorial)](api-reference-tutorial/step-4-request-example-api-reference-tutorial.md)
-* [Step 5: Response example and schema (API reference tutorial)](api-reference-tutorial/step-5-response-example-and-schema-api-reference-tutorial.md)
+* [API Dizayn](api-dizayn/api-dizayn.md)
+* [A new endpoint to document](api-dizayn/a-new-endpoint-to-document.md)
+* [API reference tutorial overview](api-dizayn/api-reference-tutorial-overview.md)
+* [Addım 1: Resursun təsviri](api-dizayn/addim-1-resursun-t-sviri.md)
+* [Step 2: Endpoints and methods (API reference tutorial)](api-dizayn/step-2-endpoints-and-methods-api-reference-tutorial.md)
+* [Step 3: Parameters (API reference tutorial)](api-dizayn/step-3-parameters-api-reference-tutorial.md)
+* [Step 4: Request example (API reference tutorial)](api-dizayn/step-4-request-example-api-reference-tutorial.md)
+* [Step 5: Response example and schema (API reference tutorial)](api-dizayn/step-5-response-example-and-schema-api-reference-tutorial.md)
