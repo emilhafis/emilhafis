@@ -107,6 +107,8 @@ Siz referens bölməsində istifadəçi bələdçisinə **** <mark style="color:
 **`Balans`** resursu 1 hesab üzrə balansı əldə etmək üçün istifadə edilir. Həmçinin də, bu API-dan istifadə edərək hesabın valyutasını, kredit xətti üzrə limiti, istifadə olunmuş balansı, overdraft xəttin və s. öyrənmək mümkündür.
 {% endhint %}
 
-> Now it’s time to list out the [endpoints and methods](https://idratherbewriting.com/learnapidoc/docapis\_resource\_endpoints.html) for the resource.
+### Növbəti addım
+
+> Növbəti bölmədə resurs üzrə [endpoint və metdolar ](step-2-endpoints-and-methods-api-reference-tutorial.md)ilə tanış olacağıq.&#x20;
 
 \
