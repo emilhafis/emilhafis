@@ -84,16 +84,18 @@ Resursun təsviri çox vacibdir və ondan müxtəlif yerlərdə istifadə edəc�
 
 ### API Referens sənədi (Reference docs) və istifadəçi bələdçisi (User guides) arasındakı fərqlər <a href="#recognize-the-difference-between-reference-docs-versus-user-guides" id="recognize-the-difference-between-reference-docs-versus-user-guides"></a>
 
-> Resursun təsviri (həmçinin də endpoint təsviri) adətən qısa olur və 1-3 cümlə ilə göstərilir. Bəs 3 cümlə ilə bütün fikri tam izah edə bilməyəndə və daha çox detalların əlavə edilməsi lazım olanda nə edə bilərik? Belə olduqda bilinki, bunun üçün user guide-lar/tutorial-lar mövcuddur. Gəlin Reference sənədləşməsi ilə user guides/tutorials arasında nə fərqlər var baxaq.
+> **Resursun** təsviri (həmçinin də **endpoint** təsviri) qeyd etdiyimiz kimi, adətən qısa olur və 1-3 cümlə ilə göstərilir. Bəs 3 cümlə ilə bütün fikri tam izah edə bilməyəndə və daha çox detalların əlavə edilməsi lazım olanda nə edə bilərik?&#x20;
 >
-> * **Reference documentation:** Proqramçıların oxuyaraq ümumi mənzərəni, resursun nəyi ifadə etməsini dərhal başa düşəcəyi prinsipləri özündə saxlayır. Məsələn, [YouTube](step-1-resource-description-api-reference-tutorial.md#undefined) nümunəsində  ümumi olaraq `Comment` resursunun nəyə xidmət etdiyi göstərilir amma API-dan necə istifadə edilməlidir, autentifikasiya metodları hansılardır və digər istifadə qaydaları göstərilmir.
-> * **User guides/tutorials**:  Bu bölməyə addım-addım təlimatlar, kod nümunələri, konsepsiyalar və prosedurlar daxil olmaqla API-dən necə istifadə olunacağına dair ətraflı məlumatlar qeyd olunur. Bunun haqqında növbəti bölmələrdə daha geniş danışacağıq və başa düşəcəyik ki, bu səndələşməni hansı formada daha effektiv etmək olar.
+> Belə olduqda bilinki, bunun üçün user guide-lar/tutorial-lar mövcuddur. Gəlin **Referens sənədləşməsi** ilə **istifadəçi bələdçisi** arasında nə fərqlər var baxaq.
 >
-> API refrens bölməsinin təsviri resursun ehtiva etdiyi məlumatın 1-3 cümləlik xülasəsini təqdim etsə də,  **User guides/tutorials-da** bu barədə daha ətraflı məlumat verə bilərsiniz. Siz Referens bölməsində **User guides/tutorials**-a link verərək daha detaaalı məlumatın alınması üçün şərait yarada bilərsiniz.&#x20;
+> * **Referens sənədləşməsi -** proqramçıların oxuyaraq ümumi mənzərəni, resursun nəyi ifadə etməsini dərhal başa düşəcəyi prinsipləri özündə saxlayır. Məsələn, [YouTube](step-1-resource-description-api-reference-tutorial.md#undefined) nümunəsində  ümumi olaraq `Comment` resursunun nəyə xidmət etdiyi göstərilir amma API-dan necə istifadə edilməlidir, **autentifikasiya** metodları hansılardır və digər istifadə qaydaları göstərilmir.
+> * **İstifadəçi bələdçisi** -  bu bölməyə addım-addım təlimatlar, kod nümunələri, konsepsiyalar və prosedurlar daxil olmaqla API-dən necə istifadə olunacağına dair ətraflı məlumatlar qeyd olunur. _Bunun haqqında növbəti bölmələrdə daha geniş danışacağıq və başa düşəcəyik ki, bu səndələşməni hansı formada daha effektiv etmək olar._
+>
+> **API refrens bölməsinin təsvirində** resursun ehtiva etdiyi məlumatlar üzrə 1-3 cümləlik xülasisəni təqdim edib, **istifadəçi bələdçisində** bu barədə daha ətraflı məlumat verə bilərsiniz.&#x20;
 
-```
-// Some code
-```
+{% hint style="info" %}
+Siz **referens bölməsində istifadəçi bələdçisinə** <mark style="color:blue;">link</mark> verərək daha detallı məlumatın alınması üçün şərait yarada bilərsiniz.&#x20;
+{% endhint %}
 
 ### Get account balance endpointi üçün resurs təsviri <a href="#resource-description-for-the-surfreport-endpoint" id="resource-description-for-the-surfreport-endpoint"></a>
 
