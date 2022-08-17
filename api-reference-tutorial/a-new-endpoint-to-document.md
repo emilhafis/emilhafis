@@ -22,13 +22,19 @@
 
 > Təsəvvür edək ki, bizə aşağıdakı kimi məlumatları təqdim ediblər.
 >
-> Bizim vəzifəmiz həmin məlumatları çeşidləmək və ondan sənədləşmə hazırlamaqdır. Buna qədər API tələblərin artıq digər Tech writer hazırlayıb, bizim taskımız sadəcə sənədləşmədir. Növbəti mövzularımızda artıq sıfırdan API tələblərində özümüz hazırlayacağıq.&#x20;
->
-> Məlumatları başa düşmək üçün aşağıdakı wiki səhifəsinə baxın. Növbəti mərhələlərdə APı refrence topic vasitəsilə hissə hissə necə sənədləşmə lazımdırsa onu öyrənəcəyik.
->
-> Sonda isə artıq biz API prinsiplərin başa düşmüş olacağıq.
+> Buna qədər API tələblərin artıq digər API Tech writer-lər hazırlayıb, bizim vəzifəmiz isə həmin məlumatları çeşidləmək və ondan sənədləşmə hazırlamaqdır.  &#x20;
 
-### The wiki page: "Get account balance API"
+{% hint style="info" %}
+Növbəti mövzularımızda artıq biznes tələblərin analiz edərək sıfırdan API Dizayn-nı (yəni sıfırdan sona kimi bütün məlumatları) özümüz hazırlayacağıq.&#x20;
+{% endhint %}
+
+> Məlumatları başa düşmək üçün gəlin aşağıdakı **"Get account balance API"** bölməsinə baxaq.&#x20;
+
+{% hint style="danger" %}
+Məlumatlar sizi qorxutmasın. Addım addım hamsının üzərindən keçəcəyik və sonda API prinsiplərin mənimsəmiş olacağıq. Hazırda yalnız ümumi olaraq tanış olun və başa düşməyə çalışınki bu API nəyə xidmət edəcəkdir.
+{% endhint %}
+
+### Get account balance API nümunəsi
 
 {% hint style="info" %}
 ### <mark style="color:blue;">Get account balance API</mark>
