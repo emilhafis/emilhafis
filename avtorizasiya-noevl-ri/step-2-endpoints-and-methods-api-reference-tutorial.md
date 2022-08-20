@@ -84,6 +84,10 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 >
 > Ətraflı məlumat üçün Vikipediyanın HTTP məqaləsində [Request methods](https://en.wikipedia.org/wiki/Hypertext\_Transfer\_Protocol#Request\_methods) baxın. Bəzi əlavə **metodlar** da var, lakin onlar nadir hallarda istifadə olunur.
 
+{% hint style="danger" %}
+Metodları tam başa düşmək və detallı məlumat almaq üçün&#x20;
+{% endhint %}
+
 > Since there’s not much to say about the method itself, it makes sense to group the method with the endpoint. Here’s an example from the Box API:
 
 #### Endpointimiz üzrə metodu təyin edək
@@ -93,10 +97,6 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 {% hint style="success" %}
 Endpointimiz üçün metod - <mark style="color:blue;">**GET**</mark>
 {% endhint %}
-
-#### [Stripe API](https://stripe.com/docs/api/customer\_bank\_accounts)
-
-![](../.gitbook/assets/Stripe.PNG)
 
 {% hint style="info" %}
 Sometimes the method is referred to as the “verb.” GET, PUT, POST, PATCH, and DELETE are all verbs or actions.
@@ -118,8 +118,6 @@ Bu səbəbdəndə, hər dəfə Endpoint yazarkən full resurs URL göstərməyin
 
 ### How to group multiple endpoints for the same resource <a href="#how-to-group-multiple-endpoints-for-the-same-resource" id="how-to-group-multiple-endpoints-for-the-same-resource"></a>
 
-> Another consideration in documenting endpoints and methods is how to group and list the endpoints, particularly if you have a lot of endpoints for the same resource. In [Examples of resource descriptions](https://idratherbewriting.com/learnapidoc/docapis\_resource\_descriptions.html#examples), we looked at a variety of APIs. Many doc sites provide different designs for grouping or listing each endpoint for the resource, so I won’t revisit all the same examples. Group the endpoints in some way that makes sense, such as by method or by the type of information returned.
->
 > **Endpoint**-lərin və **metodların** sənədləşdirilməsində diqqət yetirilməli olan digər məqam onları necə qruplaşdırmaq və başa düşülən formada göstərməkdir, xüsusən də eyni resurs üzrə çoxlu sayda **endpoint**-ləriniz olarsa.&#x20;
 >
 > [Resursun təsviri](step-1-resource-description-api-reference-tutorial.md) bölməsində biz müxtəlif API nümunələrinə baxdıq. Bir çox  platformalar **resurs** üzrə hər bir **endpoint**-i qruplaşdırmaq və ya sənədləşdirmək üçün müxtəlif dizayndan istifadə edirlər, buna görə də eyni nümunələrə yenidən baxmayacağıq.
@@ -128,15 +126,25 @@ Bu səbəbdəndə, hər dəfə Endpoint yazarkən full resurs URL göstərməyin
 >
 > <mark style="color:red;">Endpoint-ləri mə</mark>
 >
-> For example, suppose you have three GET endpoints and one POST endpoint, all of which relate to the same resource. Some doc sites might list all the endpoints for the same resource on the same page. Others might break them into separate pages. Others might create one group for the GET endpoints and another for the POST endpoints. It depends how much you have to say about each endpoint.
->
 > Amma ümumi konsepsiyaya nəzər salaq. Məsələn, deyək ki, sizin üç <mark style="color:blue;">**GET**</mark> və bir <mark style="color:blue;">**POST**</mark> **endpoint**-niz var və bunların hamısı eyni **resursa** aiddir.&#x20;
 >
-> Belə olan halda, bəzi platformalar eyni **resurs** üzrə bütün **endpoint**-ləri bir qrupda, digərləri isə müxtəlif qruplarda - məsələn, <mark style="color:blue;">**GET**</mark> üçün bir qrup, <mark style="color:blue;">**POST**</mark> üçün başqa bir qrupda verə bilərlər.&#x20;
+> Belə olan halda, bəzi platformalar eyni **resurs** üzrə bütün **endpoint**-ləri bir qrupda, digərləri isə müxtəlif qruplarda - məsələn, <mark style="color:blue;">**GET**</mark> üçün bir qrup, <mark style="color:blue;">**POST**</mark> üçün başqa bir qrupda və ya başqa səhifələrdə verə bilərlər.&#x20;
 >
 > If the endpoints are mostly the same, consolidating them on a single page could make sense. But if they’re substantially unique (with different responses, parameters, and error messages), separating them onto different pages is probably better (and easier to manage). Then again, with a more sophisticated website design, you can make lengthy information navigable on the same page.
+>
+> Əgər endpoint-lər mahiyyətcə eynidirlərsə, onları bir qrupda və ya bir səhifədə vermək daha məntiqli olar. Lakin onlar əhəmiyyətli dərəcədə unikaldırsa (müxtəlif cavablar, parametrlər və error mesajları ilə), onları müxtəlif qruplara və ya səhifələrə ayırmaq daha uyğun olar.&#x20;
 
-> In a later section on [design patterns](https://idratherbewriting.com/learnapidoc/pubapis\_design\_patterns.html), I explain that [long pages](https://idratherbewriting.com/learnapidoc/pubapis\_design\_patterns.html#longish\_pages) are common pattern with developer docs, in part because they make content easily findable for developers using Ctrl + F.&#x20;
+{% hint style="info" %}
+Hazırkı dövrdə, siz daha yaxşı veb sayt dizaynı ilə eyni səhifədə bütün məlumatları da verə bilərsiniz. Çünki biz adətən lazım olan məlumatı axtaranda səhifədə axtarış `control+F` axtarış edirik.
+{% endhint %}
+
+{% hint style="warning" %}
+Mən eyni **resursa** aid olan müxtəlif **endpoint**-ləri bir qrupda toplayıb verirəm. Aşağıdakı Stripe nümunəsində olduğu kimi.
+{% endhint %}
+
+#### [Stripe API](https://stripe.com/docs/api/customer\_bank\_accounts)
+
+![](../.gitbook/assets/Stripe.PNG)
 
 ### Endpoint for surfreport API <a href="#endpoint-for-surfreport-api" id="endpoint-for-surfreport-api"></a>
 
