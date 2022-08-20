@@ -69,20 +69,45 @@ Nəzərə alın ki, **Endpoint**-lərdə 3 növ Parametrin də göstərilməsi m
 Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz parameter kimi CreditCard yazıb göndəririk. Amma yazılmış proqram bu **Parametr** üçün bizdən yalnız rəqəm gözləyir və CreditCard sözünə **error** qaytarır.
 {% endhint %}
 
-> REST API-lər üzrə ən çox istifadə edilən **data type**-lar:
->
-> * **string**: An alphanumeric sequence of letters and/or numbers
-> * **integer**: A whole number — can be positive or negative
-> * **boolean**: True or false value
-> * **object**: Key-value pairs in JSON format
+#### REST API-lər üzrə ən çox istifadə edilən **data type**-lar:
+
+> * <mark style="color:orange;">**object**</mark><mark style="color:orange;">:</mark> JSON formatı üzrə **key-value** cütlüyü
+
+```javascript
+{
+ "FirstName" : "Anar",
+ "Age"  : 32,
+ "isMan"       : true,
+ "Profession": "Developer"
+}
+```
+
+> Burada <mark style="color:blue;">iki nöqtədən :</mark> solda olanlara **`key`** , sağda olanlara isə **`value`** deyilir. Yəni - <mark style="color:blue;">`"FirstName"`</mark> **Key**, `"Anar"` isə **value**-dir.
+
 > * **array**: A list of values
+
+#### `Value` üzrə data type-lar
+
+> * <mark style="color:orange;">**string**</mark><mark style="color:orange;">:</mark> Hərflərdən və ya rəqəmlərdən ibarət dəyərlər.
+>
+> Məsələn - `"Anar"` burada <mark style="color:orange;">string</mark>-dir.
+
+> * <mark style="color:orange;">**integer**</mark><mark style="color:orange;">:</mark> Mənfi və müsbət tam ədədlər
+>
+> Məsələn - `32` burada <mark style="color:orange;">integer</mark>-dir.
+
+> * <mark style="color:orange;">**boolean**</mark><mark style="color:orange;">:</mark> True və ya false dəyəri (yalnız iki dəyər olur, təsdiq və inkar)
+>
+> Məsələn - `True` burada <mark style="color:orange;">boolean</mark>-dır.
+
+
 
 {% hint style="warning" %}
 Proqramlaşdırmada daha çox data type (məlumat növləri) vardır. Əgər sizin xüsusi ilə qeyd etmək istədiyiniz məlumat növü varsa bunu mütləq sənədləşmədə qeyd edin.&#x20;
 
 Məsələn, Java dili üzrə proqramlaşdırma edərkən icazə verilən məlumat növünü qeyd etmək vacibdir, çünki Java verilənlərin ölçüsünə əsasən yaddaş sahəsi ayırır. Beləliklə, Java ölçülərin daha dəqiq olmasını xoşlayır. Məsələn, byte, short, int, double, long, float, char, boolean, və s. var.&#x20;
 
-Bununla belə, siz REST API sənədləşməsində bu səviyyədə detala düşməli deyilsiniz. bunları proqramçı arxitektlər təyin edirlər. Amma proqramlaşdırma biliyiniz varsa və əminsinizsə, qeyd etməyiniz çox yaxşı olar.
+Bununla belə, siz **REST API** sənədləşməsində bu səviyyədə detala düşməli deyilsiniz. bunları proqramçı arxitektlər təyin edirlər. Amma proqramlaşdırma biliyiniz varsa və əminsinizsə, qeyd etməyiniz çox yaxşı olar.
 
 Məsələn, mən hər zaman sənədləşmələrdə **enum** məlumat növünü göstərirəm. **Enum** məlumat növü o halda istifadə olunurki, sizin daxil etmək üçün bəlli sayda dəyəriniz olur. Məsələn, yuxarıda göstərdiyimiz nümunədə biz Credit kartı üzrə balansı əldə etdik. Bizə kartın növləri (CardType) üzrə 2 fərqli seçim verilə bilər - **CreditCard, DebitCard**.&#x20;
 
