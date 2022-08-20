@@ -188,18 +188,18 @@ Məsələn, mən hər zaman sənədləşmələrdə **enum** məlumat növünü g
 
 #### Max and min values for parameters <a href="#max_min_values" id="max_min_values"></a>
 
+> **Data type**-ları müəyyən etməkdən savayı, həmçinin də **parametrlər** üzrə **minimum**, **maximum** və olduğu təqdirdə **icazə verilən** dəyərləri göstərməliyik.&#x20;
 >
+> Bununla belə, hər parametrin _maksimum_ və _min_ dəyərlərini göstərməyə bəzən ehtiyac olmur: Məsələn,
 >
-> Data type-ları müəyyən etməkdən savayı, həmçinin də parametrlər üzrə minimum, maximum və olduğu təqdirdə icazə verilən dəyərləri göstərməliyik. For example, if the weather API allows only longitude and latitude coordinates of specific countries, these limits should be described in the parameters documentation. Omitting information about max/min values or other prohibited values (when applicable) is a common pitfall in docs.,&#x20;
+> * <mark style="color:orange;">**Booleans**</mark>: Bu dəyər üzrə yeganə seçimlər **true** və ya **false**-dur. Bu səbəbdən də burada _max/min_ göstərməyə ehtiyac yoxdur.
+> * <mark style="color:orange;">**Enums**</mark>: Bundan əvvəldə qedy etdiyimiz kimi, əgər string mümkün dəyərləri (an enumerated list) tələb edərsə bu zaman _max/min_ göstərməyə ehtiyac yoxdur. Məsələn, API-da yarımkürə dəyərlərimiz varsa burada mümkün 4 dəyər ola bilər - _şimal, cənub, şərq və qərb_. Bu səbəbdən də burada max/min dəyərlərinə ehtiyac olmur..
 >
-> Not every parameter needs max and min values, however. Note these exceptions:
->
-> Bununla belə, hər parametrin maksimum və min dəyərlərini göstərməyə bəzən ehtiyac olmur: Məsələn,
->
-> * **Booleans**: Bu dəyər üzrə yeganə seçimlər true və ya false-dur. Bu səbəbdən də burada max/min göstərməyə ehtiyac yoxdur.
-> * **Strings that use enums**: If a string restricts possible values to enums (an enumerated list), the max/min values wouldn’t be appropriate. For example, a geo-related enum might allow only these values: north, south, east, west. There is no max/min value in this case.
->
-> Ümumiyyətlə proqram ilkin testləşdirmə üçün hazır olduqdan sonra, Boolean və enum-dan fərqli data type-lara icazə verilən parameter-ləri (məs, string, integer) yoxlayın. məsələn, API-da ID sahəsi olarsa həmin sayə 300 simvol uzunluğunda, əgər fayl əlavə edə bilərsinizsə 100 MB həcmində əlavə etməyə çalışın. Əmin olun ki, API normal qaydada sorğularınızı emal edəcəkdir.
+> Ümumiyyətlə proqram ilkin testləşdirmə üçün hazır olduqdan sonra, <mark style="color:orange;">boolean</mark> və <mark style="color:orange;">enum</mark>-la yanaşı digər **data type**-lara icazə verilən parameter-ləri (məs, <mark style="color:orange;">string</mark>, <mark style="color:orange;">integer</mark>) yoxlayın. Məsələn, API-da ID sahəsi olarsa həmin sahəyə 300 simvol uzunluğunda, əgər fayl əlavə edə bilərsinizsə 100 MB həcmində əlavə etməyə çalışın. Əmin olun ki, API normal qaydada sorğularınızı emal edəcəkdir.
+
+{% hint style="warning" %}
+
+{% endhint %}
 
 > Bizim vəzifəmiz proqramçıların işini tam rahatlaşdırmaq və dəqiq tələblər verməklə sonradan yaranacaq qarışıq situasiyaların qarşısını almaqdır. Bu səbəbdəndə, sahələr üzrə tətbiq olunan məhdudiyyətləri mütləq göstərin. Çünki onları sizdən yaxşı bilən olmayacaq.
 >
