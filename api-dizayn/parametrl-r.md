@@ -69,9 +69,19 @@ Nəzərə alın ki, **Endpoint**-lərdə 3 növ Parametrin də göstərilməsi m
 Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz parameter kimi CreditCard yazıb göndəririk. Amma yazılmış proqram bu **Parametr** üçün bizdən yalnız rəqəm gözləyir və CreditCard sözünə **error** qaytarır.
 {% endhint %}
 
-#### REST API-lər üzrə ən çox istifadə edilən **data type**-lar:
+### JSON üzrə ümumi məlumat
 
-> * <mark style="color:orange;">**object**</mark><mark style="color:orange;">:</mark> JSON formatı üzrə **key-value** cütlüyü
+_**JSON**_ stands for _**JavaScript Object Notation**_. JSON is a human and machine-readable format to represent data as _**Structured Data**_. JSON is used primarily to transfer data from one computer to another or even between different programs on the same computer.
+
+> <mark style="color:orange;">**object**</mark><mark style="color:orange;">:</mark> JSON formatı üzrə object (obyekt) **key-value** cütlüyünü bildirir. **Key-value** cütlərinin bu kolleksiyası <mark style="color:orange;">{fiqurlu mötərizlərin açılması və bağlanması ilə}</mark> <mark style="color:orange;">{ }</mark> qruplaşdırılır.
+>
+> Obyektin yaz;lmas; qaydalar:
+>
+> * _**Key-value** cütlüyü **vergül**  **,** ilə ayrılmalıdır_
+> * _Hər bir **obyekt** Fiqurlu mötərizənin açılması <mark style="color:orange;">{</mark> ilə **başlamalıdır**_
+> * _Hər bir **obyekt** Fiqurlu mötərizənin bağlanması <mark style="color:orange;">{</mark> ilə **bitməlidir**_
+>
+> Aşağıdakı nümunə **Person** obyektidir. **Person** obyektində qeyd olunan qaydalara əməl edilmişdir.
 
 ```javascript
 {
@@ -84,7 +94,25 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 
 > Burada <mark style="color:blue;">iki nöqtədən :</mark> solda olanlara **`key`** , sağda olanlara isə **`value`** deyilir. Yəni - <mark style="color:blue;">`"FirstName"`</mark> **Key**, `"Anar"` isə **value**-dir.
 
-> * **array**: A list of values
+> * <mark style="color:orange;">**array**</mark>: Dəyərlərin listi.
+>
+> Arrays are similar to Arrays that you know from any other programming language. In JSON an Array is collection of Values separated by Comma. Here are the rules to write an Array
+>
+> * _An Array starts with an opening  **\[** (Bracket)_
+> * _An Array ends with a closing **]** (Bracket)_
+> * _Values in the Array are separated by **,** (Comma)_
+>
+> To understand an Array let us add one more property to the _**Person Object**_. Let us add hobby also, a Person can have multiple hobbies. This makes it suitable to represent hobbies as an Array. As shown in the _JSON_ below
+
+```javascript
+{
+ "FirstName" : "Virender",
+ "Age"  : 32,
+ "isMan"       : true,
+ "Profession": "Developer",
+ "Hobbies"   : ["Videos games", "Computers", "Music"]
+}
+```
 
 #### `Value` üzrə data type-lar
 
