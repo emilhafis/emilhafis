@@ -1,8 +1,8 @@
-# Step 2: Endpoints and methods (API reference tutorial)
+# Endpoint və metodlar
 
-|                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |   |
-| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
-| <mark style="color:blue;">**Resursun təsviri**</mark> | <p><mark style="color:orange;"></mark><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:orange;"><strong>Endpoint</strong></mark> </a><mark style="color:orange;"></mark></p><p><mark style="color:orange;"></mark><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:orange;"><strong>və metodlar</strong></mark> </a><mark style="color:orange;"><strong></strong></mark></p> |   |
+|                                                       |                                                                                                                                                                                                                                                                                                                                                                                    |   |
+| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
+| <mark style="color:blue;">**Resursun təsviri**</mark> | <p><mark style="color:orange;"></mark><a href="endpoint-v-metodlar.md"><mark style="color:orange;"><strong>Endpoint</strong></mark> </a><mark style="color:orange;"></mark></p><p><mark style="color:orange;"></mark><a href="endpoint-v-metodlar.md"><mark style="color:orange;"><strong>və metodlar</strong></mark> </a><mark style="color:orange;"><strong></strong></mark></p> |   |
 
 ### Endpoint və metod nədir?
 
@@ -68,7 +68,7 @@ If you can, put the path parameter in another color to set it off:
 
 
 
-> Path parameterlərinin standart təyin edilən bir rəngi yoxdur. Məsələn aşağıda [Amazon API-](step-2-endpoints-and-methods-api-reference-tutorial.md#undefined)larında şahidi oluruq ki, path parametri olan `{eventGroupId}` URL-dəki digər dəyərlərdən seçilmir. &#x20;
+> Path parameterlərinin standart təyin edilən bir rəngi yoxdur. Məsələn aşağıda [Amazon API-](endpoint-v-metodlar.md#undefined)larında şahidi oluruq ki, path parametri olan `{eventGroupId}` URL-dəki digər dəyərlərdən seçilmir. &#x20;
 >
 > Amma siz sənədləşmə edərkən bu parametrlərin dərhal gözə çarpası üçün fərqli formada və fərqli rənglə verilməsini tövsiyyə edirəm. Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3)-da olduğu kimi narıncı rəngdən istifadə edirəm.
 

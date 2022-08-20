@@ -109,6 +109,6 @@ Siz referens bölməsində istifadəçi bələdçisinə **** <mark style="color:
 
 ### Növbəti addım
 
-> Növbəti bölmədə resurs üzrə [endpoint və metdolar ](step-2-endpoints-and-methods-api-reference-tutorial.md)ilə tanış olacağıq.&#x20;
+> Növbəti bölmədə resurs üzrə [endpoint və metdolar ](../api-dizayn/endpoint-v-metodlar.md)ilə tanış olacağıq.&#x20;
 
 \
