@@ -2,7 +2,7 @@
 description: Resource description
 ---
 
-# Resursun təsviri
+# Addım 1: Resursun təsviri
 
 
 

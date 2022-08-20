@@ -72,17 +72,17 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 
 ![](../.gitbook/assets/Amazon.PNG)
 
-### You can list the method next to the endpoint <a href="#you-can-list-the-method-next-to-the-endpoint" id="you-can-list-the-method-next-to-the-endpoint"></a>
+### Metodların təyini
 
-> It’s common to list the method (GET, POST, and so on) next to the endpoint. The method defines the operation with the resource. Briefly, each method is as follows:
+> **Metodların** (GET, POST və s.) **endpoint**-lərin qarşısında verilməsi qəbul olunmuş praktikadır. Metodlar resurslar ilə nə iş görə biləcəyimizi təyin edir. Qısa olaraq, metodları aşağıda qeyd edib nə iş gördüyünü qeyd edirəm:
 >
-> * GET: Retrieves a resource
-> * POST: Creates a resource
-> * PUT: Updates or creates within an existing resource
-> * PATCH: Partially modifies an existing resource
-> * DELETE: Removes the resource
+> * <mark style="color:blue;">**GET**</mark>: **Resursu** qaytarır. Yəni **Resurs** haqqında hansısa məlumatı əldə etmək istədikdə <mark style="color:blue;">**GET**</mark>-dən istifadə edilir.
+> * <mark style="color:blue;">**POST**</mark>: **Resursu** yaradır.&#x20;
+> * <mark style="color:blue;">**PUT**</mark>: Mövcud **resursu** və ya **resurs** daxilindəki hansısa hissələri yeniləyir.&#x20;
+> * <mark style="color:blue;">**PATCH**</mark>: Mövcud **resursu** qismən dəyişdirir.
+> * <mark style="color:blue;">**DELETE**</mark>: **Resursu** silir.
 >
-> See [Request methods](https://en.wikipedia.org/wiki/Hypertext\_Transfer\_Protocol#Request\_methods) in Wikipedia’s article on HTTP for more details. (There are some additional methods, but they’re rarely used.)
+> Ətraflı məlumat üçün Vikipediyanın HTTP məqaləsində [Request methods](https://en.wikipedia.org/wiki/Hypertext\_Transfer\_Protocol#Request\_methods) baxın. Bəzi əlavə **metodlar** da var, lakin onlar nadir hallarda istifadə olunur.
 
 > Since there’s not much to say about the method itself, it makes sense to group the method with the endpoint. Here’s an example from the Box API:
 
