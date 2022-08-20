@@ -269,8 +269,6 @@ Query string parameter-lərinin sıra ardıcıllığı zəruri deyildir.
 > _hər iki endpoint eyni nəticəni qaytaracaqdır._
 
 {% hint style="danger" %}
-However, with path parameters, the order _does_ matter. If the parameter is part of the actual endpoint (not added after the query string), you usually describe this value in the description of the endpoint itself.
-
 Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdirilə bilməz.&#x20;
 {% endhint %}
 
