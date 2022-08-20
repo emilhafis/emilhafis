@@ -10,7 +10,7 @@
 >
 > **Resurslar** müxtəlif **Endpoint**-lərə malik olur. **Endpoint**-lərin müxtəlif **Path (yəni URL-ləri)** və **metodları** olsa da onların hamsı **Resurs** üzrə müxtəlif məlumatları qaytarırlar.&#x20;
 >
-> **Endpoint**-lərin təsviri adətən ümumi resursun təsvirinə oxşar, lakin daha qısa təsvirlərə malik olur.&#x20;
+> **Endpoint**-lərin təsviri adətən ümumi **resursun** təsvirinə oxşar, lakin daha qısa təsvirlərə malik olur.&#x20;
 
 {% hint style="info" %}
 Məsələn, aşağıda **Mailchimp API** üzrə nümunədə görə bilərsiniz ki, ümumi resurs **Campaings** adlanır və onun təsviri belə göstərilir:
@@ -22,39 +22,35 @@ Məsələn, aşağıda **Mailchimp API** üzrə nümunədə görə bilərsiniz k
 <mark style="color:orange;">`Get all campaigns in an account.`</mark>
 {% endhint %}
 
-> Həmçinin, Endpoint bütün Endpoint-lər üçün ümumi olan əsas Path-i (yol) deyil, yalnız resurs URL-in Path-in (yolun) göstərir.
+> Həmçinin, **Endpoint** bütün **Endpoint**-lər üçün ümumi olan əsas **Path**-i (yol) deyil, yalnız resurs **URL**-in **Path**-in (yolun) göstərir.&#x20;
 >
-> Also, the endpoint shows the end path of a resource URL only, not the base path common to all endpoints.
+> Cümlə çətindir bilirəm, narahat olmayın [aşağıdakı bölmədə](endpoint-v-metodlar.md#endpoint-yalniz-end-path-i-goest-rir) izahı vermişəm.
 
 ### Endpointlər üzrə nümunə
 
-#### [Mailchimp](https://mailchimp.com/developer/marketing/api/campaigns/)
+#### [Mailchimp API](https://mailchimp.com/developer/marketing/api/campaigns/)
 
-> Here’s an example of the endpoints for the Relationships resource in the Instagram API:
+> Aşağıda [Mailchimp APı-ın "Campaings"](https://mailchimp.com/developer/marketing/api/campaigns/) resursu üzrə **endpoint**-lər göstərilmişdir.
 
 ![](../.gitbook/assets/mailchimp\_endpoint.PNG)
 
-> Endpoint-lər adətən gözə daha tez çarpması üçün xüsusi dizaynla interfeysdə göstərilir. API sənədləşmələrinin əksəriyyətinin əsas məğzini Endpoint-lər təşkil edir. bu səbəbdəndə sənədləşmənizdə **Endpoint**-ləri xüsusi frmada göstərməyiniz tövsiyyə olunur. &#x20;
+> **Endpoint**-lər adətən gözə daha tez çarpması üçün xüsusi dizaynla interfeysdə göstərilir. API sənədləşmələrinin əksəriyyətinin əsas məğzini **Endpoint**-lər təşkil edir. Bu səbəbdəndə sənədləşmənizdə **Endpoint**-ləri xüsusi formada göstərməyiniz tövsiyyə olunur. &#x20;
 >
 > Çünki proqramçılar test sorğuları etmək üçün dərhal **Endpoint**-ləri axtaracaqlar.&#x20;
 
-### Represent path parameters with curly braces <a href="#represent-path-parameters-with-curly-braces" id="represent-path-parameters-with-curly-braces"></a>
+### Path parametrlərini fərqləndirin
 
-> Əgər sizin endpoint-də **path parameter** varsa onları _fiqurlu mötərizə_ (_curly braces_) ilə göstərin. Məsələn aşağıda **Mailchimp API** üzrə nümunə göstərilmişdir.
-
-```javascript
-POST /campaigns/{campaign_id}/actions/cancel-send
-```
+> Əgər sizin **endpoint**-də [**path parameter**](../avtorizasiya-noevl-ri/step-3-parameters-api-reference-tutorial.md#path-parameters) **** varsa onları _<mark style="color:orange;">fiqurlu mötərizə</mark>_ <mark style="color:orange;"></mark><mark style="color:orange;">(</mark>_<mark style="color:orange;">curly braces</mark>_<mark style="color:orange;">)</mark> ilə göstərin. Məsələn aşağıda **Mailchimp API** üzrə nümunə göstərilmişdir.
 
 {% hint style="warning" %}
-If you can, put the path parameter in another color to set it off:
-
-**POST /campaigns/**<mark style="color:orange;">**{campaign\_id}**</mark>**/actions/cancel-send**
+<mark style="color:blue;">**GET**</mark>** /campaigns/**<mark style="color:orange;">**{campaign\_id}**</mark>
 {% endhint %}
 
-> Curly braces for path parameters are a convention that users will understand. In the above example, almost no endpoint uses curly braces in the actual path syntax, so the `{campaign_id}` is an obvious placeholder.
+> <mark style="color:orange;">{Fiqurlu mötərizdən}</mark> istifadə edərək **path parametrin** göstərmək mütləq bir qayda deyildir. Sadəcə bu formada edildikdə gözə daha tez çarpır.&#x20;
+>
+> Məsələn, yuxarıdakı nümunədə yalnız <mark style="color:orange;">`{campaign_id}`</mark> <mark style="color:orange;"></mark><mark style="color:orange;"></mark> üzrə bu formadan istifadə edildiyi üçün dərhal başa düşülür ki, bu dəyərin ümumi **endpoint** üzrə fərqliliyi vardır.
 
-> Here’s an example from the Facebook API that colors the path parameter in an easily identifiable way:
+> Aşağıdakı digər bir nümunədə görürük ki, [OpenWeather API](https://openweathermap.org/api/one-call-3) platforması da **path parametrini** dediyimiz qaydada fərqli formada göstərmişdir.
 
 #### [OpenWeather API](https://openweathermap.org/api/one-call-3)
 
@@ -106,7 +102,7 @@ Endpointimiz üçün metod - <mark style="color:blue;">**GET**</mark>
 Sometimes the method is referred to as the “verb.” GET, PUT, POST, PATCH, and DELETE are all verbs or actions.
 {% endhint %}
 
-### The endpoint shows the end path only <a href="#the-endpoint-shows-the-end-path-only" id="the-endpoint-shows-the-end-path-only"></a>
+### Endpoint yalnız "end path"i göstərir
 
 > Endpoint-i göstərdiyiniz zaman yalnız "end path"-i göstərin. "Full path" "Base Path və Endpoint-dən ibarət olur və bunların ümumilikdə resurs URL adlanır.&#x20;
 >

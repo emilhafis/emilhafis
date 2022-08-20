@@ -16,7 +16,7 @@
 * [API dizayn](api-dizayn/api-dizayn.md)
 * [Endpoint dizayn](api-reference-tutorial/a-new-endpoint-to-document.md)
 * [API reference tutorial overview](api-reference-tutorial/api-reference-tutorial-overview.md)
-* [Addım 1: Resursun təsviri](avtorizasiya-noevl-ri/step-1-resource-description-api-reference-tutorial.md)
+* [Resursun təsviri](api-dizayn/resursun-t-sviri.md)
 * [Endpoint və metodlar](api-dizayn/endpoint-v-metodlar.md)
 * [Step 3: Parameters (API reference tutorial)](avtorizasiya-noevl-ri/step-3-parameters-api-reference-tutorial.md)
 * [Step 4: Request example (API reference tutorial)](api-reference-tutorial/step-4-request-example-api-reference-tutorial.md)
