@@ -10,34 +10,30 @@
 >
 > Bunlardan əlavə olaraq, [**Request body**](parametrl-r.md#request\_bodies) (sorğunun mətni) də vardır və parametr funskiyasını daşıyır, amma texniki olaraq parametr deyildir.&#x20;
 >
-> Yuxarıda göstərdiymiz Parameterin müxtəlif növləri adətən sənədləşmələrdə növlərinə aid qruplaşmalarda göstərilir. Məsələn Header parameter-ləri.
->
-> Endpoint-lərdə göstərilən 3 növ Parametrin olması məcburi deyil.
+> Yuxarıda göstərdiymiz **Parameterin** müxtəlif növləri adətən sənədləşmələrdə növlərinə aid qruplaşmalarda göstərilir. Məsələn **Header parameter**-ləri.
 
-### Examples of parameters <a href="#examples-of-parameters" id="examples-of-parameters"></a>
+{% hint style="info" %}
+Nəzərə alın ki, **Endpoint**-lərdə 3 növ Parametrin də göstərilməsi məcburi deyil.
+{% endhint %}
 
-> The following screenshot shows a sample parameters section with the Box API:
->
-> Aşağıdakı şəkildə [Mailchimp üzrə](https://mailchimp.com/developer/marketing/api/campaigns/get-campaign-info/) dizayn olunmuş Parameter nümunələrin yerləşdirmişəm.
+### Parametr nümunələri
+
+> Aşağıdakı şəkildə [Mailchimp üzrə](https://mailchimp.com/developer/marketing/api/campaigns/get-campaign-info/) dizayn olunmuş **Parameter** nümunələrin göstərmişəm.
 
 ![](../.gitbook/assets/param.PNG)
 
-> Bu nümunədə Parameter-lər növlər üzrə qruplaşdırılmışdır. Path parameter və Query Parameter-ləri. Həmçinin də Path parametri olan `campaign_id` Endpoint-də tanınması üçün fərqli verilmişdir (fiqurlu mötərizədə).
+> Bu nümunədə **Parameter**-lər növlər üzrə qruplaşdırılmışdır. **Path parameter-**ləri və **Query Parameter**-ləri. Həmçinin də, gördüyünüz kimi **Path parametr**i olan <mark style="color:orange;">`{campaign_id}`</mark> **Endpoint**-də tanınması üçün <mark style="color:orange;">{fərqli verilmişdir}</mark> (fiqurlu mötərizədə).
 
 #### [YouTube Parameters](https://developers.google.com/youtube/v3/docs/comments/list)
 
-> Aşağıdakı nümunə YouTube-dandır. Gördüyünüz kimi burada Parameter-lər fərqli formada verilmişi və Required, optional olmasına görə qruplaşdırılmışdır. Parameter növü isə yaşıl ilə işarələdiyim kimi şərh daxilində göstərilmişdir.
+> Aşağıdakı nümunə YouTube-dandır. Gördüyünüz kimi burada **Parameter**-lər fərqli formada verilmişi və `required`, `optional` olmasına görə qruplaşdırılmışdır. Parameter növü şərh daxilində göstərilmişdir (<mark style="color:green;">yaşıl ilə işarələmişəm</mark>).
 
 ![](../.gitbook/assets/youtube\_param.PNG)
 
-> You can format the values in a variety of ways (aside from a table). If you’re using a definition list or other non-table format, be sure to develop styles that make the values easily readable.
->
-> Siz fərqli formalarda bunu göstərə bilərsiniz. Bu mövzumuzun məqsədi Parametr-ləri öyrənmək və onların fərqlərini bilməkdir. Bu səbəbdən də, növbəti mövzularda "Best Practice" sənədləşmələri göstərəcəm.
->
->
+> Siz fərqli formalarda **Parametrləri** göstərə bilərsiniz. Bu mövzumuzun məqsədi **Parametrləri** öyrənmək və onların fərqlərini bilməkdir. Bu səbəbdən də, növbəti mövzularda "**Best Practice**" sənədləşmələri göstərəcəm.
 
 {% hint style="info" %}
-Parameter-ləri hansı formada verməyinizdən asılı olarmayaraq tövsiyyə edirəm ki, onları qruplaşdırıb gözə çarpan formada Developerlərə çatdırasınız.&#x20;
+**Parameter**-ləri hansı formada verməyinizdən asılı olarmayaraq tövsiyyə edirəm ki, onları qruplaşdırıb gözə çarpan formada istifadəçilərə çatdırasınız.&#x20;
 {% endhint %}
 
 ### Parameter növləri
