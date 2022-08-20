@@ -40,7 +40,7 @@ Məsələn, aşağıda **Mailchimp API** üzrə nümunədə görə bilərsiniz k
 
 ### Path parametrlərini fərqləndirin
 
-> Əgər sizin **endpoint**-də [**path parameter**](step-3-parameters-api-reference-tutorial.md#path-parameters) **** varsa onları _<mark style="color:orange;">fiqurlu mötərizə</mark>_ <mark style="color:orange;"></mark><mark style="color:orange;">(</mark>_<mark style="color:orange;">curly braces</mark>_<mark style="color:orange;">)</mark> ilə göstərin. Məsələn aşağıda **Mailchimp API** üzrə nümunə göstərilmişdir.
+> Əgər sizin **endpoint**-də [**path parameter**](../api-dizayn/parametrl-r.md#path-parameters) **** varsa onları _<mark style="color:orange;">fiqurlu mötərizə</mark>_ <mark style="color:orange;"></mark><mark style="color:orange;">(</mark>_<mark style="color:orange;">curly braces</mark>_<mark style="color:orange;">)</mark> ilə göstərin. Məsələn aşağıda **Mailchimp API** üzrə nümunə göstərilmişdir.
 
 {% hint style="warning" %}
 **/campaigns/**<mark style="color:orange;">**{campaign\_id}**</mark>

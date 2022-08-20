@@ -1,14 +1,14 @@
-# Step 3: Parameters (API reference tutorial)
+# Parametrlər
 
-> Parameter-lər Endpoint ilə göndərə biləcəyiniz dəyərlərdir. Bu dəyərlər qayıdan cavabda (bundan sonra Response) hansı dəyərlərin olmasını və ya Response-un formatını təyin edir.&#x20;
+> **Parameter**-lər **Endpoint** ilə göndərə biləcəyiniz dəyərlərdir. Bu dəyərlər qayıdan cavabda (bundan sonra **Response**) hansı dəyərlərin olmasını və ya **Response**-un formatını təyin edir.&#x20;
 >
-> Br neçə parameter növü vardır:
+> Br neçə **parametr** növü vardır:
 >
-> * Header parameter
-> * Path parameter
-> * Query string parameter.
+> * **Header parameter.**
+> * **Path parameter.**
+> * **Query string parameter.**
 >
-> Request body (sorğunun mətni) parametr funskiyasını daşıyır amma texniki olaraq parametr deyildir.&#x20;
+> Bunlardan əlavə olaraq, [**Request body**](parametrl-r.md#request\_bodies) (sorğunun mətni) də vardır və parametr funskiyasını daşıyır, amma texniki olaraq parametr deyildir.&#x20;
 >
 > Yuxarıda göstərdiymiz Parameterin müxtəlif növləri adətən sənədləşmələrdə növlərinə aid qruplaşmalarda göstərilir. Məsələn Header parameter-ləri.
 >
@@ -232,7 +232,7 @@ Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdi
 >
 > Bundan əlavə olaraq, həm də bilirik ki, endpointimiz bu formadadır -  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances.
 >
-> Biz burdan [Parameter növlərini ](step-3-parameters-api-reference-tutorial.md#parameter-noevl-ri)təyin etməliyik.
+> Biz burdan [Parameter növlərini ](parametrl-r.md#parameter-noevl-ri)təyin etməliyik.
 >
 > Bu mövzuda öyrəndik ki, _**Path parameteri** Endpoint daxilində query string **(?)** işarəsindən əvvəl gəlir və adətən fiqurlu mötərizə <mark style="color:orange;">**({})**</mark> ilə göstərilir._ Deməli burada __ <mark style="color:orange;">{AccountId}</mark> Path parametridir.
 >
