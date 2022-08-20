@@ -43,7 +43,7 @@ Məsələn, aşağıda **Mailchimp API** üzrə nümunədə görə bilərsiniz k
 > Əgər sizin **endpoint**-də [**path parameter**](step-3-parameters-api-reference-tutorial.md#path-parameters) **** varsa onları _<mark style="color:orange;">fiqurlu mötərizə</mark>_ <mark style="color:orange;"></mark><mark style="color:orange;">(</mark>_<mark style="color:orange;">curly braces</mark>_<mark style="color:orange;">)</mark> ilə göstərin. Məsələn aşağıda **Mailchimp API** üzrə nümunə göstərilmişdir.
 
 {% hint style="warning" %}
-<mark style="color:blue;">**GET**</mark>** /campaigns/**<mark style="color:orange;">**{campaign\_id}**</mark>
+**/campaigns/**<mark style="color:orange;">**{campaign\_id}**</mark>
 {% endhint %}
 
 > <mark style="color:orange;">{Fiqurlu mötərizdən}</mark> istifadə edərək **path parametrin** göstərmək mütləq bir qayda deyildir. Sadəcə bu formada edildikdə gözə daha tez çarpır.&#x20;
@@ -74,7 +74,9 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 
 ### Metodların təyini
 
-> **Metodların** (GET, POST və s.) **endpoint**-lərin qarşısında verilməsi qəbul olunmuş praktikadır. Metodlar resurslar ilə nə iş görə biləcəyimizi təyin edir. Qısa olaraq, metodları aşağıda qeyd edib nə iş gördüyünü qeyd edirəm:
+> Bəs **endpoint**-lərin qarşısında olan **GET, POST, PUT** və s. bunlar nədir?
+>
+> Bunlar **metodlardır** və **endpoint**-lərin qarşısında verilməsi qəbul olunmuş praktikadır. Metodlar resurslar ilə nə iş görə biləcəyimizi təyin edir. Qısa olaraq, metodları aşağıda qeyd edib nə iş gördüyünü qeyd edirəm:
 >
 > * <mark style="color:blue;">**GET**</mark>: **Resursu** qaytarır. Yəni **Resurs** haqqında hansısa məlumatı əldə etmək istədikdə <mark style="color:blue;">**GET**</mark>-dən istifadə edilir.
 > * <mark style="color:blue;">**POST**</mark>: **Resursu** yaradır.&#x20;
@@ -89,8 +91,6 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 
 Əlavə olaraq aşağıda [Stripe API](step-2-endpoints-and-methods-api-reference-tutorial.md#stripe-api)-da metodları endpoint-lərin əvvəllində hansı formada qruplaşdırdıqlarınıda görə bilərsiniz.
 {% endhint %}
-
-> Since there’s not much to say about the method itself, it makes sense to group the method with the endpoint. Here’s an example from the Box API:
 
 #### Endpointimiz üzrə metodu təyin edək
 
