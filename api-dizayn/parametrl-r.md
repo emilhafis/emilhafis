@@ -296,17 +296,13 @@ Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **pa
 
 #### Mürəkkəb Request body <a href="#documenting-complex-request-bodies" id="documenting-complex-request-bodies"></a>
 
-> JSON məlumatları (sorğu və cavabda) API sənədləşməsində ən çətin hissələrindən biridir. JSON obyektləri sadə olarsa,məsələn eyni səviyyəli bir neçə key-value cütlüyü o zaman onların sənədləməsidə çox sadə olar. Amma JSOn obyektində bir neçə obyektlər bir birinin içərisində olarsa, uzun şərti məlumatlar olarsa belə API-ların sənədləşməsi də çətin olur. Və sizin 100 sətr və ya 1000 sətr məlumatlarınız olarsa çox ehtiyatla fikirləşməlisinizki, bunları hansı formada verək.
+> **JSON** məlumatları (sorğu və cavabda) API sənədləşməsinin ən çətin hissələrindən biridir.&#x20;
 >
-> Cədvəllər JSON-u sənədləşdirmək üçün yaxşı vasitədir, lakin cədvəldə yuxarı səviyyəli və alt səviyyəli elementləri ayırd etmək çətin ola bilər.Belə ki, bir obyekt digər bir obyektdən, digər obyekt isə digər obyektdən iibarət olarsa onları cədvəl şəklində göstərmək çaşqınlıq yarada bilər.
+> **JSON** obyektləri sadə olarsa, məsələn eyni səviyyəli bir neçə `key-value` cütlüyü o zaman onların sənədləməsidə çox sadə olar. Amma **JSON** obyektində bir neçə obyektlər bir birinin içərisində olarsa və ya uzun şərti məlumatlar olarsa belə API-ların sənədləşməsi də çətin olur. Və sizin 100 sətr və ya 1000 sətr məlumatlarınız olarsa çox ehtiyatla fikirləşməlisinizki, bunları hansı formada verməliyəmki rahat olsun.
 >
-> Hər bir halda, əgər JSON obyekti nisbətən kiçikdirsə, cədvəl yəqin ki, ən yaxşı seçiminizdir. Lakin dizaynerlərin qəbul etdiyi başqa yanaşmalar da var.
+> Cədvəllər **JSON**-u sənədləşdirmək üçün yaxşı vasitədir, lakin cədvəldə yuxarı səviyyəli və alt səviyyəli elementləri ayırd etmək çətin ola bilər.Belə ki, bir obyekt digər bir obyektdən, digər obyekt isə digər obyektdən iibarət olarsa onları cədvəl şəklində göstərmək çaşqınlıq yarada bilər.
 >
-> Take a look at eBay’s resource. Here’s the request body (in this case, the format is XML):
->
-> eBay-in [findItemsByProduct](https://developer.ebay.com/DevZone/finding/CallRef/findItemsByProduct.html)  resursuna nəzər salın. Burada request body göstərilmişdir (bu keysdə format XML-dir):
-
-### Parameters for the surfreport endpoint <a href="#parameters-for-the-surfreport-endpoint" id="parameters-for-the-surfreport-endpoint"></a>
+> Hər bir halda, əgər **JSON** obyekti nisbətən kiçikdirsə, cədvəl yəqin ki, ən yaxşı seçiminizdir. Lakin dizaynerlərin qəbul etdiyi başqa yanaşmalar da var.
 
 ### Get account balance üçün parameterlər
 
