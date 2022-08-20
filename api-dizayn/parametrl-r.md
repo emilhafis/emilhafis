@@ -71,7 +71,7 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 
 ### JSON üzrə ümumi məlumat
 
-_**JSON**_ stands for _**JavaScript Object Notation**_. JSON is a human and machine-readable format to represent data as _**Structured Data**_. JSON is used primarily to transfer data from one computer to another or even between different programs on the same computer.
+**JSON**, _**JavaScript Object Notation**_ deməkdir. **JSON** məlumatları **Strukturlaşdırılmış Məlumat** kimi təqdim etmək üçün insan və maşın tərəfindən oxuna bilən formatdır. JSON **əsasən** məlumatları bir kompüterdən digərinə və ya hətta eyni kompüterdəki müxtəlif proqramlar arasında ötürmək üçün istifadə olunur.
 
 > <mark style="color:orange;">**object**</mark><mark style="color:orange;">:</mark> JSON formatı üzrə object (obyekt) **key-value** cütlüyünü bildirir. **Key-value** cütlərinin bu kolleksiyası <mark style="color:orange;">{fiqurlu mötərizlərin açılması və bağlanması ilə}</mark> <mark style="color:orange;">{ }</mark> qruplaşdırılır.
 >
