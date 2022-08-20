@@ -106,11 +106,11 @@ _**JSON**_ stands for _**JavaScript Object Notation**_. JSON is a human and mach
 >
 > Array-i tam başa düşmək üçün gəlin aşağıdakı nümunəyə baxaq.
 >
-> Deyək ki, Anarın hobbisi-də vardır və biz onu Person Object-nə əlavə etməliyik. Onun hobbisi Video oyunlarıdır. Gəlin object-ə key-value əlavə edək
+> Deyək ki, Anarın **hobbisi**-də vardır və biz onu **Person Object**-nə əlavə etməliyik. Onun hobbisi _Video oyunlarıdır_. Gəlin object-ə `key-value` əlavə edək
 
 ```javascript
 {
- "FirstName" : "Virender",
+ "FirstName" : "Anar",
  "Age"  : 32,
  "isMan"       : true,
  "Profession": "Developer",
@@ -118,9 +118,37 @@ _**JSON**_ stands for _**JavaScript Object Notation**_. JSON is a human and mach
 }
 ```
 
+> Göründüyü kimi burada bir problem yoxdur. Bəs Anarın 1-dən artıq hobbisi olsa nə edəcəyik& Məsələn - _Video oyunları, Komputer, Musiqi_. Bunun üçün **Person Object**-in 3 dəfə təkrarlayacağıq?
+
 ```javascript
 {
- "FirstName" : "Virender",
+ "FirstName" : "Anar",
+ "Age"  : 32,
+ "isMan"       : true,
+ "Profession": "Developer",
+ "Hobbies"   : "Videos games"
+}
+{
+ "FirstName" : "Anar",
+ "Age"  : 32,
+ "isMan"       : true,
+ "Profession": "Developer",
+ "Hobbies"   : "Computers"
+}
+{
+ "FirstName" : "Anar",
+ "Age"  : 32,
+ "isMan"       : true,
+ "Profession": "Developer",
+ "Hobbies"   : "Music"
+}
+```
+
+> <mark style="color:red;">**XEYR.**</mark> Bunun üçün **Array**-dən istifadə edəcəyik.
+
+```javascript
+{
+ "FirstName" : "Anar",
  "Age"  : 32,
  "isMan"       : true,
  "Profession": "Developer",
