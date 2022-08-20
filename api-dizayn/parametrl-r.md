@@ -98,11 +98,13 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 >
 > Arrays are similar to Arrays that you know from any other programming language. In JSON an Array is collection of Values separated by Comma. Here are the rules to write an Array
 >
-> * _An Array starts with an opening  **\[** (Bracket)_
-> * _An Array ends with a closing **]** (Bracket)_
-> * _Values in the Array are separated by **,** (Comma)_
+> Proqramlaşdırma dillərində istifadə olunana Array anlayışı ilə eynilik təşkil edir. **JSON**-da **Array** _Vergül_ ilə ayrılmış dəyərlər toplusundan ibarətdir.&#x20;
 >
-> To understand an Array let us add one more property to the _**Person Object**_. Let us add hobby also, a Person can have multiple hobbies. This makes it suitable to represent hobbies as an Array. As shown in the _JSON_ below
+> **Array**-in hazırlanması üçün qaydalar:
+>
+> * _**Array** düz mötərizənin açılması **\[** ilə başlayır_
+> * _Array düz mötərizənin bağlanması **]** ilə bitir_
+> * _Array-dəki məlumatlar Vergül **,** ilə ayrılır_
 >
 > Array-i tam başa düşmək üçün gəlin aşağıdakı nümunəyə baxaq.
 >
@@ -118,7 +120,7 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 }
 ```
 
-> Göründüyü kimi burada bir problem yoxdur. Bəs Anarın 1-dən artıq hobbisi olsa nə edəcəyik& Məsələn - _Video oyunları, Komputer, Musiqi_. Bunun üçün **Person Object**-in 3 dəfə təkrarlayacağıq?
+> Göründüyü kimi burada bir problem yoxdur. Bəs Anarın 1-dən artıq hobbisi olsa nə edəcəyik? Məsələn - _Video oyunları, Komputer, Musiqi_. Bunun üçün **Person Object**-in 3 dəfə təkrarlayacağıq?
 
 ```javascript
 {
@@ -144,7 +146,7 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 }
 ```
 
-> <mark style="color:red;">**XEYR.**</mark> Bunun üçün **Array**-dən istifadə edəcəyik.
+> <mark style="color:red;">**XEYR.**</mark> Bunun üçün **Array**-dən istifadə edilməlidir.
 
 ```javascript
 {
@@ -156,7 +158,9 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 }
 ```
 
-#### `Value` üzrə data type-lar
+> Bu nümunə JSON üzrə Array-dən düzgün istifadə olunan nümunədir.
+
+### Value üzrə data type-lar
 
 > * <mark style="color:orange;">**string**</mark><mark style="color:orange;">:</mark> Hərflərdən və ya rəqəmlərdən ibarət dəyərlər.
 >
