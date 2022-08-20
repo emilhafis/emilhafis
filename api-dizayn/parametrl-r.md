@@ -61,7 +61,7 @@ Nəzərə alın ki, **Endpoint**-lərdə 3 növ Parametrin də göstərilməsi m
 >
 > Əgər **API** parametrinin **Data type**-ı və ya formatı düzgün olmazsa, bu zaman **API**-lar proqramlaşdırıldıqdan sonra dəyərlər emal olunmayacaqdır.&#x20;
 >
-> Bu səbəbdən də, bütün dəyərlərin **Data type**-larını qeyd etmək lazımdır.&#x20;
+> Bu səbəbdən də, bütün dəyərlərin [**Data type**](parametrl-r.md#value-uezr-data-type-lar)-larını qeyd etmək lazımdır.&#x20;
 
 {% hint style="warning" %}
 Əgər sizin Parameter-lərinizdən birinin formatı **string** olmalıdırsa və siz sənədləşmədə onu **integer** göstərirsinizsə, API hazırlandıqdan sonra ora daxil edilmiş dəyər emal olunmayacaq və nəticədə Proqram təminatı işləməyəcəkdir.&#x20;
@@ -164,17 +164,15 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 
 > * <mark style="color:orange;">**string**</mark><mark style="color:orange;">:</mark> Hərflərdən və ya rəqəmlərdən ibarət dəyərlər.
 >
-> Məsələn - `"Anar"` burada <mark style="color:orange;">string</mark>-dir.
+> Məsələn - nümunədəki `"Anar"` <mark style="color:orange;">string</mark>-dir.
 
 > * <mark style="color:orange;">**integer**</mark><mark style="color:orange;">:</mark> Mənfi və müsbət tam ədədlər
 >
-> Məsələn - `32` burada <mark style="color:orange;">integer</mark>-dir.
+> Məsələn - nümunədəki `32` <mark style="color:orange;">integer</mark>-dir.
 
-> * <mark style="color:orange;">**boolean**</mark><mark style="color:orange;">:</mark> True və ya false dəyəri (yalnız iki dəyər olur, təsdiq və inkar)
+> * <mark style="color:orange;">**boolean**</mark><mark style="color:orange;">:</mark> true və ya false dəyəri (yalnız iki dəyər olur, təsdiq və inkar)
 >
-> Məsələn - `True` burada <mark style="color:orange;">boolean</mark>-dır.
-
-
+> Məsələn - nümunədəki `true` <mark style="color:orange;">boolean</mark>-dır.
 
 {% hint style="warning" %}
 Proqramlaşdırmada daha çox data type (məlumat növləri) vardır. Əgər sizin xüsusi ilə qeyd etmək istədiyiniz məlumat növü varsa bunu mütləq sənədləşmədə qeyd edin.&#x20;
