@@ -272,11 +272,11 @@ Query string parameter-lərinin sıra ardıcıllığı zəruri deyildir.
 Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdirilə bilməz.&#x20;
 {% endhint %}
 
-### Request bodies <a href="#request_bodies" id="request_bodies"></a>
+### Request body <a href="#request_bodies" id="request_bodies"></a>
 
-> Frequently, with POST requests (where you’re creating something), you submit a JSON object in the request body. This is known as a request body, and the format is usually JSON. This JSON object may be a lengthy list of key-value pairs with multiple levels of nesting.
+> Əksər hallarda biz request body-də (sorğu mətni) POST (adətən nəsə yaradanda) sorğusu ilə JSON obyekti göndəririk. Bu request body kimi tanınır və formatı adaətən JSON olur (məsələn, yuxarıdakı [Person Object](parametrl-r.md#json-uezr-uemumi-m-lumat)-i).&#x20;
 >
-> Məsələn, endpoint sadə ola bilər - `/surfreport/`<mark style="color:orange;">`{beachId}`</mark>. Amma siz sorğu mətnində (request body) JSON obyekt ilə xeyli sayda dəyərlər göndərə bilərsiniz. Aşağıdakı formada^
+> Məsələn, biz bir resurs yaradarkən sadə **endpoint** istifadə edə bilərik - `/port/`<mark style="color:orange;">`{beachId}`</mark>. Amma sorğu mətnində (**request body**) **JSON** obyekt ilə xeyli sayda dəyərlər göndərə bilərik. Aşağıdakı formada:
 
 ```javascript
 {
@@ -287,8 +287,14 @@ Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdi
 ```
 
 > In OpenAPI v2.0, request bodies were classified as a type of parameter, but in v3.0, they are not considered a parameter but rather a path property. Given that the request body functions like a parameter, I’ve decided to leave them classified as a parameter for now. However, note that in the OpenAPI spec, request bodies are technically not a parameter.
+>
+> OpenAPI v2.0-da **Request body** parametr növü kimi təsnif edilirdi, lakin v3.0-da onlar parametr deyil, daha çox `path property` kimi hesab olunur. **Request body**-nin bir parametr kimi fəaliyyət göstərdiyini nəzərə alaraq, onları hələlik parametr kimi təsnif edək.&#x20;
 
-#### Documenting complex request bodies <a href="#documenting-complex-request-bodies" id="documenting-complex-request-bodies"></a>
+{% hint style="warning" %}
+Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **parametr deyil.**
+{% endhint %}
+
+#### Mürəkkəb Request body <a href="#documenting-complex-request-bodies" id="documenting-complex-request-bodies"></a>
 
 > JSON məlumatları (sorğu və cavabda) API sənədləşməsində ən çətin hissələrindən biridir. JSON obyektləri sadə olarsa,məsələn eyni səviyyəli bir neçə key-value cütlüyü o zaman onların sənədləməsidə çox sadə olar. Amma JSOn obyektində bir neçə obyektlər bir birinin içərisində olarsa, uzun şərti məlumatlar olarsa belə API-ların sənədləşməsi də çətin olur. Və sizin 100 sətr və ya 1000 sətr məlumatlarınız olarsa çox ehtiyatla fikirləşməlisinizki, bunları hansı formada verək.
 >
