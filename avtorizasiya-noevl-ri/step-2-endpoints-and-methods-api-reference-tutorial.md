@@ -120,26 +120,15 @@ Bu səbəbdəndə, hər dəfə Endpoint yazarkən full resurs URL göstərməyin
 
 > Another consideration in documenting endpoints and methods is how to group and list the endpoints, particularly if you have a lot of endpoints for the same resource. In [Examples of resource descriptions](https://idratherbewriting.com/learnapidoc/docapis\_resource\_descriptions.html#examples), we looked at a variety of APIs. Many doc sites provide different designs for grouping or listing each endpoint for the resource, so I won’t revisit all the same examples. Group the endpoints in some way that makes sense, such as by method or by the type of information returned.
 >
+> **Endpoint**-lərin və **metodların** sənədləşdirilməsində diqqət yetirilməli olan digər məqam onları necə qruplaşdırmaq və başa düşülən formada göstərməkdir, xüsusən də eyni resurs üzrə çoxlu sayda **endpoint**-ləriniz olarsa.&#x20;
+>
+> Resurs təsvirlərinin nümunələrində biz müxtəlif API-lərə baxdıq. Bir çox sənəd saytları resurs üçün hər bir son nöqtəni qruplaşdırmaq və ya siyahıya salmaq üçün müxtəlif dizaynlar təqdim edir, ona görə də eyni nümunələrə yenidən baxmayacağam. Son nöqtələri məntiqli şəkildə qruplaşdırın, məsələn, metod və ya qaytarılan məlumatın növü.
+>
 > For example, suppose you have three GET endpoints and one POST endpoint, all of which relate to the same resource. Some doc sites might list all the endpoints for the same resource on the same page. Others might break them into separate pages. Others might create one group for the GET endpoints and another for the POST endpoints. It depends how much you have to say about each endpoint.
 >
 > If the endpoints are mostly the same, consolidating them on a single page could make sense. But if they’re substantially unique (with different responses, parameters, and error messages), separating them onto different pages is probably better (and easier to manage). Then again, with a more sophisticated website design, you can make lengthy information navigable on the same page.
 
-> In a later section on [design patterns](https://idratherbewriting.com/learnapidoc/pubapis\_design\_patterns.html), I explain that [long pages](https://idratherbewriting.com/learnapidoc/pubapis\_design\_patterns.html#longish\_pages) are common pattern with developer docs, in part because they make content easily findable for developers using Ctrl + F.
-
-### How to refer to endpoints in tutorials <a href="#how-to-refer-to-endpoints-in-tutorials" id="how-to-refer-to-endpoints-in-tutorials"></a>
-
-> In tutorials and other conceptual content, how do you refer to the endpoints within an API reference topic? Referring to the “`/aqi` endpoint” or to the “`/weatherdata`” endpoint doesn’t make a huge difference. But with more complex APIs, using the endpoint to talk about the resource can be tricky.
->
-> At one company I worked at, our URLs for the Rewards endpoints looked like this:
->
-> \
->
-
-> To say that you could use the rewards resource wasn’t always specific enough, because there were multiple rewards and missions endpoints.
->
-> It can get awkward referring to the endpoint. For example, you might have a sentence like this: “When you call `/users/{userId}/rewards/`, you get a list of all rewards. To get a specific reward for a specific mission for a specific user, the `/users/{userId}/rewards/{missionId}` endpoint takes several parameters…”
->
-> The longer the endpoint, the more cumbersome the reference becomes. These kinds of descriptions are more common in the [conceptual sections](https://idratherbewriting.com/learnapidoc/docconceptual.html) of your documentation. Generally, there’s not a clear convention about how to refer to cumbersome endpoints. Adopt an approach that makes the most sense for your API.
+> In a later section on [design patterns](https://idratherbewriting.com/learnapidoc/pubapis\_design\_patterns.html), I explain that [long pages](https://idratherbewriting.com/learnapidoc/pubapis\_design\_patterns.html#longish\_pages) are common pattern with developer docs, in part because they make content easily findable for developers using Ctrl + F.&#x20;
 
 ### Endpoint for surfreport API <a href="#endpoint-for-surfreport-api" id="endpoint-for-surfreport-api"></a>
 
