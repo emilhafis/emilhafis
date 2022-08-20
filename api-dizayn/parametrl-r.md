@@ -40,9 +40,9 @@ Nəzərə alın ki, **Endpoint**-lərdə 3 növ Parametrin də göstərilməsi m
 
 > REST API-nin qeyd etdiyimiz kimi bir neçə parameter növü vardır:
 >
-> * **Header parameter:** Request header-ə əlavə olunan dəyərlərdir və adətən avtorizasiya/autentifikasiya ilə əlaqəli olur. Bundan əvvəlki API təhlükəsizlik mövzusunda buna istinad etmişdik.
-> * **Path parameter:** Endpoint daxilində query string **(?)** işarəsindən əvvəl gələn dəyərlərdir. Adətən fiqurlu mötərizə **({})** ilə göstərirlər.
-> * **Query string parameter:** Endpoint-in query string dəyərləridir. !uery string **(?)** işarəsindən sonra gəlir.
+> * **Header parameter:** Request header-ə əlavə olunan dəyərlərdir və adətən avtorizasiya/autentifikasiya ilə əlaqəli olur. Bundan əvvəlki [API təhlükəsizlik mövzusunda](https://multibank.gitbook.io/api-security/) buna istinad etmişdik.
+> * **Path parameter:** Endpoint daxilində query string <mark style="color:orange;">**(?)**</mark> işarəsindən əvvəl gələn dəyərlərdir. Adətən fiqurlu mötərizə <mark style="color:orange;">**({})**</mark> ilə göstərirlər.
+> * **Query string parameter:** Endpoint-in query string dəyərləridir. Query string <mark style="color:orange;">**(?)**</mark> işarəsindən sonra gəlir.
 >
 > Another property closely related to parameters, and which used to be [referred to as a parameter in OpenAPI v2.0](https://swagger.io/docs/specification/2-0/describing-request-body/), is the request body, or [`requestBody`](https://swagger.io/docs/specification/describing-request-body/) in OpenAPI code form. The request body is usually only used with CREATE or PUT methods and often includes a JSON object included in the body of the request. More details are provided in [Request bodies](https://idratherbewriting.com/learnapidoc/docapis\_doc\_parameters.html#request\_bodies).
 
