@@ -197,78 +197,68 @@ Məsələn, mən hər zaman sənədləşmələrdə **enum** məlumat növünü g
 >
 > Ümumiyyətlə proqram ilkin testləşdirmə üçün hazır olduqdan sonra, <mark style="color:orange;">boolean</mark> və <mark style="color:orange;">enum</mark>-la yanaşı digər **data type**-lara icazə verilən parameter-ləri (məs, <mark style="color:orange;">string</mark>, <mark style="color:orange;">integer</mark>) yoxlayın. Məsələn, API-da ID sahəsi olarsa həmin sahəyə 300 simvol uzunluğunda, əgər fayl əlavə edə bilərsinizsə 100 MB həcmində əlavə etməyə çalışın. Əmin olun ki, API normal qaydada sorğularınızı emal edəcəkdir.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
+Bizim vəzifəmiz proqramçıların işini tam rahatlaşdırmaq və dəqiq tələblər verməklə sonradan yaranacaq qarışıq situasiyaların qarşısını almaqdır. Bu səbəbdəndə, sahələr üzrə tətbiq olunan məhdudiyyətləri mütləq göstərin. Çünki onları sizdən yaxşı bilən olmayacaqdır.
 
+Çox vaxt nə proqramçılar, nə məhsul komandanız nə də QA komandanız bu məhdudiyyətləri düzgün təyin etmir və ya testləşdirmir və nəticədə əsas mühitdə istifadəçilər kobud səhvlər ilə qarşılaşırlar.
 {% endhint %}
 
-> Bizim vəzifəmiz proqramçıların işini tam rahatlaşdırmaq və dəqiq tələblər verməklə sonradan yaranacaq qarışıq situasiyaların qarşısını almaqdır. Bu səbəbdəndə, sahələr üzrə tətbiq olunan məhdudiyyətləri mütləq göstərin. Çünki onları sizdən yaxşı bilən olmayacaq.
->
-> Çox vaxt nə proqramçılar nə məhsul komandanız nə də QA komandanız bu məhdudiyyətləri bilmir və nəticədə əsas mühitdə istifadəçilər kobud səhvlər ilə qarşılaşırlar.\
->
-
 {% hint style="warning" %}
-API-ları prqramçılardan təhvil alıb testləşdirən zaman mütləq fərqli formalarda parameterlər ilə yoxlayın. Məsələn, tələb olunan parametrdən az və ya çox, səhv parametter və s. Baxın görən hansı formada error cavabları qaydacaqdır.&#x20;
+API-ları prqramçılardan təhvil alıb testləşdirən zaman mütləq fərqli formalarda parametrlər ilə yoxlayın. Məsələn, tələb olunan parametrdən az və ya çox, səhv parametr və s. Düzgün formada error cavablarının qayıtdığından əmin olun.&#x20;
 
-Tesləşdirmə, qayıdan error kodları və s.haqqında növbəti məqalələrimizdə danışacağıq.
+_Tesləşdirmə, qayıdan error kodları və s.haqqında növbəti məqalələrimizdə danışacağıq_.
 {% endhint %}
 
+### Header parameter-i
 
-
-### Header parameters
-
-> Header parametr-ləri sorğu başlığına (request header) əlavə edilir. Adətən bu dəyərlər bütün endpoint-lərə aid olmaqla avtorizasiya parametrləri olur və bütün endpointlərə aid olur; yəni header parametrin sənədləşmədə bir dəfə göstərilir və o bütün endpoint-lərdə təkara göstərilmir. Buna baxmayaq, Header parametrləri üzrə avtorizasiya detalları sənədləşmədə ayrıca bölmə kimi adətən **avtorizasiya tələbləri** bölməsində göstərilir.
+> **Header parametr**-ləri sorğu başlığına (request header) əlavə edilir. Adətən bu dəyərlər bütün **endpoint**-lərə aid olmaqla avtorizasiya parametrləri olur. Yəni header parametri sənədləşmədə bir dəfə göstərilir və o bütün endpoint-lərdə təkrar göstərilmir. Buna baxmayaq, Header parametrləri üzrə avtorizasiya detalları sənədləşmədə ayrıca bölmə kimi adətən **avtorizasiya tələbləri** bölməsində göstərilir.
 
 {% hint style="info" %}
 Avtorizasiya və Authentifikasiya üzrə detallı məlumat ilə bundan əvvəlki mövzumda tanış ola bilərsiniz. [API Təhlükəsizliyi](https://multibank.gitbook.io/api-security/)
 {% endhint %}
 
-### Path parameters
+### Path parameter-i
 
-> Path parametri endpointin bir hissəsi olaraq daxil edilməsi zəruridir. Məsələn, aşağıdakı endpoint-də <mark style="color:orange;">`{user}`</mark> və <mark style="color:orange;">`{bicycleId}`</mark> dəyərləri path parameter-ləri kimi zəruri dəyərlərdir.
+> **Path parametri endpoint**-in bir hissəsi olur və daxil edilməsi zəruridir. Məsələn, aşağıdakı endpoint-də <mark style="color:orange;">`{user}`</mark> və <mark style="color:orange;">`{bicycleId}`</mark> dəyərləri path parameter-ləri kimi zəruri dəyərlərdir.
 
 {% code overflow="wrap" %}
-```json
-/service/myresource/user/{user}/bicycles/{bicycleId}
+```javascript
+/user/{user}/bicycles/{bicycleId}
 ```
 {% endcode %}
 
-> Path parameters are usually set off with curly braces, but some API doc styles precede the value with a colon or use a different syntax. When you document path parameters, indicate the default values, the allowed values, and other details.
->
-> Path parameter-ləri adətən qeyd etdiyimiz kimi fiqurlu mötərizədə <mark style="color:orange;">{}</mark> göstərilir. Amma bu mütlə qayda deyil, bəzi API doc dizaynda path parametri iki nöqtədən <mark style="color:orange;">:</mark> sonra, bəzilərində isə fərqli formada göstərilir.
+> **Path parameter**-ləri adətən qeyd etdiyimiz kimi fiqurlu mötərizədə <mark style="color:orange;">{}</mark> göstərilir. Amma bu mütləq qayda deyil, bəzi API doc dizaynda path parametri iki nöqtədən <mark style="color:orange;">:</mark> sonra, bəzilərində isə fərqli formada göstərilir.
 >
 > Aşağıdakı şəkildə Stripe API üzrə path parametrinin iki nöqtədən <mark style="color:orange;">:</mark> sonra əlavə edildiyini görə bilərsiniz.&#x20;
 
 ![](../.gitbook/assets/Stripe.png)
 
-#### Color coding the path parameters <a href="#color-coding-the-path-parameters" id="color-coding-the-path-parameters"></a>
+#### Path parametrinin rəngli formada göstərilməsi <a href="#color-coding-the-path-parameters" id="color-coding-the-path-parameters"></a>
 
 > Endpoint-də Path parameter-lərin fərqli rənglə göstərməyiniz onları daha başa düşülən formaya salacaqdır. Path parametrlərin rəngli göstərəndə dərhal bilmək olur ki, endpoint-də path parametrləri hansılardır.&#x20;
 >
-> Məsələn siz aşağıdakı şəkildəki kimi path parameter-ləri göstərməyiniz məsləhətdir.&#x20;
+> Məsələn sizin aşağıdakı Mailchimp API nümunəsindəki kimi path parameter-ləri göstərməyiniz i tövsiyyə edirəm.&#x20;
 
 ![](../.gitbook/assets/param.PNG)
 
-> You could then use the same color for these parameters in later descriptions:
+> Sonrada bu rənglər ilə parametrlərin təsvirini verə bilərsiniz. Məsələn,
 
 | Path Parameter	                                  | Description        |
 | ------------------------------------------------ | ------------------ |
 | <mark style="color:orange;">**user**</mark>      | Description user   |
 | <mark style="color:orange;">**bicycleId**</mark> | Description bcycle |
-|                                                  |                    |
 
-> By color coding the parameters, it’s easy to see the parameter being defined and how it relates to the endpoint definition.
+### Query string parameter-i
 
-### Query string parameters
-
-> Query string paramter-ləri endpoint-ə sual işarəsindən <mark style="color:orange;"></mark> <mark style="color:orange;"></mark><mark style="color:orange;">`(?)`</mark> <mark style="color:orange;"></mark><mark style="color:orange;"></mark> sonra əlavə edilir. sual işarəsindən <mark style="color:orange;"></mark> <mark style="color:orange;"></mark><mark style="color:orange;">`(?)`</mark> sonra gələn parameterlər və onların dəyərləri "query string" adlanır.&#x20;
+> Query string paramter-ləri endpoint-ə sual işarəsindən <mark style="color:orange;"></mark> <mark style="color:orange;"></mark><mark style="color:orange;">`(?)`</mark> <mark style="color:orange;"></mark><mark style="color:orange;"></mark> sonra əlavə edilir. Sual işarəsindən <mark style="color:orange;"></mark> <mark style="color:orange;"></mark><mark style="color:orange;">`(?)`</mark> sonra gələn parametrlər və onların dəyərləri **"query string"** adlanır.&#x20;
 >
-> Query string-də hər bir parametr bir birinin ardınca siyahılanır və  ampersand <mark style="color:orange;">(</mark><mark style="color:orange;">`&`</mark><mark style="color:orange;">)</mark> işarəsi ilə bir birindən ayrılır.
+> **Query string**-də hər bir parametr bir birinin ardınca siyahılanır və  ampersand <mark style="color:orange;">(</mark><mark style="color:orange;">`&`</mark><mark style="color:orange;">)</mark> işarəsi ilə bir birindən ayrılır.
 
 {% hint style="warning" %}
 Query string parameter-lərinin sıra ardıcıllığı zəruri deyildir.
 {% endhint %}
 
-> For example:
+> Məsələn:
 
 > `/surfreport/{beachId}?days=3`<mark style="color:orange;">`&`</mark>`units=metric`<mark style="color:orange;">`&`</mark>`time=1400`
 
@@ -276,7 +266,7 @@ Query string parameter-lərinin sıra ardıcıllığı zəruri deyildir.
 
 `/surfreport/{beachId}?time=1400`<mark style="color:orange;">`&`</mark>`units=metric`<mark style="color:orange;">`&`</mark>`days=3`
 
-> eyni nəticəni qaytaracaqdır.
+> _hər iki endpoint eyni nəticəni qaytaracaqdır._
 
 {% hint style="danger" %}
 However, with path parameters, the order _does_ matter. If the parameter is part of the actual endpoint (not added after the query string), you usually describe this value in the description of the endpoint itself.
