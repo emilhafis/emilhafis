@@ -88,7 +88,7 @@ Resursun təsviri çox vacibdir və ondan müxtəlif yerlərdə istifadə edəc�
 >
 > Belə olduqda bilinki, bunun üçün user guide-lar/tutorial-lar mövcuddur. Gəlin **Referens sənədləşməsi** ilə **istifadəçi bələdçisi** arasında nə fərqlər var baxaq.
 >
-> * **Referens sənədləşməsi -** proqramçıların oxuyaraq ümumi mənzərəni, resursun nəyi ifadə etməsini dərhal başa düşəcəyi prinsipləri özündə saxlayır. Məsələn, [YouTube](resursun-t-sviri.md#undefined) nümunəsində  ümumi olaraq `Comment` resursunun nəyə xidmət etdiyi göstərilir amma API-dan necə istifadə edilməlidir, **autentifikasiya** metodları hansılardır və digər istifadə qaydaları göstərilmir.
+> * **Referens sənədləşməsi -** proqramçıların oxuyaraq ümumi mənzərəni, resursun nəyi ifadə etməsini dərhal başa düşəcəyi prinsipləri özündə saxlayır. Məsələn, [YouTube](step-1-resource-description-api-reference-tutorial.md#undefined) nümunəsində  ümumi olaraq `Comment` resursunun nəyə xidmət etdiyi göstərilir amma API-dan necə istifadə edilməlidir, **autentifikasiya** metodları hansılardır və digər istifadə qaydaları göstərilmir.
 > * **İstifadəçi bələdçisi** -  bu bölməyə addım-addım təlimatlar, kod nümunələri, konsepsiyalar və prosedurlar daxil olmaqla API-dən necə istifadə olunacağına dair ətraflı məlumatlar qeyd olunur. _Bunun haqqında növbəti bölmələrdə daha geniş danışacağıq və başa düşəcəyik ki, bu səndələşməni hansı formada daha effektiv etmək olar._
 >
 > **API refrens bölməsinin təsvirində** resursun ehtiva etdiyi məlumatlar üzrə 1-3 cümləlik xülasisəni təqdim edib, **istifadəçi bələdçisində** bu barədə daha ətraflı məlumat verə bilərsiniz.&#x20;
@@ -109,6 +109,6 @@ Siz referens bölməsində istifadəçi bələdçisinə **** <mark style="color:
 
 ### Növbəti addım
 
-> Növbəti bölmədə resurs üzrə [endpoint və metdolar ](endpoint-v-metodlar.md)ilə tanış olacağıq.&#x20;
+> Növbəti bölmədə resurs üzrə [endpoint və metdolar ](step-2-endpoints-and-methods-api-reference-tutorial.md)ilə tanış olacağıq.&#x20;
 
 \

@@ -1,8 +1,8 @@
 # Endpoint və metodlar
 
-|                                                       |                                                                                                                                                                                                                                                                                                                                                                                    |   |
-| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
-| <mark style="color:blue;">**Resursun təsviri**</mark> | <p><mark style="color:orange;"></mark><a href="endpoint-v-metodlar.md"><mark style="color:orange;"><strong>Endpoint</strong></mark> </a><mark style="color:orange;"></mark></p><p><mark style="color:orange;"></mark><a href="endpoint-v-metodlar.md"><mark style="color:orange;"><strong>və metodlar</strong></mark> </a><mark style="color:orange;"><strong></strong></mark></p> |   |
+|                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |   |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
+| <mark style="color:blue;">**Resursun təsviri**</mark> | <p><mark style="color:orange;"></mark><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:orange;"><strong>Endpoint</strong></mark> </a><mark style="color:orange;"></mark></p><p><mark style="color:orange;"></mark><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:orange;"><strong>və metodlar</strong></mark> </a><mark style="color:orange;"><strong></strong></mark></p> |   |
 
 ### Endpoint və metod nədir?
 
@@ -24,7 +24,7 @@ Məsələn, aşağıda **Mailchimp API** üzrə nümunədə görə bilərsiniz k
 
 > Həmçinin, **Endpoint** bütün **Endpoint**-lər üçün ümumi olan əsas **Path**-i (yol) deyil, yalnız resurs **URL**-in **Path**-in (yolun) göstərir.&#x20;
 >
-> Cümlə çətindir bilirəm, narahat olmayın [aşağıdakı bölmədə](endpoint-v-metodlar.md#endpoint-yalniz-end-path-i-goest-rir) izahı vermişəm.
+> Cümlə çətindir bilirəm, narahat olmayın [aşağıdakı bölmədə](step-2-endpoints-and-methods-api-reference-tutorial.md#endpoint-yalniz-end-path-i-goest-rir) izahı vermişəm.
 
 ### Endpointlər üzrə nümunə
 
@@ -40,7 +40,7 @@ Məsələn, aşağıda **Mailchimp API** üzrə nümunədə görə bilərsiniz k
 
 ### Path parametrlərini fərqləndirin
 
-> Əgər sizin **endpoint**-də [**path parameter**](../avtorizasiya-noevl-ri/step-3-parameters-api-reference-tutorial.md#path-parameters) **** varsa onları _<mark style="color:orange;">fiqurlu mötərizə</mark>_ <mark style="color:orange;"></mark><mark style="color:orange;">(</mark>_<mark style="color:orange;">curly braces</mark>_<mark style="color:orange;">)</mark> ilə göstərin. Məsələn aşağıda **Mailchimp API** üzrə nümunə göstərilmişdir.
+> Əgər sizin **endpoint**-də [**path parameter**](step-3-parameters-api-reference-tutorial.md#path-parameters) **** varsa onları _<mark style="color:orange;">fiqurlu mötərizə</mark>_ <mark style="color:orange;"></mark><mark style="color:orange;">(</mark>_<mark style="color:orange;">curly braces</mark>_<mark style="color:orange;">)</mark> ilə göstərin. Məsələn aşağıda **Mailchimp API** üzrə nümunə göstərilmişdir.
 
 {% hint style="warning" %}
 <mark style="color:blue;">**GET**</mark>** /campaigns/**<mark style="color:orange;">**{campaign\_id}**</mark>
@@ -56,17 +56,17 @@ Məsələn, aşağıda **Mailchimp API** üzrə nümunədə görə bilərsiniz k
 
 ![](../.gitbook/assets/Open.PNG)
 
-> When the parameters are described in Facebook’s docs, the same green color is used to set off the parameters, which helps users recognize their meaning.
->
-> Bu API-larda da istifadiçilərin dərhal parametrləi anlamaları üçün <mark style="color:orange;">fərqli rənglə</mark> verilmişdir.
+{% hint style="info" %}
+#### [OpenWeather API](https://openweathermap.org/api/one-call-3)**-dan istifadə edərək siz hava haqqında məlumatları pulsuz formada alıb öz platformanız ilə inteqrasiya edə bilərsiniz.**
+{% endhint %}
 
+> Qeyd etdiyimiz kimi, **path parameterlərinin** standart təyin edilən bir rəngi yoxdur. Məsələn aşağıda [Amazon API-](step-2-endpoints-and-methods-api-reference-tutorial.md#undefined)larında şahidi oluruq ki, path parametri olan <mark style="color:orange;">`{eventGroupId}`</mark>  **URL**-dəki digər dəyərlərdən seçilmir. &#x20;
 
+{% hint style="warning" %}
+Amma siz sənədləşmə edərkən, bu parametrlərin dərhal gözə çarpası üçün fərqli formada və fərqli rəngdən istifadə edin.&#x20;
 
-
-
-> Path parameterlərinin standart təyin edilən bir rəngi yoxdur. Məsələn aşağıda [Amazon API-](endpoint-v-metodlar.md#undefined)larında şahidi oluruq ki, path parametri olan `{eventGroupId}` URL-dəki digər dəyərlərdən seçilmir. &#x20;
->
-> Amma siz sənədləşmə edərkən bu parametrlərin dərhal gözə çarpası üçün fərqli formada və fərqli rənglə verilməsini tövsiyyə edirəm. Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3)-da olduğu kimi narıncı rəngdən istifadə edirəm.
+Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3)-da olduğu kimi <mark style="color:orange;">narıncı rəngdən</mark> istifadə edirəm.
+{% endhint %}
 
 #### [Amazon API](https://developer-docs.amazon.com/sp-api/docs/finances-api-reference#get-financesv0financialeventgroupseventgroupidfinancialevents)
 
