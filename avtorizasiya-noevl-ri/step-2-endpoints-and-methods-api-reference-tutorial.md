@@ -122,9 +122,17 @@ Bu səbəbdəndə, hər dəfə Endpoint yazarkən full resurs URL göstərməyin
 >
 > **Endpoint**-lərin və **metodların** sənədləşdirilməsində diqqət yetirilməli olan digər məqam onları necə qruplaşdırmaq və başa düşülən formada göstərməkdir, xüsusən də eyni resurs üzrə çoxlu sayda **endpoint**-ləriniz olarsa.&#x20;
 >
-> Resurs təsvirlərinin nümunələrində biz müxtəlif API-lərə baxdıq. Bir çox sənəd saytları resurs üçün hər bir son nöqtəni qruplaşdırmaq və ya siyahıya salmaq üçün müxtəlif dizaynlar təqdim edir, ona görə də eyni nümunələrə yenidən baxmayacağam. Son nöqtələri məntiqli şəkildə qruplaşdırın, məsələn, metod və ya qaytarılan məlumatın növü.
+> [Resursun təsviri](step-1-resource-description-api-reference-tutorial.md) bölməsində biz müxtəlif API nümunələrinə baxdıq. Bir çox  platformalar **resurs** üzrə hər bir **endpoint**-i qruplaşdırmaq və ya sənədləşdirmək üçün müxtəlif dizayndan istifadə edirlər, buna görə də eyni nümunələrə yenidən baxmayacağıq.
+>
+> &#x20;<mark style="color:red;">Son nöqtələri məntiqli şəkildə qruplaşdırın, məsələn, metod və ya qaytarılan məlumatın növü.</mark>
+>
+> <mark style="color:red;">Endpoint-ləri mə</mark>
 >
 > For example, suppose you have three GET endpoints and one POST endpoint, all of which relate to the same resource. Some doc sites might list all the endpoints for the same resource on the same page. Others might break them into separate pages. Others might create one group for the GET endpoints and another for the POST endpoints. It depends how much you have to say about each endpoint.
+>
+> Amma ümumi konsepsiyaya nəzər salaq. Məsələn, deyək ki, sizin üç <mark style="color:blue;">**GET**</mark> və bir <mark style="color:blue;">**POST**</mark> **endpoint**-niz var və bunların hamısı eyni **resursa** aiddir.&#x20;
+>
+> Belə olan halda, bəzi platformalar eyni **resurs** üzrə bütün **endpoint**-ləri bir qrupda, digərləri isə müxtəlif qruplarda - məsələn, <mark style="color:blue;">**GET**</mark> üçün bir qrup, <mark style="color:blue;">**POST**</mark> üçün başqa bir qrupda verə bilərlər.&#x20;
 >
 > If the endpoints are mostly the same, consolidating them on a single page could make sense. But if they’re substantially unique (with different responses, parameters, and error messages), separating them onto different pages is probably better (and easier to manage). Then again, with a more sophisticated website design, you can make lengthy information navigable on the same page.
 
