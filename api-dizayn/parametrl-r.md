@@ -103,6 +103,20 @@ _**JSON**_ stands for _**JavaScript Object Notation**_. JSON is a human and mach
 > * _Values in the Array are separated by **,** (Comma)_
 >
 > To understand an Array let us add one more property to the _**Person Object**_. Let us add hobby also, a Person can have multiple hobbies. This makes it suitable to represent hobbies as an Array. As shown in the _JSON_ below
+>
+> Array-i tam başa düşmək üçün gəlin aşağıdakı nümunəyə baxaq.
+>
+> Deyək ki, Anarın hobbisi-də vardır və biz onu Person Object-nə əlavə etməliyik. Onun hobbisi Video oyunlarıdır. Gəlin object-ə key-value əlavə edək
+
+```javascript
+{
+ "FirstName" : "Virender",
+ "Age"  : 32,
+ "isMan"       : true,
+ "Profession": "Developer",
+ "Hobbies"   : "Videos games"
+}
+```
 
 ```javascript
 {
