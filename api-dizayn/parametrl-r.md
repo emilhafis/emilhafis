@@ -48,24 +48,28 @@ Nəzərə alın ki, **Endpoint**-lərdə 3 növ Parametrin də göstərilməsi m
 **Request body** adətən yalnız **`CREATE`** və **`PUT`** metodları ilə istifadə olunaraq **JSON** obyektində göstərilir.
 {% endhint %}
 
-### What to note in parameter documentation <a href="#what-to-note-in-parameter-documentation" id="what-to-note-in-parameter-documentation"></a>
+### Parametrlər üzrə qeyd edilməli məqamlar
 
-> Parametr-ləri göstərərkən onların aşağıdakı xassələrinidə mütləq qedy edin.
+> **Parametr**-ləri göstərərkən onların aşağıdakı xassələrini də mütləq qeyd edin.
 >
-> * [Data type](https://idratherbewriting.com/learnapidoc/docapis\_doc\_parameters.html#data\_types\_parameters) (Məlumüt növü)
-> * [Max və min dəyər](https://idratherbewriting.com/learnapidoc/docapis\_doc\_parameters.html#max\_min\_values)
->
+> * [Data type](parametrl-r.md#undefined) (Məlumat növü)
+> * [Max və min dəyər](parametrl-r.md#max\_min\_values)
+
+#### Data type (Məlumat növləri)
+
 > #### Parametrlər üçün Data type-lar
 >
-> Əgər API parametrinin Data type-ı və ya formatı düzgün olmazsa, bu zaman API-lar proqramlaşdırıldıqdan sonra dəyərlər emal olunmayacaqdır. Bütün dəyərlərin Data type-larını qeyd etmək lazımdır.&#x20;
+> Əgər **API** parametrinin **Data type**-ı və ya formatı düzgün olmazsa, bu zaman **API**-lar proqramlaşdırıldıqdan sonra dəyərlər emal olunmayacaqdır.&#x20;
+>
+> Bu səbəbdən də, bütün dəyərlərin **Data type**-larını qeyd etmək lazımdır.&#x20;
 
 {% hint style="warning" %}
 Əgər sizin Parameter-lərinizdən birinin formatı **string** olmalıdırsa və siz sənədləşmədə onu **integer** göstərirsinizsə, API hazırlandıqdan sonra ora daxil edilmiş dəyər emal olunmayacaq və nəticədə Proqram təminatı işləməyəcəkdir.&#x20;
 
-Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz parameter kimi CreditCard yazıb göndəririk. Amma yazılmış proqram bu Parameter üçün bizdən yalnız rəqəm gözləyir və CreditCard sözünə error qaytarır.
+Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz parameter kimi CreditCard yazıb göndəririk. Amma yazılmış proqram bu **Parametr** üçün bizdən yalnız rəqəm gözləyir və CreditCard sözünə **error** qaytarır.
 {% endhint %}
 
-> REST API-lər üzrə ən çox istifadə edilən data type-lar:
+> REST API-lər üzrə ən çox istifadə edilən **data type**-lar:
 >
 > * **string**: An alphanumeric sequence of letters and/or numbers
 > * **integer**: A whole number — can be positive or negative
@@ -74,13 +78,15 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 > * **array**: A list of values
 
 {% hint style="warning" %}
-Proqramlaşdırmada daha çox Məlumat növləri vardır. Əgər sizdə xüsusi ilə qeyd etmək istədiyiniz məlumat növü varsa bunu mütləq sənədləşmədə qeyd edin.&#x20;
+Proqramlaşdırmada daha çox data type (məlumat növləri) vardır. Əgər sizin xüsusi ilə qeyd etmək istədiyiniz məlumat növü varsa bunu mütləq sənədləşmədə qeyd edin.&#x20;
 
 Məsələn, Java dili üzrə proqramlaşdırma edərkən icazə verilən məlumat növünü qeyd etmək vacibdir, çünki Java verilənlərin ölçüsünə əsasən yaddaş sahəsi ayırır. Beləliklə, Java ölçülərin daha dəqiq olmasını xoşlayır. Məsələn, byte, short, int, double, long, float, char, boolean, və s. var.&#x20;
 
-Bununla belə, siz REST API sənədləşməsində bu səviyyədə detala düşməli deyilsiniz. bunları proqramçı arxitektlər təyin edirlər. Amma proqramlaşdırma bilyiniz varsa və əminsinizsə, qeyd etməyiniz çox yaxşı olar.
+Bununla belə, siz REST API sənədləşməsində bu səviyyədə detala düşməli deyilsiniz. bunları proqramçı arxitektlər təyin edirlər. Amma proqramlaşdırma biliyiniz varsa və əminsinizsə, qeyd etməyiniz çox yaxşı olar.
 
-Məsələn mən hər zaman sənədləşmələrdə enum məlumat növünü göstərirəm. Enum məlumat növü o halda istifadə olunurki, sizin daxil etmək üçün bəlli sayda dəyəriniz olur. Məsələn, nümunədəki kimi, hansı kartın abalansın əldə etmək üçün, sizdə 4 seçim var CreditCard, DebitCard and others. Bu səbəbdəndə CardType filed-nin məlumat növü enumdır.&#x20;
+Məsələn, mən hər zaman sənədləşmələrdə **enum** məlumat növünü göstərirəm. **Enum** məlumat növü o halda istifadə olunurki, sizin daxil etmək üçün bəlli sayda dəyəriniz olur. Məsələn, yuxarıda göstərdiyimiz nümunədə biz Credit kartı üzrə balansı əldə etdik. Bizə kartın növləri (CardType) üzrə 2 fərqli seçim verilə bilər - **CreditCard, DebitCard**.&#x20;
+
+Əgər bizim CardType üzrə bəlli sayda seçimimiz olursa bu məlumat növü **enum** adlanır..&#x20;
 {% endhint %}
 
 #### Max and min values for parameters <a href="#max_min_values" id="max_min_values"></a>
