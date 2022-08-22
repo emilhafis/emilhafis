@@ -1,8 +1,6 @@
 # Endpoint və metodlar
 
-|                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |   |
-| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
-| <mark style="color:blue;">**Resursun təsviri**</mark> | <p><mark style="color:orange;"></mark><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:orange;"><strong>Endpoint</strong></mark> </a><mark style="color:orange;"></mark></p><p><mark style="color:orange;"></mark><a href="step-2-endpoints-and-methods-api-reference-tutorial.md"><mark style="color:orange;"><strong>və metodlar</strong></mark> </a><mark style="color:orange;"><strong></strong></mark></p> |   |
+![](../.gitbook/assets/endpoint.png)
 
 ### Endpoint və metod nədir?
 
