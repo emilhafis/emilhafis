@@ -84,75 +84,58 @@ Həmçinin də, əmin olun ki, response məlumatlarının içərisində real mü
 ```
 
 {% hint style="info" %}
-Nümunədə 1 səhv tapıldı. Belə ki, sonda obyket bağlanmamışdı. Yəni fiqurlu mötərizə qoyulmamışdı Ö
-{% endhint %}
+Nümunədə 1 səhv tapıldı. Belə ki, sonda obyket bağlanmamışdı. Yəni fiqurlu mötərizə qoyulmamışdı }.
 
-> If you don’t have any syntax highlighters to integrate directly into your authoring tool, you can use an online syntax highlighter such as [tohtml.com/jScript/](https://tohtml.com/jScript/). However, manually pasting code into these editors will be tedious and probably unsustainable.
+Gördüyünüz kimi cavabımızda səliqəli və anlaşıqlı formada oldu.
+{% endhint %}
 
 {% hint style="info" %}
 Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, GitBook vəs.) haqqında danışacağıq. Orada görəcəksiniz ki, syntax highlighting hansı fromada olur.
 {% endhint %}
 
+### Status kodları
 
+> Response bölməsində bir çox hallarda mümkün statusu və qaytarılan xəta kodları göstərilir. Bununla belə, bu kodlar adətən API-nin bütün son nöqtələrinə aid olduğu üçün çox vaxt ayrıca bölmələrdə sənədləşdirilir. Bu səbəbdən də, bunları ayrıca mövzuda müzakirə edəcəyik.
 
-### Three-column designs
+### Get balance API üzrə cavab nümunəsi və sxemi
 
-> Some APIs put the response in a right column so you can see it while also looking at the resource description and parameters. Stripe’s API made this three-column design popular:
-
-> Stripe’s design juxtaposes the sample response in a right side pane with the response schema in the main window. The idea is that you can see both at the same time. The description won’t always line up with the response, which might be confusing. Still, separating the response example from the response schema in separate columns helps differentiate the two.
->
-> A lot of APIs have modeled their design after Stripe’s. For example, see [Slate](https://github.com/tripit/slate) or [Spectacle](https://github.com/sourcey/spectacle). Should you use a three-column layout with your API documentation? Maybe. But if the response example and description don’t line up, the viewer’s focus is somewhat split, and the user must resort to more up-and-down scrolling. Additionally, if your layout uses three columns, your middle column will have some narrow constraints that don’t leave much room for screenshots and code examples.
-
-### What about status codes?
-
-> Response bölməsində bir çox hallarda mümkün statusu və qaytarılan xəta kodlarını göstərilir. Bununla belə, bu kodlar adətən API-nin bütün son nöqtələrinə aid olduğu üçün çox vaxt ayrıca bölmələrdə sənədləşdirilir. Bu səbəbdən də, bunları ayrıca mövzuda müzakirə edəcyik.
-
-### Response example and schema for the surfreport endpoint
-
-> [Sample API senarisində](a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) göstərdiyimiz  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq. Aşağıda yanaşmamaı qeyd etmişəm.
+> Son olaraq bizə verilən tapşırıq olan /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq.&#x20;
 
 {% hint style="success" %}
-### Sample response
+### Cavab nümunəsi
 
-The following is a sample response from the `surfreport/{beachId}` endpoint:
-
-
+/accounts/<mark style="color:orange;">{AccountId}</mark>/balances üçün cavab nümunəsi:
 
 ```json
 {
-    "surfreport": [
-        {
-            "beach": "Santa Cruz",
-            "monday": {
-                "1pm": {
-                    "tide": 5,
-                    "wind": 15,
-                    "watertemp": 80,
-                    "surfheight": 5,
-                    "recommendation": "Go surfing!"
-                },
-                "2pm": {
-                    "tide": -1,
-                    "wind": 1,
-                    "watertemp": 50,
-                    "surfheight": 3,
-                    "recommendation": "Surfing conditions are okay, not great."
-                },
-                "3pm": {
-                    "tide": -1,
-                    "wind": 10,
-                    "watertemp": 65,
-                    "surfheight": 1,
-                    "recommendation": "Not a good day for surfing."
-                }
-                ...
-            }
-        }
-    ]
+   "Data":{
+      "Balance":[
+         {
+            "AccountId":"AZ29VTBA00000000000160209170",
+            "Amount":{
+               "Amount":"1230.00",
+               "Currency":"AZN"
+            },
+            "CreditDebitIndicator":"Credit",
+            "Type":"InterimAvailable",
+            "DateTime":"2017-04-05T10:43:07+00:00",
+            "CreditLine":[
+               {
+                  "Included":true,
+                  "Amount":{
+                     "Amount":"1000.00",
+                     "Currency":"AZN"
+                  },
+                  "Type":"Pre-Agreed"
+               }
+            ]
+         }
+      ]
+   }
 }
 ```
 
-#### Response definitions
+#### Cavbın təsviri
 
 The following table describes each item in the response.
 
