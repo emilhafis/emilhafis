@@ -20,3 +20,4 @@
 * [Sorğu nümunəsi](api-dizayn/sorgu-nuemun-si.md)
 * [Cavab nümunəsi](api-reference-tutorial/step-5-response-example-and-schema-api-reference-tutorial.md)
 * [Ümumi nümayiş](api-dizayn/uemumi-nuemayis.md)
+* [Auto generating doc](api-dizayn/auto-generating-doc.md)
