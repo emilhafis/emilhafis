@@ -343,9 +343,9 @@ Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **pa
 
 <mark style="color:blue;">**Path parameter-ləri**</mark>
 
-| Path parametri                                 | Təsvir                                                                           |   |
-| ---------------------------------------------- | -------------------------------------------------------------------------------- | - |
-| <mark style="color:orange;">{AccountId}</mark> | Hesab nömrəsi (IBAN). <mark style="color:green;">`Get from account_table`</mark> |   |
+| Path parametri                                 | Təsvir                                                                                |   |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------- | - |
+| <mark style="color:orange;">{AccountId}</mark> | Hesab nömrəsi (IBAN) (28) <mark style="color:green;">`Get from account_table.`</mark> |   |
 
 {% hint style="info" %}
 Path parametri qeyd etdiyimiz kimi hər zaman mandatory olur. Bu səbəbdən də burada filed-in mandatory və ya optional olmasını qeyd etməyə ehtiyac yoxdur
@@ -355,12 +355,13 @@ Path parametri qeyd etdiyimiz kimi hər zaman mandatory olur. Bu səbəbdən də
 
 #### <mark style="color:blue;">Header parameter-ləri</mark>
 
-| Header parametri                                             | Zəruriliyi   | Type   | Description                                                               |
-| ------------------------------------------------------------ | ------------ | ------ | ------------------------------------------------------------------------- |
-| <mark style="color:orange;">Sender-Participant-Code</mark>   | Zəruri deyil | String | Göndərən təşkilatın BIC kodu.                                             |
-| <mark style="color:orange;">Receiver-Participant-Code</mark> | Zəruridir    | String | Qəbul edən təşkilatın BIC kodu.                                           |
-| <mark style="color:orange;">PSU-Device-ID</mark>             | Zəruridir    | String | Mobil tətbiqin IMEI kodu və ya WEB saytın IP ünvanı                       |
-| <mark style="color:orange;">Consent-ID</mark>                | Zəruridir    | String | Consent identifikator. C`onsent registration` sorğusu zamanı əldə olunur. |
+| Header parametri                                             | Zəruriliyi   | Type              | Description                                                               |
+| ------------------------------------------------------------ | ------------ | ----------------- | ------------------------------------------------------------------------- |
+| <mark style="color:orange;">Sender-Participant-Code</mark>   | Zəruri deyil | Integer (6)       | Göndərən təşkilatın kodu                                                  |
+|                                                              |              |                   |                                                                           |
+| <mark style="color:orange;">Receiver-Participant-Code</mark> | Zəruridir    | Integer (6)       | Qəbul edən təşkilatın kodu                                                |
+| <mark style="color:orange;">PSU-Device-ID</mark>             | Zəruridir    | String (up to 25) | Mobil tətbiqin IMEI kodu və ya WEB saytın IP ünvanı                       |
+| <mark style="color:orange;">Consent-ID</mark>                | Zəruridir    | String (up to 30) | Consent identifikator. `Consent registration` sorğusu zamanı əldə olunur. |
 
 {% hint style="info" %}
 Gördüyünüz kimi bəzi field-lərin təsvirində qeyd etmişəmki bu field haradan əldə olunmalıdır və ya nədir.  Bizə verilən məlumatlarda isə bu yox idi. Siz bu məlumatları sizə tapşırığı verən Layihə meneceri və ya Product Owner-dən **mütləq almalısınız.**
