@@ -1,4 +1,10 @@
+---
+description: Endpoint and HTTP methods
+---
+
 # Endpoint və metodlar
+
+
 
 ![](../.gitbook/assets/endpoint.png)
 
@@ -74,7 +80,7 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 
 > Bəs **endpoint**-lərin qarşısında olan **GET, POST, PUT** və s. bunlar nədir?
 >
-> Bunlar **metodlardır** və **endpoint**-lərin qarşısında verilməsi qəbul olunmuş praktikadır. Metodlar resurslar ilə nə iş görə biləcəyimizi təyin edir. Qısa olaraq, metodları aşağıda qeyd edib nə iş gördüyünü qeyd edirəm:
+> Bunlar **HTTP metodlardır** və **endpoint**-lərin qarşısında verilməsi qəbul olunmuş praktikadır. Metodlar resurslar ilə nə iş görə biləcəyimizi təyin edir. Qısa olaraq, metodları aşağıda qeyd edib nə iş gördüyünü qeyd edirəm:
 >
 > * <mark style="color:blue;">**GET**</mark>: **Resursu** qaytarır. Yəni **Resurs** haqqında hansısa məlumatı əldə etmək istədikdə <mark style="color:blue;">**GET**</mark>-dən istifadə edilir.
 > * <mark style="color:blue;">**POST**</mark>: **Resursu** yaradır.&#x20;
@@ -85,7 +91,7 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 > Ətraflı məlumat üçün Vikipediyanın HTTP məqaləsində [Request methods](https://en.wikipedia.org/wiki/Hypertext\_Transfer\_Protocol#Request\_methods) baxın. Bəzi əlavə **metodlar** da var, lakin onlar nadir hallarda istifadə olunur.
 
 {% hint style="danger" %}
-**Metodların** **endpoint**-lər ilə sıx əlaqəsi olduğu üçün onları bir yerdə göstərdim. Metodları tam başa düşmək və detallı məlumat almaq üçün [Metodlar bölməs](../api-dizayn/metodlar.md)i ilə tanış ola bilərsiniz.
+**Metodların** **endpoint**-lər ilə sıx əlaqəsi olduğu üçün onları bir yerdə göstərdim. Metodları tam başa düşmək və detallı məlumat almaq üçün [Metodlar bölməs](broken-reference)i ilə tanış ola bilərsiniz.
 
 Əlavə olaraq aşağıda [Stripe API](step-2-endpoints-and-methods-api-reference-tutorial.md#stripe-api)-da metodları endpoint-lərin əvvəllində hansı formada qruplaşdırdıqlarınıda görə bilərsiniz.
 {% endhint %}

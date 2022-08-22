@@ -1,5 +1,5 @@
 ---
-description: Response example
+description: Response example and scheme
 ---
 
 # Cavab nümunəsi

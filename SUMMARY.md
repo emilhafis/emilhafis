@@ -20,7 +20,6 @@
 * [Overview](api-reference-tutorial/api-reference-tutorial-overview.md)
 * [Resursun təsviri](avtorizasiya-noevl-ri/step-1-resource-description-api-reference-tutorial.md)
 * [Endpoint və metodlar](avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
-* [Metodlar](api-dizayn/metodlar.md)
 * [Parametrlər](api-dizayn/parametrl-r.md)
 * [Sorğu nümunəsi](api-dizayn/sorgu-nuemun-si.md)
 * [Cavab nümunəsi](api-reference-tutorial/step-5-response-example-and-schema-api-reference-tutorial.md)
