@@ -1,6 +1,7 @@
 # Table of contents
 
 * [General Overview](README.md)
+* [Tapşırıq](tapsiriq.md)
 
 ## Avtorizasiya növləri
 
@@ -9,11 +10,6 @@
 * [Resources](avtorizasiya-noevl-ri/resources.md)
 * [Use HTTP verbs for CRUD operations](avtorizasiya-noevl-ri/use-http-verbs-for-crud-operations.md)
 * [Keep verbs out of URLs](avtorizasiya-noevl-ri/keep-verbs-out-of-urls.md)
-
-## Copy of API Dizayn
-
-* [API dizayn](copy-of-api-dizayn/api-dizayn.md)
-* [Tapşırıq](copy-of-api-dizayn/tapsiriq.md)
 
 ## API Dizayn
 

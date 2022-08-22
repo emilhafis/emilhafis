@@ -22,23 +22,13 @@ Bu mövzunu API-dan azda olsa məlumatlı olan şəxslər üçün nəzərdə tut
 **Toxunacağımız mövzular:**
 
 * ****[**General Overview**](./)**;**
-* **Autentifikasiya və Avtorizasiya;**
-  * [Overview;](broken-reference)
-* **Avtorizasiya növləri:**
-  * [Overview](broken-reference):
-  * [API Key](avtorizasiya-noevl-ri/api-key.md)
-  * [Basic Auth](broken-reference)
-  * [HMAC](broken-reference)
-* **OAuth:**
-  * [Overview](broken-reference):
-  * [Access/Refresh Token](broken-reference)
-  * [Terminologiya](broken-reference)
-    * [Scope](broken-reference)
-* **OAuth grant növləri:**
-  * [Overview](broken-reference)
-  * [Ümumi proseslər](broken-reference)
-  * [Client Credential](broken-reference)
-  * [Resource Owner Password](broken-reference)
-  * [Authorization Code](broken-reference)
-    * [Authorization Code with PKCE](broken-reference)
-* [**API Dizayn**](broken-reference)****
+* ****[**Tapşırıq**](tapsiriq.md)**;**
+* **API Dizayn:**
+  * [Overview](api-reference-tutorial/api-reference-tutorial-overview.md);
+  * Resursun təsviri;
+  * Endpoint və metodlar;
+  * Parametrlər;
+  * Sorğu nümunəsi;
+  * Cavab nümunəsi;
+  * Ümumi nümayiş;
+  * Avto generating doc.

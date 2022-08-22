@@ -148,7 +148,7 @@ Mən eyni **resursa** aid olan müxtəlif **endpoint**-ləri bir qrupda toplayı
 
 ### Balance API üçün Endpoint <a href="#endpoint-for-surfreport-api" id="endpoint-for-surfreport-api"></a>
 
-> [Bizə verilmiş məlumat](../copy-of-api-dizayn/tapsiriq.md#s-n-dl-sdirm-k-uecuen-m-lumat) əsasında **Endpoint**-mizi hazırlayaq. **Endpoint**-i üçün çox fikirləşməyə dəyməz çünki bizə təqdim ediblər.
+> [Bizə verilmiş məlumat](../tapsiriq.md#s-n-dl-sdirm-k-uecuen-m-lumat) əsasında **Endpoint**-mizi hazırlayaq. **Endpoint**-i üçün çox fikirləşməyə dəyməz çünki bizə təqdim ediblər.
 
 {% hint style="success" %}
 <mark style="color:green;">**Endpoint**</mark>
