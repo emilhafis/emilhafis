@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/api-security.jpg
-coverY: 0
+cover: .gitbook/assets/thumb.jpeg
+coverY: -196.17130144605113
 ---
 
 # General Overview
