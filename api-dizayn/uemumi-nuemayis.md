@@ -1,12 +1,20 @@
-# Yekun
+# Ümumi nümayiş
 
-<mark style="color:green;">**Endpoint**</mark>
+
+
+> Üzərində işlədiyimiz müxtəlif hissələri tam nümayiş etdirmək üçün onları bir yerə yığaq.
+
+### <mark style="color:blue;">Resursun təsviri (Resurce description)</mark>
+
+**`Balans`** resursu 1 hesab üzrə balansı əldə etmək üçün istifadə edilir. Həmçinin də, bu API-dan istifadə edərək hesabın valyutasını, kredit xətti üzrə limiti, istifadə olunmuş balansı, overdraft xəttin və s. öyrənmək mümkündür.
+
+### <mark style="color:blue;">**Endpoint və metod**</mark>
 
 <mark style="color:blue;">**GET**</mark>**   /accounts/**<mark style="color:orange;">**{AccountId}/**</mark>**balances**
 
-**Hesab üzrə balansı əldə et (Request to get account balance)**
+Hesab üzrə balansı əldə et (Request to get account balance)
 
-#### Sorğu nümunəsi
+### <mark style="color:blue;">Sorğu nümunəsi (Request example)</mark>
 
 ```url
 curl --location --request GET 'http://obank-test.example.az:50000/api/obis/v1.0/accounts/AZ83MOSZ00000000000019988155/balances' \
@@ -19,7 +27,7 @@ curl --location --request GET 'http://obank-test.example.az:50000/api/obis/v1.0/
 --header 'Authorization: Basic QVpFUkFaMjBBWFhYOjE='
 ```
 
-#### <mark style="color:purple;">Cavab nümunəsi</mark>
+### <mark style="color:blue;">Cavab nümunəsi (Response example)</mark>
 
 ```javascript
 {
@@ -49,3 +57,5 @@ curl --location --request GET 'http://obank-test.example.az:50000/api/obis/v1.0/
    }
 }
 ```
+
+### <mark style="color:blue;">Cavabın sxemi (Response scheme)</mark>
