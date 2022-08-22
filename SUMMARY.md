@@ -21,4 +21,4 @@
 * [Metodlar](api-dizayn/metodlar.md)
 * [Parametrlər](api-dizayn/parametrl-r.md)
 * [Sorğu nümunəsi](api-dizayn/sorgu-nuemun-si.md)
-* [Step 5: Response example and schema (API reference tutorial)](api-reference-tutorial/step-5-response-example-and-schema-api-reference-tutorial.md)
+* [Cavab nümunəsi](api-dizayn/cavab-nuemun-si.md)

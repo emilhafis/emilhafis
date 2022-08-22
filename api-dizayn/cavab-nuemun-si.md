@@ -1,26 +1,28 @@
-# Step 5: Response example and schema (API reference tutorial)
+---
+description: Response example
+---
+
+# Cavab nümunəsi
+
+
 
 ![](../.gitbook/assets/response.png)
 
-> Response example - cavab nümunəsi olub sorğu əsasında qayıdan cavab üzrə nümunəni göstərir. Cavab sxemi qayıdan bütün mümkün elementləri göstərməlidir.&#x20;
+> **Response example** - cavab nümunəsi olub sorğu əsasında qayıdan cavab üzrə nümunəni göstərir.&#x20;
 >
-> Cavab nümunəsi bütün parametr konfiqurasiyalarını və ya əməliyyatlarını əhatə etmir, lakin sorğu nümunəsində ötürülən parametrlərə uyğun qayıdan cavabı göstərməlidir. Nümunə proqramçılara resurs üzrə məlumatları, formatı və bu məlumatın necə strukturlaşdırıldığını və s. bilməyə imkan verir.
+> **Cavab nümunəsi** bütün parametr konfiqurasiyalarını və ya əməliyyatlarını əhatə etmir, lakin sorğu nümunəsində ötürülən parametrlərə uyğun qayıdan cavabı göstərməlidir. Nümunə proqramçılara resurs üzrə məlumatları, formatı və bu məlumatın necə strukturlaşdırıldığını və s. bilməyə imkan verir.
 >
-> Cavabın təsviri cavab sxemi (response scheme) kimi tanınır. Cavab sxemi cavabı daha əhatəli, ümumi şəkildə sənədləşdirir, geri qaytarıla bilən hər bir xassə, hər bir xassə nələri ehtiva edir, dəyərlərin məlumat formatı, strukturu və digər təfərrüatları göstərir.
+> Cavabın təsviri **cavab sxemi (response scheme)** kimi tanınır. **Cavab sxemi** cavabı daha əhatəli, ümumi şəkildə sənədləşdirir, geri qaytarıla bilən hər bir xassə, hər bir xassə nələri ehtiva edir, dəyərlərin məlumat formatı, strukturu və digər təfərrüatları göstərir.
 
-### Examples of response examples and schemas
+### Cavab nümunəsi və sxemi üzrə nümunələr
 
-> Aşağıdakı nümunə [Mailchimp API](https://mailchimp.com/developer/marketing/api/campaigns/get-campaign-info/) üzrədir. Onlar cavab üzrə nümunəni sağ tərəfdə göstərərək ortada hər bir field-in izahın və məlumat növünü (data type) göstəriblər.&#x20;
+> Aşağıdakı nümunə [Mailchimp API](https://mailchimp.com/developer/marketing/api/campaigns/get-campaign-info/) üzrədir. Onlar cavab üzrə nümunəni sağ tərəfdə göstərərək ortada hər bir field-in izahın və məlumat növünü (**data type**) göstəriblər.&#x20;
 
 ![](../.gitbook/assets/mailchimp\_response\_sample.png)
 
-> Aşağıdakı şəkildən göründüyü kimi burada qayıdan cavabda JSON fieldlərin hamsı eyni səviyyəli deyil. Yəni `recepients` obyektinin daxilində bir neçə obyekt yer alır. Qeyd etdiyimiz kimi buna `nested object` deyilir. mailchimp rahat başa düşülə bilinməsi üçün `recepients`  obeyktinin altındakı field-ləri əlaqəli şəkildə "expand" formasında göstərmişdir.
+> Aşağıdakı şəkildən göründüyü kimi burada qayıdan cavabda [**JSON**](parametrl-r.md#json-uezr-uemumi-m-lumat) field-lərin hamsı eyni səviyyəli deyil. Yəni `recepients` obyektinin daxilində bir neçə obyekt yer alır. Qeyd etdiyimiz kimi buna `nested object` deyilir. Mailchimp rahat başa düşülə bilinməsi üçün `recepients` obeyktinin altındakı field-ləri əlaqəli şəkildə "expand" formasında göstərmişdir.
 
 ![](../.gitbook/assets/mailchim\_nested\_object.png)
-
-> The definition of the response is called the _schema_ or _model_ (the terms are used synonymously) and aligns with the [JSON schema language and descriptions](https://json-schema.org/). What works particularly well with the SendGrid example is the use of expand/collapse tags to mirror the same structure as the example, with objects at different levels.
->
->
 
 ### Do you need to define the response? <a href="#do-you-need-to-define-the-response" id="do-you-need-to-define-the-response"></a>
 
@@ -86,7 +88,7 @@ Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, 
 
 ### Response example and schema for the surfreport endpoint
 
-> [Sample API senarisində](a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) göstərdiyimiz  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq. Aşağıda yanaşmamaı qeyd etmişəm.
+> [Sample API senarisində](../api-reference-tutorial/a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) göstərdiyimiz  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq. Aşağıda yanaşmamaı qeyd etmişəm.
 
 {% hint style="info" %}
 ### Sample response
