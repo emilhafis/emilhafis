@@ -49,9 +49,7 @@ Mandatory parameter-lər:
 
 * AccountId:&#x20;
 * Receiver-Participant-Code:&#x20;
-* PSU-Device-ID-Type:&#x20;
 * PSU-Device-ID
-* PSU-IP-Address
 * Consent-ID
 
 Optional parameter-lər.
