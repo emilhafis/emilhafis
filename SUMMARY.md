@@ -12,7 +12,6 @@
 
 ## API Dizayn
 
-* [Page 1](api-dizayn/page-1.md)
 * [API dizayn](api-dizayn/api-dizayn.md)
 * [Endpoint dizayn](api-reference-tutorial/a-new-endpoint-to-document.md)
 * [API reference tutorial overview](api-reference-tutorial/api-reference-tutorial-overview.md)
