@@ -306,6 +306,8 @@ Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **pa
 
 ### Get account balance üçün parameterlər
 
+> İndi isə <mark style="color:blue;">Get account balance</mark> **endpoint**-i üçün Parametr-ləri hazırlayaq.
+
 > Bizə t[əqdim olunan məlumatlarda](../api-reference-tutorial/a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) parametr-lər üzrə yalnız bu məlumatlar qeyd edilmişdir.
 >
 > Mandatory parameter-lər:
