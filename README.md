@@ -13,18 +13,17 @@ Bu mövzunu API-dan azda olsa məlumatlı olan şəxslər üçün nəzərdə tut
 **API-lara proqramçı baxışı -** API nədir, API-dan necə istifadə edirlər və s. bölmələri əhatə etməklə real nümunələr ilə proqramçıların API-dan necə istifadə etdiklərini əhatə edir.
 {% endhint %}
 
-> Bu mövzuda isə biz real PSD2 tələbləri əsasında Open Banking üzrə API-yı dizayn edəcəyik.&#x20;
+Bu mövzuda isə biz real [**PSD2**](https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366\_en) tələbləri əsasında Open Banking üzrə API-yı dizayn edəcəyik.&#x20;
+
+Mövzunun sonunda isə biz tam olaraq REST API prinsiplərin mənimsəmiş olacağıq.
+
+Növbəti mövzularda isə özümüz sıfırdan biznes tələbləri əsasında API hazırlayıb onları dizayn edəcəyik.
+
+> Bu mövzuda isə biz real [**PSD2**](https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366\_en) tələbləri əsasında hazırlanan **Open Banking üzrə API**-yı dizayn edəcəyik.&#x20;
 >
-> **Mövzunun sonunda isə biz tam olaraq REST API prinsipləri ilə tanış olacağıq.**
+> Mövzunun sonunda isə biz tam olaraq **REST API** prinsiplərin mənimsəmiş olacağıq və **API Dizayn** edərkən **Tech Writer** nəyə fikir verməlidir onlar ilə tanış olacağıq.
 >
-> **Növbəti mövzularda isə özümüz sıfırdan biznes tələbləri əsasında API hazırlayıb onları dizayn edəcəyik**
-
-> * **API Dizayn** edərkən **Tech Writer** nəyə fikir verməlidir?
-> * Hansı **avtorizasiya növündən** istifadə olunmalıdır?
-
-Bu sualları cavablandırmağa çalışacam.
-
-
+> Növbəti mövzularda isə özümüz sıfırdan biznes tələbləri əsasında **API** hazırlayıb onları dizayn edəcəyik.
 
 **Toxunacağımız mövzular:**
 
