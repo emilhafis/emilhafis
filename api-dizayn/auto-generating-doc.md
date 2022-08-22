@@ -1,2 +1,0 @@
-# Auto generating doc
-
