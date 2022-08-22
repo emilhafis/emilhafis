@@ -22,3 +22,4 @@
 * [Parametrlər](api-dizayn/parametrl-r.md)
 * [Sorğu nümunəsi](api-dizayn/sorgu-nuemun-si.md)
 * [Cavab nümunəsi](api-reference-tutorial/step-5-response-example-and-schema-api-reference-tutorial.md)
+* [Yekun](api-dizayn/yekun.md)
