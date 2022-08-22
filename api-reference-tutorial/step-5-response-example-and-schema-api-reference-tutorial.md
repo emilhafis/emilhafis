@@ -20,33 +20,31 @@ description: Response example
 
 ![](../.gitbook/assets/mailchimp\_response\_sample.png)
 
-> Aşağıdakı şəkildən göründüyü kimi burada qayıdan cavabda [**JSON**](parametrl-r.md#json-uezr-uemumi-m-lumat) field-lərin hamsı eyni səviyyəli deyil. Yəni `recepients` obyektinin daxilində bir neçə obyekt yer alır. Qeyd etdiyimiz kimi buna `nested object` deyilir. Mailchimp rahat başa düşülə bilinməsi üçün `recepients` obeyktinin altındakı field-ləri əlaqəli şəkildə "expand" formasında göstərmişdir.
+> Aşağıdakı şəkildən göründüyü kimi burada qayıdan cavabda [**JSON**](../api-dizayn/parametrl-r.md#json-uezr-uemumi-m-lumat) field-lərin hamsı eyni səviyyəli deyil. Yəni `recepients` obyektinin daxilində bir neçə obyekt yer alır. Qeyd etdiyimiz kimi buna `nested object` deyilir. Mailchimp rahat başa düşülə bilinməsi üçün `recepients` obeyktinin altındakı field-ləri əlaqəli şəkildə "expand" formasında göstərmişdir.
 
 ![](../.gitbook/assets/mailchim\_nested\_object.png)
 
-### Do you need to define the response? <a href="#do-you-need-to-define-the-response" id="do-you-need-to-define-the-response"></a>
+### Cavab sxeminə və nümunəsinə ehtiyac varmı? <a href="#do-you-need-to-define-the-response" id="do-you-need-to-define-the-response"></a>
 
-> Some API documentation omits the response schema because the responses might seem self-evident or intuitive. In Twitter’s API, the responses aren’t explained (you can see an [example here](https://developer.twitter.com/en/docs/accounts-and-users/manage-account-settings/api-reference/get-account-settings))
+> Bəzi API dizaynlarda cavab sxemlərin vermirlər.&#x20;
 >
-> However, most documentation would be better off with the response described, especially if the properties are abbreviated or cryptic. Developers sometimes abbreviate the responses to increase performance by reducing the amount of text sent. In one endpoint I documented, the response included about 20 different two-letter abbreviations. I spent days tracking down what each abbreviation meant, and found that many developers who worked on the API didn’t even know what many of the responses meant.
+> Amma, cavabın təsvirini vermək məqsədə uyğundur. Ən əsası da cavabda abbreviaturalar olduqda. API Tech Writer-lər bəzən field-ləri qısalatmaqla API həcmin azaldırlar. Hər bir abbreviaturanın nə demək olduğunu aydınlaşdırmaq üçün də xeyli vaxt lazım olur.
 
 {% hint style="warning" %}
 #### Cavab nümunələrində reala uyğun məlumatlardan istifadə edin. <a href="#use-realistic-values-in-the-example-response" id="use-realistic-values-in-the-example-response"></a>
 
 Cavab nümunəsində dəyərlər real məlumatlara uyğun olmalıdır, amma real olmamlıdır. Əgər proqramçılar sizə nümunə cavab verirsə, dəyərlərin ağlabatan olduğundan və diqqətinizi yayındıracaq qədər saxta olmadığından əmin olun (məsələn, komiks personajlarının adları və s.).&#x20;
 
-Həmçinin də, əmin olun ki, response məlumatlarının içərisində real müştəri məlumatları yoxdur. Əgər API nümunələri sizə təqdim ediblərsə və nümunələrdəki məlumatlar real məlumatlara oxşayırsa əmin olun ki, bunlar production databse dən deyildir. Adətən production verilənlər bazasının nüsxəsin (clone) çıxarıb onun üzərində development aparırlar. Belə olanda da real datalar nümunələrdə işitrak edir.&#x20;
+Həmçinin də, əmin olun ki, response məlumatlarının içərisində real müştəri məlumatları yoxdur. Əgər **API** nümunələri sizə təqdim ediblərsə və nümunələrdəki məlumatlar real məlumatlara oxşayırsa əmin olun ki, bunlar production database-dən deyildir. Adətən production verilənlər bazasının nüsxəsin (clone) çıxarıb onun üzərində development aparırlar. Belə olanda da real datalar nümunələrdə işitrak edir.&#x20;
 {% endhint %}
-
-
 
 ### Format the JSON and use code syntax highlighting <a href="#format-the-json-and-use-code-syntax-highlighting" id="format-the-json-and-use-code-syntax-highlighting"></a>
 
+> Qeyd etdiyimiz kimi, əksər API-larda cavab **JSON** formatında olur. Ona görə də, response nümunəsi hazırlayarkən [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) istifadə edib cavabı səqliəli formada göstərin.
 >
->
-> Qeyd etdiyimiz kimi, Response JSON formatında olur. Ona görə də, response nümunəsi hazırlayarkən [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) istifadə edib cavabı səqliəli formada göstərin.
->
-> Əgər "syntax highlighting" istifadə edə bilirsəniz mütləq edin. Səliqəli və  "syntax highlighting"  istifadə edilmiş cavab nümunəsini aşağıda göstərirəm.
+> Əgər "syntax highlighting" istifadə edə bilirsinizsə mütləq edin.&#x20;
+
+> Gəlin, bizim tapşırığımızda olan cavab nmunəsində format səhvi olmadığını yoxlayaq, həm dəsə səliqəli formaya salmağa çalışaq.
 
 ```javascript
 {
@@ -88,9 +86,9 @@ Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, 
 
 ### Response example and schema for the surfreport endpoint
 
-> [Sample API senarisində](../api-reference-tutorial/a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) göstərdiyimiz  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq. Aşağıda yanaşmamaı qeyd etmişəm.
+> [Sample API senarisində](a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) göstərdiyimiz  /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq. Aşağıda yanaşmamaı qeyd etmişəm.
 
-{% hint style="info" %}
+{% hint style="success" %}
 ### Sample response
 
 The following is a sample response from the `surfreport/{beachId}` endpoint:
