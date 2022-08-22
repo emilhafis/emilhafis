@@ -85,4 +85,4 @@ Növbəti mövzularımızda artıq biznes tələblərin analiz edərək sıfırd
 
 ### Növbəti addım
 
-> Növbəti [bölmədə](../api-reference-tutorial/api-reference-tutorial-overview.md) API üzrə qeyd etdiyimiz 5 əsas hissə ilə tanış olacağıq.&#x20;
+> Növbəti [bölmədə](../api-dizayn/overview.md) API üzrə qeyd etdiyimiz 5 əsas hissə ilə tanış olacağıq.&#x20;

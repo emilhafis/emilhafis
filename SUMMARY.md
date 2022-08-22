@@ -12,10 +12,7 @@
 
 ## API Dizayn
 
-* [API dizayn](api-dizayn/api-dizayn.md)
-* [Tapşırıq](api-dizayn/tapsiriq.md)
-* [Endpoint dizayn](api-reference-tutorial/a-new-endpoint-to-document.md)
-* [API reference tutorial overview](api-reference-tutorial/api-reference-tutorial-overview.md)
+* [Overview](api-dizayn/overview.md)
 * [Resursun təsviri](avtorizasiya-noevl-ri/step-1-resource-description-api-reference-tutorial.md)
 * [Endpoint və metodlar](avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
 * [Metodlar](api-dizayn/metodlar.md)
@@ -23,3 +20,16 @@
 * [Sorğu nümunəsi](api-dizayn/sorgu-nuemun-si.md)
 * [Cavab nümunəsi](api-reference-tutorial/step-5-response-example-and-schema-api-reference-tutorial.md)
 * [Yekun](api-dizayn/yekun.md)
+
+## Copy of API Dizayn
+
+* [API dizayn](copy-of-api-dizayn/api-dizayn.md)
+* [Tapşırıq](copy-of-api-dizayn/tapsiriq.md)
+* [API reference tutorial overview](copy-of-api-dizayn/api-reference-tutorial-overview.md)
+* [Resursun təsviri](copy-of-api-dizayn/resursun-t-sviri.md)
+* [Endpoint və metodlar](copy-of-api-dizayn/endpoint-v-metodlar.md)
+* [Metodlar](copy-of-api-dizayn/metodlar.md)
+* [Parametrlər](copy-of-api-dizayn/parametrl-r.md)
+* [Sorğu nümunəsi](copy-of-api-dizayn/sorgu-nuemun-si.md)
+* [Cavab nümunəsi](copy-of-api-dizayn/cavab-nuemun-si.md)
+* [Yekun](copy-of-api-dizayn/yekun.md)

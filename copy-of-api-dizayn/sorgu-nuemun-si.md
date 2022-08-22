@@ -46,7 +46,7 @@ https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c6
 
 ### Müxtəlif proqramlaşdırma dillərində sorğular <a href="#requests-in-various-languages" id="requests-in-various-languages"></a>
 
-> Bildiyimiz kimi **REST API** "`language agnostic`"-dir, yəni proqramlaşdırma dili deyil, istifadə. Müxtəlif proqramlaşdırma dilləri üzrə istifadə olunan protokoldur. Proqramçılar öz tətbiqlərin istənilən dildə (**Java, Ruby, Python** və s) yaza bilərlər. Proqramçılar istifadə etdikləri proqramlaşdırma dili vasitəsilə **API** ları sorğulayıb onlar üzrə cavabları ala bilərlər. Cavablar [**JSON**](parametrl-r.md#json-uezr-uemumi-m-lumat) və ya **XML** formatında olur.&#x20;
+> Bildiyimiz kimi **REST API** "`language agnostic`"-dir, yəni proqramlaşdırma dili deyil, istifadə. Müxtəlif proqramlaşdırma dilləri üzrə istifadə olunan protokoldur. Proqramçılar öz tətbiqlərin istənilən dildə (**Java, Ruby, Python** və s) yaza bilərlər. Proqramçılar istifadə etdikləri proqramlaşdırma dili vasitəsilə **API** ları sorğulayıb onlar üzrə cavabları ala bilərlər. Cavablar [**JSON**](../api-dizayn/parametrl-r.md#json-uezr-uemumi-m-lumat) və ya **XML** formatında olur.&#x20;
 >
 > Yazdıqlarımızın məntiqi nəticəsi olaraq biz proqramçıların hansı dildən istifadə edəcəyini tam olaraq bilməyəcəyimiz üçün, proqramlaşdırma dillərində kod nümunələri təqdim etməyimiz bir növ nəticəsizdir. Bir çox API-larda sorğu və cavab nümunələri təqdim olunur və proqramçıların özləri bilir ki, yazdılqları dildə hansı formada **HTTP** requests göndərə bilərlar.
 >
