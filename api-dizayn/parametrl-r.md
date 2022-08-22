@@ -1,5 +1,7 @@
 # Parametrlər
 
+![](../.gitbook/assets/params.png)
+
 > **Parameter**-lər **Endpoint** ilə göndərə biləcəyiniz dəyərlərdir. Bu dəyərlər qayıdan cavabda (bundan sonra **Response**) hansı dəyərlərin olmasını və ya **Response**-un formatını təyin edir.&#x20;
 >
 > Br neçə **parametr** növü vardır:

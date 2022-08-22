@@ -1,10 +1,6 @@
 # Step 4: Request example (API reference tutorial)
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+![](../.gitbook/assets/request.png)
 
 > Request nümunəsinə Endpoint-də daxil olmaqla istifadə edilmiş parametrlər konfiqurasiyanı göstərir. Sorğu nümunəsi adətən bütün mümkün parametr konfiqurasiyaların göstərmir amma mümkün qədər parametrləri göstərmək lazımdır.
 >

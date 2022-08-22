@@ -1,10 +1,6 @@
 # Step 5: Response example and schema (API reference tutorial)
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+![](../.gitbook/assets/response.png)
 
 > Response example - cavab nümunəsi olub sorğu əsasında qayıdan cavab üzrə nümunəni göstərir. Cavab sxemi qayıdan bütün mümkün elementləri göstərməlidir.&#x20;
 >
