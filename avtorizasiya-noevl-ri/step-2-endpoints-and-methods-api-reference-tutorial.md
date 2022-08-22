@@ -140,9 +140,9 @@ Mən eyni **resursa** aid olan müxtəlif **endpoint**-ləri bir qrupda toplayı
 
 ![](../.gitbook/assets/Stripe.PNG)
 
-### Endpoint for surfreport API <a href="#endpoint-for-surfreport-api" id="endpoint-for-surfreport-api"></a>
+### Balance API üçün Endpoint <a href="#endpoint-for-surfreport-api" id="endpoint-for-surfreport-api"></a>
 
-> Let’s create the Endpoints and methods section for our [fictitious surfreport API](https://idratherbewriting.com/learnapidoc/docapis\_new\_endpoint\_to\_doc.html). Here’s my approach:
+> [Bizə verilmiş məlumat](../copy-of-api-dizayn/tapsiriq.md#s-n-dl-sdirm-k-uecuen-m-lumat) əsasında **Endpoint**-mizi hazırlayaq. **Endpoint**-i üçün çox fikirləşməyə dəyməz çünki bizə təqdim ediblər.
 
 {% hint style="success" %}
 <mark style="color:green;">**Endpoint**</mark>
@@ -152,6 +152,6 @@ Mən eyni **resursa** aid olan müxtəlif **endpoint**-ləri bir qrupda toplayı
 **Hesab üzrə balansı əldə et (Request to get account balance)**
 {% endhint %}
 
-### Next step
+### Növbəti addım
 
-> Now that we’ve described the resource and listed the endpoints and methods, it’s time to tackle one of the most important parts of an API reference topic: the [parameters section](https://idratherbewriting.com/learnapidoc/docapis\_doc\_parameters.html).
+> Hazırda biz resursumuzun təsvirini verdik, endpoint və metodu təyin etdik. İndi isə gəlin API üzrə **ən əsas bölmə** olan [Parametrlərə](../api-dizayn/parametrl-r.md) keçək.
