@@ -98,20 +98,20 @@ curl --location --request GET 'http://obank-test.example.az:50000/api/obis/v1.0/
 ```
 
 {% hint style="danger" %}
-Although these code generators are probably helpful, they may or may not work for your API. Always review code samples with developers. In most cases, developers supply the code samples for the documentation, and technical writers briefly comment on the code samples.
+Bu kod nümunələri hər zaman öz proqramçılarınız ilə dəqiqləşdirin.
 {% endhint %}
 
 {% hint style="info" %}
 Postman, cURL, API doc platformaları (SwaggerHub, ReDoc və s) üzrə ayrıca mövzularımız olacaqdır.
 {% endhint %}
 
-### Request example for the surfreport endpoint <a href="#request-example-for-the-surfreport-endpoint" id="request-example-for-the-surfreport-endpoint"></a>
+### [Get account balance](../api-reference-tutorial/a-new-endpoint-to-document.md) üçün sorğu nümunəsi <a href="#request-example-for-the-surfreport-endpoint" id="request-example-for-the-surfreport-endpoint"></a>
 
-> Let’s return to the `surfreport/{beachId}` endpoint in our [sample scenario](https://idratherbewriting.com/learnapidoc/docapis\_new\_endpoint\_to\_doc.html) and create a request example for it. Here’s my approach:
->
 > İndi isə [bizə verilən taska](../api-reference-tutorial/a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) qayıdaq və `/accounts/`<mark style="color:orange;">`{AccountId}/`</mark>`balances` endpointi üçün sorğu nümunəsi hazrılayaq.&#x20;
+>
+> Adətən sorğu nümunələrində nümunə avtorizasiya məlumatları verildiyindən qeyd apararaq bunu bildirin.&#x20;
 
-{% hint style="info" %}
+{% hint style="success" %}
 ### <mark style="color:blue;">**Sorğu nümunəsi**</mark>
 
 ```javascript
@@ -125,7 +125,7 @@ curl --location --request GET 'http://obank-test.example.az:50000/api/obis/v1.0/
 --header 'Authorization: Basic QVpFUkFaMjBBWFhYOjE='
 ```
 
-(In the above code, replace `APIKEY` with your actual API key.)
+(Təşkilatınıza aid olan avtorizaisya məlumatlarından istifadə edin)
 {% endhint %}
 
 ### Növbəti addım
