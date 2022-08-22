@@ -38,31 +38,54 @@ Cavab nümunəsində dəyərlər real məlumatlara uyğun olmalıdır, amma real
 Həmçinin də, əmin olun ki, response məlumatlarının içərisində real müştəri məlumatları yoxdur. Əgər **API** nümunələri sizə təqdim ediblərsə və nümunələrdəki məlumatlar real məlumatlara oxşayırsa əmin olun ki, bunlar production database-dən deyildir. Adətən production verilənlər bazasının nüsxəsin (clone) çıxarıb onun üzərində development aparırlar. Belə olanda da real datalar nümunələrdə işitrak edir.&#x20;
 {% endhint %}
 
-### Format the JSON and use code syntax highlighting <a href="#format-the-json-and-use-code-syntax-highlighting" id="format-the-json-and-use-code-syntax-highlighting"></a>
+### JSON Formatter and Validator <a href="#format-the-json-and-use-code-syntax-highlighting" id="format-the-json-and-use-code-syntax-highlighting"></a>
 
 > Qeyd etdiyimiz kimi, əksər API-larda cavab **JSON** formatında olur. Ona görə də, response nümunəsi hazırlayarkən [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) istifadə edib cavabı səqliəli formada göstərin.
 >
 > Əgər "syntax highlighting" istifadə edə bilirsinizsə mütləq edin.&#x20;
 
-> Gəlin, bizim tapşırığımızda olan cavab nmunəsində format səhvi olmadığını yoxlayaq, həm dəsə səliqəli formaya salmağa çalışaq.
+> Gəlin, [bizim tapşırığımızda ](a-new-endpoint-to-document.md#get-account-balance-api-nuemun-si)olan cavab nümunəsində format səhvi olmadığını yoxlayaq, həm dəsə səliqəli formaya salmağa çalışaq.
+>
+> Mən bunun üçün [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/) saytdan istifadə edirəm. Amma xeyli sayda belə platformalar vardır.&#x20;
+
+#### Tapşırıqdakı cavab nümunəsi
+
+> { "Data":{ "Balance":\[ { "AccountId":"AZ29VTBA00000000000160209170", "Amount":{ "Amount":"1230.00", "Currency":"AZN" }, "CreditDebitIndicator":"Credit", "Type":"InterimAvailable", "DateTime":"2017-04-05T10:43:07+00:00", "CreditLine":\[ { "Included":true, "Amount":{ "Amount":"1000.00", "Currency":"AZN" }, "Type":"Pre-Agreed" } ] } ] }&#x20;
+
+#### Hazırladığımız cavab nümunəsi
 
 ```javascript
 {
-"id": 10,
-"name": "doggie",
-"category": {
-"id": 1,
-"name": "Dogs"
-},
-"photoUrls": [
-"string"
-],
-"tags": [
-{}
-],
-"status": "available"
+   "Data":{
+      "Balance":[
+         {
+            "AccountId":"AZ29VTBA00000000000160209170",
+            "Amount":{
+               "Amount":"1230.00",
+               "Currency":"AZN"
+            },
+            "CreditDebitIndicator":"Credit",
+            "Type":"InterimAvailable",
+            "DateTime":"2017-04-05T10:43:07+00:00",
+            "CreditLine":[
+               {
+                  "Included":true,
+                  "Amount":{
+                     "Amount":"1000.00",
+                     "Currency":"AZN"
+                  },
+                  "Type":"Pre-Agreed"
+               }
+            ]
+         }
+      ]
+   }
 }
 ```
+
+{% hint style="info" %}
+Nümunədə 1 səhv tapıldı. Belə ki, sonda obyket bağlanmamışdı. Yəni fiqurlu mötərizə qoyulmamışdı Ö
+{% endhint %}
 
 > If you don’t have any syntax highlighters to integrate directly into your authoring tool, you can use an online syntax highlighter such as [tohtml.com/jScript/](https://tohtml.com/jScript/). However, manually pasting code into these editors will be tedious and probably unsustainable.
 
