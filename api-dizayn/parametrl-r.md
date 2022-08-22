@@ -330,6 +330,8 @@ Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **pa
 > _**Query string parameteri isə** Endpointdə query string **(?)** işarəsindən sonra gələn parametrlər olur. Bu endpoint-də isə elə dəyərlər yoxdur._ Demək burada **Query string parameterləri** iştirak etmir.
 >
 > Deməli, digər parametrlər **Header parametrləridir.**
+>
+> Qeyd etdiyimiz kimi, əgər əlimizdə heç bir tool yoxdursa parametrləri cədvəl formasına göstərmək ən yaxşı variantlardan biridir. Ona görə də cədvəl formasında göstərək.
 
 {% tabs %}
 {% tab title="First Tab" %}
@@ -364,10 +366,6 @@ Gördüyünüz kimi bəzi field-lərin təsvirində qeyd etmişəmki bu field ha
 
 Hər zaman səndələşmədə özünüzü proqramçıların yerinə qoyun və əmin olun ki, onlar field-lərin hardan əldə olunmasını dərhal başa düşəcəklər.
 {% endhint %}
-{% endtab %}
-
-{% tab title="Second Tab" %}
-<mark style="color:blue;"></mark>
 {% endtab %}
 {% endtabs %}
 
