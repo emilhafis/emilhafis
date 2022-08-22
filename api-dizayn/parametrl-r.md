@@ -339,27 +339,24 @@ Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **pa
 
 <mark style="color:blue;">**Path parameter-ləri**</mark>
 
-| Path parameter                                 | Description                                                                                                       |   |
-| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | - |
-| <mark style="color:orange;">{AccountId}</mark> | Account identification                                                                                            |   |
-|                                                | The value for the beach you want to look up. Valid `beachId` values are available from our site at sampleurl.com. |   |
+| Path parametri                                 | Təsvir                                                                           |   |
+| ---------------------------------------------- | -------------------------------------------------------------------------------- | - |
+| <mark style="color:orange;">{AccountId}</mark> | Hesab nömrəsi (IBAN). <mark style="color:green;">`Get from account_table`</mark> |   |
 
 {% hint style="info" %}
-Path parametri qeyd etdiyimiz kimi hər zaman mandatory olur. O səbəbdən də burada filed-in mandatory və ya optional olmasını qeyd etməyə ehtiyac yoxdur
+Path parametri qeyd etdiyimiz kimi hər zaman mandatory olur. Bu səbəbdən də burada filed-in mandatory və ya optional olmasını qeyd etməyə ehtiyac yoxdur
 {% endhint %}
 
 ####
 
 #### <mark style="color:blue;">Header parameter-ləri</mark>
 
-| Header parameter                                             | Required / optional | Type   | Description                                                                                                                                                                                         |
-| ------------------------------------------------------------ | ------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <mark style="color:orange;">Sender-Participant-Code</mark>   | Optional            | String | BIC/pseudoBIC of sending participant                                                                                                                                                                |
-| <mark style="color:orange;">Receiver-Participant-Code</mark> | Mandatory           | String | BIC/pseudoBIC of receiving participant                                                                                                                                                              |
-| <mark style="color:orange;">PSU-Device-ID-Type</mark>        | Mandatory           | String | <p></p><p>UUID (Universally Unique Identifier) type for a device, which is used by the customer type. Supported values are:</p><ul><li>IMEI</li><li>TERMINAL</li><li>WEB</li><li>MERCHANT</li></ul> |
-| <mark style="color:orange;">PSU-Device-ID</mark>             |                     |        | UUID (Universally Unique Identifier) for a device, which is used by the customer, i.e. IMEI value of mobile phone                                                                                   |
-| <mark style="color:orange;">PSU-IP-Address</mark>            | Mandatory           | String | IP address of a device, which is used by the customer                                                                                                                                               |
-| <mark style="color:orange;">Consent-ID</mark>                | Mandatory           | String | Consent identification                                                                                                                                                                              |
+| Header parametri                                             | Zəruriliyi   | Type   | Description                                         |
+| ------------------------------------------------------------ | ------------ | ------ | --------------------------------------------------- |
+| <mark style="color:orange;">Sender-Participant-Code</mark>   | Zəruri deyil | String | Göndərən təşkilatın BIC kodu.                       |
+| <mark style="color:orange;">Receiver-Participant-Code</mark> | Zəruridir    | String | Qəbul edən təşkilatın BIC kodu.                     |
+| <mark style="color:orange;">PSU-Device-ID</mark>             | Zəruridir    | String | Mobil tətbiqin IMEI kodu və ya WEB saytın IP ünvanı |
+| <mark style="color:orange;">Consent-ID</mark>                | Mandatory    | String | Consent identification                              |
 
 {% hint style="info" %}
 Gördüyünüz kimi bəzi field-lərin təsvirində qeyd etmişəmki bu field haradan əldə olunmalıdır və ya nədir.  Bizə verilən məlumatlarda isə bu yox idi. Siz bu məlumatları sizə tapşırığı verən Layihə meneceri və ya Product ovner-dən almalısınız.
