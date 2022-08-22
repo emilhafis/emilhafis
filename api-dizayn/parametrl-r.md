@@ -372,4 +372,4 @@ Hər zaman səndələşmədə özünüzü proqramçıların yerinə qoyun və ə
 
 ### Növbəti addım
 
-> Növbəti bölmədə resurs üzrə [Sorğu nümunələri](../api-reference-tutorial/step-4-request-example-api-reference-tutorial.md)[ ](../avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)ilə tanış olacağıq.&#x20;
+> Növbəti bölmədə resurs üzrə [Sorğu nümunələri](sorgu-nuemun-si.md)[ ](../avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)ilə tanış olacağıq.&#x20;

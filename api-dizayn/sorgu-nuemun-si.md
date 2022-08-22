@@ -1,10 +1,14 @@
-# Step 4: Request example (API reference tutorial)
+---
+description: Request example
+---
+
+# Sorğu nümunəsi
 
 ![](../.gitbook/assets/request.png)
 
-> Request nümunəsinə Endpoint-də daxil olmaqla istifadə edilmiş parametrlər konfiqurasiyanı göstərir. Sorğu nümunəsi adətən bütün mümkün parametr konfiqurasiyaların göstərmir amma mümkün qədər parametrləri göstərmək lazımdır.
+> **Sorğu nümunəsi** **Endpoint**-də daxil olmaqla istifadə edilmiş `parametrlər konfiqurasiyanı` göstərir. Sorğu nümunəsi adətən bütün mümkün parametr konfiqurasiyaların göstərmir amma mümkün qədər parametrləri göstərmək lazımdır.
 >
-> Sorğu nümunələrində çox vaxt müxtəlif dillərdə həmin hazırlanmış kod nümunələrini (code snipets) də göstərirlər. cURL kod nümunələri ilə birgə göstərilir və demək olarki bütün sorğu nümunələrində cURL dən istifadə olunur. Bu qeyd etdiklərimiz sorğu nümunəsində göstərmək vacib deyil amma olarsa çox yaxşı olar.
+> Sorğu nümunələrində çox vaxt müxtəlif dillərdə hazırlanmış kod nümunələrini də `code snipets` göstərirlər. Bunu göstərmək mütləq deyil, amma göstərilməsi daha yaxşıdır.
 
 ### Sorğu nümunələri
 
@@ -12,33 +16,13 @@
 
 ![](../.gitbook/assets/Stripe\_request\_example.PNG)
 
-> The design of this API doc site arranges the sample requests and responses in the right column of a three-column layout. The request is formatted in curl, which we explored earlier in [Make a curl call](https://idratherbewriting.com/learnapidoc/docapis\_make\_curl\_call.html).
->
 > Gördüyünüz kimi burada API dizayn 3 hissəli təsvir edilmişdir. Sol tərəfdə Resurs və resurs üzrə əməliyyatlar, ortada Parametrlər, sağda isə request və response nümunəsi.&#x20;
 
 {% hint style="info" %}
-Bu formada dizaynı ilk dəfə Stripe gətirmişdir. Mənim bu dizayn çox xoşuma gəlir. API documenting üçün istifadə olunan ReDoc platformasının da dizaynı buna çox oxşardır.
+Bu formada dizaynı ilk dəfə **Stripe** gətirmişdir. Mənim bu dizayn çox xoşuma gəlir. API documenting üçün istifadə olunan ReDoc və Stoplight platformasının da dizaynı buna çox oxşardır.
 {% endhint %}
 
-> Sorğu nümunəsi cURL-də göstərilmişdir. cURL-i daha dərindən növbəti mövzularda müzakirə edəcəyik.
->
-> İndi isə cURL nədir və nə üçün sorğuları cURL-də göstərirlər gəlin ümumi olaraq baxaq
-
-### cURL qısa təsviri
-
-> One of the advantages of REST APIs is that you can use almost any programming language to call the endpoint. The endpoint is simply a resource located on a web server at a specific path.
->
-> Each programming language has a different way of making web calls. Rather than exhausting your energies trying to show how to make web calls in Java, Python, C++, JavaScript, Ruby, and so on, you can just show the call using curl
->
-> curl provides a generic, language-agnostic way to demonstrate HTTP requests and responses. Users can see the format of the request, including any headers and other parameters. Your users can translate this into the specific format for the language they’re using.
->
-> curl is a common format to show requests for several reasons:
->
-> * curl is language agnostic, so it’s not specific to one particular programming language.
-> * curl shows the header information required in the request.
-> * curl shows the method used with the request.
->
-> In general, use curl to show your sample request.&#x20;
+> Sorğu nümunəsi default olaraq **cURL**-də göstərilmişdir. **cURL**-i daha dərindən növbəti mövzularda müzakirə edəcəyik. Həmçinində seçim əsnasında digər proqramlaşdırma dillərində nümunələrə baxmaq mümkündür.
 
 ### Multiple request examples <a href="#multiple-request-examples" id="multiple-request-examples"></a>
 
@@ -141,7 +125,7 @@ Postman, cURL, API doc platformaları (SwaggerHub, ReDoc və s) üzrə ayrıca m
 
 > Let’s return to the `surfreport/{beachId}` endpoint in our [sample scenario](https://idratherbewriting.com/learnapidoc/docapis\_new\_endpoint\_to\_doc.html) and create a request example for it. Here’s my approach:
 >
-> İndi isə [bizə verilən taska](a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) qayıdaq və `/accounts/`<mark style="color:orange;">`{AccountId}/`</mark>`balances` endpointi üçün sorğu nümunəsi hazrılayaq.&#x20;
+> İndi isə [bizə verilən taska](../api-reference-tutorial/a-new-endpoint-to-document.md#the-wiki-page-get-account-balance-api) qayıdaq və `/accounts/`<mark style="color:orange;">`{AccountId}/`</mark>`balances` endpointi üçün sorğu nümunəsi hazrılayaq.&#x20;
 
 {% hint style="info" %}
 ### <mark style="color:blue;">**Sorğu nümunəsi**</mark>

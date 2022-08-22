@@ -20,5 +20,5 @@
 * [Endpoint və metodlar](avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
 * [Metodlar](api-dizayn/metodlar.md)
 * [Parametrlər](api-dizayn/parametrl-r.md)
-* [Step 4: Request example (API reference tutorial)](api-reference-tutorial/step-4-request-example-api-reference-tutorial.md)
+* [Sorğu nümunəsi](api-dizayn/sorgu-nuemun-si.md)
 * [Step 5: Response example and schema (API reference tutorial)](api-reference-tutorial/step-5-response-example-and-schema-api-reference-tutorial.md)
