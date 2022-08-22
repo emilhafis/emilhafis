@@ -98,10 +98,6 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 Endpointimiz üçün metod - <mark style="color:blue;">**GET**</mark>
 {% endhint %}
 
-{% hint style="info" %}
-Sometimes the method is referred to as the “verb.” GET, PUT, POST, PATCH, and DELETE are all verbs or actions.
-{% endhint %}
-
 ### Endpoint yalnız "end path"i göstərir
 
 > Endpoint-i göstərdiyiniz zaman yalnız "end path"-i göstərin. "Full path" "Base Path və Endpoint-dən ibarət olur və bunların ümumilikdə resurs URL adlanır.&#x20;

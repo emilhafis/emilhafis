@@ -139,8 +139,19 @@ Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, 
 
 The following table describes each item in the response.
 
+*
+*
+[ ]   *
+*
+
 
 {% endhint %}
+
+|   |   |
+| - | - |
+|   |   |
+|   |   |
+|   |   |
 
 \
 
