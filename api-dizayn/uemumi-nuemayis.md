@@ -59,3 +59,15 @@ curl --location --request GET 'http://obank-test.example.az:50000/api/obis/v1.0/
 ```
 
 ### <mark style="color:blue;">Cavabın sxemi (Response scheme)</mark>
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
