@@ -371,6 +371,6 @@ Hər zaman səndələşmədə özünüzü proqramçıların yerinə qoyun və ə
 {% endtab %}
 {% endtabs %}
 
-### Next step
+### Növbəti addım
 
-> Now that we’ve documented the parameters, it’s time to show a [sample request](https://idratherbewriting.com/learnapidoc/docapis\_doc\_sample\_requests.html) for the resource.
+> Növbəti bölmədə resurs üzrə [Sorğu nümunələri](../api-reference-tutorial/step-4-request-example-api-reference-tutorial.md)[ ](../avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)ilə tanış olacağıq.&#x20;
