@@ -25,3 +25,11 @@ Resurslar API tərəfindən qaytarılan məlumatlara deyilir.
 #### [Cavab nümunəsi](step-5-response-example-and-schema-api-reference-tutorial.md)
 
 Cavab nümunəsi sorğu nümunəsinə əsaslanan nümunə cavabı göstərir; cavab sxemi isə cavabın bütün mümkün elementlərini müəyyən edərək onların təsvirini verir.
+
+### Baxacağımız addımların xəritəsi
+
+{% hint style="info" %}
+Biz işlərimizi sadə formada heç bir avtomatlaşdırılımış **API doc platformalarından** istifadə etmədən görəcəyik. Həmçinin, bilin ki, bu işləri görmək üçün müxtəlif Avtomatlaşdırılmış **API platformalar** vardır və biz onlar ilə növbəti məqalələrimizdə tanış olacağıq.
+
+Amma sonda sizə hazırladığımız **API**-ın həmin platformaların birində necə göründüyünü göstərəcəm.
+{% endhint %}
