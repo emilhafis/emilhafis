@@ -33,3 +33,7 @@ Biz işlərimizi sadə formada heç bir avtomatlaşdırılımış **API doc plat
 
 Amma sonda sizə hazırladığımız **API**-ın həmin platformaların birində necə göründüyünü göstərəcəm.
 {% endhint %}
+
+### Növbəti addım
+
+Növbəti [bölmədə Resursun təsviri](../avtorizasiya-noevl-ri/step-1-resource-description-api-reference-tutorial.md) ilə tanış olacağıq.&#x20;
