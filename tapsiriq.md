@@ -70,7 +70,7 @@ description: Task
 > _**Bunun üçün nələr etməlisiniz, ümumiyyətlə məsələyə necə yanaşmalısınız?**_&#x20;
 
 {% hint style="warning" %}
-Məlumatlar sizi qorxutmasın. Addım addım hamısının üzərindən keçəcəyik və sonda **API** prinsiplərini mənimsəmiş olacağıq. Hazırda yalnız ümumi olaraq tanış olun və başa düşməyə çalışın ki, bu **API** nəyə xidmət edəcəkdir.
+Addım addım bütün prosesin üzərindən keçəcəyik və sonda **API** prinsiplərini mənimsəmiş olacağıq. Hazırda yalnız ümumi olaraq tanış olun və başa düşməyə çalışın ki, bu **API** nəyə xidmət edəcəkdir.
 {% endhint %}
 
 > Gördüyünüz kimi, buradakı məlumatlar **struktsuzdur** və dərhal anlamaq **çətindir**.&#x20;
