@@ -156,4 +156,4 @@ API-larda bir **object** digərlər yerlərdə də iştirak edirsə (məsələn 
 
 ### Sonuncu addım
 
-> indi isə gəlin bütün addımlarda hazırladığımız məlumatlara [ümumi baxış](uemumi-nuemayis.md) həyat keçirək.
+> indi isə gəlin bütün addımlarda hazırladığımız məlumatlara [ümumi baxış](uemumi-baxis.md) həyat keçirək.

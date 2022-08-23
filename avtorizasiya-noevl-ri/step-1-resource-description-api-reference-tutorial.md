@@ -15,7 +15,7 @@ description: Resource description
 > Adətən 1-ci səhifədə resurslara giriş üçün istifadə olunan enpoint-lər ümumi resursun təsviri ilə birgə göstərilir.&#x20;
 
 {% hint style="warning" %}
-Bilirəm qarışıq oldu. Narahat olmayın indi hamısını başa düşəcəksiniz.
+Nümunələrlə tanış olduqca Resurs nədir onu daha yaxşı anlayacağıq.
 {% endhint %}
 
 ### Resurs təsviri üzrə nümunə
