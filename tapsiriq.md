@@ -8,9 +8,9 @@ description: Task
 >
 > Komandanıza tapşırılıb ki, bank müştərilərinin məlumatların 3-cü tərəf təşkilatlara vermək üçün **PSD2 standartı** əsasında **Open Banking** yaradın.
 >
-> Hazırda bu formatlı standart Mərkəzi Bank tərəfindən **Ani Ödənişlər Sistemində** yaradılmışdır. Amma, bizə sırf bankda yaradılmış mərkəzləşdirilmiş Open Banking lazımdır ki, onu istədyimiz formada hazırlayaq.
+> Hazırda bu formatlı standart Mərkəzi Bank tərəfindən [**Ani Ödənişlər Sistemində**](https://anipay.az/open-banking) yaradılmışdır. Amma, bizə sırf bankda yaradılmış mərkəzləşdirilmiş Open Banking lazımdır ki, onu istədyimiz formada hazırlayaq.
 >
-> Komandanız sizə bildirir ki, API tələblərin artıq digər **API Tech** writer-lər hazırlanmış, yeni **endpoint proqramlaşdırılmışdır** və **** onu sənədləşdirmək lazımdır.&#x20;
+> Komandanız sizə bildirir ki, API tələblərin artıq digər **API Tech** writer-lər hazırlamış, yeni **endpoint proqramlaşdırılmış** və **** bizdən isə **** onu dizayn edib sənədləşdirmək lazım olduğu bildirilir.
 
 {% hint style="info" %}
 Çox vaxt, **endpoint** yerinə **API**-da deyilir.
@@ -20,7 +20,7 @@ description: Task
 
 ### Sənədləşdirmək üçün məlumat
 
-> ### <mark style="color:blue;">Get account balance API</mark>
+> ### <mark style="color:orange;">Get account balance API</mark>
 >
 > Yeni Endpointimiz budur   /accounts/{AccountId}/balances. Bu endpoint 3-cü tərəf təşkilatlar və ya banklar üçün nəzərdə tutulmuşdur. {AccountId} həmin hesab üzrə balansı qaytarır.
 >
@@ -59,7 +59,7 @@ description: Task
 
 > Gördüyünüz kimi sizə verilən məlumatlar dağınıq formada və nizamsız düzülüşdədir.
 >
-> Bir çox **Tech writer**-lər layihə üzrə sıfırdan sənədləşmələri etmirlər. Arxitektlər adətən vacib məlumatları özləri üçün qeyd götürürlər və ya görüşlər zamanı uzun uzadı müzakriələr nəticəsində lazımı məlumatları alırlar və sonda özləridə bir çox məlumatları sənədləşmələrə əlavə edirlər. Bu məlumatlarda çox vaxt tam olmur və bu səbəbdən də **development** zamanı <mark style="color:red;">problemlər çox olur</mark>.&#x20;
+> Bir çox **Tech writer**-lər layihə üzrə sıfırdan sənədləşmələri etmirlər. Arxitektlər adətən vacib məlumatları özləri üçün qeyd götürürlər və ya görüşlər zamanı uzun uzadı müzakirələr nəticəsində lazımı məlumatları alırlar və sonda özləridə bir çox məlumatları sənədləşmələrə əlavə edirlər. Bu məlumatlarda çox vaxt tam olmur və bu səbəbdən də **development** zamanı <mark style="color:red;">problemlər çox olur</mark>.&#x20;
 >
 > Yekunda hazırlanmış məlumatlar dağınıq olur, dərhal başa düşmək olmur və ya həssas daxili məsələlər (məsələn, database scheme, test login və s) sənədləşmələrin tərkbində yer alır.
 >
