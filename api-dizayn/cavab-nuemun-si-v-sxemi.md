@@ -28,7 +28,7 @@ description: Response example and scheme
 
 > Bəzi API dizaynlarda cavab sxemlərin vermirlər.&#x20;
 >
-> Amma, cavabın təsvirini vermək məqsədə uyğundur. Ən əsası da cavabda abbreviaturalar olduqda. API Tech Writer-lər bəzən field-ləri qısalatmaqla API həcmin azaldırlar. Hər bir abbreviaturanın nə demək olduğunu aydınlaşdırmaq üçün də xeyli vaxt lazım olur.
+> Amma, cavabın təsvirini vermək məqsədə uyğundur. Ən əsası da cavabda abbreviaturalar olduqda. **API Tech Writer**-lər bəzən field-ləri qısalatmaqla API həcmin azaldırlar. Hər bir abbreviaturanın nə demək olduğunu aydınlaşdırmaq üçün də xeyli vaxt lazım olur.
 
 {% hint style="warning" %}
 #### Cavab nümunələrində reala uyğun məlumatlardan istifadə edin. <a href="#use-realistic-values-in-the-example-response" id="use-realistic-values-in-the-example-response"></a>
@@ -38,13 +38,13 @@ Cavab nümunəsində dəyərlər real məlumatlara uyğun olmalıdır, amma real
 Həmçinin də, əmin olun ki, response məlumatlarının içərisində real müştəri məlumatları yoxdur. Əgər **API** nümunələri sizə təqdim ediblərsə və nümunələrdəki məlumatlar real məlumatlara oxşayırsa əmin olun ki, bunlar production database-dən deyildir. Adətən production verilənlər bazasının nüsxəsin (clone) çıxarıb onun üzərində development aparırlar. Belə olanda da real datalar nümunələrdə işitrak edir.&#x20;
 {% endhint %}
 
-### JSON Formatter and Validator <a href="#format-the-json-and-use-code-syntax-highlighting" id="format-the-json-and-use-code-syntax-highlighting"></a>
+### JSON Formatter və Validator <a href="#format-the-json-and-use-code-syntax-highlighting" id="format-the-json-and-use-code-syntax-highlighting"></a>
 
 > Qeyd etdiyimiz kimi, əksər API-larda cavab **JSON** formatında olur. Ona görə də, response nümunəsi hazırlayarkən [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) istifadə edib cavabı səqliəli formada göstərin.
 >
-> Əgər "syntax highlighting" istifadə edə bilirsinizsə mütləq edin.&#x20;
+> Əgər "syntax highlighting" (yəni proqramlaşdırma dilinə uyğun rənglər ilə fərqləndirilmə, məsələn [aşağıda](cavab-nuemun-si-v-sxemi.md#hazirladigimiz-cavab-nuemun-si) mən bundan istifadə etmişəm) istifadə edə bilirsinizsə mütləq edin.&#x20;
 
-> Gəlin, [bizim tapşırığımızda ](broken-reference)olan cavab nümunəsində format səhvi olmadığını yoxlayaq, həm dəsə səliqəli formaya salmağa çalışaq.
+> Gəlin, [bizim tapşırığımızda ](broken-reference)olan cavab nümunəsində format səhvi olmadığını yoxlayaq, həm də JSON-u səliqəli formaya salmağa çalışaq.
 >
 > Mən bunun üçün [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/) saytdan istifadə edirəm. Amma xeyli sayda belə platformalar vardır.&#x20;
 
@@ -97,14 +97,12 @@ Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, 
 
 > Response bölməsində bir çox hallarda mümkün statusu və qaytarılan xəta kodları göstərilir. Bununla belə, bu kodlar adətən API-nin bütün son nöqtələrinə aid olduğu üçün çox vaxt ayrıca bölmələrdə sənədləşdirilir. Bu səbəbdən də, bunları ayrıca mövzuda müzakirə edəcəyik.
 
-### Get balance API üzrə cavab nümunəsi və sxemi
+### [Tapşırıq](../tapsiriq.md#s-n-dl-sdirm-k-uecuen-m-lumat) üzrə cavab nümunəsi və sxemi
 
 > Son olaraq bizə verilən tapşırıq olan /accounts/<mark style="color:orange;">{AccountId}</mark>/balances endpointi üçün response nümunəsi və sxemi hazırlayaq.&#x20;
 
 {% hint style="success" %}
-### Cavab nümunəsi
-
-/accounts/<mark style="color:orange;">{AccountId}</mark>/balances üçün cavab nümunəsi:
+#### Cavab nümunəsi
 
 ```json
 {
@@ -135,7 +133,7 @@ Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, 
 }
 ```
 
-#### Cavbın təsviri
+#### Cavb sxemi
 
 The following table describes each item in the response.
 
