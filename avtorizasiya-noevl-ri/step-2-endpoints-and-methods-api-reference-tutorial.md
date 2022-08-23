@@ -96,7 +96,7 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 Əlavə olaraq aşağıda [Stripe API](step-2-endpoints-and-methods-api-reference-tutorial.md#stripe-api)-da metodları endpoint-lərin əvvəllində hansı formada qruplaşdırdıqlarınıda görə bilərsiniz.
 {% endhint %}
 
-### [Tapşırığımız](../tapsiriq.md) üzrə metodu təyin edək
+### [Tapşırıq](../tapsiriq.md#s-n-dl-sdirm-k-uecuen-m-lumat) üzrə metodu təyin edək
 
 > Məlumatlarda qeyd edildiyi kimi, 3-cü tərəf təşkilatlar banklardan hesab üzrə balansları əldə edəcəklər. Məlumatın əldə edilməsi üçündə <mark style="color:orange;">**GET**</mark> metodundan istifadə edilir.
 
