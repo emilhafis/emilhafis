@@ -5,7 +5,7 @@ coverY: -196.17130144605113
 
 # General Overview
 
-Bu mövzunu API-dan azda olsa məlumatlı olan şəxslər üçün nəzərdə tutumuşam. Yəni onlar API nədir, proqramçılar ondan necə istifadə edirlər artıq onu bilirlər.
+Bu mövzunu API-dan azda olsa məlumatlı olan şəxslər üçün nəzərdə tutmuşam. Yəni onlar API nədir, proqramçılar ondan necə istifadə edirlər artıq bilirlər.
 
 Əgər qeyd etdiklərim üzrə məlumatınız yoxdursa, Linkedin postunun rəy bölməsində <mark style="color:orange;">"</mark><mark style="color:orange;">**API-lara proqramçı baxışı**</mark><mark style="color:orange;">"</mark> adlı mövzunu məndən istəyin.&#x20;
 

@@ -20,27 +20,27 @@ description: Response example and scheme
 
 ![](../.gitbook/assets/mailchimp\_response\_sample.png)
 
-> Aşağıdakı şəkildən göründüyü kimi burada qayıdan cavabda [**JSON**](parametrl-r.md#json-uezr-uemumi-m-lumat) field-lərin hamsı eyni səviyyəli deyil. Yəni `recepients` obyektinin daxilində bir neçə obyekt yer alır. Qeyd etdiyimiz kimi buna `nested object` deyilir. Mailchimp rahat başa düşülə bilinməsi üçün `recepients` obeyktinin altındakı field-ləri əlaqəli şəkildə "expand" formasında göstərmişdir.
+> Aşağıdakı şəkildən göründüyü kimi burada qayıdan cavabda [**JSON**](parametrl-r.md#json-uezr-uemumi-m-lumat) field-lərin hamısı eyni səviyyəli deyil. Yəni `recepients` obyektinin daxilində bir neçə obyekt yer alır. Qeyd etdiyimiz kimi buna `nested object` deyilir. Mailchimp rahat başa düşülə bilinməsi üçün `recepients` obyektinin altındakı field-ləri əlaqəli şəkildə "expand" formasında göstərmişdir.
 
 ![](../.gitbook/assets/mailchim\_nested\_object.png)
 
 ### Cavab sxeminə və nümunəsinə ehtiyac varmı? <a href="#do-you-need-to-define-the-response" id="do-you-need-to-define-the-response"></a>
 
-> Bəzi API dizaynlarda cavab sxemlərin vermirlər.&#x20;
+> Bəzi API dizaynlarda cavab sxemlərini vermirlər.&#x20;
 >
-> Amma, cavabın təsvirini vermək məqsədə uyğundur. Ən əsası da cavabda abbreviaturalar olduqda. **API Tech Writer**-lər bəzən field-ləri qısalatmaqla API həcmin azaldırlar. Hər bir abbreviaturanın nə demək olduğunu aydınlaşdırmaq üçün də xeyli vaxt lazım olur.
+> Amma cavabın təsvirini vermək məqsədə uyğundur. Ən əsası da cavabda abbreviaturalar olduqda. **API Tech Writer**-lər bəzən field-ləri qısaltmaqla API həcmini azaldırlar. Hər bir abbreviaturanın nə demək olduğunu aydınlaşdırmaq üçün də xeyli vaxt lazım olur.
 
 {% hint style="warning" %}
 #### Cavab nümunələrində reala uyğun məlumatlardan istifadə edin. <a href="#use-realistic-values-in-the-example-response" id="use-realistic-values-in-the-example-response"></a>
 
-Cavab nümunəsində dəyərlər real məlumatlara uyğun olmalıdır, amma real olmamlıdır. Əgər proqramçılar sizə nümunə cavab verirsə, dəyərlərin ağlabatan olduğundan və diqqətinizi yayındıracaq qədər saxta olmadığından əmin olun (məsələn, komiks personajlarının adları və s.).&#x20;
+Cavab nümunəsində dəyərlər real məlumatlara uyğun olmalıdır, amma real olmamalıdır. Əgər proqramçılar sizə nümunə cavab verirsə, dəyərlərin ağlabatan olduğundan və diqqətinizi yayındıracaq qədər saxta olmadığından əmin olun (məsələn, komiks personajlarının adları və s.).&#x20;
 
-Həmçinin də, əmin olun ki, response məlumatlarının içərisində real müştəri məlumatları yoxdur. Əgər **API** nümunələri sizə təqdim ediblərsə və nümunələrdəki məlumatlar real məlumatlara oxşayırsa əmin olun ki, bunlar production database-dən deyildir. Adətən production verilənlər bazasının nüsxəsin (clone) çıxarıb onun üzərində development aparırlar. Belə olanda da real datalar nümunələrdə işitrak edir.&#x20;
+Həmçinin də, əmin olun ki, response məlumatlarının içərisində real müştəri məlumatları yoxdur. Əgər **API** nümunələrini sizə təqdim ediblərsə və nümunələrdəki məlumatlar real məlumatlara oxşayırsa əmin olun ki, bunlar production database-dən deyildir. Adətən production verilənlər bazasının nüsxəsin (clone) çıxarıb onun üzərində development aparırlar. Belə olanda da real datalar nümunələrdə işitrak edir.&#x20;
 {% endhint %}
 
 ### JSON Formatter və Validator <a href="#format-the-json-and-use-code-syntax-highlighting" id="format-the-json-and-use-code-syntax-highlighting"></a>
 
-> Qeyd etdiyimiz kimi, əksər API-larda cavab **JSON** formatında olur. Ona görə də, response nümunəsi hazırlayarkən [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) istifadə edib cavabı səqliəli formada göstərin.
+> Qeyd etdiyimiz kimi, əksər API-larda cavab **JSON** formatında olur. Ona görə də, response nümunəsi hazırlayarkən [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) istifadə edib cavabı səliqəli formada göstərin.
 >
 > Əgər "syntax highlighting" (yəni proqramlaşdırma dilinə uyğun rənglər ilə fərqləndirilmə, məsələn [aşağıda](cavab-nuemun-si-v-sxemi.md#hazirladigimiz-cavab-nuemun-si) mən bundan istifadə etmişəm) istifadə edə bilirsinizsə mütləq edin.&#x20;
 
@@ -84,13 +84,13 @@ Həmçinin də, əmin olun ki, response məlumatlarının içərisində real mü
 ```
 
 {% hint style="info" %}
-Nümunədə 1 səhv tapıldı. Belə ki, sonda obyket bağlanmamışdı. Yəni fiqurlu mötərizə qoyulmamışdı }.
+Nümunədə 1 səhv tapıldı. Belə ki, sonda obyekt bağlanmamışdı. Yəni fiqurlu mötərizə qoyulmamışdı }.
 
 Gördüyünüz kimi cavabımızda səliqəli və anlaşıqlı formada oldu.
 {% endhint %}
 
 {% hint style="info" %}
-Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, GitBook vəs.) haqqında danışacağıq. Orada görəcəksiniz ki, syntax highlighting hansı fromada olur.
+Növbəti mövzularda static site generator platformaları olan (Jekyll, GitHub, GitBook və s.) haqqında danışacağıq. Orada görəcəksiniz ki, syntax highlighting hansı fromada olur.
 {% endhint %}
 
 ### Status kodları
@@ -133,7 +133,7 @@ Növbəti mövzularda static site genrator platformaları olan (Jekyll, GitHub, 
 }
 ```
 
-#### Cavb sxemi
+#### Cavab sxemi
 
 The following table describes each item in the response.
 

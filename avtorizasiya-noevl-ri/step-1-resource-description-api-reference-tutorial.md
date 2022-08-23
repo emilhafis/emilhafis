@@ -15,7 +15,7 @@ description: Resource description
 > Adətən 1-ci səhifədə resurslara giriş üçün istifadə olunan enpoint-lər ümumi resursun təsviri ilə birgə göstərilir.&#x20;
 
 {% hint style="warning" %}
-Bilirəm qarışıq oldu. Narahat olmayın ind hamsını başa düşəcəksiniz.
+Bilirəm qarışıq oldu. Narahat olmayın indi hamısını başa düşəcəksiniz.
 {% endhint %}
 
 ### Resurs təsviri üzrə nümunə
@@ -28,7 +28,7 @@ Bilirəm qarışıq oldu. Narahat olmayın ind hamsını başa düşəcəksiniz.
 Mailchim API - e-mail göndərmək üçün marketing platformasıdır.
 {% endhint %}
 
-> Adətən API-larda eyni **resurs** daxilində bir çox **endpoint**-lər olur. Bu senaridə ümumir resurs `Campaingns` və resurs üzrə **endpoint**-lər göstərilmişdir. Yəni `Campaings` resursu daxilində bir neçə enpoint vardır.
+> Adətən API-larda eyni **resurs** daxilində bir çox **endpoint**-lər olur. Bu senaridə ümumi resurs `Campaingns` və resurs üzrə **endpoint**-lər göstərilmişdir. Yəni `Campaings` resursu daxilində bir neçə enpoint vardır.
 >
 > Bir sözlə burada resurslar çox ola bilər, məsələn - **kompaniya** `Campaigns` resursu, **endirimlər** resursu və s. Resurs bir platforma üzrə müxtəlif istiqamətləri göstərir.
 >
@@ -56,7 +56,7 @@ POST /campaigns/{campaign_id}/actions/unschedule
 
 ![](../.gitbook/assets/youtube\_api.PNG)
 
-> ****[**YouTube**](https://developers.google.com/youtube/v3/docs/comments) üzrədə gördüyünüz kimi `Comment` resursun işarələmişəm. Bu resursla yanaşı sol tərəfdə YouTube üzrə bir neçə resurs vardır. Məsələn - `Memebers`**,** `Playlist` **** və s.
+> ****[**YouTube**](https://developers.google.com/youtube/v3/docs/comments) üzrə də gördüyünüz kimi `Comment` resursunu işarələmişəm. Bu resursla yanaşı sol tərəfdə YouTube üzrə bir neçə resurs vardır. Məsələn - `Members`**,** `Playlist` **** və s.
 >
 > `Comment` resursu üzrə də bir neçə metod (**list, insert, update** və s.) mövcuddur.
 
@@ -83,14 +83,14 @@ və digərləri
 {% endhint %}
 
 {% hint style="warning" %}
-Resursun təsviri çox vacibdir və ondan müxtəlif yerlərdə istifadə edəcəksiniz. Bu səbəbdən də onu hazırlayarkən elə edin ki, qısa olsun və resursun mahiyyətin mümkün qədər aydın göstərsin.&#x20;
+Resursun təsviri çox vacibdir və ondan müxtəlif yerlərdə istifadə edəcəksiniz. Bu səbəbdən də onu hazırlayarkən elə edin ki, qısa olsun və resursun mahiyyətini mümkün qədər aydın göstərsin.&#x20;
 {% endhint %}
 
 ### API Referens sənədi (Reference docs) və istifadəçi bələdçisi (User guides) arasındakı fərqlər <a href="#recognize-the-difference-between-reference-docs-versus-user-guides" id="recognize-the-difference-between-reference-docs-versus-user-guides"></a>
 
 > **Resursun** təsviri (həmçinin də **endpoint** təsviri) qeyd etdiyimiz kimi, adətən qısa olur və 1-3 cümlə ilə göstərilir. Bəs 3 cümlə ilə bütün fikri tam izah edə bilməyəndə və daha çox detalların əlavə edilməsi lazım olanda nə edə bilərik?&#x20;
 >
-> Belə olduqda bilinki, bunun üçün user guide-lar/tutorial-lar mövcuddur. Gəlin **Referens sənədləşməsi** ilə **istifadəçi bələdçisi** arasında nə fərqlər var baxaq.
+> Belə olduqda bilin ki, bunun üçün user guide-lar/tutorial-lar mövcuddur. Gəlin **Referens sənədləşməsi** ilə **istifadəçi bələdçisi** arasında nə fərqlər var baxaq.
 >
 > * **Referens sənədləşməsi -** proqramçıların oxuyaraq ümumi mənzərəni, resursun nəyi ifadə etməsini dərhal başa düşəcəyi prinsipləri özündə saxlayır. Məsələn, [YouTube](step-1-resource-description-api-reference-tutorial.md#youtube) nümunəsində  ümumi olaraq `Comment` resursunun nəyə xidmət etdiyi göstərilir amma API-dan necə istifadə edilməlidir, **autentifikasiya** metodları hansılardır və digər istifadə qaydaları göstərilmir.
 > * **İstifadəçi bələdçisi** -  bu bölməyə addım-addım təlimatlar, kod nümunələri, konsepsiyalar və prosedurlar daxil olmaqla API-dən necə istifadə olunacağına dair ətraflı məlumatlar qeyd olunur. _Bunun haqqında növbəti bölmələrdə daha geniş danışacağıq və başa düşəcəyik ki, bu səndələşməni hansı formada daha effektiv etmək olar._
@@ -108,7 +108,7 @@ Siz referens bölməsində istifadəçi bələdçisinə **** <mark style="color:
 {% hint style="success" %}
 ## Balance
 
-**`Balans`** resursu 1 hesab üzrə balansı əldə etmək üçün istifadə edilir. Həmçinin də, bu API-dan istifadə edərək hesabın valyutasını, kredit xətti üzrə limiti, istifadə olunmuş balansı, overdraft xəttin və s. öyrənmək mümkündür.
+**`Balans`** resursu 1 hesab üzrə balansı əldə etmək üçün istifadə edilir. Həmçinin də, bu API-dan istifadə edərək hesabın valyutasını, kredit xətti üzrə limiti, istifadə olunmuş balansı, overdraft xəttini və s. öyrənmək mümkündür.
 {% endhint %}
 
 ### Növbəti addım
