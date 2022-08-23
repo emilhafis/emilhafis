@@ -1,6 +1,6 @@
 # Overview
 
-> Burada biz REST API Dizaynı üçün əsas olan 5 bölməyə baxacağıq: resursun təsviri, enpoint və metodlar, parametrlər, sorğu nümunəsi və cavab nümunəsi/sxemi. API dizayn etmək üçün hər bölmədə lazımlı məlumatlar ilə tanış olub "best parctice" nümunələrə bacağıq.
+> Burada biz REST API Dizaynı üçün əsas olan 5 bölməyə baxacağıq: _resursun təsviri_, _enpoint_ və _metodlar_, _parametrlər_, _sorğu nümunəsi_ və _cavab nümunəsi/sxemi_. API dizayn etmək üçün hər bölmədə lazımlı məlumatlar ilə tanış olub "**best parctice**" nümunələrə bacağıq.
 
 ### REST API dizaynında 5 əsas bölmə
 
@@ -10,7 +10,7 @@
 
 Resurslar API tərəfindən qaytarılan məlumatlara deyilir.
 
-#### [Endpoint və metodlar](broken-reference)
+#### [Endpoint və metodlar](../avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
 
 **Endpoint** resursa necə giriş əldə edə biləcəyinizi, **metod** isə resurs üzərində hansı əməliyyatları (`GET`, `POST`, `DELETE` və s) icra edə biləcəyinizi göstərir.
 
@@ -22,11 +22,9 @@ Resurslar API tərəfindən qaytarılan məlumatlara deyilir.
 
 **Sorğu nümunəsi** **Endpoint**-də daxil olmaqla istifadə edilmiş `parametrlər konfiqurasiyanı` göstərir.&#x20;
 
-#### [Cavab nümunəsi](step-5-response-example-and-schema-api-reference-tutorial.md)
+#### [Cavab nümunəsi və sxemi](../api-dizayn/cavab-nuemun-si-v-sxemi.md)
 
-Cavab nümunəsi sorğu nümunəsinə əsaslanan nümunə cavabı göstərir; cavab sxemi isə cavabın bütün mümkün elementlərini müəyyən edərək onların təsvirini verir.
-
-### Baxacağımız addımların xəritəsi
+Cavab nümunəsi sorğu nümunəsinə əsaslanan nümunə cavabı göstərir; **cavab sxemi** isə cavabın bütün mümkün elementlərini müəyyən edərək onların təsvirini verir.
 
 {% hint style="info" %}
 Biz işlərimizi sadə formada heç bir avtomatlaşdırılımış **API doc platformalarından** istifadə etmədən görəcəyik. Həmçinin, bilin ki, bu işləri görmək üçün müxtəlif Avtomatlaşdırılmış **API platformalar** vardır və biz onlar ilə növbəti məqalələrimizdə tanış olacağıq.
