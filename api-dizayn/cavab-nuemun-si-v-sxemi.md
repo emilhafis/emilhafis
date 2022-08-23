@@ -132,24 +132,23 @@ Növbəti mövzularda static site generator platformaları olan (Jekyll, GitHub,
    }
 }
 ```
+{% endhint %}
 
 #### Cavab sxemi
 
-The following table describes each item in the response.
-
-*
-*
-[ ]   *
-*
-
-
-{% endhint %}
-
-|   |   |
-| - | - |
-|   |   |
-|   |   |
-|   |   |
+|                                   |         |       |                                                                                                                                        |
+| --------------------------------- | ------- | ----- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Data/Balance                      | Object  | true  | Balans məlumatı                                                                                                                        |
+| Data/Balance/AccountId            | String  | false | Hesab nömrəsi (IBAN)                                                                                                                   |
+| Data/Balance/Amount               | Object  | true  | Balans məbləği                                                                                                                         |
+| Data/Balance/Amount/Amount        | String  | true  | Məbləğ (Decimal)                                                                                                                       |
+| Data/Balance/Amount/Currency      | String  | true  | ISO4217 standartında 3 rəqəmli valyuta kodu                                                                                            |
+| Data/Balance/CreditDebitIndicator | Enum    | true  | <p>Balansın credit və ya debt olmasını bildirir: </p><ul><li>Credit </li><li>Debit</li></ul>                                           |
+| Data/Balance/Type                 | Enum    | true  | <p>Balans növü: </p><ul><li>InterimAvailable</li><li>InterimBooked</li></ul>                                                           |
+| Data/Balance/DateTime             | Date    | true  | Balansın qaytarıldığı tarix                                                                                                            |
+| Data/Balance/CreditLine           | Object  | true  | Kredit xətti haqqında məlumatlar                                                                                                       |
+| Data/Balance/CreditLine/Included  | Boolean | false | <p>Balansın kredit xətti olduğunu göstərir: </p><ul><li>true </li><li>false</li></ul>                                                  |
+| Data/Balance/CreditLine/Type      | String  | true  | <p>Kreditin növünü bildirir:  </p><ul><li>Available</li><li>Credit </li><li>Emergency </li><li>Pre-Agreed </li><li>Temporary</li></ul> |
 
 \
 
