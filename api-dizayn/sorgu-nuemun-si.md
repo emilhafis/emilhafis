@@ -14,7 +14,7 @@ description: Request example
 
 > Aşağıdakı nümunə [Stripe-ın göstərdiyi sorğu](https://stripe.com/docs/api/customer\_bank\_accounts/create) nümunəsidir.
 
-![](../.gitbook/assets/Stripe\_request\_example.PNG)
+<figure><img src="../.gitbook/assets/Stripe_request_example_v1.png" alt=""><figcaption></figcaption></figure>
 
 > Gördüyünüz kimi burada API dizayn 3 hissəli təsvir edilmişdir. Sol tərəfdə Resurs və resurs üzrə əməliyyatlar, ortada Parametrlər, sağda isə request və response nümunəsi.&#x20;
 
