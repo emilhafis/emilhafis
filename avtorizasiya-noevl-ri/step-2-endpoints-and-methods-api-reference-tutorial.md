@@ -140,7 +140,7 @@ Mən eyni **resursa** aid olan müxtəlif **endpoint**-ləri bir qrupda toplayı
 
 #### [Stripe API](https://stripe.com/docs/api/customer\_bank\_accounts)
 
-![](../.gitbook/assets/Stripe.PNG)
+<figure><img src="../.gitbook/assets/Stripe_1.png" alt=""><figcaption></figcaption></figure>
 
 ### [Tapşırıq](../tapsiriq.md#s-n-dl-sdirm-k-uecuen-m-lumat) üçün Endpoint <a href="#endpoint-for-surfreport-api" id="endpoint-for-surfreport-api"></a>
 
