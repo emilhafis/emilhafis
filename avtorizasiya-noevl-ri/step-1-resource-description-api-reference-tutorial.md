@@ -106,7 +106,7 @@ Siz referens bölməsində istifadəçi bələdçisinə **** <mark style="color:
 > `Get account balance API` tapşırığını analiz edib, 1-3 cümlə ilə **resursu** təsvir etməyə çalışaq.&#x20;
 
 {% hint style="success" %}
-## Get account balance
+## Balance
 
 **`Balans`** resursu 1 hesab üzrə balansı əldə etmək üçün istifadə edilir. Həmçinin də, bu API-dan istifadə edərək hesabın valyutasını, kredit xətti üzrə limiti, istifadə olunmuş balansı, overdraft xəttin və s. öyrənmək mümkündür.
 {% endhint %}
