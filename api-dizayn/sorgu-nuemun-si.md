@@ -58,7 +58,7 @@ https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c6
 >
 > Məsələn aşağıda [Stripe üzrə](https://stripe.com/docs/api/customer\_bank\_accounts/object?lang=python) görə bilərsiniz ki, bir neçə seçim imkanı verilir.
 
-![](../.gitbook/assets/stripe\_code\_snip.png)
+<figure><img src="../.gitbook/assets/stripe_code_snip_v1.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Çox vaxt **Tech writer**-lər API-ların hansı proqramlaşdırma dilində yazılacağını bilirlər. Belə olduqda həmin proqramlaşdırma dilinə fokuslanmaq məqsədəuyğundur.&#x20;
