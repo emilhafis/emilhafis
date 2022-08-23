@@ -136,6 +136,10 @@ Növbəti mövzularda static site generator platformaları olan (Jekyll, GitHub,
 
 #### Cavab sxemi
 
+Cavab nümunəmiz gördüyünüz kimi bir birinin içərisində olan object-lərdən `nested objects` ibarətdir. Bu səbəbdən də, obyektləri <mark style="color:orange;">fərqli rənglər</mark> ilə işarələmişəm ki, daha aydın başa düşülən olsun.&#x20;
+
+API-larda bir **object** digərlər yerlərdə də iştirak edirsə (məsələn `amount`) oradakı elementlərin təsvirini hər dəfə vermirlər. Bunun üçün **API Model** hazırlanır və oraya istinad edilir. Bunun haqqında növbəti məqalələrdə danışarıq.
+
 | Dəyər                                                                | Məlumat növü                              | Zəruriliyi   | Təsvir                                                                                                                                 |
 | -------------------------------------------------------------------- | ----------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
 | <mark style="color:orange;">Data/Balance</mark>                      | <mark style="color:orange;">Object</mark> | Zəruridir    | Balans məlumatı                                                                                                                        |
@@ -150,13 +154,6 @@ Növbəti mövzularda static site generator platformaları olan (Jekyll, GitHub,
 | <mark style="color:orange;">Data/Balance/CreditLine/</mark>Included  | Boolean                                   | Zəruri deyil | <p>Balansın kredit xətti olduğunu göstərir: </p><ul><li>true </li><li>false</li></ul>                                                  |
 | <mark style="color:orange;">Data/Balance/CreditLine/</mark>Type      | String                                    | Zəruridir    | <p>Kreditin növünü bildirir:  </p><ul><li>Available</li><li>Credit </li><li>Emergency </li><li>Pre-Agreed </li><li>Temporary</li></ul> |
 
-\
+### Sonuncu addım
 
-
-\
-
-
-\
-
-
-\
+> indi isə gəlin bütün addımlarda hazırladığımız məlumatlara [ümumi baxış](uemumi-nuemayis.md) həyat keçirək.
