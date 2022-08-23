@@ -34,7 +34,7 @@ Bu formada dizaynı ilk dəfə **Stripe** gətirmişdir. Mənim bu dizayn çox x
 Travelpayouts-dan müxtəlif aviabilet qiymətləri ilə tanış olub öz platformanıza inteqrasiya edə bilərsiniz.
 {% endhint %}
 
-![](../.gitbook/assets/travel-request\_example.PNG)
+<figure><img src="../.gitbook/assets/travel-request_example_v1.png" alt=""><figcaption></figcaption></figure>
 
 > Sorğunu göndərmək üçün sadəcə bizdən `API Key` tələb olunur. `API Key` saytda qeydiyyatdan keçdikdən sonra əldə olunur. Məsələn, mən `API Key` əldə etmişəm və aşağıdakı [**URL**-](https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates?origin=GYD\&token=3c63416a24d3b969da6df9271faa9d6e)ə əlavə etmişəm. Bu səbəbdən də URL-i sadəcə brazuerdə açaraq qayıdan cavab ilə tanış ola bilərsiniz.
 
