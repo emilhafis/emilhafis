@@ -39,7 +39,7 @@ Travelpayouts-dan müxtəlif aviabilet qiymətləri ilə tanış olub öz platfo
 > Sorğunu göndərmək üçün sadəcə bizdən `API Key` tələb olunur. `API Key` saytda qeydiyyatdan keçdikdən sonra əldə olunur. Məsələn, mən `API Key` əldə etmişəm və aşağıdakı [**URL**-](https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates?origin=GYD\&token=3c63416a24d3b969da6df9271faa9d6e)ə əlavə etmişəm. Bu səbəbdən də URL-i sadəcə brazuerdə açaraq qayıdan cavab ilə tanış ola bilərsiniz.
 
 {% hint style="info" %}
-API Key nədir? Bundan əvvəlki məqalədə tanış ola bilərsiniz - [API Security](https://multibank.gitbook.io/api-security/avtorizasiya-noevl-ri/api-key)
+API Key nədir? Bundan əvvəlki bölmədə tanış ola bilərsiniz - [API Security](https://multibank.gitbook.io/api-security/avtorizasiya-noevl-ri/api-key)
 {% endhint %}
 
 ```javascript
