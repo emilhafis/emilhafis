@@ -1,4 +1,4 @@
-# Page 1
+# Ümumi baxış
 
 Yekunda üzərində işlədiyimiz müxtəlif hissələri tam nümayiş etdirmək üçün onları bir yerə yığaq.
 
@@ -13,5 +13,7 @@ API Design Part I
 {% hint style="info" %}
 Həmçinin də, bildirdiyim kimi **Auto Design API** platforması olan [https://stoplight.io/](https://stoplight.io/) istifadə edərək API-yı dizayn etmişəm.
 
-Linkə keçərək tanış ola bilərsiniz.
+[Linkə](https://multibank.stoplight.io/docs/api-design/) keçərək tanış ola bilərsiniz
 {% endhint %}
+
+{% embed url="https://multibank.stoplight.io/docs/api-design/" %}
