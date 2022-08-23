@@ -211,7 +211,7 @@ _Tesləşdirmə, qayıdan error kodları və s.haqqında növbəti məqalələri
 
 ### Header parameter-i
 
-> **Header parametr**-ləri sorğu başlığına (request header) əlavə edilir.&#x20;
+> **Header parametr**-ləri adətən sorğunun başlığına (**request header**) əlavə edilir.&#x20;
 >
 > Adətən bu dəyərlər bütün **endpoint**-lərə aid olmaqla avtorizasiya parametrləri və sorğunun strukturun (JSON və ya XML) təyin edir.&#x20;
 >
@@ -221,7 +221,11 @@ _Tesləşdirmə, qayıdan error kodları və s.haqqında növbəti məqalələri
 >
 > `Authorisation` - Basic Auth
 >
-> Header parametri sənədləşmədə bir dəfə göstərilir və o bütün endpoint-lərdə təkrar göstərilmir. Buna baxmayaq, Header parametrləri üzrə avtorizasiya detalları sənədləşmədə ayrıca bölmə kimi adətən **avtorizasiya tələbləri** bölməsində göstərilir.
+> Request Header parametri sənədləşmədə bir dəfə göstərilir və o bütün endpoint-lərdə təkrar göstərilmir.&#x20;
+>
+> Buna baxmayaq, Request header parametrləri üzrə avtorizasiya detalları sənədləşmədə ayrıca bölmə kimi adətən **avtorizasiya tələbləri** bölməsində də göstərilir.
+>
+> Bunlardan əlavə digər həsas məlumatlarda header parametrlərində göstərilə bilər.
 
 {% hint style="info" %}
 Avtorizasiya və Authentifikasiya üzrə detallı məlumat ilə bundan əvvəlki mövzumda tanış ola bilərsiniz. [API Təhlükəsizliyi](https://multibank.gitbook.io/api-security/)
