@@ -339,9 +339,9 @@ Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **pa
 
 <mark style="color:blue;">**Path parameter-ləri**</mark>
 
-| Path parametri                                 | Məlumat növü | Təsviri                                                                         |   |
-| ---------------------------------------------- | ------------ | ------------------------------------------------------------------------------- | - |
-| <mark style="color:orange;">{AccountId}</mark> | String (28)  | Hesab nömrəsi (IBAN)<mark style="color:green;">`Get from account_table.`</mark> |   |
+| Path parametri                                 | Məlumat növü | Təsviri              |   |
+| ---------------------------------------------- | ------------ | -------------------- | - |
+| <mark style="color:orange;">{AccountId}</mark> | String (28)  | Hesab nömrəsi (IBAN) |   |
 
 {% hint style="info" %}
 Path parametri qeyd etdiyimiz kimi hər zaman mandatory olur. Bu səbəbdən də burada filed-in mandatory və ya optional olmasını qeyd etməyə ehtiyac yoxdur
