@@ -134,5 +134,4 @@ curl --location --request GET 'http://obank-test.example.az:50000/api/obis/v1.0/
 
 ### Növbəti addım
 
-> Növbəti bölmədə resurs üzrə [Cavab nümunələri](cavab-nuemun-si-v-sxemi.md)[ ](../avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)ilə tanış olacağıq. \
->
+> Növbəti bölmədə resurs üzrə [Cavab nümunəsi və sxemi](cavab-nuemun-si-v-sxemi.md)[ ](../avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)ilə tanış olacağıq.&#x20;
