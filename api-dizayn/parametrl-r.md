@@ -367,8 +367,8 @@ Path parametri qeyd etdiyimiz kimi hər zaman mandatory olur. Bu səbəbdən də
 
 | Header parametri                                             | Zəruriliyi   | Məlumat növü      | Təsviri                                                                   |
 | ------------------------------------------------------------ | ------------ | ----------------- | ------------------------------------------------------------------------- |
-| <mark style="color:orange;">Sender-Participant-Code</mark>   | Zəruri deyil | Integer (6)       | Göndərən təşkilatın kodu                                                  |
-| <mark style="color:orange;">Receiver-Participant-Code</mark> | Zəruridir    | Integer (6)       | Qəbul edən təşkilatın kodu                                                |
+| <mark style="color:orange;">Sender-Participant-Code</mark>   | Zəruri deyil | String (6)        | Göndərən təşkilatın kodu                                                  |
+| <mark style="color:orange;">Receiver-Participant-Code</mark> | Zəruridir    | String (6)        | Qəbul edən təşkilatın kodu                                                |
 | <mark style="color:orange;">PSU-Device-ID</mark>             | Zəruridir    | String (up to 25) | Mobil tətbiqin IMEI kodu və ya WEB saytın IP ünvanı                       |
 | <mark style="color:orange;">Consent-ID</mark>                | Zəruridir    | String (up to 30) | Consent identifikator. `Consent registration` sorğusu zamanı əldə olunur. |
 
