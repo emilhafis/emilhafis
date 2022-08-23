@@ -15,7 +15,7 @@
 > Yuxarıda göstərdiymiz **Parameterin** müxtəlif növləri adətən sənədləşmələrdə növlərinə aid qruplaşmalarda göstərilir. Məsələn **Header parameter**-ləri.
 
 {% hint style="info" %}
-Nəzərə alın ki, **Endpoint**-lərdə 3 növ Parametrin də göstərilməsi məcburi deyil.
+Nəzərə alın ki, **Endpoint**-lərdə 3 növ Parametrin də eyni anda göstərilməsi məcburi deyil. API Dizayn edərkən buna **Tech Writer** qərar verir.
 {% endhint %}
 
 ### Parametr nümunələri
@@ -47,15 +47,15 @@ Nəzərə alın ki, **Endpoint**-lərdə 3 növ Parametrin də göstərilməsi m
 > * **Query string parameter:** Endpoint-in query string dəyərləridir. Query string <mark style="color:orange;">**(?)**</mark> işarəsindən sonra gəlir.
 
 {% hint style="warning" %}
-**Request body** adətən yalnız **`CREATE`** və **`PUT`** metodları ilə istifadə olunaraq **JSON** obyektində göstərilir.
+**Request body** adətən yalnız **`POST`** və **`PUT`** metodları ilə istifadə olunaraq **JSON** obyektində göstərilir.
 {% endhint %}
 
 ### Parametrlər üzrə qeyd edilməli məqamlar
 
 > **Parametr**-ləri göstərərkən onların aşağıdakı xassələrini də mütləq qeyd edin.
 >
-> * [Data type](parametrl-r.md#undefined) (Məlumat növü)
-> * [Max və min dəyər](parametrl-r.md#max\_min\_values)
+> * [Data type ](parametrl-r.md#data-type-m-lumat-noevl-ri)(Məlumat növü)
+> * [Max və min dəyərlər](parametrl-r.md#max\_min\_values)
 
 #### Data type (Məlumat növləri)
 
@@ -162,7 +162,7 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 
 > Bu nümunə JSON üzrə Array-dən düzgün istifadə olunan nümunədir.
 
-### Value üzrə data type-lar
+### Data type növləri
 
 > * <mark style="color:orange;">**string**</mark><mark style="color:orange;">:</mark> Hərflərdən və ya rəqəmlərdən ibarət dəyərlər.
 >
@@ -188,7 +188,7 @@ Məsələn, mən hər zaman sənədləşmələrdə **enum** məlumat növünü g
 Əgər bizim CardType üzrə bəlli sayda seçimimiz olursa bu məlumat növü **enum** adlanır..&#x20;
 {% endhint %}
 
-#### Max and min values for parameters <a href="#max_min_values" id="max_min_values"></a>
+#### Max and min dəyərlər <a href="#max_min_values" id="max_min_values"></a>
 
 > **Data type**-ları müəyyən etməkdən savayı, həmçinin də **parametrlər** üzrə **minimum**, **maximum** və olduğu təqdirdə **icazə verilən** dəyərləri göstərməliyik.&#x20;
 >
