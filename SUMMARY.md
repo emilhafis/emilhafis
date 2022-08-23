@@ -12,4 +12,3 @@
 * [Sorğu nümunəsi](api-dizayn/sorgu-nuemun-si.md)
 * [Cavab nümunəsi və sxemi](api-dizayn/cavab-nuemun-si-v-sxemi.md)
 * [Ümumi nümayiş](api-dizayn/uemumi-nuemayis.md)
-* [Page 1](api-dizayn/page-1.md)

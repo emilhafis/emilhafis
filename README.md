@@ -30,4 +30,4 @@ Bu mövzunu API-dan azda olsa məlumatlı olan şəxslər üçün nəzərdə tut
   * [Parametrlər;](api-dizayn/parametrl-r.md)
   * [Sorğu nümunəsi;](api-dizayn/sorgu-nuemun-si.md)
   * [Cavab nümunəsi;](api-dizayn/cavab-nuemun-si-v-sxemi.md)
-  * [Ümumi nümayiş](api-dizayn/uemumi-nuemayis.md).
+  * [Ümumi nümayiş](broken-reference).
