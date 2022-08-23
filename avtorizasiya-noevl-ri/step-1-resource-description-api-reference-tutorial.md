@@ -30,7 +30,9 @@ Mailchim API - e-mail göndərmək üçün marketing platformasıdır.
 
 > Adətən API-larda eyni **resurs** daxilində bir çox **endpoint**-lər olur. Bu senaridə ümumir resurs `Campaingns` və resurs üzrə **endpoint**-lər göstərilmişdir. Yəni `Campaings` resursu daxilində bir neçə enpoint vardır.
 >
-> Bir sözlə burada resurslar çox ola bilər, məsələn - kompaniya (Campaigns) resursu, endirimlər resursu və s. Resurs bir platforma üzrə müxtəlif istqamətləri göstərir.
+> Bir sözlə burada resurslar çox ola bilər, məsələn - **kompaniya** `Campaigns` resursu, **endirimlər** resursu və s. Resurs bir platforma üzrə müxtəlif istiqamətləri göstərir.
+>
+> Aşağıda `Campaings` resursu üzrə **endpoint**-lər göstərilmişdir.
 
 {% code lineNumbers="true" %}
 ```javascript
@@ -64,6 +66,7 @@ POST /campaigns/{campaign_id}/actions/unschedule
 
 > Digər nümunə isə [Trello](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-group-cards)-dur. Burada da gördüyünüz kimi sol tərəfdə bir çox resurslar mövcuddur. bizim seçdiyimiz resurs `Cards`-dır və onun üzrə aşağıdakı metdolar mövcuddur.
 
+{% code lineNumbers="true" %}
 ```java
 POST /1/cards
 GET /1/cards/{id}
@@ -73,12 +76,13 @@ GET /1/cards/{id}/{field}
 GET /1/cards/{id}/actions
 və digərləri
 ```
+{% endcode %}
 
 {% hint style="info" %}
 **Trello** - Task management sistemidir. Təqdim etdiyi API-ları öz platformanıza inteqrasiya edib task management-i birbaşa oradan idarə edə bilərsiniz.
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Resursun təsviri çox vacibdir və ondan müxtəlif yerlərdə istifadə edəcəksiniz. Bu səbəbdən də onu hazırlayarkən elə edin ki, qısa olsun və resursun mahiyyətin mümkün qədər aydın göstərsin.&#x20;
 {% endhint %}
 
@@ -88,18 +92,18 @@ Resursun təsviri çox vacibdir və ondan müxtəlif yerlərdə istifadə edəc�
 >
 > Belə olduqda bilinki, bunun üçün user guide-lar/tutorial-lar mövcuddur. Gəlin **Referens sənədləşməsi** ilə **istifadəçi bələdçisi** arasında nə fərqlər var baxaq.
 >
-> * **Referens sənədləşməsi -** proqramçıların oxuyaraq ümumi mənzərəni, resursun nəyi ifadə etməsini dərhal başa düşəcəyi prinsipləri özündə saxlayır. Məsələn, [YouTube](step-1-resource-description-api-reference-tutorial.md#undefined) nümunəsində  ümumi olaraq `Comment` resursunun nəyə xidmət etdiyi göstərilir amma API-dan necə istifadə edilməlidir, **autentifikasiya** metodları hansılardır və digər istifadə qaydaları göstərilmir.
+> * **Referens sənədləşməsi -** proqramçıların oxuyaraq ümumi mənzərəni, resursun nəyi ifadə etməsini dərhal başa düşəcəyi prinsipləri özündə saxlayır. Məsələn, [YouTube](step-1-resource-description-api-reference-tutorial.md#youtube) nümunəsində  ümumi olaraq `Comment` resursunun nəyə xidmət etdiyi göstərilir amma API-dan necə istifadə edilməlidir, **autentifikasiya** metodları hansılardır və digər istifadə qaydaları göstərilmir.
 > * **İstifadəçi bələdçisi** -  bu bölməyə addım-addım təlimatlar, kod nümunələri, konsepsiyalar və prosedurlar daxil olmaqla API-dən necə istifadə olunacağına dair ətraflı məlumatlar qeyd olunur. _Bunun haqqında növbəti bölmələrdə daha geniş danışacağıq və başa düşəcəyik ki, bu səndələşməni hansı formada daha effektiv etmək olar._
 >
-> **API refrens bölməsinin təsvirində** resursun ehtiva etdiyi məlumatlar üzrə 1-3 cümləlik xülasisəni təqdim edib, **istifadəçi bələdçisində** bu barədə daha ətraflı məlumat verə bilərsiniz.&#x20;
+> **API referens bölməsinin təsvirində** resursun ehtiva etdiyi məlumatlar üzrə 1-3 cümləlik xülasisəni təqdim edib, **istifadəçi bələdçisində** bu barədə daha ətraflı məlumat verə bilərsiniz.&#x20;
 
 {% hint style="info" %}
 Siz referens bölməsində istifadəçi bələdçisinə **** <mark style="color:blue;">link</mark> verərək daha detallı məlumatın alınması üçün şərait yarada bilərsiniz.&#x20;
 {% endhint %}
 
-### Tapşırıq üçün resurs təsviri <a href="#resource-description-for-the-surfreport-endpoint" id="resource-description-for-the-surfreport-endpoint"></a>
+### [Tapşırıq ](../tapsiriq.md)üçün resurs təsviri <a href="#resource-description-for-the-surfreport-endpoint" id="resource-description-for-the-surfreport-endpoint"></a>
 
-> [Get account balance API ](broken-reference)tapşırığını analiz edib, 1-3 cümlə ilə **resursu** təsvir etməyə çalışaq. Aşağıda nümunə əlavə edirəm.
+> `Get account balance API` tapşırığını analiz edib, 1-3 cümlə ilə **resursu** təsvir etməyə çalışaq.&#x20;
 
 {% hint style="success" %}
 ## Get account balance
@@ -109,6 +113,6 @@ Siz referens bölməsində istifadəçi bələdçisinə **** <mark style="color:
 
 ### Növbəti addım
 
-> Növbəti bölmədə resurs üzrə [endpoint və metdolar ](step-2-endpoints-and-methods-api-reference-tutorial.md)ilə tanış olacağıq.&#x20;
+> Növbəti bölmədə resurs üzrə [Endpoint və metdolar ](step-2-endpoints-and-methods-api-reference-tutorial.md)ilə tanış olacağıq.&#x20;
 
 \
