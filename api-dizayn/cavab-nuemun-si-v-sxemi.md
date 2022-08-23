@@ -136,19 +136,19 @@ Növbəti mövzularda static site generator platformaları olan (Jekyll, GitHub,
 
 #### Cavab sxemi
 
-|                                   |         |       |                                                                                                                                        |
-| --------------------------------- | ------- | ----- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Data/Balance                      | Object  | true  | Balans məlumatı                                                                                                                        |
-| Data/Balance/AccountId            | String  | false | Hesab nömrəsi (IBAN)                                                                                                                   |
-| Data/Balance/Amount               | Object  | true  | Balans məbləği                                                                                                                         |
-| Data/Balance/Amount/Amount        | String  | true  | Məbləğ (Decimal)                                                                                                                       |
-| Data/Balance/Amount/Currency      | String  | true  | ISO4217 standartında 3 rəqəmli valyuta kodu                                                                                            |
-| Data/Balance/CreditDebitIndicator | Enum    | true  | <p>Balansın credit və ya debt olmasını bildirir: </p><ul><li>Credit </li><li>Debit</li></ul>                                           |
-| Data/Balance/Type                 | Enum    | true  | <p>Balans növü: </p><ul><li>InterimAvailable</li><li>InterimBooked</li></ul>                                                           |
-| Data/Balance/DateTime             | Date    | true  | Balansın qaytarıldığı tarix                                                                                                            |
-| Data/Balance/CreditLine           | Object  | true  | Kredit xətti haqqında məlumatlar                                                                                                       |
-| Data/Balance/CreditLine/Included  | Boolean | false | <p>Balansın kredit xətti olduğunu göstərir: </p><ul><li>true </li><li>false</li></ul>                                                  |
-| Data/Balance/CreditLine/Type      | String  | true  | <p>Kreditin növünü bildirir:  </p><ul><li>Available</li><li>Credit </li><li>Emergency </li><li>Pre-Agreed </li><li>Temporary</li></ul> |
+| Dəyər                                                                | Məlumat növü                              | Zəruriliyi   | Təsvir                                                                                                                                 |
+| -------------------------------------------------------------------- | ----------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| <mark style="color:orange;">Data/Balance</mark>                      | <mark style="color:orange;">Object</mark> | Zəruridir    | Balans məlumatı                                                                                                                        |
+| <mark style="color:orange;">Data/Balance/</mark>AccountId            | String                                    | Zəruri deyil | Hesab nömrəsi (IBAN)                                                                                                                   |
+| <mark style="color:orange;">Data/Balance/Amount</mark>               | <mark style="color:orange;">Object</mark> | Zəruridir    | Balans məbləği                                                                                                                         |
+| <mark style="color:orange;">Data/Balance/Amount/</mark>Amount        | String                                    | Zəruridir    | Məbləğ (Decimal)                                                                                                                       |
+| D<mark style="color:orange;">ata/Balance/Amount/</mark>Currency      | String                                    | Zəruridir    | ISO4217 standartında 3 rəqəmli valyuta kodu                                                                                            |
+| <mark style="color:orange;">Data/Balance/</mark>CreditDebitIndicator | Enum                                      | Zəruridir    | <p>Balansın credit və ya debt olmasını bildirir: </p><ul><li>Credit </li><li>Debit</li></ul>                                           |
+| <mark style="color:orange;">Data/Balance/</mark>Type                 | Enum                                      | Zəruridir    | <p>Balans növü: </p><ul><li>InterimAvailable</li><li>InterimBooked</li></ul>                                                           |
+| <mark style="color:orange;">Data/Balance/</mark>DateTime             | Date                                      | Zəruridir    | Balansın qaytarıldığı tarix                                                                                                            |
+| <mark style="color:orange;">Data/Balance/CreditLine</mark>           | <mark style="color:orange;">Object</mark> | Zəruridir    | Kredit xətti haqqında məlumatlar                                                                                                       |
+| <mark style="color:orange;">Data/Balance/CreditLine/</mark>Included  | Boolean                                   | Zəruri deyil | <p>Balansın kredit xətti olduğunu göstərir: </p><ul><li>true </li><li>false</li></ul>                                                  |
+| <mark style="color:orange;">Data/Balance/CreditLine/</mark>Type      | String                                    | Zəruridir    | <p>Kreditin növünü bildirir:  </p><ul><li>Available</li><li>Credit </li><li>Emergency </li><li>Pre-Agreed </li><li>Temporary</li></ul> |
 
 \
 
