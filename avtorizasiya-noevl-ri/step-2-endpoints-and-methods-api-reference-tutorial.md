@@ -74,7 +74,7 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 
 #### [Amazon API](https://developer-docs.amazon.com/sp-api/docs/finances-api-reference#get-financesv0financialeventgroupseventgroupidfinancialevents)
 
-![](../.gitbook/assets/Amazon.PNG)
+<figure><img src="../.gitbook/assets/Amazon_v1.PNG" alt=""><figcaption></figcaption></figure>
 
 ### Metodların təyini
 
