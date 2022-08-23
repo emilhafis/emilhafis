@@ -77,7 +77,7 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 
 > <mark style="color:orange;">**object**</mark><mark style="color:orange;">:</mark> JSON formatı üzrə object (obyekt) **key-value** cütlüyünü bildirir. **Key-value** cütlərinin bu kolleksiyası <mark style="color:orange;">{fiqurlu mötərizlərin açılması və bağlanması ilə}</mark> <mark style="color:orange;">{ }</mark> qruplaşdırılır.
 >
-> Obyektin yaz;lmas; qaydalar:
+> Obyektin yazılması qaydaları
 >
 > * _**Key-value** cütlüyü **vergül**  **,** ilə ayrılmalıdır_
 > * _Hər bir **obyekt** Fiqurlu mötərizənin açılması <mark style="color:orange;">{</mark> ilə **başlamalıdır**_
@@ -98,19 +98,17 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 
 > * <mark style="color:orange;">**array**</mark>: Dəyərlərin listi.
 >
-> Arrays are similar to Arrays that you know from any other programming language. In JSON an Array is collection of Values separated by Comma. Here are the rules to write an Array
->
 > Proqramlaşdırma dillərində istifadə olunana Array anlayışı ilə eynilik təşkil edir. **JSON**-da **Array** _Vergül_ ilə ayrılmış dəyərlər toplusundan ibarətdir.&#x20;
 >
 > **Array**-in hazırlanması üçün qaydalar:
 >
 > * _**Array** düz mötərizənin açılması **\[** ilə başlayır_
-> * _Array düz mötərizənin bağlanması **]** ilə bitir_
-> * _Array-dəki məlumatlar Vergül **,** ilə ayrılır_
+> * _**Array** düz mötərizənin bağlanması **]** ilə bitir_
+> * _**Array**-dəki məlumatlar Vergül **,** ilə ayrılır_
 >
-> Array-i tam başa düşmək üçün gəlin aşağıdakı nümunəyə baxaq.
+> **Array**-i tam başa düşmək üçün gəlin aşağıdakı nümunəyə baxaq.
 >
-> Deyək ki, Anarın **hobbisi**-də vardır və biz onu **Person Object**-nə əlavə etməliyik. Onun hobbisi _Video oyunlarıdır_. Gəlin object-ə `key-value` əlavə edək
+> Deyək ki, Anarın **hobbisi**-də vardır və biz onu **Person Object**-nə əlavə etməliyik. Onun hobbisi _Video oyunlarıdır_. Gəlin **object**-ə `key-value` əlavə edək
 
 ```javascript
 {
@@ -162,7 +160,7 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 
 > Bu nümunə JSON üzrə Array-dən düzgün istifadə olunan nümunədir.
 
-### Data type növləri
+### JSON dəyərləri üzrə Data type-lar
 
 > * <mark style="color:orange;">**string**</mark><mark style="color:orange;">:</mark> Hərflərdən və ya rəqəmlərdən ibarət dəyərlər.
 >
@@ -183,19 +181,19 @@ Məsələn, Java dili üzrə proqramlaşdırma edərkən icazə verilən məluma
 
 Bununla belə, siz **REST API** sənədləşməsində bu səviyyədə detala düşməli deyilsiniz. bunları proqramçı arxitektlər təyin edirlər. Amma proqramlaşdırma biliyiniz varsa və əminsinizsə, qeyd etməyiniz çox yaxşı olar.
 
-Məsələn, mən hər zaman sənədləşmələrdə **enum** məlumat növünü göstərirəm. **Enum** məlumat növü o halda istifadə olunurki, sizin daxil etmək üçün bəlli sayda dəyəriniz olur. Məsələn, yuxarıda göstərdiyimiz nümunədə biz Credit kartı üzrə balansı əldə etdik. Bizə kartın növləri (CardType) üzrə 2 fərqli seçim verilə bilər - **CreditCard, DebitCard**.&#x20;
+Məsələn, mən hər zaman sənədləşmələrdə **enum** məlumat növünü göstərirəm. **Enum** məlumat növü o halda istifadə olunurki, sizin daxil etmək üçün bəlli sayda dəyəriniz olur. Məsələn, yuxarıda göstərdiyimiz nümunədə biz Credit kartı üzrə balansı əldə etdik. Bizə kartın növləri (**CardType**) üzrə 2 fərqli seçim verilə bilər - **CreditCard, DebitCard**.&#x20;
 
-Əgər bizim CardType üzrə bəlli sayda seçimimiz olursa bu məlumat növü **enum** adlanır..&#x20;
+Əgər bizim **CardType** üzrə bəlli sayda seçimimiz olursa bu məlumat növü **enum** adlanır..&#x20;
 {% endhint %}
 
-#### Max and min dəyərlər <a href="#max_min_values" id="max_min_values"></a>
+### Max and min dəyərlər <a href="#max_min_values" id="max_min_values"></a>
 
 > **Data type**-ları müəyyən etməkdən savayı, həmçinin də **parametrlər** üzrə **minimum**, **maximum** və olduğu təqdirdə **icazə verilən** dəyərləri göstərməliyik.&#x20;
 >
 > Bununla belə, hər parametrin _maksimum_ və _min_ dəyərlərini göstərməyə bəzən ehtiyac olmur: Məsələn,
 >
 > * <mark style="color:orange;">**Booleans**</mark>: Bu dəyər üzrə yeganə seçimlər **true** və ya **false**-dur. Bu səbəbdən də burada _max/min_ göstərməyə ehtiyac yoxdur.
-> * <mark style="color:orange;">**Enums**</mark>: Bundan əvvəldə qedy etdiyimiz kimi, əgər string mümkün dəyərləri (an enumerated list) tələb edərsə bu zaman _max/min_ göstərməyə ehtiyac yoxdur. Məsələn, API-da yarımkürə dəyərlərimiz varsa burada mümkün 4 dəyər ola bilər - _şimal, cənub, şərq və qərb_. Bu səbəbdən də burada max/min dəyərlərinə ehtiyac olmur..
+> * <mark style="color:orange;">**Enums**</mark>: Bundan əvvəldə qeyd etdiyimiz kimi, əgər string mümkün dəyərləri (an enumerated list) tələb edərsə bu zaman _max/min_ göstərməyə ehtiyac yoxdur. Məsələn, API-da **yarımkürə** field-miz varsa burada mümkün 4 dəyər ola bilər - _şimal, cənub, şərq və qərb_. Bu səbəbdən də burada max/min dəyərlərinə ehtiyac olmur..
 >
 > Ümumiyyətlə proqram ilkin testləşdirmə üçün hazır olduqdan sonra, <mark style="color:orange;">boolean</mark> və <mark style="color:orange;">enum</mark>-la yanaşı digər **data type**-lara icazə verilən parameter-ləri (məs, <mark style="color:orange;">string</mark>, <mark style="color:orange;">integer</mark>) yoxlayın. Məsələn, API-da ID sahəsi olarsa həmin sahəyə 300 simvol uzunluğunda, əgər fayl əlavə edə bilərsinizsə 100 MB həcmində əlavə etməyə çalışın. Əmin olun ki, API normal qaydada sorğularınızı emal edəcəkdir.
 
@@ -276,7 +274,7 @@ Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdi
 
 ### Request body <a href="#request_bodies" id="request_bodies"></a>
 
-> Əksər hallarda biz request body-də (sorğu mətni) POST (adətən nəsə yaradanda) sorğusu ilə JSON obyekti göndəririk. Bu request body kimi tanınır və formatı adaətən JSON olur (məsələn, yuxarıdakı [Person Object](parametrl-r.md#json-uezr-uemumi-m-lumat)-i).&#x20;
+> Əksər hallarda biz request body-də (sorğu mətni) POST (adətən nəsə yaradanda) sorğusu ilə JSON obyekti göndəririk. Bu request body kimi tanınır və formatı adətən **JSON** olur (məsələn, yuxarıdakı [Person Object](parametrl-r.md#json-uezr-uemumi-m-lumat)-i).&#x20;
 >
 > Məsələn, biz bir resurs yaradarkən sadə **endpoint** istifadə edə bilərik - `/port/`<mark style="color:orange;">`{beachId}`</mark>. Amma sorğu mətnində (**request body**) **JSON** obyekt ilə xeyli sayda dəyərlər göndərə bilərik. Aşağıdakı formada:
 
@@ -288,8 +286,6 @@ Unutmayın ki, Path parametrlərində sırlamadakı dəyərlərin yeri dəyişdi
 }
 ```
 
-> In OpenAPI v2.0, request bodies were classified as a type of parameter, but in v3.0, they are not considered a parameter but rather a path property. Given that the request body functions like a parameter, I’ve decided to leave them classified as a parameter for now. However, note that in the OpenAPI spec, request bodies are technically not a parameter.
->
 > OpenAPI v2.0-da **Request body** parametr növü kimi təsnif edilirdi, lakin v3.0-da onlar parametr deyil, daha çox `path property` kimi hesab olunur. **Request body**-nin bir parametr kimi fəaliyyət göstərdiyini nəzərə alaraq, onları hələlik parametr kimi təsnif edək.&#x20;
 
 {% hint style="warning" %}
@@ -306,11 +302,11 @@ Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **pa
 >
 > Hər bir halda, əgər **JSON** obyekti nisbətən kiçikdirsə, cədvəl yəqin ki, ən yaxşı seçiminizdir. Lakin dizaynerlərin qəbul etdiyi başqa yanaşmalar da var.
 
-### Get account balance üçün parameterlər
+### [Tapşırıq](../tapsiriq.md#s-n-dl-sdirm-k-uecuen-m-lumat) üçün parameterlər
 
-> İndi isə <mark style="color:blue;">Get account balance</mark> **endpoint**-i üçün Parametr-ləri hazırlayaq.
+> İndi isə `Get account balance API` **endpoint**-i üçün Parametr-ləri hazırlayaq.
 
-> Bizə t[əqdim olunan məlumatlarda](broken-reference) parametr-lər üzrə yalnız bu məlumatlar qeyd edilmişdir.
+> Bizə [təqdim olunan məlumatlarda](../tapsiriq.md#s-n-dl-sdirm-k-uecuen-m-lumat) parametr-lər üzrə yalnız bu məlumatlar qeyd edilmişdir.
 >
 > Mandatory parameter-lər:
 >
@@ -343,9 +339,9 @@ Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **pa
 
 <mark style="color:blue;">**Path parameter-ləri**</mark>
 
-| Path parametri                                 | Təsvir                                                                                |   |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------- | - |
-| <mark style="color:orange;">{AccountId}</mark> | Hesab nömrəsi (IBAN) (28) <mark style="color:green;">`Get from account_table.`</mark> |   |
+| Path parametri                                 | Məlumat növü | Təsviri                                                                         |   |
+| ---------------------------------------------- | ------------ | ------------------------------------------------------------------------------- | - |
+| <mark style="color:orange;">{AccountId}</mark> | String (28)  | Hesab nömrəsi (IBAN)<mark style="color:green;">`Get from account_table.`</mark> |   |
 
 {% hint style="info" %}
 Path parametri qeyd etdiyimiz kimi hər zaman mandatory olur. Bu səbəbdən də burada filed-in mandatory və ya optional olmasını qeyd etməyə ehtiyac yoxdur
@@ -355,10 +351,9 @@ Path parametri qeyd etdiyimiz kimi hər zaman mandatory olur. Bu səbəbdən də
 
 #### <mark style="color:blue;">Header parameter-ləri</mark>
 
-| Header parametri                                             | Zəruriliyi   | Type              | Description                                                               |
+| Header parametri                                             | Zəruriliyi   | Məlumat növü      | Təsviri                                                                   |
 | ------------------------------------------------------------ | ------------ | ----------------- | ------------------------------------------------------------------------- |
 | <mark style="color:orange;">Sender-Participant-Code</mark>   | Zəruri deyil | Integer (6)       | Göndərən təşkilatın kodu                                                  |
-|                                                              |              |                   |                                                                           |
 | <mark style="color:orange;">Receiver-Participant-Code</mark> | Zəruridir    | Integer (6)       | Qəbul edən təşkilatın kodu                                                |
 | <mark style="color:orange;">PSU-Device-ID</mark>             | Zəruridir    | String (up to 25) | Mobil tətbiqin IMEI kodu və ya WEB saytın IP ünvanı                       |
 | <mark style="color:orange;">Consent-ID</mark>                | Zəruridir    | String (up to 30) | Consent identifikator. `Consent registration` sorğusu zamanı əldə olunur. |
