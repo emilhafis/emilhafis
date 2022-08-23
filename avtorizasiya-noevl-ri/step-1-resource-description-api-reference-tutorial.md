@@ -62,7 +62,7 @@ POST /campaigns/{campaign_id}/actions/unschedule
 
 #### [Trello](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-group-cards)
 
-![](../.gitbook/assets/trello.PNG)
+<figure><img src="../.gitbook/assets/trello_v1.png" alt=""><figcaption></figcaption></figure>
 
 > Digər nümunə isə [Trello](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-group-cards)-dur. Burada da gördüyünüz kimi sol tərəfdə bir çox resurslar mövcuddur. bizim seçdiyimiz resurs `Cards`-dır və onun üzrə aşağıdakı metdolar mövcuddur.
 
