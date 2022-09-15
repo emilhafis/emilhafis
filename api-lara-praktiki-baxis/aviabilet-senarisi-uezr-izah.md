@@ -34,8 +34,6 @@ description: Proqramçı kimi API-lardan necə istifadə etmək lazımdır?
 
 ### Haradan başlamaq lazımdır?
 
-> Sizin səyahət xidmətləri verən şirkətlər kimi öz avia məlumatlar datanız yoxdur və buna görə də bu məlumatı əldə etmək üçün digər servislərə müraciət etməlisiniz. Aldığınız məlumatları isə istifadəçilərin başa düşəcəyi formada onlara göstərməlisiniz.
->
 > Məsələnin mahiyyətin tam anlamaq üçün bu nümunədəki HTML-i olduğu kimi komputerinizdə saxlayıb sonra onu aça bilərsiniz. Burada səhifənin gözəlliyi bizə maraqlı deyil, əsas odurki məlumatları göstərə bilək. Axtar düyməsinə klik edən kimi [travelpayouts API](https://support.travelpayouts.com/hc/en-us/articles/203956163) sorğu gedir və qayıdan cavabı JavaScript kodları interfeysdə göstərir.&#x20;
 
 ```javascript

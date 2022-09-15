@@ -6,7 +6,6 @@
   * [Nümunənin yoxlanılması](api-lara-praktiki-baxis/nuemun-nin-yoxlanilmasi.md)
   * [GUI-dən sorğunun göndərilməsi](api-lara-praktiki-baxis/postman-il-sorgunun-goend-rilm-si.md)
 * [Page 2](page-2.md)
-* [Next step](next-step.md)
 
 ## Extras
 
