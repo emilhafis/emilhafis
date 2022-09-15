@@ -77,26 +77,7 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 ### Kursun mündəricatı
 
-> * Giriş
-> * API-lara proqramçı gözü ilə baxış
-> * REST API Dizayn
-> * Autentifikasiya, Avtorizasiya və OAuth
-> * API endpoint-lərinin hazırlanması
-> * OpenAPI spesifikasiyası və generated reference docs (Svagger)
-> * Step-by-step OpenAPI code tutorial
-> * [Testing API docs](https://idratherbewriting.com/learnapidoc/testingdocs.html)
-> * [Conceptual topics in API docs](https://idratherbewriting.com/learnapidoc/docconceptual.html)
-> * [Code tutorials](https://idratherbewriting.com/learnapidoc/docapiscode.html)
-> * [The writing process](https://idratherbewriting.com/learnapidoc/writing\_process.html)
-> * [Publishing API docs](https://idratherbewriting.com/learnapidoc/publishingapis.html)
-> *   ## Native library APIs
->
->     [Processes and methodology](https://idratherbewriting.com/learnapidoc/docapis\_managing\_doc\_processes.html)
-> * [Thriving in the API doc space](https://idratherbewriting.com/learnapidoc/jobapis.html) (özüm üçün)
-> * [Metrics and measurement](https://idratherbewriting.com/learnapidoc/docapis\_metrics\_and\_measurement.html)(özüm üçün
-> * [Additional resources](https://idratherbewriting.com/learnapidoc/resources.html) (özüm üçün
-> * Google Apigee
-> * AWS API
+> *
 
 >
 >
