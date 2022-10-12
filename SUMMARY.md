@@ -12,4 +12,7 @@
 
 * [IN TRODUCTI ON Overview](in-troducti-on-overview.md)
 * [The Role of The Business AnAlysT](the-role-of-the-business-analyst.md)
-* [NEEDS ASSESSMENT](needs-assessment.md)
+* [NEEDS ASSESSMENT](needs-assessment/README.md)
+  * [4.1.1 IdentIfy Problem or oPPortunIty: InPuts](needs-assessment/4.1.1-identify-problem-or-opportunity-inputs.md)
+  * [4.1.2 IdentIfy Problem or oPPortunIty: tools And technIques](needs-assessment/4.1.2-identify-problem-or-opportunity-tools-and-techniques.md)
+  * [4.1.3 IdentIfy Problem or oPPortunIty: outPuts](needs-assessment/4.1.3-identify-problem-or-opportunity-outputs.md)
