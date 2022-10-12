@@ -22,7 +22,7 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 ### API nümunəli izah
 
-> Siz nə telefonunuzda hər hansı bir tətbiqi işlətdiyiniz vaxt, tətbiq internetə bağlanır və məlumatları serverə göndərir. Server məlumatları aldıqdan sonra lazımı prosesləri icra edir və məlumatları yenidən sizin telefonunuza daha dəqiq telefonunzdakı tətbiqinizə qaytarır. Tətbiq daha sonra həmin məlumatları emal edir və istədiyiniz məlumatları oxunaqlı şəkildə sizə təqdim edir.
+> Siz telefonunuzda hər hansı bir tətbiqi işlətdiyiniz vaxt, tətbiq internetə bağlanır və məlumatları serverə göndərir. Server məlumatları aldıqdan sonra lazımı prosesləri icra edir və məlumatları yenidən sizin telefonunuza daha dəqiq telefonunzdakı tətbiqinizə qaytarır. Tətbiq daha sonra həmin məlumatları emal edir və istədiyiniz məlumatları oxunaqlı şəkildə sizə təqdim edir.
 >
 > Bunu daha yaxşı izah etmək üçün çox məhşur olan API nümunəsi ilə tanış olaq.
 >
@@ -40,7 +40,7 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 ![](.gitbook/assets/request\_response.png)
 
-> Npvbəti mövzularda real nümunələr ilə daha da prosesi aydın formada izah edəcəyəm.
+> Növbəti mövzularda real nümunələr ilə daha da prosesi aydın formada izah edəcəyəm.
 >
 > API-ların əsas üstünlüklərindən və məqsədlərindən biri də ondan ibarətdir ki, sistemin daxildə necə işlədiyini gizlətmək və yalnız proqramçılara (inteqratorlara) lazım olan hissələrə kənara çıxarmaqdır. Yəni, sistemdən API vasitəsilə istifadə edən tərəflərə dəyişiklikləri bildirməməklə sistemin daxili tələbləri və funksiyalarını sonradan dəyişməyin mümkünlüyüdür. Məsələn bizim nümunəmizdə - mətbəxdəki işçilərin dəyişdirilməsi, yemək hazırlanma standartlarının dəyişdirilməsi nə biz (yəni müraciət edən tətbiq), nə də ofisiant (yəni API) tərəfdə hər hansı dəyişikliyə səbəb olmur.&#x20;
 
@@ -73,17 +73,9 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > 1. Proqramçılar üçün hazırlanan ənənəvi sənədləşmədən API First yönümlü sənədləşməyə keçmək istəyən peşəkar **Tech writer-lar**.
 > 2. Texniki sahədə özlərini inkişaf etdirib zamanın tələblərinə cavab verən IT analitik olmaq istəyən **Tələbələr**.
 > 3. Öz API-larını sənədləşdirmək və sənədləşdirmə zamanı API-lar üzrə ən yaxşı struktur, dizayn və terminalagoiyalardan istifadə etmək istəyən **Proqramçılar**.
-> 4. Müəllimlər - Kimlərki IT Analitikləri yetişdirərək onlara Tech Writing öyrədirlər
-
-### Kursun mündəricatı
-
-> *
-
->
->
->
->
->
+> 4. IT Business Analitiklər&#x20;
+> 5. Sistem analitiklər
+> 6. IT innovasiyalar ilə məşğul olan mütəxəssislər
 
 ****
 
@@ -101,7 +93,7 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 ### Proqramlaşdırma bacarıqları tələb olunmur <a href="#no-programming-skills-required" id="no-programming-skills-required"></a>
 
-> Bu kursda iştirak etmək üçün sizə hər hansı bir proqramlaşdırma təcrübəsinin olmasına ehtiyac yoxdur. Amma HTML və JavaScript, həmçinin də texniki baza biliklərinin olması sizə prosesləri daha yaxşı anlamağa kömək edəcəkdir.
+> Bu kursda iştirak etmək üçün sizə hər hansı bir proqramlaşdırma təcrübəsinin olmasına ehtiyac yoxdur. Amma HTML və JavaScript, həmçinin də texniki baza biliklərinin olması sizə prosesləri daha yaxşı anlamağa kömək edəcəkdir. Bunları isə biz kurs daxilində ümumi olaraq öyrənəcəyik.
 >
 > JavaScript REST API sənədləşməsi zamanı ən çox istifadə edilən və ən asan başa düşülən proqramlaşdırma dillərindən biridir. JavaScript bizə kodları sadəcə brauzerdə açmaqla yoxlamağa imkan verir, yəni proqramın IDE-də işə salınmasına ehtiyac qalmır.&#x20;
 >
@@ -118,7 +110,7 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > * **GitHub account**. [GitHub](https://github.com) müxtəlif fəaliyyətlər üçün, bəzən Git-də iş prosesini nümayiş etdirmək üçün, bəzən isə müxtəlif developer tool-lara daxil olmaq üçün autentifikasiya vasitəsi üçün istifadə edilir.  Əgər GitHub hesabınız yoxudrsa, yaradın.
 > * Gitbook - [Gitbook](https://www.gitbook.com/) İstifadəçilər və ya proqramçılar üçün sənədləşmə yaratmağa imkan verin. Bu sənədləşmə də, API First tələblərini rahatlıqla auditoriyaya çatdırmaq mümkündür. həmçinin də, platforma avtomatik olaraq sizə URL təqdim edir və bu URL ilə istənilən yerdən sənədləşmə ilə tanış olmaq mümkün olur. Həmçinin də, platfomra GitHub ilə sinxorinizasiya olunaraq məlumat itkisinin qarşısı alınır.
 > * Swagger - [Swagger](https://swagger.io/) API dizayn və sənədləşməsi üçün istifadə olunan vasitədir. Hazırda ən geniş istifadə olunan Open API vasitəsidir.
-> * Amazon API Gateway - [Amazon API Gateway](https://aws.amazon.com/api-gateway/) proqramçılara cloud üzərindən çox rahatlıqla API yaratmaq, publish etmək onların monitorinqi aparmağa imkan verir.&#x20;
+> * Stoplight
 > * Apigee API Management - [Google Cloud API](https://cloud.google.com/apigee) proqramçılara cloud üzərindən çox rahatlıqla API yaratmaq, publish etmək onların monitorinqi aparmağa imkan verir.&#x20;
 
 ### Proqram təminatlarının yoxlanılması <a href="#testing-your-setup" id="testing-your-setup"></a>
