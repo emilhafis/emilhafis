@@ -22,15 +22,15 @@ The Needs Assessment processes are:
 
 Figure 4-1 provides an overview of the Needs Assessment processes. The business analysis processes are presented as discrete processes with defined interfaces, although, in practice, they overlap and interact in ways that cannot be completely detailed in this guide.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 **4.1 IDENTIFy PROBlEM OR OPPORTuNITy**
 
 Identify Problem or Opportunity is the process of identifying the problem to be solved or the opportunity to be pursued. The key benefit of this process is the formation of a clear understanding of the situation that the organization is considering to address. If the problem or opportunity is not thoroughly understood, the organization may pursue a solution that does not address the business need. The inputs, tools and techniques, and outputs of the process are depicted in Figure 4-2. Figure 4-3 depicts the data flow diagram for the process.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Part of the work performed within Needs Assessment is to identify the problem being solved or the opportunity that needs to be addressed. To avoid focusing on the solution too soon, emphasis is placed on understanding the current environment and analyzing the information uncovered. Asking questions such as “What problem are we solving?” or “What opportunity might transform how we service our customers?” allows for exploring the situation with stakeholders without jumping directly into a solution.
 
