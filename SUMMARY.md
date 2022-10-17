@@ -5,3 +5,4 @@
 * [Introduction to the OpenAPI specification](introduction-to-the-openapi-specification.md)
 * [Rendering Your OpenAPI specification with Swagger UI](rendering-your-openapi-specification-with-swagger-ui.md)
 * [Activity: Explore Swagger UI through the Petstore Demo](activity-explore-swagger-ui-through-the-petstore-demo.md)
+* [Stoplight: visual modeling tools for creating your OpenAPI spec](stoplight-visual-modeling-tools-for-creating-your-openapi-spec.md)
