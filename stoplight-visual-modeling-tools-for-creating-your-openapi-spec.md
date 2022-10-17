@@ -15,3 +15,5 @@
 > Vizual modelləşdirmə üsullarından biri olan JSON interfeysdə JSOn sxemlərini (request və response body) xüsusi göstərilməsi çox yaxşı fikirləşilmişdir.
 >
 > Stoplight-da xüsusilə yaxşı olan bir məqam ondan ibarətdir ki, siz əlinizdə olan JSON-u birbaşa YAML a yəni OpenAPI spesifikasiyanı convert edə bilirsiniz. Ən çox istifadə etdiyim özəlliklərindən biri budur. praktiki olaraq bunu necə edirik tanış olacağıq.
+
+> Sonda qayıtmaq
