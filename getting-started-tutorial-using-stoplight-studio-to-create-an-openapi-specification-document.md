@@ -107,7 +107,7 @@ The ability to switch views between Form, Code, and Preview gives you a lot of a
 
 > To get started, populate the fields in the API Overview section (this includes the version, name, description, security, contact, license, and other general details). For this tutorial, I’ve prepared sample information for you to easily insert into the Stoplight Editor. (Note that, in the sample information in the orange expandable buttons, for fields that don’t have names, I put the assumed titles of these fields in \[brackets].)
 
-<figure><img src=".gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 To populate the API overview:
 
@@ -164,11 +164,11 @@ Bitirdikd'n sonra yuxar; soldak; Publish etməyi unutmayın
 
 When finished, the form should look like this:
 
-![](<.gitbook/assets/image (3).png>)
+![](<.gitbook/assets/image (3) (3).png>)
 
 3\. Now that you entered information for the first section, check out how it looks. Click the **Preview** button in the upper-right corner. It should look as follows:
 
-![](<.gitbook/assets/image (1) (1).png>)
+![](<.gitbook/assets/image (1) (3).png>)
 
 4\. Return to the Form view by clicking the **Form** button again.
 
@@ -245,7 +245,7 @@ Kim deyə bilər ki, burada hansı parametrlər istifadə olunub və nədən bil
 
 Yekunda Stoplight bu formada görünəcəkdir
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 You don’t need to add security for this endpoint because you already configured global security in the previous section. However, if this endpoint had unique security method, you could override the global security here by clicking the + Security button.
 
@@ -264,7 +264,7 @@ To re-use a parameter:
 3. Return to the previous query parameters section where you entered the `currency` parameter, and click the Reference button ![Reference button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_link\_button.png) for this parameter.
 4. Search for “currency” and select it.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 When you link the parameter to the reference like this, the icon turns red: ![Reference button turns red when linked](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_link\_button\_red6.png)
 
@@ -286,3 +286,78 @@ This endpoint in the travelpayouts API doesn’t have any path, header, or body 
 {% endhint %}
 
 ### Step 5: Enter the responses and response schema information <a href="#responses" id="responses"></a>
+
+As a final step for this endpoint, you need to enter the response information. The response includes not only an example response but also the schema describing the response. The schema describes all possible values in the response, their data types, and whether the values are required.
+
+To enter the response information in Stoplight Studio:
+
+1. Below the parameter section for the endpoint, click the **+ Response** button. Then click the **+ Add Body** button that appears within this expanded Response section.
+2.  On the Schema tab, click **Generate from JSON**.
+
+    Here you’ll experience one of the coolest features in the Stoplight Studio editor, and one reason why I like this editor so much. The editor will automatically build out the response schema from a sample JSON response.
+3. Expand the orange button below and copy the sample response.
+
+<details>
+
+<summary>Sample response</summary>
+
+
+
+```
+{"success": true,
+"data": [
+{
+"origin": "LON",
+"destination": "BCN",
+"origin_airport": "DME",
+"destination_airport": "BCN",
+"price": 3001,
+"airline": "IO",
+"flight_number": "675",
+"departure_at": "2022-01-21T22:30:00+03:00",
+"return_at": "2022-02-03T06:25:00+03:00",
+"transfers": 0,
+"return_transfers": 0,
+"duration": 175,
+"link": "/search/LON2101BCN03021?t=IO16427934001642798800000090DMEBCN16438587001643863800000085BCNVKO_9a6898092e218d1d1a374ecdd20a7fc6_3001&search_date=27122021&expected_price_uuid=bccbd9bf-69dc-49e2-a09b-c7bb6414fde5&expected_price_currency=rub"
+}]
+}
+```
+
+</details>
+
+
+
+4\. Paste in the copied JSON into the gray area where it says “Paste or write a JSON example below…” (Remove the empty curly braces `{}` first, and then paste in your sample.)
+
+5\. Click **Generate from JSON**. Stoplight builds the schema for you! Here’s a short video clip showing this:
+
+6\. Add some more detail about the response elements:
+
+1. Click the **Description** button ![Description button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_description\_button.png) next to each property and add a description.
+2. Click the **Other Properties** ![Other properties](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_other\_properties\_button2.png) button and add an example in the **example** field.
+
+For the description and examples, expand the orange button below and copy over the information.
+
+<details>
+
+<summary>Sample description and examples</summary>
+
+
+
+* **origin** — the point of departure
+* **destination** — the point of destination
+* **origin\_airport** — the IATA of the origin airport
+* **destination\_airport** — the IATA of the destination airport
+* **price** — price of the ticket
+* **airline** — the IATA of the airline
+* **flight\_number** — flight number
+* **departure\_at** — departure date
+* **return\_at** — return date
+* **transfers** — number of stops on the way to the destination
+* **return\_transfers** — number of stops on the way back
+* **duration** — the flight duration in minutes
+* **link** — the ticket link. Add the code to the URL [https://www.aviasales.com/](https://www.aviasales.com/search/) to open the search results on the given route on Aviasales. Use our [link generator](https://support.travelpayouts.com/hc/en-us/articles/360027634052-How-to-create-a-link-to-any-page-of-the-travel-brand-s-website) to create your partner link out of the resulting link
+* **currency** — the currency of prices.
+
+</details>
