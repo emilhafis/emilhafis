@@ -59,15 +59,15 @@
 > * Follow the on-screen instruction to create a workspace, and then sign into it, authenticating with one of the ID options.
 > * Click the **+** button ![Add project button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_plus\_button.png) at the top to add a new project. Give the project a name, and then click
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-![](<.gitbook/assets/image (1).png>)
+<figure><img src=".gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-![](<.gitbook/assets/image (5).png>)
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-![](<.gitbook/assets/image (6).png>)
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -85,7 +85,7 @@
 
 7\. Stoplight lets you toggle between a form and code editor. The above screenshot shows the Form view. Click the **Code** button in the upper-right corner to see the code automatically created.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 > (The code includes some sample content for some fictitious user endpoints called `/users/{userid}` and `/user`.)
 >
@@ -97,7 +97,7 @@
 
 Click the **Preview** button in the upper-right corner to see what the content would look like when published:
 
-![](<.gitbook/assets/image (11).png>)
+<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 The ability to switch views between Form, Code, and Preview gives you a lot of authoring power.
 
@@ -106,3 +106,68 @@ The ability to switch views between Form, Code, and Preview gives you a lot of a
 ### Step 2: Enter the API overview information <a href="#overview" id="overview"></a>
 
 > To get started, populate the fields in the API Overview section (this includes the version, name, description, security, contact, license, and other general details). For this tutorial, I’ve prepared sample information for you to easily insert into the Stoplight Editor. (Note that, in the sample information in the orange expandable buttons, for fields that don’t have names, I put the assumed titles of these fields in \[brackets].)
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+To populate the API overview:
+
+> 1. In the Stoplight Studio sidebar, click **API Overview.**
+> 2. Enter information in each of the form fields using information provided in the orange button below:
+
+<details>
+
+<summary>Sample API Overview information</summary>
+
+API Overview information:
+
+* _1.0 \[Version]_: 3
+* _\[Name]_: Travelpayouts API
+* _Description …_: Returns the cheapest tickets for specific dates. This sample Swagger file covers the `current` endpoint only from the OpenWeatherMap API. All parameters are optional, but you must select at least `destination` or `origin` parameter. By default this endpoint retrieves **chepeast ticket**.
+
+**Servers +**
+
+* __[_https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates_](https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates)__
+* _Name (optional)_: Production
+
+**Security schemes +**
+
+* _left drop-down menu_: apiKey
+* _key_: 3c63416a24d3b969da6df9271faa9d6e
+* _name_: token
+* _right drop-down menu_: query
+
+**Global security +**
+
+* Select **app\_id**
+
+**Contact**
+
+* _Contact Name_: Support
+* _Contact Url_: [https://openweathermap.org/api](https://support.travelpayouts.com/)
+* _Contact Email_: someone@gmail.com
+* _Terms of Service URL_: [https://openweathermap.org/terms](https://support.travelpayouts.com/hc/en-us/articles/360004162111-Terms-of-the-Travelpayouts-Travel-Affiliate-Network)
+
+**License**
+
+* _License (MIT, Apache 2.0, etc)_: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+* _License URL_: https://creativecommons.org/licenses/by-sa/4.0/
+
+</details>
+
+{% hint style="info" %}
+**Note**: The Markdown source formatting in the sample text is intentional. When you copy and paste in the source, Stoplight will convert the Markdown into HTML when displaying the published page. Also note that Stoplight allows you to use [Stoplight-flavored Markdown](https://github.com/stoplightio/studio-demo/blob/master/docs/markdown/stoplight-flavored-markdown.md). This Markdown version allows all the same tags as [CommonMark](https://commonmark.org/) but also includes some special tags for callouts, alerts, and other formatting.
+
+
+{% endhint %}
+
+Bitirdikd'n sonra yuxar; soldak; Publish etməyi unutmayın
+
+When finished, the form should look like this:
+
+![](<.gitbook/assets/image (3).png>)
+
+3\. Now that you entered information for the first section, check out how it looks. Click the **Preview** button in the upper-right corner. It should look as follows:
+
+![](<.gitbook/assets/image (1).png>)
+
+4\. Return to the Form view by clicking the **Form** button again.
