@@ -85,7 +85,7 @@
 
 7\. Stoplight lets you toggle between a form and code editor. The above screenshot shows the Form view. Click the **Code** button in the upper-right corner to see the code automatically created.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 > (The code includes some sample content for some fictitious user endpoints called `/users/{userid}` and `/user`.)
 >
@@ -107,7 +107,7 @@ The ability to switch views between Form, Code, and Preview gives you a lot of a
 
 > To get started, populate the fields in the API Overview section (this includes the version, name, description, security, contact, license, and other general details). For this tutorial, I’ve prepared sample information for you to easily insert into the Stoplight Editor. (Note that, in the sample information in the orange expandable buttons, for fields that don’t have names, I put the assumed titles of these fields in \[brackets].)
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 To populate the API overview:
 
@@ -171,3 +171,42 @@ When finished, the form should look like this:
 ![](<.gitbook/assets/image (1).png>)
 
 4\. Return to the Form view by clicking the **Form** button again.
+
+### Step 3: Enter the path and parameter information <a href="#endpoints" id="endpoints"></a>
+
+> Now enter the path and parameter information:
+>
+> 1. In the sidebar, right-click the **Paths** folder and select **New Path**.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+You can remove the default `/users/{userid}` and `/user` and endpoints. Right-click each endpoint and select **Delete Path**.
+
+By default Stoplight creates a GET operation for the weather endpoint. In our case, this works out great because this endpoint has a GET endpoint. But if not, you could just click the other operations available to create details for those operations.
+
+
+
+2\. Travelpayouts-da istifadə edəcəyimiz endpointin adını yazaq - **prices\_for\_dates**
+
+By default Stoplight creates a GET operation for the weather endpoint. In our case, this works out great because this endpoint has a GET endpoint. But if not, you could just click the other operations available to create details for those operations.
+
+3\. “Your GET endpoint” dəyişib - Get the chepeast ticket edək
+
+4\. Click the Tags button ![Stoplight tags button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/tags\_button\_stoplight2.png) in the upper-left corner and add a tag called “Flight endpoints.”
+
+This tag will group the endpoints in the sidebar by this tag into a collapsed section called “Weather endpoints.” This is how you build navigation hierarchy for your endpoints.
+
+5\. In the Description field, add the description for this endpoint. Expand the orange button below to get a description to paste here.
+
+<details>
+
+<summary>Sample path information</summary>
+
+Paths:
+
+* _/_prices\_for\_dates
+* _\[Operation]_: GET
+* _Operation ID_: get-prices\_for\_dates
+* _Description_: Access current weather data for any location on Earth including over 200,000 cities! Current weather is frequently updated based on global models and data from more than 40,000 weather stations.
+
+</details>
