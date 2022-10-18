@@ -107,7 +107,7 @@ The ability to switch views between Form, Code, and Preview gives you a lot of a
 
 > To get started, populate the fields in the API Overview section (this includes the version, name, description, security, contact, license, and other general details). For this tutorial, I’ve prepared sample information for you to easily insert into the Stoplight Editor. (Note that, in the sample information in the orange expandable buttons, for fields that don’t have names, I put the assumed titles of these fields in \[brackets].)
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 To populate the API overview:
 
@@ -168,7 +168,7 @@ When finished, the form should look like this:
 
 3\. Now that you entered information for the first section, check out how it looks. Click the **Preview** button in the upper-right corner. It should look as follows:
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (1).png>)
 
 4\. Return to the Form view by clicking the **Form** button again.
 
@@ -245,8 +245,44 @@ Kim deyə bilər ki, burada hansı parametrlər istifadə olunub və nədən bil
 
 Yekunda Stoplight bu formada görünəcəkdir
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 You don’t need to add security for this endpoint because you already configured global security in the previous section. However, if this endpoint had unique security method, you could override the global security here by clicking the + Security button.
 
 ### Step 4: Learn how to re-use parameters <a href="#reuse" id="reuse"></a>
+
+The OpenAPI spec allows to re-use parameters by storing the information in the [`components`](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_step5\_components\_object.html) property. In the Stoplight Studio editor, you reuse parameters by entering the parameter information in the Parameters section in the sidebar. (In the code behind the scenes, this information gets stored in `components`.)
+
+To understand how this works, let’s re-use one of the query parameters.
+
+To re-use a parameter:
+
+1.  Right-click **Parameters** in the lower-left corner of the sidebar and select **New Query Parameter**.
+
+    A parameter section similar to the query parameter sections you just populated appears.
+2. Populate the `currency` parameter here using the same information as before.
+3. Return to the previous query parameters section where you entered the `currency` parameter, and click the Reference button ![Reference button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_link\_button.png) for this parameter.
+4. Search for “currency” and select it.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+When you link the parameter to the reference like this, the icon turns red: ![Reference button turns red when linked](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_link\_button\_red6.png)
+
+5\. Switch to the Code editor and search for `cuurency`. You’ll now see a reference to a component:
+
+```yaml
+     parameters:
+        - $ref: '#/components/parameters/currency'
+```
+
+You don’t need to do anything in the code here — I’m just pointing out what changed behind the scenes. You can use this same technique to re-use other parameters as well as other types of content, such as responses.
+
+6\. Preview your updates. The preview should look like this:
+
+![](<.gitbook/assets/image (1).png>)
+
+{% hint style="warning" %}
+This endpoint in the travelpayouts API doesn’t have any path, header, or body parameters, so you can skip those elements.
+{% endhint %}
+
+### Step 5: Enter the responses and response schema information <a href="#responses" id="responses"></a>

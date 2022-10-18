@@ -8,7 +8,7 @@ Swagger UI-ni yüklədikdən sonra əlinizdəki faylı ora import etmək və laz
 
 The Swagger UI aşağıdakı formada bizim OpenAPI spesifikasiyamızı nümayiş etdirir
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Həmçinin də, kurs üzrə nümunələrdə göstərdiyimiz sadə hava proqnozunun  [sample Swagger UI integration with a simple weather API](https://idratherbewriting.com/learnapidoc/assets/files/swagger/) ilə inteqrasiyda hansı formada göründüyünə baxa bilərsiniz.
 
