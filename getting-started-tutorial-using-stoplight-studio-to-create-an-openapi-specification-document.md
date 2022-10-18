@@ -59,6 +59,14 @@
 > * Follow the on-screen instruction to create a workspace, and then sign into it, authenticating with one of the ID options.
 > * Click the **+** button ![Add project button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_plus\_button.png) at the top to add a new project. Give the project a name, and then click
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+![](<.gitbook/assets/image (11).png>)
+
+![](<.gitbook/assets/image (10).png>)
+
+![](.gitbook/assets/image.png)
+
+![](<.gitbook/assets/image (9).png>)
