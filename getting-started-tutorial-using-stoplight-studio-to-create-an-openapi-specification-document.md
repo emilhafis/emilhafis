@@ -102,3 +102,7 @@ Click the **Preview** button in the upper-right corner to see what the content w
 The ability to switch views between Form, Code, and Preview gives you a lot of authoring power.
 
 > 9\. Click the **Form** button to switch back to the Form view.
+
+### Step 2: Enter the API overview information <a href="#overview" id="overview"></a>
+
+> To get started, populate the fields in the API Overview section (this includes the version, name, description, security, contact, license, and other general details). For this tutorial, I’ve prepared sample information for you to easily insert into the Stoplight Editor. (Note that, in the sample information in the orange expandable buttons, for fields that don’t have names, I put the assumed titles of these fields in \[brackets].)
