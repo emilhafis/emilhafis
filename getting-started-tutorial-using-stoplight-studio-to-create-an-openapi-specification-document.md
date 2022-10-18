@@ -33,4 +33,6 @@
 
 ### What you’ll build <a href="#what-youll-build" id="what-youll-build"></a>
 
+> Bildirdiyim kimi, burada biz [travelpayouts API](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)-nı öz developerlərimizə tapşırıq vermək üçün API First dizayn edəcəyik. Xatırlayırsınızsa ilk dərsimizdə nümunəni bu platforma üzərində göstərmişdim.
 >
+> Here’s the [documentation output](https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api) that you’ll build in this tutorial:
