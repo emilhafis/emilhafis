@@ -6,7 +6,7 @@ Petstore demosundan istifadə edərək Swagger UI ilə praktiki təcrübəyə ke
 
 Əksər Swagger-əsaslı platformalarda olduğu kimi, **Swagger UI** də “**Try it out**” funksionallığını təmin edir. Bunun işləməsi üçün ilk növbədə, **Avtorizasiya** düyməsini klikləyərək və Avtorizasiya box-da API açarınızı daxil etməklə Swagger-ə icazə verməlisiniz. Burada, Petstore demo məqsədi üçün olduğundan burada real avtorizasiya kodundan istifadə edilmir. Buna görəd də Avtotorizasiyanı bağlaya və ya tamamilə skip edə bilərsiniz.
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 2\. **POST `/pet`** endpoint-ni expand edək
 
@@ -55,7 +55,7 @@ curl -X 'POST' \
 
 Response hissədə serverdən qayıdan cavab göstərilir. By default qayıdan cavab JSON formatında olur.
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ```json
 {
@@ -82,7 +82,7 @@ Response hissədə serverdən qayıdan cavab göstərilir. By default qayıdan c
 
 Sorğu. Buradad eyni formada göndərilən sorğunun **curl** formasını görürük.
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Response - qayıdan cavabda isə bildirdiyimiz kimi əlavə etdiyimiz Rex-i görürük.
 

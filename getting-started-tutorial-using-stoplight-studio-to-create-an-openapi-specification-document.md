@@ -59,14 +59,46 @@
 > * Follow the on-screen instruction to create a workspace, and then sign into it, authenticating with one of the ID options.
 > * Click the **+** button ![Add project button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_plus\_button.png) at the top to add a new project. Give the project a name, and then click
 
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+![](<.gitbook/assets/image (1).png>)
+
+![](<.gitbook/assets/image (5).png>)
+
+![](<.gitbook/assets/image (6).png>)
+
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+> 4\. Click the **API** button in the sidebar.
+>
+> 5\. In the New API dialog box, name your API (e.g., “openweathermap”), and click **Create**. By default, the editor will use OpenAPI v3 and YAML.
+>
+> 6\. Stoplight Studio creates an OpenAPI (OAS) specification file called, in this case, openweathermap.v1.yml and loads it as follows:
+
+
+
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+7\. Stoplight lets you toggle between a form and code editor. The above screenshot shows the Form view. Click the **Code** button in the upper-right corner to see the code automatically created.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+> (The code includes some sample content for some fictitious user endpoints called `/users/{userid}` and `/user`.)
+>
+> You could simply paste in a valid OpenAPI spec into the Code view, and it would populate the Form view. But presumably you don’t already have an OpenAPI spec to paste into the code — this is why you’re using the editor, to build out the specification document.
+
+> You can seamlessly switch between Form and Code views. Try adding a word in the Form view, switch to the Code view and find it, then remove it from the Code view and see how it updates in the Form view. Here’s a short video clip showing this:
+
+{% embed url="https://youtu.be/ngTq3aGZFVA" %}
+
+Click the **Preview** button in the upper-right corner to see what the content would look like when published:
 
 ![](<.gitbook/assets/image (11).png>)
 
-![](<.gitbook/assets/image (10).png>)
+The ability to switch views between Form, Code, and Preview gives you a lot of authoring power.
 
-![](.gitbook/assets/image.png)
-
-![](<.gitbook/assets/image (9).png>)
+> 9\. Click the **Form** button to switch back to the Form view.
