@@ -67,9 +67,9 @@
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 > 4\. Click the **API** button in the sidebar.
 >
@@ -178,7 +178,7 @@ When finished, the form should look like this:
 >
 > 1. In the sidebar, right-click the **Paths** folder and select **New Path**.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 You can remove the default `/users/{userid}` and `/user` and endpoints. Right-click each endpoint and select **Delete Path**.
 
@@ -211,4 +211,42 @@ Paths:
 
 </details>
 
+{% hint style="danger" %}
+Kim deyə bilər ki, burada hansı parametrlər istifadə olunub və nədən bildiniz?
+
+[https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates?origin=LON\&destination=BCN\&departure\_at=2022-01\&return\_at=2022-02\&unique=false\&sorting=price\&direct=false\&currency=rub\&limit=30\&page=1\&one\_way=true\&token=PutYourTokenHere ](https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates?origin=LON\&destination=BCN\&departure\_at=2022-01\&return\_at=2022-02\&unique=false\&sorting=price\&direct=false\&currency=rub\&limit=30\&page=1\&one\_way=true\&token=PutYourTokenHere)
+{% endhint %}
+
 6\. In Stoplight Studio, click the **+ Query Param** button to expand the query parameters options. (Note that our sample API has query parameters only, no path parameters.) Expand the orange button below for sample query parameter information. Then populate all the query parameter information into the Stoplight Studio editor.
+
+<details>
+
+<summary>Sample query parameter information</summary>
+
+* **currency** — the currency of prices. The default value is RUB
+* **origin** — An IATA code of a city or an airport of the origin
+* **destination** — An IATA code of a city or an airport of the destination (if you don't specify origin parameter, you must set destination)
+* **departure\_at** — the departure date (`YYYY-MM` or `YYYY-MM-DD`)
+* **return\_at** — the return date. For one-way tickets do not specify it
+* **direct** — non-stop tickets, `true` or `false`. By default:  `false`
+* **market** — sets the market of the data source (by default, ru)
+* **limit** — the total number of records on a page. The default value — 30. The maximum value — 1000
+* **page** — a page number, is used to skip some massive of results. For example, if we want to get the entries from 100 to 150, we need to set `page=3`, and `limit=50`
+* **sorting** — the assorting of prices:
+  * **price** — by the price (the default value). For the directions, only city — city assorting by the price is possible
+  * **route** — by the popularity of a route.
+* **unique** — returning only unique routes, if only `origin` is specified, `true` or `false`. By default: `false`
+* **token** — your API token.
+*
+
+    <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+Yekunda Stoplight bu formada görünəcəkdir
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+You don’t need to add security for this endpoint because you already configured global security in the previous section. However, if this endpoint had unique security method, you could override the global security here by clicking the + Security button.
+
+### Step 4: Learn how to re-use parameters <a href="#reuse" id="reuse"></a>
