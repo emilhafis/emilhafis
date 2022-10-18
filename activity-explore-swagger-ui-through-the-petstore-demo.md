@@ -20,11 +20,11 @@ Petstore demosundan istifadə edərək Swagger UI ilə praktiki təcrübəyə ke
 
 5\. **Execute** klik edək
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Swagger UI sorğunu göndərdikdən sonra istifadə edilmiş **curl** sorğusunu göstərir. Burada göndərilmiş **curl** sorğusunu görə bilərsiniz
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```json
 curl -X 'POST' \
@@ -82,7 +82,7 @@ Response hissədə serverdən qayıdan cavab göstərilir. By default qayıdan c
 
 Sorğu. Buradad eyni formada göndərilən sorğunun **curl** formasını görürük.
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Response - qayıdan cavabda isə bildirdiyimiz kimi əlavə etdiyimiz Rex-i görürük.
 

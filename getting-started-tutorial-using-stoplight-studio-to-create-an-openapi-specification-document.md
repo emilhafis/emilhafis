@@ -36,3 +36,29 @@
 > Bildirdiyim kimi, burada biz [travelpayouts API](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)-nı öz developerlərimizə tapşırıq vermək üçün API First dizayn edəcəyik. Xatırlayırsınızsa ilk dərsimizdə nümunəni bu platforma üzərində göstərmişdim.
 >
 > Here’s the [documentation output](https://idratherbewriting.stoplight.io/docs/openweathermap4/YXBpOjExMTIxODY3-open-weather-map-api) that you’ll build in this tutorial:
+
+### The tutorial has the following steps:
+
+>
+>
+> * [Step 1: Set up a project in Stoplight Studio](https://idratherbewriting.com/learnapidoc/pubapis\_openapis\_quickstart\_stoplight.html#setup)
+> * [Step 2: Enter the API overview information](https://idratherbewriting.com/learnapidoc/pubapis\_openapis\_quickstart\_stoplight.html#overview)
+> * [Step 3: Enter the path and parameter information](https://idratherbewriting.com/learnapidoc/pubapis\_openapis\_quickstart\_stoplight.html#endpoints)
+> * [Step 4: Learn how to re-use parameters](https://idratherbewriting.com/learnapidoc/pubapis\_openapis\_quickstart\_stoplight.html#reuse)
+> * [Step 5: Enter the responses and response schema information](https://idratherbewriting.com/learnapidoc/pubapis\_openapis\_quickstart\_stoplight.html#responses)
+> * [Step 6: Preview, test, and publish the output](https://idratherbewriting.com/learnapidoc/pubapis\_openapis\_quickstart\_stoplight.html#preview)
+
+> Stoplight provides a variety of options for working with projects — desktop editor versus web editor, and syncing from GitHub or saving directly to a Stoplight workspace. In this tutorial, I take the simplest path: using the web editor and saving to the Stoplight workspace. But recognize that you have more options for how you approach projects. See [Working with Projects](https://meta.stoplight.io/docs/studio/docs/Basics/01-working-with-projects.md) for more details.
+
+### Step 1: Set up a project in Stoplight Studio <a href="#setup" id="setup"></a>
+
+>
+>
+> * [https://stoplight.io/studio/](https://stoplight.io/studio/) göstərilən linkə keçid edək Getting started for free və ya On the Web bölməsin seçək
+> * instruksiyaya əsasən workspace yaradaq və daxil olaq
+> * Follow the on-screen instruction to create a workspace, and then sign into it, authenticating with one of the ID options.
+> * Click the **+** button ![Add project button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_plus\_button.png) at the top to add a new project. Give the project a name, and then click
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

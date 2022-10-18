@@ -17,3 +17,5 @@
 > Stoplight-da xüsusilə yaxşı olan bir məqam ondan ibarətdir ki, siz əlinizdə olan JSON-u birbaşa YAML a yəni OpenAPI spesifikasiyanı convert edə bilirsiniz. Ən çox istifadə etdiyim özəlliklərindən biri budur. praktiki olaraq bunu necə edirik tanış olacağıq.
 
 > Sonda qayıtmaq
+>
+> Paypal API
