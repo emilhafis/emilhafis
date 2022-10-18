@@ -138,7 +138,7 @@ API Overview information:
 
 **Global security +**
 
-* Select **app\_id**
+* Select **key**
 
 **Contact**
 
@@ -210,3 +210,5 @@ Paths:
 * _Description_: Access current weather data for any location on Earth including over 200,000 cities! Current weather is frequently updated based on global models and data from more than 40,000 weather stations.
 
 </details>
+
+6\. In Stoplight Studio, click the **+ Query Param** button to expand the query parameters options. (Note that our sample API has query parameters only, no path parameters.) Expand the orange button below for sample query parameter information. Then populate all the query parameter information into the Stoplight Studio editor.
