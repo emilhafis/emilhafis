@@ -20,7 +20,7 @@ Petstore demosundan istifadə edərək Swagger UI ilə praktiki təcrübəyə ke
 
 5\. **Execute** klik edək
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Swagger UI sorğunu göndərdikdən sonra istifadə edilmiş **curl** sorğusunu göstərir. Burada göndərilmiş **curl** sorğusunu görə bilərsiniz
 

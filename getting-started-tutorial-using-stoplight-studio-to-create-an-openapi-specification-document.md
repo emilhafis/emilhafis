@@ -245,7 +245,7 @@ Kim deyə bilər ki, burada hansı parametrlər istifadə olunub və nədən bil
 
 Yekunda Stoplight bu formada görünəcəkdir
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 You don’t need to add security for this endpoint because you already configured global security in the previous section. However, if this endpoint had unique security method, you could override the global security here by clicking the + Security button.
 
@@ -264,7 +264,7 @@ To re-use a parameter:
 3. Return to the previous query parameters section where you entered the `currency` parameter, and click the Reference button ![Reference button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_link\_button.png) for this parameter.
 4. Search for “currency” and select it.
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
 
 When you link the parameter to the reference like this, the icon turns red: ![Reference button turns red when linked](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_link\_button\_red6.png)
 
@@ -279,7 +279,7 @@ You don’t need to do anything in the code here — I’m just pointing out wha
 
 6\. Preview your updates. The preview should look like this:
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (4).png>)
 
 {% hint style="warning" %}
 This endpoint in the travelpayouts API doesn’t have any path, header, or body parameters, so you can skip those elements.

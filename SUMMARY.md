@@ -7,4 +7,5 @@
 * [Activity: Explore Swagger UI through the Petstore Demo](activity-explore-swagger-ui-through-the-petstore-demo.md)
 * [Stoplight: visual modeling tools for creating your OpenAPI spec](stoplight-visual-modeling-tools-for-creating-your-openapi-spec.md)
 * [Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document](getting-started-tutorial-using-stoplight-studio-to-create-an-openapi-specification-document.md)
+* [SwaggerHub introduction and tutorial](swaggerhub-introduction-and-tutorial.md)
 * [Page 1](page-1.md)
