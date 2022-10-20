@@ -54,6 +54,27 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 >
 > Bu kurs boyu mən bu anlayışları praktiki fəaliyyətlər və demolarla real, tətbiq oluna bilən kontekstlərə göstərəcəyəm.
 
+### Tech Writer nə üçün lazımdır?
+
+> Bu anlayışı ölkəyə ilk dəfə biz gətirəcəyimizə görə gəlin onun nə üçün lazım olduğun qısa müzakirə edək.
+>
+> Bu məsələ ilə əlaqədar mən bir yazı yazmışdım və orada bu günə kimi qarşılaşdığım və şahidi olduğum əsas problemləri necə həll edə bilərik onu qeyd etmişdim.
+>
+>
+
+{% embed url="https://www.linkedin.com/pulse/api-tech-writer-n%C9%99-%C3%BC%C3%A7%C3%BCn-laz%C4%B1md%C4%B1r-emil-abbasov/?trackingId=NTjNkZEPTrKIC8ROmdpZgg%3D%3D" %}
+
+### Kurs kimlər üçün nəzərdə tutulmuşdur?
+
+Kurs ilk növbədə aşağıdakı auditoriyalara xidmət edir:
+
+1. Proqramçılar üçün hazırlanan ənənəvi sənədləşmədən API First yönümlü sənədləşməyə keçmək istəyən peşəkar **Tech writer-lar**.
+2. Texniki sahədə özlərini inkişaf etdirib zamanın tələblərinə cavab verən IT analitik olmaq istəyən **Tələbələr**.
+3. Öz API-larını sənədləşdirmək və sənədləşdirmə zamanı API-lar üzrə ən yaxşı struktur, dizayn və terminalagoiyalardan istifadə etmək istəyən **Proqramçılar**.
+4. IT Business Analitiklər&#x20;
+5. Sistem analitiklər
+6. IT innovasiyalar ilə məşğul olan mütəxəssislər və menecerlər
+
 
 
 ### Kurs sizə yeni iş imkanları açacaqmı? <a href="#will-this-course-help-you-get-a-job-in-api-documentation" id="will-this-course-help-you-get-a-job-in-api-documentation"></a>
@@ -71,10 +92,6 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 ### API nədir?
 
 > API akronimi yəni açılışı Application Programming İnterfeysdir. Yəni iki proqram təminatının bir biri ilə danışmasına xidmət edir. Hər dəfə siz telefonunuzda YouTuba, Facebook-a daxil olanda, mesaj göndərəndə və ya hava proqnozuna baxanda API-lardan istifadə edirsiniz.
-
-
-
-###
 
 ### API nümunəli izah
 
@@ -100,16 +117,7 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 >
 > API-ların əsas üstünlüklərindən və məqsədlərindən biri də ondan ibarətdir ki, sistemin daxildə necə işlədiyini gizlətmək və yalnız proqramçılara (inteqratorlara) lazım olan hissələrə kənara çıxarmaqdır. Yəni, sistemdən API vasitəsilə istifadə edən tərəflərə dəyişiklikləri bildirməməklə sistemin daxili tələbləri və funksiyalarını sonradan dəyişməyin mümkünlüyüdür. Məsələn bizim nümunəmizdə - mətbəxdəki işçilərin dəyişdirilməsi, yemək hazırlanma standartlarının dəyişdirilməsi nə biz (yəni müraciət edən tətbiq), nə də ofisiant (yəni API) tərəfdə hər hansı dəyişikliyə səbəb olmur.&#x20;
 
-> ### Kurs kimlər üçün nəzərdə tutulmuşdur?
 
-> Kurs ilk növbədə aşağıdakı auditoriyalara xidmət edir:
->
-> 1. Proqramçılar üçün hazırlanan ənənəvi sənədləşmədən API First yönümlü sənədləşməyə keçmək istəyən peşəkar **Tech writer-lar**.
-> 2. Texniki sahədə özlərini inkişaf etdirib zamanın tələblərinə cavab verən IT analitik olmaq istəyən **Tələbələr**.
-> 3. Öz API-larını sənədləşdirmək və sənədləşdirmə zamanı API-lar üzrə ən yaxşı struktur, dizayn və terminalagoiyalardan istifadə etmək istəyən **Proqramçılar**.
-> 4. IT Business Analitiklər&#x20;
-> 5. Sistem analitiklər
-> 6. IT innovasiyalar ilə məşğul olan mütəxəssislər
 
 ### Proqramlaşdırma bacarıqları tələb olunmur <a href="#no-programming-skills-required" id="no-programming-skills-required"></a>
 
