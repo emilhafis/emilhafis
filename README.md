@@ -32,11 +32,49 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 >
 > Bu kursda çalışcam ki, sizi yormadan məlumatları rahat şəkildə sizə çatdırım. Sırf bölgünün bu formada təşkilidə bunun üçündür, yəni ilk üçün biz bilikləri əldə edib sonradan onlar üzərindən metodologiya və standartlara baxırıq.
 
+### Real təcrübədən sənədləşməyə doğru
 
+> Bu kursda "API-lardan proqramçı kimi istifadə etmək" mövzusunu bitridikdən sonra "Technical writer" kimi API sənədləşmələrin real layihələr əsasında hazırlayıb proqramçılara təqdim edəcəksiniz. "Technical writer" kimi siz REST API sənədləşdirməsi zamanı aşağıdakı resurslara əsaslanan sənədləşdirmələr hazırlayacaqsınız:
+>
+> 1. **Resource descriptions**
+> 2. **Endpoints and methods**
+> 3. **Parameters**
+> 4. **Request example**
+> 5. **Response example**
+>
+> Bu bölmələrin hər birinin mənimsənilməyi sizlərə daha yaxşı REST API sənədləşdirilməsi necə yaradılmalısını başa düşməyə imkan verəcəkdir. Siz həmçinin API üçün konseptual bölmələri necə sənədləşdirməli lazım olduğunu öyrənəcəksiniz, məsələn ilkin təlimatlar (Getting started tutorial),  məhsulun icmalı (product overview), status və xəta kodları, sorğu icazəsi (request authorisation) və s.
+>
+> Siz həmçinin müxtəlif yollar ilə REST API sənədləşməsinin publish olunmasına, yeni tool-ların, GitHub kimi spesifikasiyaların, Jekyll kimi statik sayt generatorları və başqa docs-ad-codes yanaşmalarını öyrənəcəksiniz.
+>
+> Biz həmçinin OpenAPI spesifikasiyası və Swagger UI (OpenAPI spesifikasiyası üçün vasitələr) detallarına düşmüş olacağıq. Əlavə olaraq siz native library API-ları necə sənədləşdirməyi və Javadoc-u necə generasiya etməli olduğunuzu öyrənəcəksiniz.
+>
+> Vasitə və texnologiyalardan savayı biz proses və metodologiyaları dərindən araşdırıb, böyük və kiçik sənədləşmə layihələrini necə idarə etməyi, sənədlərlə bağlı rəyləri necə toplamağı və maraqlı tərəfləri necə məmnun etməyi öyrənəcəyik.
+>
+> Mən həmçinin hərtərəfli keyfiyyət yoxlama siyahısını əks etdirən metrics and measurement bölməsini kuersa daxil etmişəm. <mark style="color:red;"></mark> Təsvir edilən meyarlar öz developer portalınızı  ən yaxşı təcrübələrinə qarşı saysız-hesabsız üsullarla qiymətləndirməyə kömək edə bilər.
+>
+> Bu kurs boyu mən bu anlayışları praktiki fəaliyyətlər və demolarla real, tətbiq oluna bilən kontekstlərə göstərəcəyəm.
+
+
+
+### Kurs sizə yeni iş imkanları açacaqmı? <a href="#will-this-course-help-you-get-a-job-in-api-documentation" id="will-this-course-help-you-get-a-job-in-api-documentation"></a>
+
+
+
+İnsanların bu kursu almasının ən ümumi səbəbi API sənədlərinə keçiddir. Bu kurs sizə bu keçidi həyata keçirməyə kömək edəcək, lakin siz sadəcə məzmunu passiv oxuya bilməzsiniz. Siz hər bir bölmədə qeyd olunan fəaliyyətləri, xüsusən də məzmunla işləməyi əhatə edən mövzuları yerinə yetirməlisiniz
+
+> Bu kursun əsas məqsədi API-First yanaşmasının tətbiq edilməsi, API sənədləşməsinin hazırlanması və nəticədə proqramçılara aydın və dəqiq tələbləri onlara daha rahat formada çatırmaqdan ibarətdir. Həmçinin də, hazırlanmış proqram təminatının tələblərə uyğun hazırlanmasının yoxlanılmasıdır. Biz bu keyfiyyətləri mənimsəmək üçün proseslərin dərinliyinə enəcəyik.&#x20;
+>
+> Sadalanan keyfiyyətlərə malik olan şəxslərə isə bu gün tələblər daha yüksəkdir və artıq xaricdə Tech Writer tələbləri ilə kifayət qədər xeyli vakansiyalar mövcuddur. Əminəm ki, qısa zamanda ölkəmizdə də sırf belə mütəxəssislər axtaracaqlar.
+>
+> Aşağıda real iş imkanlarından bəzilərini görə bilərsiniz:
 
 ### API nədir?
 
 > API akronimi yəni açılışı Application Programming İnterfeysdir. Yəni iki proqram təminatının bir biri ilə danışmasına xidmət edir. Hər dəfə siz telefonunuzda YouTuba, Facebook-a daxil olanda, mesaj göndərəndə və ya hava proqnozuna baxanda API-lardan istifadə edirsiniz.
+
+
+
+###
 
 ### API nümunəli izah
 
@@ -62,29 +100,7 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 >
 > API-ların əsas üstünlüklərindən və məqsədlərindən biri də ondan ibarətdir ki, sistemin daxildə necə işlədiyini gizlətmək və yalnız proqramçılara (inteqratorlara) lazım olan hissələrə kənara çıxarmaqdır. Yəni, sistemdən API vasitəsilə istifadə edən tərəflərə dəyişiklikləri bildirməməklə sistemin daxili tələbləri və funksiyalarını sonradan dəyişməyin mümkünlüyüdür. Məsələn bizim nümunəmizdə - mətbəxdəki işçilərin dəyişdirilməsi, yemək hazırlanma standartlarının dəyişdirilməsi nə biz (yəni müraciət edən tətbiq), nə də ofisiant (yəni API) tərəfdə hər hansı dəyişikliyə səbəb olmur.&#x20;
 
-### Real təcrübədən sənədləşməyə doğru
-
-> Bu kursda "API-lardan proqramçı kimi istifadə etmək" mövzusunu bitridikdən sonra "Technical writer" kimi API sənədləşmələrin real layihələr əsasında hazırlayıb proqramçılara təqdim edəcəksiniz. "Technical writer" kimi siz REST API sənədləşdirməsi zamanı aşağıdakı resurslara əsaslanan sənədləşdirmələr hazırlayacaqsınız:
->
-> 1. **Resource descriptions**
-> 2. **Endpoints and methods**
-> 3. **Parameters**
-> 4. **Request example**
-> 5. **Response example**
->
-> Bu bölmələrin hər birinin mənimsənilməyi sizlərə daha yaxşı REST API sənədləşdirilməsi necə yaradılmalısını başa düşməyə imkan verəcəkdir. Siz həmçinin API üçün konseptual bölmələri necə sənədləşdirməli lazım olduğunu öyrənəcəksiniz, məsələn ilkin təlimatlar (Getting started tutorial),  məhsulun icmalı (product overview), status və xəta kodları, sorğu icazəsi (request authorisation) və s.
->
-> Siz həmçinin müxtəlif yollar ilə REST API sənədləşməsinin publish olunmasına, yeni tool-ların, GitHub kimi spesifikasiyaların, Jekyll kimi statik sayt generatorları və başqa docs-ad-codes yanaşmalarını öyrənəcəksiniz.
->
-> Biz həmçinin OpenAPI spesifikasiyası və Swagger UI (OpenAPI spesifikasiyası üçün vasitələr) detallarına düşmüş olacağıq. Əlavə olaraq siz native library API-ları necə sənədləşdirməyi və Javadoc-u necə generasiya etməli olduğunuzu öyrənəcəksiniz.
->
-> Vasitə və texnologiyalardan savayı biz proses və metodologiyaları dərindən araşdırıb, böyük və kiçik sənədləşmə layihələrini necə idarə etməyi, sənədlərlə bağlı rəyləri necə toplamağı və maraqlı tərəfləri necə məmnun etməyi öyrənəcəyik.
->
-> Mən həmçinin hərtərəfli keyfiyyət yoxlama siyahısını əks etdirən metrics and measurement bölməsini kuersa daxil etmişəm. <mark style="color:red;"></mark> Təsvir edilən meyarlar öz developer portalınızı  ən yaxşı təcrübələrinə qarşı saysız-hesabsız üsullarla qiymətləndirməyə kömək edə bilər.
->
-> Bu kurs boyu mən bu anlayışları praktiki fəaliyyətlər və demolarla real, tətbiq oluna bilən kontekstlərə göstərəcəyəm.
-
-### Kurs kimlər üçün nəzərdə tutulmuşdur?
+> ### Kurs kimlər üçün nəzərdə tutulmuşdur?
 
 > Kurs ilk növbədə aşağıdakı auditoriyalara xidmət edir:
 >
@@ -94,20 +110,6 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > 4. IT Business Analitiklər&#x20;
 > 5. Sistem analitiklər
 > 6. IT innovasiyalar ilə məşğul olan mütəxəssislər
-
-****
-
-### Kurs sizə yeni iş imkanları açacaqmı? <a href="#will-this-course-help-you-get-a-job-in-api-documentation" id="will-this-course-help-you-get-a-job-in-api-documentation"></a>
-
-> İnsanların bu kursu almasının ən ümumi səbəbi API sənədlərinə keçiddir. Bu kurs sizə bu keçidi həyata keçirməyə kömək edəcək, lakin siz sadəcə məzmunu passiv oxuya bilməzsiniz. Siz hər bir bölmədə qeyd olunan fəaliyyətləri, xüsusən də məzmunla işləməyi əhatə edən mövzuları yerinə yetirməlisiniz
->
-> Bu kursun əsas məqsədi API-First yanaşmasının tətbiq edilməsi, API sənədləşməsinin hazırlanması və nəticədə proqramçılara aydın və dəqiq tələbləri onlara daha rahat formada çatırmaqdan ibarətdir. Həmçinin də, hazırlanmış proqram təminatının tələblərə uyğun hazırlanmasının yoxlanılmasıdır. Biz bu keyfiyyətləri mənimsəmək üçün proseslərin dərinliyinə enəcəyik.&#x20;
->
-> Sadalanan keyfiyyətlərə malik olan şəxslərə isə bu gün tələblər daha yüksəkdir və artıq xaricdə Tech Writer tələbləri ilə kifayət qədər xeyli vakansiyalar mövcuddur. Əminəm ki, qısa zamanda ölkəmizdə də sırf belə mütəxəssislər axtaracaqlar.
->
-> Aşağıda real iş imkanlarından bəzilərini görə bilərsiniz:
-
-![](<.gitbook/assets/tech\_writer vacancy.png>)
 
 ### Proqramlaşdırma bacarıqları tələb olunmur <a href="#no-programming-skills-required" id="no-programming-skills-required"></a>
 
