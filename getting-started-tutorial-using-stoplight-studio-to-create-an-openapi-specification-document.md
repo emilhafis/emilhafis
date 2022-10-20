@@ -81,7 +81,7 @@
 
 <figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 7\. Stoplight lets you toggle between a form and code editor. The above screenshot shows the Form view. Click the **Code** button in the upper-right corner to see the code automatically created.
 
@@ -239,13 +239,13 @@ Kim deyə bilər ki, burada hansı parametrlər istifadə olunub və nədən bil
 * **token** — your API token.
 *
 
-    <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
 Yekunda Stoplight bu formada görünəcəkdir
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 You don’t need to add security for this endpoint because you already configured global security in the previous section. However, if this endpoint had unique security method, you could override the global security here by clicking the + Security button.
 

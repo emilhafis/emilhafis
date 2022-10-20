@@ -10,7 +10,7 @@ Petstore demosundan istifadə edərək Swagger UI ilə praktiki təcrübəyə ke
 
 2\. **POST `/pet`** endpoint-ni expand edək
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. Klik **Try it out**.
 
