@@ -8,13 +8,31 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 ### Kurs üzrə ümumi məlumat
 
-> API-ın hazırlanmasından onun kodlaşdırılmasına kimi prosesləri əhatə edən kursumuzda mücərrrəd uzun uzadı danışmaq əvəzinə praktiki yanaşma ilə sizlərə biliklərimi çatdırmağa çalışacağam.
+> Kursu ümumi olaraq 3 hissəyə bölmüşəm.
 >
-> Saytlarda aviabilet, hotel qiymətləri üzrə ən ucuzu seçimlərin necə verilməsini praktiki göstərəcəyəm. Əlavə olaraq, sadə hava praqnozlarını əldə edib saytlarda necə yerləşdirmək lazım olduğunu əyani formada izah etməyə çalışacam.
+> 1. Tech  Writing&#x20;
+> 2. Business Analyst
+> 3. Praktika
+>
+>
+>
+> **Birinci hissədə,** API-ın hazırlanmasından onun kodlaşdırılmasına kimi prosesləri əhatə edəcəyik. Həmçinin də, API və documentasiya üzrə sıfırdan sona kimi bütün prosesləri bitirəcəyik.
+>
+> Bu kursda mücərrrəd uzun uzadı danışmaq əvəzinə praktiki yanaşma ilə sizlərə biliklərimi çatdırmağa çalışacağam.
+>
+> Saytlarda aviabilet, hotel qiymətləri üzrə ən ucuzu seçimlərin necə edildiyini və saytlarda necə yerləşdirmək lazım olduğunu əyani formada izah etməyə çalışacam.
 >
 > API-dən istifadə etdikcə siz endpoints, parameters, data types, authentication, curl, JSON, the command line, Chrome’s Developer Console, JavaScript və s. haqqında öyrənəcəksiniz. İdeya ondan ibarətdir ki, nağıl formasında bu anlayışları öyrənməkdənsə, siz real senarilər əsasında proseslərin necə getdiyinin şahidi olacaqsınız. Qarşılaşdığınız proseslərin hansı formada həyata keçdiyini real nümunələr ilə görmək sizə texnologiyaların iş prinsipini daha rahat qavramağa kömək edəcəkdir.
 >
 > Daha sonra REST API-lar üçün standartlara, alətlərə və spesifikasiyalara keçəcəyik. Siz API sənədlərində tələb olunan bölmələr haqqında öyrənəcək, müxtəlif şirkətlərin REST API sənədlərinin nümunələrini təhlil edəcək, təcrübə əldə etmək üçün proqramçılarla birlikdə real layihələrə qoşulacaqsınız.
+>
+> **İkinci hissə olan** Business Analitika hissədə isə tələblərin necə toplanılması, Steykholderlə işlərin təşkili, müxtəlif formalarda analizilərin aparılması ilə tanış olacaq.
+>
+> **Sonuncu 3 cü** bölmədə isə öyrəndiklərimizi real olaraq proqramistlər ilə həyata keçirərəcəyik. Həmçinin də, hər dərs boyunca real layihələri işləyəcəyik. Bunlara Mobile banking app development, Open banking API-lar və s də aiddir.
+>
+> Bu kursda çalışcam ki, sizi yormadan məlumatları rahat şəkildə sizə çatdırım. Sırf bölgünün bu formada təşkilidə bunun üçündür, yəni ilk üçün biz bilikləri əldə edib sonradan onlar üzərindən metodologiya və standartlara baxırıq.
+
+
 
 ### API nədir?
 
