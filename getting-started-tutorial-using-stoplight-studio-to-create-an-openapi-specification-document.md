@@ -279,7 +279,7 @@ You don’t need to do anything in the code here — I’m just pointing out wha
 
 6\. Preview your updates. The preview should look like this:
 
-![](<.gitbook/assets/image (1) (4).png>)
+![](<.gitbook/assets/image (1) (4) (1).png>)
 
 {% hint style="warning" %}
 This endpoint in the travelpayouts API doesn’t have any path, header, or body parameters, so you can skip those elements.

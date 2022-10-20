@@ -81,7 +81,7 @@ SwaggerHub contains the same [Swagger Editor](https://swagger.io/swagger-editor/
 * Hide Editor and Navigation
 * Hide UI Docs
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (4).png>)
 
 Most importantly, as you’re working in the Editor, SwaggerHub allows you to _save your work_. With the free Swagger Editor, your content is kept in the browser cache, with no ability to save the file in the cloud. When you clear your cache, your content is gone. As a result, if you use the standalone Swagger Editor, you have to regularly copy the content from the Swagger Editor into a file on your own computer each time you finish.
 
@@ -106,7 +106,7 @@ When you publish your Swagger documentation on SwaggerHub, Swagger’s base URL 
 Key to the review process is the ability for team members to comment on the spec inline, similar to Google Docs and its margin annotations. When you’re working in SwaggerHub’s editor, a small plus sign ![](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/swaggerhub\_plus.png) appears to the left of every line. Click the plus button to add a comment inline at that point.\
 
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (1).png>)
 
 When you click the plus sign, a comment pane appears on the right where you can elaborate on comments, and where others can reply. Users can edit, delete, or resolve the comments. This commenting feature helps facilitate the review process in a way that tightly integrates with your content. You can also collapse or show the comments pane as desired
 
@@ -141,13 +141,48 @@ Both outputs would need a healthy dose of custom styling to be usable.\
 
 ### Mocking Servers
 
+Another cool feature of SwaggerHub is the ability to [create mock API servers](https://app.swaggerhub.com/help/integrations/api-auto-mocking). Suppose you have an API in which you don’t want users to generate real requests. (Maybe it’s an ordering system where users might be ordering products through the API, or you don’t have test accounts/systems). Even so, you can still simulate responses that let users get a sense of how your API works.
+
+Assuming you have example responses in your API spec, you can set your API to “auto-mock.” When a user tries out a request, SwaggerHub will return the example response from your spec. The response won’t contain the custom parameters the user entered in the UI but will instead return the example responses coded into your spec as if returned from a server.
+
+Providing an auto-mock for your API solves the problem of potentially complicating user data by having users interact with their real API keys and data. In many cases, you don’t want users junking up their data with tests and other experiments. At the same time, you also want to simulate the API response.
+
+Simulating the API can be especially useful for testing your API with beta users. One reason many people code their API with the spec before writing any lines of code (following a [spec-first philosophy such as that described by Michael Stowe](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_intro.html#specfirst)) is to avoid coding an API with endpoints and responses that users don’t want.
+
+Using the mock server approach, SwaggerHub not only provides documentation but also acts as a beta-testing tool to get the design of your API right before sinking thousands of hours of time into actual coding. You can enable auto-mocking for different versions of your API, creating variants and testing each of the variants.\
+
+
+To set up a mocking server in SwaggerHub, click the plug icon ![](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/swaggerhub\_integration\_button.png) and select to add a new integration. Select the **API Auto Mocking** service and complete the configuration details. Make sure you have `examples` for each of the endpoint responses in your spec. See [API Auto Mocking](https://app.swaggerhub.com/help/integrations/api-auto-mocking) for more details.
+
+### Content Re-use (Domains)
+
+Another feature exclusively available in SwaggerHub is the concept of domains. Domains are re-useable code snippets that you can leverage to avoid duplication in your spec.
+
+When you create definitions for your requests and responses, you may find yourself re-using the same code over and over. Rather than duplicating this code, you can save it as a domain. When you want to re-use the code, you select this domain.
+
+Using the domain minimizes duplicate content and enables you to be more consistent and efficient. You can read more in [Domains](https://app.swaggerhub.com/help/domains/about-domains).\
 \
 
 
-\
+### Organizations and projects
+
+The collaborative aspect of SwaggerHub is the most common reason people move from the open source tools to SwaggerHub. You might have a lot of different engineers working on a variety of APIs in SwaggerHub. To organize the work, you can group APIs into [organizations](https://app.swaggerhub.com/help/organizations/index), and then assign members to the appropriate organization. When that member logs in to SwaggerHub, he or she will see only the organizations to which he or she has access.
+
+Additionally, within an organization, you can further group APIs into different projects. This way teams working in the same organization but on different projects can have visibility into other APIs.\
 
 
-\
+![](.gitbook/assets/image.png)\
+
+
+This aspect of organizations and projects may not seem essential if you have just one or two APIs, but consider how you’ll scale and grow as you have dozens of APIs and multiple teams. In these more robust scenarios, the organization and project features become essential.
+
+### Expanding the tech writer’s role with APIs
+
+Tech writers are positioned to be power players in the spec-first philosophy with OpenAPI design. By becoming adept at coding the OpenAPI spec and familiar with robust collaborative tools like SwaggerHub, tech writers can lead engineering teams not only through the creation and refinement of the API documentation but also pave the way for beta testing, spec review, client/server SDK generation, and more.
+
+Designing a fully-featured, highly functioning OpenAPI spec is at the heart of this endeavor. Few engineers are familiar with creating these specs, and technical writers who are skilled at both creating the spec and setting up Swagger tooling can fill critical roles on API teams.
+
+Great tools aren’t free. SwaggerHub does [cost money](https://swaggerhub.com/pricing/), but this is a good thing since free tools are frequently abandoned, poorly maintained, and lack documentation and support. By using a paid tool from a robust API company (the same company that maintains the Swagger tools and sponsors the OpenAPI specification), you can plug into the infrastructure you need to scale your API documentation efforts.\
 
 
 \
