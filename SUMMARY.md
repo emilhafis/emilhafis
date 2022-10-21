@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Kurs üçün hansı vasitələr (tools) lazım olacaqdır?](README.md)
+* [I Lesson. APIs. A programmer's View of APIs](README.md)
