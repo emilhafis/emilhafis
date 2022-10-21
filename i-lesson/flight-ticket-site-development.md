@@ -34,7 +34,7 @@
       <script>
          function checkWind() {
           var settings = {
-             "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=SAW&departure_at=2022-07-11&return_at=2022-07-18&unique=false&sorting=price&direct=false&currency=azn&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e",
+             "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-23&return_at=2023-03-26&currency=azn&limit=1&token=3c63416a24d3b969da6df9271faa9d6e",
              "method": "GET",
              "timeout": 0,
 };
@@ -60,6 +60,8 @@
       <span><b>Uçuş nömrəsi: </b></span><span id="flight_number"></span>
    </body>
 </html>
+
+
 
 
 ```
