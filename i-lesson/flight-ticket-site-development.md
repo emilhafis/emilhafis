@@ -65,3 +65,7 @@
 
 
 ```
+
+{% hint style="warning" %}
+Brauzerinizdə CORS-un aktiv olmasından əmin olun yoxsa işləməyəcəkdir.
+{% endhint %}
