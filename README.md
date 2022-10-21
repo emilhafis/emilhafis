@@ -148,6 +148,10 @@ Kurs ilk növbədə aşağıdakı auditoriyalara xidmət edir:
 
 ![](<.gitbook/assets/Postman\_check (1).png>)
 
-> * **cURL yoxlanılması** - cURL quraşdırıldığından əmin olmaq üçün Mac-da Terminalı, Windows-da isə Command Prompt-u açıb bunu qeyd edin `curl --location --request GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c63416a24d3b969da6df9271faa9d6e'` Əgər JSON cavabı alırsınızsa dmeək ki, hər şey qaydasındadır.
+> * **cURL yoxlanılması** - cURL quraşdırıldığından əmin olmaq üçün Mac-da Terminalı, Windows-da isə Command Prompt-u açıb aşağıdakı kod bloku qeyd edin. Əgər JSON cavabı alırsınızsa demək ki, hər şey qaydasındadır.
+
+```
+curl --location --request GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-23&return_at=2023-03-26&currency=azn&limit=2&token=3c63416a24d3b969da6df9271faa9d6e'
+```
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
