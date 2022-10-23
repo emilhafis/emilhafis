@@ -65,4 +65,4 @@ Nümunədə göstərdiyimiz HTML faylı hansı formada bizə məlumatları qayta
 ```html
 ```
 
-> The API retrieves the information, and some JavaScript code prints the information on the page.
+> API-dan gələn cavabı JavaScript kodu interfeysdə əks etdirir. Burada url dəyəri kimi endpointimizi əlavə etsək istədiyimiz nəticəni alarıq. Növbəti mövzularda bu hissənidə sizə başa slıb sadə HTML necə düzəlir onu biləcəksiniz.
