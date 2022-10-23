@@ -8,16 +8,15 @@ Travelpayouts-dan API Key əldə etmək üçün:
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
+3\. Layihə məqsədi Others seçib layihəmizin adın daxil edirik, məsələn My flight app
 
+**4. Aviasales** proqramına qoşuluruq
 
-1. Layihə məqsədi Others seçib layihəmizin adın daxil edirik, məsələn My flight app
-2. **Aviasales** proqramına qoşuluruq
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image (1).png>)
+5\. Program bölməsin --> API bölməsinə keçirik və oradakı API Key-i əldə edib saxlayırıq
 
-
-
-1. Program bölməsin --> API bölməsinə keçirik və oradakı API Key-i əldə edib rahat bir yerdə saxlayırıq
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Əgər API Key əldə etməkdə çətinlik çəkirsinizsə aşağıdakı Key-lərdən istifadə edə bilərsiniz. Amma çalışın prosesi özünüz tamamlayın.
