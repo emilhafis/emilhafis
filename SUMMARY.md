@@ -9,4 +9,5 @@
 * [Nümunənin yoxlanılması](i-lesson/nuemun-nin-yoxlanilmasi.md)
 * [GUI-dən sorğunun göndərilməsi](i-lesson/gui-d-n-sorgunun-goend-rilm-si.md)
 * [Demo site](i-lesson/demo-site.md)
-* [Page 2](i-lesson/page-2.md)
+* [Postma collection](i-lesson/postma-collection.md)
+* [Activity](i-lesson/activity.md)
