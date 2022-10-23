@@ -4,30 +4,6 @@ description: Proqramçı kimi API-lardan necə istifadə etmək lazımdır?
 
 # Taskın həlli
 
-### Ümumi məlumat&#x20;
-
-> Özünüzü proqramçıların yerinə qoymaqla onların ehtiyacların daha yaxşı başa düşəcəksiniz və onlara API sənədləşdirilməsində nələr lazım olduğunu daha yaxşı anlayacaqsınız. Proqramçılar adətən **Postman** və **cURL** tool-larından istifadə edərək sorğu nəticəsində əldə etdikləri cavab strukturu ilə tanış olurlar və dinamik olaraq sadə formada lazımı məlumatları veb səhifələr və ya digər tətbiqlər ilə inteqrasiya edib yoxlayırlar.
->
-> Gəlin real API nümunəsi ilə tanış olaq.&#x20;
->
-> Yəqin ki, hamımız onlayn aviabiletlərin axtarışı prosesi ilə yaxından tanışıq. [Əvvəlki nümunədə göstərdiyimiz restoran API nümunəsində](../#api-nuemun-li-izah) biz menyudan müxtəlif parametrlər ilə yeməklər sifariş edə bilirdik, həmçinin də burada müxtəlif parametrlər ilə (müxtəlif şəhərlər, gediş və qayıdış tarixləri və s.) aviabilet seçməyimiz üçün seçimlərimiz olur.
->
-> Təsəvvür edək ki, bir aviaşirkətin saytında (məs, [https://www.azal.az/az/](https://www.azal.az/az/)) biletinizi bron edirsiniz. Siz gediş şəhəri və tarixini, qayıdış şəhərini və tarixini, kabin sinfini, həmçinin digər dəyişənləri seçirsiniz. Uçuşunuzu bron etmək üçün siz aviaşirkətin vebsaytı vasitəsilə onların məlumat bazası ilə əlaqə yaradıb həmin tarixlərdə hər hansı biletin olub olmadığını və ya bilet qiymətlərini görürsünüz.
-
-![Azal](../.gitbook/assets/azal.png)
-
-> Bu nümunədə məsələ bizə aydındır. Belə ki, Azal-ın öz məlumat bazası vardır və rahatlıqla bizə öz daxili bazasından məlumatları göstərir. Bəs aviabilet üzrə məlumat bazası olmayan, məsələn [https://www.expedia.com](https://www.expedia.com/), [https://www.tripadvisor.com](https://www.tripadvisor.com) kimi səyahət xidməti təklif edə platformalar nə etməlidirlər?&#x20;
->
-> Proses çox sadədir, bu halda səyahət xidmətləri təmin edən saytlar müxtəlif aviabilet API-larını təmin edən platformalara müraciət edir və alınan cavabı müvafiq formada istifadəçiyə göstərir. Həmin platformalar müxtəlif avia şirkətin məlumat bazası ilə inteqrasiya olunduğu üçün real rejimdə cari məlumatları səyahət xidməti verən saytlara göndərə bilirlər.
-
-![Tripadvisor](../.gitbook/assets/tripadvisor.png)
-
-### Nümunə senari. Ən ucuz bilet neçiyədir?
-
-> Deyək ki, siz veb proqramçısınız və sizdən aviabilet satışını həyata keçirən sayt yaratmaq sifariş olunub. Əsas tələb olunan tapşırıq istifadəçilərə ən ucuz bileti tapması üçün imkanın yaradılmasıdır. Məsələn bu məlumatları verən bir sayt yaradılmasını istəyiblər:&#x20;
-
-![](../.gitbook/assets/flight\_html.png)
-
 ### Taskın həlli yolları
 
 > Sizdə səyahət xidmətləri verən şirkətlər kimi öz avia məlumatlar datanız yoxdur və buna görə də bu məlumatı əldə etmək üçün digər servislərə müraciət etməlisiniz. Aldığınız məlumatları isə istifadəçilərin başa düşəcəyi formada onlara göstərməlisiniz.
