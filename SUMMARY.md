@@ -8,5 +8,5 @@
 * [Flight ticket site development](i-lesson/flight-ticket-site-development.md)
 * [Nümunənin yoxlanılması](i-lesson/nuemun-nin-yoxlanilmasi.md)
 * [GUI-dən sorğunun göndərilməsi](i-lesson/gui-d-n-sorgunun-goend-rilm-si.md)
-* [Text editor](i-lesson/text-editor.md)
+* [Demo site](i-lesson/demo-site.md)
 * [Page 2](i-lesson/page-2.md)

@@ -46,7 +46,7 @@ Məsələn aşağıda istifadə edəcəyimiz **GET** metoduna və ya endpoint n�
 >
 > Yekunda sizin Postman interfeysiniz bu formada görünəcəkdir.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 > Siz bu parametrləri əlavə edəndə onlar GET box-da göstərilən endpoint URL-də "query string" kimi əlavə edilir. Məsələn, sizin endpointiniz bu formada görünməlidir.
 
@@ -62,7 +62,7 @@ https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c6
 >
 > Cavab Postman-ın aşağı pəncərəsində görünməlidir. Bu formada:
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 > **6. Sorğunun saxlanılması**
 >
@@ -75,13 +75,13 @@ https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c6
 >
 > &#x20; Görünüş bu formada olacaqdır.     &#x20;
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 7\. **Save** düyməsinə klik edin.
 >
 > Saxlanılmış sorğular Postman interfeysinin sol küncündə görünəcəkdir. Əgər Collection sütunun görmürsünüzsə sol tərəfdə 1-ci sırada duran Collection düməsinə klik edin.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 #### Activity 2. Əlavə parametrlər ilə sorğunun göndərilməsi
 
