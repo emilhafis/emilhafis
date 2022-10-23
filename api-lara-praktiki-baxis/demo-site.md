@@ -32,7 +32,7 @@ Nümunədə göstərdiyimiz HTML faylı hansı formada bizə məlumatları qayta
    </head>
    <body>
       <script>
-         function checkWind() {
+         function checkFlight() {
           var settings = {
              "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-23&return_at=2023-03-26&currency=azn&limit=1&token=3c63416a24d3b969da6df9271faa9d6e",
              "method": "GET",
@@ -52,7 +52,7 @@ Nümunədə göstərdiyimiz HTML faylı hansı formada bizə məlumatları qayta
          }
       </script>
       <!-- <button type="button" onclick="checkWind()" class="btn btn-success weatherbutton">Axtar</button>  -->
-      <input type="button" onclick="checkWind()" class="button" value="Axtar">
+      <input type="button" onclick="checkFlight()" class="button" value="Axtar">
       <h2>İstanbula ən ucuz bilet (İyul 11 2022 gediş - İyul 18 2022 dönüş)</h2>
       <span><b>Gediş aeroportu: </b></span><span id="origin_airport"></span><span id="origin_airport_desc"></span><br/>
       <span><b>Eniş aeroportu: </b></span><span id="destination_airport"></span> <span id="destination_airport_desc"></span><br/>
@@ -60,8 +60,9 @@ Nümunədə göstərdiyimiz HTML faylı hansı formada bizə məlumatları qayta
       <span><b>Uçuş nömrəsi: </b></span><span id="flight_number"></span>
    </body>
 </html>
-
-
-
-
 ```
+
+```html
+```
+
+> The API retrieves the information, and some JavaScript code prints the information on the page.
