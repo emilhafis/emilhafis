@@ -12,3 +12,6 @@
 8.  ### Instagram API Documentation
 
     Get Every Possible Information From Instagram \[Real Time Data]
+9. [https://rapidapi.com/warting/api/currency-converter/](https://rapidapi.com/warting/api/currency-converter/)
+10. [https://rapidapi.com/theapiguy/api/url-link-shortener/](https://rapidapi.com/theapiguy/api/url-link-shortener/)
+11. [https://rapidapi.com/thecocktaildb/api/the-cocktail-db/](https://rapidapi.com/thecocktaildb/api/the-cocktail-db/)
