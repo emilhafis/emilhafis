@@ -7,6 +7,7 @@
 * [Tools](i-lesson/tools.md)
 * [Flight ticket site development](i-lesson/flight-ticket-site-development.md)
 * [Get ApiKey from travelpayouts](i-lesson/get-apikey-from-travelpayouts.md)
+* [Nümunənin yoxlanılması](i-lesson/nuemun-nin-yoxlanilmasi.md)
 * [GUI-dən sorğunun göndərilməsi](i-lesson/gui-d-n-sorgunun-goend-rilm-si.md)
 * [Text editor](i-lesson/text-editor.md)
 * [Page 2](i-lesson/page-2.md)
