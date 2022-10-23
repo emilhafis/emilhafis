@@ -20,11 +20,15 @@ description: Proqramçı kimi API-lardan necə istifadə etmək lazımdır?
 RapidAPI dünyada ən böyük API Hub-dır. Milyonlarla proqramçılar tərəfindən minlərlə API-ləri tapmaq, sınaqdan keçirmək və onları öz sistemlərinə qoşmaq üçün istifadə olunur. Burada demək olar ki, bütün API dizaynları eyni formada verilmişdir və qruplaşdıraraq daha sadə formada istifadə etmək üçün şərait yaradır. Bir çox API-lara yalnız RapidAPI-dən əldə olunan bir ApiKey ilə daxil olmaq mümkündür.&#x20;
 {% endhint %}
 
-> Məsələn məndə dediyimiz API yı bu platformadan tapdım. Amma məsələni tam başa düşmək üçün Rapid platforması üzrəindən yox, birbaşa sayta keçid edərək oradan məlumatları göstürməyə qərar verdim.
+> Məsələn məndə dediyimiz API yı bu platformadan tapdım. Bu platforma üzrəindən də, sorğu göndərib məlumatları almaq olar. Bunun üçün Rapid API-da qeydiyyatdan keçib onun verdiyi key-i götürmək və travelpayouts-un key-i lazımdır.&#x20;
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+> Amma məsələni tam başa düşmək üçün Rapid platforması üzrəindən yox, birbaşa sayta keçid edərək oradan məlumatları göstürməyə qərar verdim.
 >
 > Proqramçılar üçün xeyli yaxşı [aviabilet API variantları](https://rapidapi.com/collection/flight-data-apis) olsa da, bu kursda [Travelpayouts API-dən ](https://rapidapi.com/Travelpayouts/api/flight-data/)istifadə etmək qərarına gəldim, çünki xidmətdən istifadə etmək pulsuz və sadədir.
 
-### Travelpayouts araşdərəlması
+### Travelpayouts araşdırılması
 
 > [Travelpayouts API-da](https://support.travelpayouts.com/hc/en-us) əsas bölmələri araşdıraq.
 >

@@ -154,4 +154,4 @@ Kurs ilk növbədə aşağıdakı auditoriyalara xidmət edir:
 curl --location --request GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-23&return_at=2023-03-26&currency=azn&limit=2&token=3c63416a24d3b969da6df9271faa9d6e'
 ```
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
