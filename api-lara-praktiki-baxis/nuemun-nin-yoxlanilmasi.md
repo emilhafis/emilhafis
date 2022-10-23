@@ -45,6 +45,8 @@ Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya
 Daha sonrakı dərslərdə autorisation metodlarının detallarına enəcəyik. Hazırda ümumi olaraq başa düşün ki, avtorizasiya prosesi necə həyata keçirilir və API sənədləşməsində hansı formalarda qeyd edilir.
 {% endhint %}
 
+APIKey əldə etdiyimizə görə sorğunu necə göndərə bilərik ona baxaq.
+
 ### Text editor-un olmasından əmin olun
 
 > Növbəti praktikalarda siz kodları text faylda analiz edəcəksiniz. Kodlarla işləyəndə siz əsasən text editor-lardan (plain text) istifadə edəcəksiniz. Aşağıda text editorlar üzrə nümunələr göstərirəm.
