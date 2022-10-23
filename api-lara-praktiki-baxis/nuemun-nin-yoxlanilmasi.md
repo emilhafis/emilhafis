@@ -14,6 +14,12 @@ Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya
 
 ### Activity. Travelpayouts API Key əldə olunması
 
+> Gördüyümüz kimi sorğu göndərə bilmək üçün Key əldə etməliyik
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
 > Travelpayouts-dan API Key əldə etmək üçün:
 >
 > 1. [https://www.travelpayouts.com/en/](https://www.travelpayouts.com/en/) səhifəsinə daxil oluruq
