@@ -24,7 +24,7 @@ RapidAPI dünyada ən böyük API Hub-dır. Milyonlarla proqramçılar tərəfin
 >
 > Proqramçılar üçün xeyli yaxşı [aviabilet API variantları](https://rapidapi.com/collection/flight-data-apis) olsa da, bu kursda [Travelpayouts API-dən ](https://rapidapi.com/Travelpayouts/api/flight-data/)istifadə etmək qərarına gəldim, çünki xidmətdən istifadə etmək pulsuz və sadədir.
 
-
+### Travelpayouts araşdərəlması
 
 > [Travelpayouts API-da](https://support.travelpayouts.com/hc/en-us) əsas bölmələri araşdıraq.
 >
