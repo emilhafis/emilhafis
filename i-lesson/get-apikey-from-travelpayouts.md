@@ -16,7 +16,7 @@ Travelpayouts-dan API Key əldə etmək üçün:
 
 5\. Program bölməsin --> API bölməsinə keçirik və oradakı API Key-i əldə edib saxlayırıq
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Əgər API Key əldə etməkdə çətinlik çəkirsinizsə aşağıdakı Key-lərdən istifadə edə bilərsiniz. Amma çalışın prosesi özünüz tamamlayın.
