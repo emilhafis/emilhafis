@@ -51,7 +51,7 @@ APIKey əldə etdiyimizə görə sorğunu necə göndərə bilərik ona baxaq.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Adətən hazır sorğu formatları yerləşdilir.
+Adətən hazır sorğu formatları yerləşdilir. Bunu göndərmək üçün isə bizə tool lazımdır
 
 ### Text editor-un olmasından əmin olun
 
