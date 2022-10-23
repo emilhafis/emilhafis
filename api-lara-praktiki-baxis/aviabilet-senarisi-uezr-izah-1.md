@@ -38,7 +38,7 @@ RapidAPI dünyada ən böyük API Hub-dır. Milyonlarla proqramçılar tərəfin
 
 Help centre-ə keçirik
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 1. Bizə lazım olan [API and data](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API) bölməyə daxil oluruq.
 > 2. Sol tərəfdə müxtəlif API-ları görürük.
