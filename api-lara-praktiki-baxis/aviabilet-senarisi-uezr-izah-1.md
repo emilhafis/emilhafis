@@ -8,7 +8,23 @@ description: Proqramçı kimi API-lardan necə istifadə etmək lazımdır?
 
 ### Activity: Travelpayouts API-larının araşdırılması
 
+> Ilk öncə araşdıraq görək, hansı platformaların API-larına müraciət edib bilet haqqında məlumatı ala bilərik. Bunun üçün müxtəlif yolar var, məsələn google.&#x20;
+>
+> Ümumiyyətlə sizə Rapid API platformasın məsləhət görürəmki orada müxtəlif API lar ilə tnaış ola bilərsiz.&#x20;
+>
+> Siz sadəcə google-dan axtarış edərək və ya [RapidAPI](https://rapidapi.com/hub) platformasından API xidmətləri üzrə resursları tapa bilərsiniz.&#x20;
+
+![](../.gitbook/assets/Rapid\_data.png)
+
+{% hint style="info" %}
+RapidAPI dünyada ən böyük API Hub-dır. Milyonlarla proqramçılar tərəfindən minlərlə API-ləri tapmaq, sınaqdan keçirmək və onları öz sistemlərinə qoşmaq üçün istifadə olunur. Burada demək olar ki, bütün API dizaynları eyni formada verilmişdir və qruplaşdıraraq daha sadə formada istifadə etmək üçün şərait yaradır. Bir çox API-lara yalnız RapidAPI-dən əldə olunan bir ApiKey ilə daxil olmaq mümkündür.&#x20;
+{% endhint %}
+
+> Məsələn məndə dediyimiz API yı bu platformadan tapdım. Amma məsələni tam başa düşmək üçün Rapid platforması üzrəindən yox, birbaşa sayta keçid edərək oradan məlumatları göstürməyə qərar verdim.
+>
 > Proqramçılar üçün xeyli yaxşı [aviabilet API variantları](https://rapidapi.com/collection/flight-data-apis) olsa da, bu kursda [Travelpayouts API-dən ](https://rapidapi.com/Travelpayouts/api/flight-data/)istifadə etmək qərarına gəldim, çünki xidmətdən istifadə etmək pulsuz və sadədir.
+
+
 
 > [Travelpayouts API-da](https://support.travelpayouts.com/hc/en-us) əsas bölmələri araşdıraq.
 >
@@ -22,16 +38,6 @@ description: Proqramçı kimi API-lardan necə istifadə etmək lazımdır?
 >
 
 ![Travel insight](<../.gitbook/assets/Travel\_insight (1).png>)
-
-### Müxtəlif aviabilet məlumatları üzrə platformalar
-
-> Siz sadəcə google-dan axtarış edərək və ya [RapidAPI](https://rapidapi.com/hub) platformasından API xidmətləri üzrə resursları tapa bilərsiniz
-
-![](../.gitbook/assets/Rapid\_data.png)
-
-{% hint style="info" %}
-RapidAPI dünyada ən böyük API Hub-dır. Milyonlarla proqramçılar tərəfindən minlərlə API-ləri tapmaq, sınaqdan keçirmək və onları öz sistemlərinə qoşmaq üçün istifadə olunur. Burada demək olar ki, bütün API dizaynları eyni formada verilmişdir və qruplaşdıraraq daha sadə formada istifadə etmək üçün şərait yaradır. Bir çox API-lara yalnız RapidAPI-dən əldə olunan bir ApiKey ilə daxil olmaq mümkündür.&#x20;
-{% endhint %}
 
 ### Aşağıdakı suallara cavab verməyə çalışın
 
