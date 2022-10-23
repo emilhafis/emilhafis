@@ -4,6 +4,12 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 # Giriş
 
+### Tanışlıq
+
+### API Tech Writer və ya Tech Writer nə üçün lazımdır
+
+{% embed url="https://www.linkedin.com/pulse/api-tech-writer-n%C9%99-%C3%BC%C3%A7%C3%BCn-laz%C4%B1md%C4%B1r-emil-abbasov/?trackingId=NTjNkZEPTrKIC8ROmdpZgg%3D%3D" %}
+
 ![API First](.gitbook/assets/API-Interface.png)
 
 ### Kurs üzrə ümumi məlumat
