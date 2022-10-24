@@ -31,14 +31,8 @@ Lazım olarsa sorğudakı API Key dəyərini öz dəyiriniz ilə əvəz edərsiz
 Windows-da Ctrl+ V ilə kopyaladığınızı əlavə edə bilməyəcəksiz. Bunun üçün **Paste** istifadə edin.
 {% endhint %}
 
->
->
-> #### Notes about using curl with Windows
->
-> If you’re using Windows, note the following formatting requirements when using curl:
+> **Windows ilə işləyənlər üçün qeydlər**
 >
 > Windows ilə işləyirsinizsə aşağıdakı formatlara fikir verin:
 >
-> * Use double quotes in the Windows command line. (Windows doesn’t support single quotes.)
 > * Sətrləri ayırmaq üçün (`\`) istifadə etməyin. (Ümumiyyətlə bu simvol kodun oxuna bilməsi üçün istifadə olunur və adətən MAC user-ləri istifadə edir. Olmamaıs MAC üçündə problem deyil.)
-> * By adding `-k` əlavə etməkin the curl command, you can bypass curl’s security certificate, which may or may not be necessary.&#x20;
