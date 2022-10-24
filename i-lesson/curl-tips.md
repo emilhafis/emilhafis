@@ -8,7 +8,7 @@
 
 > cURL **(client URL)**, HTTP sorğularını müxtəlif parametrlər və üsullarla yerinə yetirməyə imkan verən bir command line proqramıdır. Brauzerin axtarış bölməsindən və ya Postmandan sorğu vermək əvəzinə sadəcə **cURL** vasitəsilə sorğularınızı göndərib cavablarınızı alırsınız.
 
-> Sizə hansı formada bunu quraşdırmağın yollarını [Tools](tools.md) hissədə göstərmişəm.&#x20;
+> Sizə hansı formada bunu quraşdırmağın yollarını [Tools](../) hissədə göstərmişəm.&#x20;
 >
 > İndi fərz edək ki, sizin komputerinizdə **cURL** quraşıdırlmışdır.&#x20;
 >
@@ -16,7 +16,7 @@
 >
 > Bunun üçün, **Postman**-da kod bölməsinə daxil olub cURL seçirik və yaranmış kod nümunəsin götürürük.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ```url
 curl --location --request GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=rub&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e' \
@@ -29,7 +29,7 @@ curl --location --request GET 'https://api.travelpayouts.com/aviasales/v3/prices
 Lazım olarsa sorğudakı **API Key** dəyərini öz dəyiriniz ilə əvəz edərsiz
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Windows-da **Ctrl+ V** ilə kopyaladığınızı əlavə edə bilməyəcəksiz. Bunun üçün **Paste** istifadə edin.

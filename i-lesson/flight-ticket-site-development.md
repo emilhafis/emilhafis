@@ -65,3 +65,5 @@
 {% hint style="warning" %}
 Brauzerinizdə CORS-un aktiv olmasından əmin olun yoxsa işləməyəcəkdir.
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

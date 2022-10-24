@@ -46,7 +46,7 @@ Məsələn aşağıda istifadə edəcəyimiz **GET** metoduna və ya endpoint n�
 >
 > Yekunda sizin Postman interfeysiniz bu formada görünəcəkdir.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 > Siz bu parametrləri əlavə edəndə onlar GET box-da göstərilən endpoint URL-də "query string" kimi əlavə edilir. Məsələn, sizin endpointiniz bu formada görünməlidir.
 

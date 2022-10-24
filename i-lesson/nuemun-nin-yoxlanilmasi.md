@@ -16,7 +16,7 @@ Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya
 
 > Gördüyümüz kimi sorğu göndərə bilmək üçün Key əldə etməliyik
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
