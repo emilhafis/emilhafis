@@ -26,3 +26,7 @@ Lazım olarsa sorğudakı API Key dəyərini öz dəyiriniz ilə əvəz edərsiz
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Windows-da Ctrl+ V ilə kopyaladığınızı əlavə edə bilməyəcəksiz. Bunun üçün **Paste** istifadə edin.
+{% endhint %}
