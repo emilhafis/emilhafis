@@ -22,7 +22,7 @@ RapidAPI dünyada ən böyük API Hub-dır. Milyonlarla proqramçılar tərəfin
 
 > Məsələn məndə dediyimiz API yı bu platformadan tapdım. Bu platforma üzrəindən də, sorğu göndərib məlumatları almaq olar. Bunun üçün Rapid API-da qeydiyyatdan keçib onun verdiyi key-i götürmək və travelpayouts-un key-i lazımdır.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 > Amma məsələni tam başa düşmək üçün Rapid platforması üzrəindən yox, birbaşa sayta keçid edərək oradan məlumatları göstürməyə qərar verdim.
 >
@@ -38,7 +38,7 @@ RapidAPI dünyada ən böyük API Hub-dır. Milyonlarla proqramçılar tərəfin
 
 Help centre-ə keçirik
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 > 1. Bizə lazım olan [API and data](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API) bölməyə daxil oluruq.
 > 2. Sol tərəfdə müxtəlif API-ları görürük.
