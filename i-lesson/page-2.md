@@ -29,5 +29,8 @@ Generate QR with amount 15 AZN
 
 Change 100 AZN to EUR
 
+### [Cocktail](https://api-ninjas.com/api/cocktail)
+
+Margarita kokteyl resepti
+
 1. [https://rapidapi.com/theapiguy/api/url-link-shortener/](https://rapidapi.com/theapiguy/api/url-link-shortener/)
-2. [https://rapidapi.com/thecocktaildb/api/the-cocktail-db/](https://rapidapi.com/thecocktaildb/api/the-cocktail-db/)
