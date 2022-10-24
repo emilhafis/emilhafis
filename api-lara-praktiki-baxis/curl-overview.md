@@ -36,3 +36,7 @@ Windows-da Ctrl+ V ilə kopyaladığınızı əlavə edə bilməyəcəksiz. Bunu
 > Windows ilə işləyirsinizsə aşağıdakı formatlara fikir verin:
 >
 > * Sətrləri ayırmaq üçün (`\`) istifadə etməyin. (Ümumiyyətlə bu simvol kodun oxuna bilməsi üçün istifadə olunur və adətən MAC user-ləri istifadə edir. Olmamaıs MAC üçündə problem deyil.)
+
+{% hint style="info" %}
+cURL-i növbəti mövzularda geniş müzakirə edəcəyik
+{% endhint %}
