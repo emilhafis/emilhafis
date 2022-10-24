@@ -9,5 +9,6 @@
 * [Nümunənin yoxlanılması](api-lara-praktiki-baxis/nuemun-nin-yoxlanilmasi.md)
 * [GUI-dən sorğunun göndərilməsi](api-lara-praktiki-baxis/postman-il-sorgunun-goend-rilm-si.md)
 * [cURL Overview](api-lara-praktiki-baxis/curl-overview.md)
-* [Activity taska](api-lara-praktiki-baxis/activity-taska.md)
 * [Demo site](api-lara-praktiki-baxis/demo-site.md)
+* [Current/future trends](api-lara-praktiki-baxis/current-future-trends.md)
+* [Activity taska](api-lara-praktiki-baxis/activity-taska.md)
