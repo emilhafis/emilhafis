@@ -11,4 +11,4 @@
 * [cURL Overview](api-lara-praktiki-baxis/curl-overview.md)
 * [Demo site](api-lara-praktiki-baxis/demo-site.md)
 * [Current/future trends](api-lara-praktiki-baxis/current-future-trends.md)
-* [Activity taska](api-lara-praktiki-baxis/activity-taska.md)
+* [Activity task](api-lara-praktiki-baxis/activity-task.md)
