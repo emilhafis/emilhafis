@@ -8,6 +8,8 @@ Current weather Baku
 
 ### [Send Grid](https://sendgrid.com/)
 
+Send email to apifirst.aze@gmail.com
+
 1. whatsapp business
 2. [https://rapidapi.com/wirefreethought/api/geodb-cities/](https://rapidapi.com/wirefreethought/api/geodb-cities/)
 3. multisolution
