@@ -10,4 +10,5 @@
 * [GUI-dən sorğunun göndərilməsi](i-lesson/gui-d-n-sorgunun-goend-rilm-si.md)
 * [Demo site](i-lesson/demo-site.md)
 * [Postman collection](i-lesson/postman-collection.md)
+* [cURL tips](i-lesson/curl-tips.md)
 * [Activity](i-lesson/page-2.md)
