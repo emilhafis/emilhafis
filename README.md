@@ -11,6 +11,8 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 > Əminliklə deyə bilərəm ki, ölkəmizdəki bir çox klassik təşkilatlarda “**API Tech Writer**” üzrə mütəxəssis olmur.
 >
 > Bu işi görən olmadıqda isə, developer-ə düzgün tapşırıq verilmir. Belə ki, çox vaxt developer-ə ümumi prosesləri əhatə edən bir sənəd verilir, bəzən isə heç bu da verilmir və birbaşa maraqlı şəxslərlə developer-i ünsiyyətə çıxarırlar. Konkret task olmadıqda isə, developerlə saysız hesabsız müzakirələrin, "call"-ların sayı artır, məhsulu dəflərlə onlara izah etməyə ehtiyac yaranır və developer yenidən məhsulun analitikasını aparmağa məcbur qalır. Nəticədə developer həm analitik, həm kommunikasiyanı təşkil edən, həm də mübahisəli məsələ yarandıqda onu danışıqlar yolu ilə həll edən şəxs olur. Ən sonda isə öz işi, yəni devlopment ilə məşğul olmağa çox az vaxtı qalır və bütün problemlərdə "analitika yoxdur" deyərək günahları analitikanın üzərinə atır .
+>
+> Bu kimi təcrübələrimizə əsaslanaraq yeni formatda Analitika kursu təşkil etmək qərarına gəldi.k. Bu səbəbdən də kursu ümumi olaraq 3 hissəyə ayırmışam:
 
 {% embed url="https://www.linkedin.com/pulse/api-tech-writer-n%C9%99-%C3%BC%C3%A7%C3%BCn-laz%C4%B1md%C4%B1r-emil-abbasov/?trackingId=NTjNkZEPTrKIC8ROmdpZgg%3D%3D" %}
 
