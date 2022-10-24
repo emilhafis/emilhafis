@@ -16,7 +16,7 @@ Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya
 
 > Gördüyümüz kimi sorğu göndərə bilmək üçün Key əldə etməliyik
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -49,7 +49,7 @@ Daha sonrakı dərslərdə autorisation metodlarının detallarına enəcəyik. 
 
 APIKey əldə etdiyimizə görə sorğunu necə göndərə bilərik ona baxaq.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Adətən hazır sorğu formatları yerləşdilir. Bunu göndərmək üçün isə bizə tool lazımdır
 
