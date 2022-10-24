@@ -18,19 +18,24 @@ Send my number test whatsapp message
 
 Generate QR with amount 15 AZN
 
-### 5. [Spoonacular (receipe)](https://spoonacular.com/food-api)
+### 5. [Spoonacular (receip](https://spoonacular.com/food-api))
 
-1. [google translate](https://cloud.google.com/docs/authentication/use-cases#google-apis)
-2.  ### Instagram API Documentation
+### 6. [Google translate](https://cloud.google.com/docs/authentication/use-cases#google-apis)
+
+Tranlate from azn to eng
+
+1.  ### Instagram API Documentation
 
     Get Every Possible Information From Instagram \[Real Time Data]
 
-### [Currency convertor](https://apilayer.com/marketplace/exchangerates\_data-api#documentation-tab)
+### 7. [Currency convertor](https://apilayer.com/marketplace/exchangerates\_data-api#documentation-tab)
 
 Change 100 AZN to EUR
 
-### [Cocktail](https://api-ninjas.com/api/cocktail)
+### 8. [Cocktail](https://api-ninjas.com/api/cocktail)
 
 Margarita kokteyl resepti
 
-1. [https://rapidapi.com/theapiguy/api/url-link-shortener/](https://rapidapi.com/theapiguy/api/url-link-shortener/)
+### 9. [Bitly short URL](https://dev.bitly.com/api-reference/#createBitlink)
+
+linkedin.com üzrə short URL
