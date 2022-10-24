@@ -116,7 +116,7 @@ Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsin
 > Sonda bizim **endpointimiz** bu formada olacaqdır.&#x20;
 
 ```javascript
-https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2022-07-11&return_at=2022-07-18&direct=true&currency=azn&token=3c63416a24d3b969da6df9271faa9d6e
+https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=rub&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e
 ```
 
 {% hint style="info" %}
@@ -134,6 +134,20 @@ Token key value-nu özünüzdə olan API Key dəyəri ilə əvəz edə bilərsin
 ![Advanced Rest Client](../.gitbook/assets/advanced\_rest\_client.png)
 
 > Postman kimi [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo) (Chrome browser extension) bizə sorğuları, cavabları və digər məlumatları rahatlıqla göstərə bilir.&#x20;
+
+### JSON formatter
+
+> Siz həmçinin sorğunu birbaşa brauzerdən göndərə bilərsiniz. Məsələn,&#x20;
+
+```
+https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=rub&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e
+```
+
+<figure><img src="https://lh6.googleusercontent.com/GRhIt1EcKAhbQ_UTHZqHnJfTqLRWAYFj_ddRXwsvpdECYroRoiuUlj6dXgE4xQ8WtGtc1NogxOgvvFdK6gtNx6-MdjUvkDT1SJH7Y51Y4FVvkNuHbjdy-CsC4XOjpjvQpEStqgheeLbYKIFWxrwnN0BmYDpHN7ssXchnwd9qHH5YOkzaQDuuMo-0DYRJ-tY" alt=""><figcaption></figcaption></figure>
+
+> Brazuerinizə qeyd etdiyim Json formatter extensionu yükləsəz bu sorğuların cavabın strukturlaşdırılmış formada görəcəksiniz. Extensionun necə quraşdırmaq lazım olduğun qeyd etmişəm
+
+<figure><img src="https://lh4.googleusercontent.com/9k7HZDxd1ZgmGTJf7DHagnVSRCVy4abdlITfXubv12G4vlE1VbtA0mbV4Ab0AvSA84L46laV9Jc5p-uhsurNrrKpFye-MkOaEM0Rwsqb8du_ckJ1ex2SwHt9ZRNp9RNBpt15CJdLooV1tHsWtbXCseWsBM1QV5ILo5QyER-wyklJwspg-R23HlxEaci3OjM" alt=""><figcaption></figcaption></figure>
 
 
 
