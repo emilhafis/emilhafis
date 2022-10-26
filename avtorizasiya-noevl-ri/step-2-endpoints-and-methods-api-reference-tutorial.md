@@ -17,6 +17,8 @@ description: Endpoint and HTTP methods
 > **Resurslar** müxtəlif **Endpoint**-lərə malik olur. **Endpoint**-lərin müxtəlif **Path (yəni URL-ləri)** və **metodları** olsa da onların hamısı **Resurs** üzrə müxtəlif məlumatları qaytarırlar.&#x20;
 >
 > **Endpoint**-lərin təsviri adətən ümumi **resursun** təsvirinə oxşar, lakin daha qısa təsvirlərə malik olur.&#x20;
+>
+> Daha yaxşı başa düşmək üçün nümunəyə baxaq. Bizə tanış olan travelpayouts nümunəsində baxdıqda endpointi daha yaxşı anlamaq olur. Burada travelpayoutsa sorğu gedərək, onun gateveyi sorğunun hansı Endpointə aid olduğun analiz edib sorğunu ora yönləndirir.&#x20;
 
 {% hint style="info" %}
 Məsələn, aşağıda [Mailchimp API](step-2-endpoints-and-methods-api-reference-tutorial.md#mailchimp-api) **** üzrə nümunədə görə bilərsiniz ki, ümumi resurs **Campaings** adlanır və onun təsviri belə göstərilir:
