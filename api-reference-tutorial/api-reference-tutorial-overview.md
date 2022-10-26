@@ -1,5 +1,7 @@
 # Overview
 
+> Tapşırığıa keçməmişdən öncə **REST API üzrə əsas bölmələrə nəzər salaq.**
+>
 > Burada biz REST API Dizaynı üçün əsas olan 5 bölməyə baxacağıq: _resursun təsviri_, _enpoint_ və _metodlar_, _parametrlər_, _sorğu nümunəsi_ və _cavab nümunəsi/sxemi_. API dizayn etmək üçün hər bölmədə lazımlı məlumatlar ilə tanış olub "**best practice**" nümunələrə baxacağıq.
 
 ### REST API dizaynında 5 əsas bölmə
