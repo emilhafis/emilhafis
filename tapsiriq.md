@@ -4,6 +4,8 @@ description: Task
 
 # Tapşırıq
 
+> Prosesi daha yaxşı anlamaq üçün yenədə məsələləri sıfırdan başlamıram. Belə ki, artıq analiz olunmuş məlumat üzərindən Rest API prinsiplərin və sənədləşməsin başa düşməyə çalışacağıq.
+
 > Gəlin indi güman edək ki, siz **Tech Writer**-siniz və **Bankda** **Payment team** ilə işləyirsiniz.&#x20;
 >
 > Komandanıza tapşırılıb ki, bank müştərilərinin məlumatlarını 3-cü tərəf təşkilatlara vermək üçün **PSD2 standartı** əsasında **Open Banking** yaradın.
@@ -57,16 +59,6 @@ description: Task
 >
 >
 
-> Gördüyünüz kimi sizə verilən məlumatlar dağınıq formada və nizamsız düzülüşdədir.
->
-> Bir çox **Tech writer**-lər layihə üzrə sıfırdan sənədləşmələri etmirlər. Arxitektlər adətən vacib məlumatları özləri üçün qeyd götürürlər və ya görüşlər zamanı uzun uzadı müzakirələr nəticəsində lazımi məlumatları alırlar və sonda özləri də bir çox məlumatları sənədləşmələrə əlavə edirlər. Bu məlumatlar da çox vaxt tam olmur və bu səbəbdən də **development** zamanı <mark style="color:red;">problemlər çox olur</mark>.&#x20;
->
-> Yekunda hazırlanmış məlumatlar dağınıq olur, dərhal başa düşmək olmur və ya həssas daxili məsələlər (məsələn, database scheme, test login və s) sənədləşmələrin tərkibində yer alır.
->
-> Nəticədə, bu məlumatlar ilə tanış olmayan proqramçılar nəyi necə edəcəklərini bilmirlər.
->
-> **Tech writer** kimi bizim işimiz həmin məlumatları auditoriyamıza tam, dəqiq, səliqəli və faydalı məlumat kimi çatdırmaqdan ibarətdir.&#x20;
-
 > _**Bunun üçün nələr etməlisiniz, ümumiyyətlə məsələyə necə yanaşmalısınız?**_&#x20;
 
 {% hint style="warning" %}
@@ -89,4 +81,4 @@ Növbəti mövzularımızda artıq biznes tələblərini analiz edərək sıfır
 
 ### Növbəti addım
 
-> Növbəti [bölmədə](api-dizayn/overview.md) API üzrə qeyd etdiyimiz 5 əsas hissə ilə tanış olacağıq.&#x20;
+> İndi isə gəlin REST API prinsipləri əsasında sənədləşməmizi hazırlayaq. Bu [bölmədə](api-reference-tutorial/api-reference-tutorial-overview.md) API üzrə qeyd etdiyimiz 5 əsas hissə ilə tanış olacağıq.&#x20;
