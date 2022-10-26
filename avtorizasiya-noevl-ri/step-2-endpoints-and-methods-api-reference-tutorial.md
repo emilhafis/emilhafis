@@ -18,7 +18,9 @@ description: Endpoint and HTTP methods
 >
 > **Endpoint**-lərin təsviri adətən ümumi **resursun** təsvirinə oxşar, lakin daha qısa təsvirlərə malik olur.&#x20;
 >
-> Daha yaxşı başa düşmək üçün nümunəyə baxaq. Bizə tanış olan travelpayouts nümunəsində baxdıqda endpointi daha yaxşı anlamaq olur. Burada travelpayoutsa sorğu gedərək, onun gateveyi sorğunun hansı Endpointə aid olduğun analiz edib sorğunu ora yönləndirir.&#x20;
+> Daha yaxşı başa düşmək üçün nümunəyə baxaq. Bizə tanış olan travelpayouts nümunəsində baxdıqda endpointi daha yaxşı anlamaq olur. Burada travelpayoutsa brauzerdən sorğu edəndə, onun gateveyi, yəni ilk sorğunu qəbul edən proqram təminarı sorğunun hansı Endpointə aid olduğun analiz edib sorğunu ora yönləndirir. Məsələn travelpayoutsda bir neçə endpoitnint ola bilrə. Biri biletlərə, biri isə hotellərə baxa bilər. Məhz gatevey sorğunu analiz edərək hansı endpointə göndərməlli olduğu qərarı verir.
+>
+> Bu gün tez tez eşitdiyimiz microservis arxitekturasınında özəyi budurki hər bir funksionallıq üçün ayrıca endpoint olur. Belə olanda bir endpointdə problem olanda digərinə təsir etmir. məsələn bu nümunədə, travel endpointində problem olsa, istifadəçilər Hotel məlumatların hotel endpointi ilə ala biləcəklər.
 
 {% hint style="info" %}
 Məsələn, aşağıda [Mailchimp API](step-2-endpoints-and-methods-api-reference-tutorial.md#mailchimp-api) **** üzrə nümunədə görə bilərsiniz ki, ümumi resurs **Campaings** adlanır və onun təsviri belə göstərilir:
@@ -80,11 +82,13 @@ Mən standart olaraq [OpenWeather API](https://openweathermap.org/api/one-call-3
 
 <figure><img src="../.gitbook/assets/Amazon_v1.PNG" alt=""><figcaption></figcaption></figure>
 
+Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GET, POST, PUT** və s. bunlar nədir?
+
 ### Metodların təyini
 
-> Bəs **endpoint**-lərin qarşısında olan **GET, POST, PUT** və s. bunlar nədir?
->
 > Bunlar **HTTP metodlardır** və **endpoint**-lərin qarşısında verilməsi qəbul olunmuş praktikadır. Metodlar resurslar ilə nə iş görə biləcəyimizi təyin edir. Qısa olaraq, metodları aşağıda qeyd edib nə iş gördüyünü qeyd edirəm:
+>
+> Məslən travelpayouts nümunəsində GET metodu ilə məlumatları alırıq. Gördüyünüz kimi sorğu göndərilir və travel payouts metoda əsəasən məlumatları bizə qaytarır.
 >
 > * <mark style="color:orange;">**GET**</mark>: **Resursu** qaytarır. Yəni **Resurs** haqqında hansısa məlumatı əldə etmək istədikdə <mark style="color:orange;">**GET**</mark>-dən istifadə edilir.
 > * <mark style="color:orange;">**POST**</mark>: **Resursu** yaradır.&#x20;
