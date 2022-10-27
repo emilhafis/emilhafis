@@ -98,6 +98,16 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 >
 > Ətraflı məlumat üçün Vikipediyanın HTTP məqaləsində [Request methods](https://en.wikipedia.org/wiki/Hypertext\_Transfer\_Protocol#Request\_methods)-a baxın. Bəzi əlavə **metodlar** da var, lakin onlar nadir hallarda istifadə olunur.
 
+### CRUD əməliyyatı üçün HTTP metodlarından (verbs) istifadə
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+> CRUD ilə tez tez qarşılaşcaqsız. CRUD açılışı - Create, Read, Update və delete-dir.
+>
+> Metodları nümunə üzərində daha aydın başa düşməyə çalışaq. Bundan əvvəlki nümunəmizdəki metod Get metodu idi və biz onunla aviabilet haqqında məlumat alırdıq.&#x20;
+>
+> Burada dogs bizim resursumuzdur. Gəlin onun üzərində baxaqki HTTP metodların tələb olunan əməliyyatlar ilə necə map edə bilərik.
+
 {% hint style="danger" %}
 **Metodların** **endpoint**-lər ilə sıx əlaqəsi olduğu üçün onları bir yerdə göstərdim.&#x20;
 
