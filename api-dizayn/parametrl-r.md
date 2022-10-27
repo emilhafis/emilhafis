@@ -211,35 +211,9 @@ Query string parameter-lərinin sıra ardıcıllığı zəruri deyildir.
 Unutmayın ki, Path parametrlərində sıralamadakı dəyərlərin yeri dəyişdirilə bilməz.&#x20;
 {% endhint %}
 
-### Request body <a href="#request_bodies" id="request_bodies"></a>
+> **Nümunələrdə paraemtrlərin hansı formada verildiyini görə bilərsiz**
 
-> Əksər hallarda biz request body-də (sorğu mətni) POST (adətən nəsə yaradanda) sorğusu ilə JSON obyekti göndəririk. Bu request body kimi tanınır və formatı adətən **JSON** olur (məsələn, yuxarıdakı [Person Object](parametrl-r.md#json-uezr-uemumi-m-lumat)-i).&#x20;
->
-> Məsələn, biz bir resurs yaradarkən sadə **endpoint** istifadə edə bilərik - `/port/`<mark style="color:orange;">`{beachId}`</mark>. Amma sorğu mətnində (**request body**) **JSON** obyekt ilə xeyli sayda dəyərlər göndərə bilərik. Aşağıdakı formada:
-
-```javascript
-{
-"days": 2,
-"units": "imperial",
-"time": 1433524597
-}
-```
-
-> OpenAPI v2.0-da **Request body** parametr növü kimi təsnif edilirdi, lakin v3.0-da onlar parametr deyil, daha çox `path property` kimi hesab olunur. **Request body**-nin bir parametr kimi fəaliyyət göstərdiyini nəzərə alaraq, onları hələlik parametr kimi təsnif edək.&#x20;
-
-{% hint style="warning" %}
-Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **parametr deyil.**
-{% endhint %}
-
-#### Mürəkkəb Request body <a href="#documenting-complex-request-bodies" id="documenting-complex-request-bodies"></a>
-
-> **JSON** məlumatları (sorğu və cavabda) API sənədləşməsinin ən çətin hissələrindən biridir.&#x20;
->
-> **JSON** obyektləri sadə olarsa, məsələn eyni səviyyəli bir neçə `key-value` cütlüyü o zaman onların sənədləşməsi də çox sadə olar. Amma **JSON** obyektində bir neçə obyektlər bir-birinin içərisində olarsa və ya uzun şərti məlumatlar olarsa belə API-ların sənədləşməsi də çətin olur. Və sizin 100 sətr və ya 1000 sətr məlumatlarınız olarsa çox ehtiyatla fikirləşməlisiniz ki, bunları hansı formada verməliyəm ki, rahat olsun.
->
-> Cədvəllər **JSON**-u sənədləşdirmək üçün yaxşı vasitədir, lakin cədvəldə yuxarı səviyyəli və alt səviyyəli elementləri ayırd etmək çətin ola bilər. Belə ki, bir obyekt digər bir obyektdən, digər obyekt isə digər obyektdən ibarət olarsa onları cədvəl şəklində göstərmək çaşqınlıq yarada bilər.
->
-> Hər bir halda, əgər **JSON** obyekti nisbətən kiçikdirsə, cədvəl yəqin ki, ən yaxşı seçiminizdir. Lakin dizaynerlərin qəbul etdiyi başqa yanaşmalar da var.
+### &#x20;<a href="#request_bodies" id="request_bodies"></a>
 
 ### [Tapşırıq](../tapsiriq.md#s-n-dl-sdirm-k-uecuen-m-lumat) üçün parameterlər
 
