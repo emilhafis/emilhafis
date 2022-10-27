@@ -82,21 +82,6 @@ Avtorizasiya və Authentifikasiya üzrə detallı məlumat ilə bundan əvvəlki
 
 ![](../.gitbook/assets/Stripe.png)
 
-#### Path parametrinin rəngli formada göstərilməsi <a href="#color-coding-the-path-parameters" id="color-coding-the-path-parameters"></a>
-
-> Endpoint-də Path parameter-lərini fərqli rənglə göstərməyiniz onları daha başa düşülən formaya salacaqdır. Path parametrlərini rəngli göstərəndə dərhal bilmək olur ki, endpoint-də path parametrləri hansılardır.&#x20;
->
-> Məsələn sizin aşağıdakı Mailchimp API nümunəsindəki kimi path parameter-ləri göstərməyinizi tövsiyyə edirəm.&#x20;
-
-![](../.gitbook/assets/param.PNG)
-
-> Sonrada bu rənglər ilə parametrlərin təsvirini verə bilərsiniz. Məsələn,
-
-| Path Parameter	                                  | Description        |
-| ------------------------------------------------ | ------------------ |
-| <mark style="color:orange;">**user**</mark>      | Description user   |
-| <mark style="color:orange;">**bicycleId**</mark> | Description bcycle |
-
 ### Query string parameter-i
 
 > Query string parametr-ləri endpoint-ə sual işarəsindən <mark style="color:orange;"></mark> <mark style="color:orange;"></mark><mark style="color:orange;">`(?)`</mark> <mark style="color:orange;"></mark><mark style="color:orange;"></mark> sonra əlavə edilir. Sual işarəsindən <mark style="color:orange;"></mark> <mark style="color:orange;"></mark><mark style="color:orange;">`(?)`</mark> sonra gələn parametrlər və onların dəyərləri **"query string"** adlanır.&#x20;
@@ -123,7 +108,22 @@ Unutmayın ki, Path parametrlərində sıralamadakı dəyərlərin yeri dəyişd
 
 > **Nümunələrdə paraemtrlərin hansı formada verildiyini görə bilərsiz**
 
-### &#x20;<a href="#request_bodies" id="request_bodies"></a>
+#### Path parametrinin rəngli formada göstərilməsi <a href="#color-coding-the-path-parameters" id="color-coding-the-path-parameters"></a>
+
+> Endpoint-də Path parameter-lərini fərqli rənglə göstərməyiniz onları daha başa düşülən formaya salacaqdır. Path parametrlərini rəngli göstərəndə dərhal bilmək olur ki, endpoint-də path parametrləri hansılardır.&#x20;
+>
+> Məsələn sizin aşağıdakı Mailchimp API nümunəsindəki kimi path parameter-ləri göstərməyinizi tövsiyyə edirəm.&#x20;
+
+![](../.gitbook/assets/param.PNG)
+
+> Sonrada bu rənglər ilə parametrlərin təsvirini verə bilərsiniz. Məsələn,
+
+| Path Parameter	                                  | Description        |
+| ------------------------------------------------ | ------------------ |
+| <mark style="color:orange;">**user**</mark>      | Description user   |
+| <mark style="color:orange;">**bicycleId**</mark> | Description bcycle |
+
+
 
 ### [Tapşırıq](../tapsiriq.md#s-n-dl-sdirm-k-uecuen-m-lumat) üçün parameterlər
 
