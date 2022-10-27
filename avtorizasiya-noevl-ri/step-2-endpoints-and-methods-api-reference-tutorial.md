@@ -138,6 +138,32 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 >
 > &#x20;HTTP GET metodunun təhlükəzi və idempotent olmasını təyin edir. Ona görədə gələcəkdə API dizayn edərək APIlarının bu standartlara cavab verməsindən əmin olun.
 
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+> /dogs Endpointi üçün POST metodu yeni itin yaradılması üçün istifadə eidlir. URL də heç bir ıd tgöndərilmir. ID avtomatik olaraq sistem tərəfindən yaradılır.
+>
+> POST metodu resursumuzun vəziyyətini dəyişir, bələki o bizim resursumuzda yeni it yaradır. Buna görə də POST təhlükəsiz metod deyildir.
+>
+> POST metodunu təkrarlamaq bir neçə itin yaranmasına səbəb olacaqdır ona görə də idempotent deyildir.&#x20;
+
+<figure><img src="https://lh4.googleusercontent.com/SZ54szy4H0vac-LnViAknuO_DOHCn7eBCvjH0kjnWsHTNE6Px55PjVRejCYWZ72LL0c765xiZAI_-72Xu2i_L2yrPvYfIvn_e7dCUywXyjF_hZqhX_of9lVYBC9pZhY9oIx_EZ5SfKujaxxl5Fq2YXwYEQiPw1Y3zseAfI7EWLxZmOUvVaGnRdHiQRZ3CBQ" alt=""><figcaption></figcaption></figure>
+
+> Update (yeniləmə üçün) bizim iki metodumuz mövcuddur: PUT və PATCH.&#x20;
+>
+> PUT /dogs/1234 id nömrəsi 1234 olan Toto adlı iti update edəcəkdir.
+>
+> Gələcəkdə biznes tələblərinizə görə elə API tələb yaza bilərsiz, PUT sorğusu zamanı 1234 nömrəli it olmasa avtomatik onu yaratsın yəni POST dan əlavə olaraq istifadə edilməsin. Belə hallar bir qədər nadir olur. Bu da o zaman olur ki, resurs ID unikal olur.
+>
+> Sorğunuzda konkret itləri göstərməsəniz, "PUT /dogs" bütün itləri və ya uyğun itləri toplu şəkildə yeniləyir. Lazım olmadıqca bu əməliyyata icazə verməyin, çünki çoxlu itləri təsadüfən toplu yeniləmək çox asan ola bilər.
+>
+> PUT təhlükəsiz metod deyil, çünki o, resursları yeniləmək üçün nəzərdə tutulub.
+>
+> Amma Bununla belə, PUT HTTP tərəfindən idempotent metod kimi müəyyən edilir. Buna görə də ikinci eyni PUT çağırışı resurs və ya resursları yenidən dəyişdirməməli və eyni vəziyyətdə salamalıdır. API tələblərinizdə bunu mütləq qeyd edin. Əks ahlda halda hər dəfə PUT metodu ilə məlumatlar yenilənəcək və servisiniz üçün lazımsız iş yükü yaranacaqdır.
+>
+>
+>
+>
+
 {% hint style="danger" %}
 **Metodların** **endpoint**-lər ilə sıx əlaqəsi olduğu üçün onları bir yerdə göstərdim.&#x20;
 
