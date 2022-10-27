@@ -100,7 +100,7 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 
 ### CRUD əməliyyatı üçün HTTP metodlarından (verbs) istifadə
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > Metodları nümunə üzərində daha aydın başa düşməyə çalışaq. Bundan əvvəlki nümunəmizdəki metod Get metodu idi və biz onunla aviabilet haqqında məlumat alırdıq.&#x20;
 >
@@ -122,7 +122,7 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 >
 >
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 > Gördüyünüz kimi ilk öncə POST dan yox GET dən başladım. Çünki baxdığımız avibile nümunəsi GET idi və demək olarki ən çox istifadə olunan metoduur.
 >
@@ -160,7 +160,19 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 >
 > Amma Bununla belə, PUT HTTP tərəfindən idempotent metod kimi müəyyən edilir. Buna görə də ikinci eyni PUT çağırışı resurs və ya resursları yenidən dəyişdirməməli və eyni vəziyyətdə salamalıdır. API tələblərinizdə bunu mütləq qeyd edin. Əks ahlda halda hər dəfə PUT metodu ilə məlumatlar yenilənəcək və servisiniz üçün lazımsız iş yükü yaranacaqdır.
 >
+> PUT və PATCH arasında fərq ondan ibarətdir ki, PUT bütün resursu update etmək üçün nəzərdə tutulub, PATCh isə seçilmiş fieldləri.
 >
+> Amma təcrübədə bütün update-lər PUT ilə göstərilir. Sizdə PUT ilə göstərə bilərsiz. Çox dərinliyə getmək çox vaxtı developerləridə çaşqın vəziyyətə salır.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+> DELETE metodu resursu silmək üçün istifadə edilir.
+>
+> DELETE /dogs/1234 1234 id ilə olan Toto itini silir.&#x20;
+>
+> "DELETE /dogs" bütün itləri və ya axtarışa və ya təqdim edilmiş filtrlərə uyğun gələn bütün itləri siləcək. Əksər API-lər kolleksiyada DELETE-ə icazə vermir, çünki kolleksiyadakı hər şeyi təsadüfən silmək çox asan və çox təhlükəlidir olardı. Ona görə bu məsələni mütləq yadınızda saxlayın
+>
+> Delete təhlükəszi metod deyil belə ki, o resursu silərək yeniləyir. Updates by removing. İkinci eyni DELETE-in heç bir təsiri yoxdur, çünki resurs artıq silinmişdir, ona görə də DELETE idempotentdir.
 >
 >
 
