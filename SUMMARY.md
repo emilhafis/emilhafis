@@ -3,6 +3,14 @@
 * [General Overview](README.md)
 * [Tapşırıq](tapsiriq.md)
 
+## Avtorizasiya növləri
+
+* [Overview](avtorizasiya-noevl-ri/overview.md)
+* [REST API Dizayn Part I](avtorizasiya-noevl-ri/api-key.md)
+* [Resources](avtorizasiya-noevl-ri/resources.md)
+* [Use HTTP verbs for CRUD operations](avtorizasiya-noevl-ri/use-http-verbs-for-crud-operations.md)
+* [Keep verbs out of URLs](avtorizasiya-noevl-ri/keep-verbs-out-of-urls.md)
+
 ## API Dizayn
 
 * [Overview](api-reference-tutorial/api-reference-tutorial-overview.md)
@@ -10,5 +18,5 @@
 * [Endpoint və metodlar](avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
 * [Parametrlər](api-dizayn/parametrl-r.md)
 * [Sorğu nümunəsi](api-dizayn/sorgu-nuemun-si.md)
-* [Cavab nümunəsi və sxemi](api-dizayn/cavab-nuemun-si-v-sxemi.md)
-* [Ümumi baxış](api-dizayn/uemumi-baxis.md)
+* [Cavab nümunəsi](api-reference-tutorial/step-5-response-example-and-schema-api-reference-tutorial.md)
+* [Ümumi nümayiş](api-dizayn/uemumi-nuemayis.md)
