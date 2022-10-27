@@ -233,13 +233,7 @@ Avtorizasiya və Authentifikasiya üzrə detallı məlumat ilə bundan əvvəlki
 
 ### Path parameter-i
 
-> **Path parametri endpoint**-in bir hissəsi olur və daxil edilməsi zəruridir. Məsələn, aşağıdakı endpoint-də <mark style="color:orange;">`{user}`</mark> və <mark style="color:orange;">`{bicycleId}`</mark> dəyərləri path parameter-ləri kimi zəruri dəyərlərdir.
-
-{% code overflow="wrap" %}
-```javascript
-/user/{user}/bicycles/{bicycleId}
-```
-{% endcode %}
+> **Path parametri endpoint**-in bir hissəsi olur və daxil edilməsi zəruridir. Məsələn, aşağıdakı mailchimp endpointində <mark style="color:orange;">`{campaignId}`</mark> dəyərləri path parameter kimi zəruri dəyərlərdir.
 
 > **Path parameter**-ləri adətən qeyd etdiyimiz kimi fiqurlu mötərizədə <mark style="color:orange;">{}</mark> göstərilir. Amma bu mütləq qayda deyil, bəzi API doc dizaynında path parametri iki nöqtədən <mark style="color:orange;">:</mark> sonra, bəzilərində isə fərqli formada göstərilir.
 >
