@@ -14,9 +14,11 @@ description: Request example
 
 ### Request body <a href="#request_bodies" id="request_bodies"></a>
 
-> Əksər hallarda biz request body-də (sorğu mətni) POST (adətən nəsə yaradanda) sorğusu ilə JSON obyekti göndəririk. Bu request body kimi tanınır və formatı adətən **JSON** olur (məsələn, yuxarıdakı [Person Object](sorgu-nuemun-si.md#json-uezr-uemumi-m-lumat)-i).&#x20;
+> Əksər hallarda biz request body-də POST sorğusu ilə JSON obyekti göndəririk. Bu request body kimi tanınır və formatı adətən **JSON** olur (məsələn, yuxarıdakı [Person Object](sorgu-nuemun-si.md#json-uezr-uemumi-m-lumat)-i).&#x20;
 >
 > Məsələn, biz bir resurs yaradarkən sadə **endpoint** istifadə edə bilərik - `/port/`<mark style="color:orange;">`{beachId}`</mark>. Amma sorğu mətnində (**request body**) **JSON** obyekt ilə xeyli sayda dəyərlər göndərə bilərik. Aşağıdakı formada:
+>
+> **Məsələn, bu nümunə də də QR generasiyası üçün bir neçə dəyər gödnərmişik. POST metodu ilə JSON**
 
 ```javascript
 {
