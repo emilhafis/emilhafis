@@ -100,13 +100,43 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 
 ### CRUD əməliyyatı üçün HTTP metodlarından (verbs) istifadə
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-> CRUD ilə tez tez qarşılaşcaqsız. CRUD açılışı - Create, Read, Update və delete-dir.
->
 > Metodları nümunə üzərində daha aydın başa düşməyə çalışaq. Bundan əvvəlki nümunəmizdəki metod Get metodu idi və biz onunla aviabilet haqqında məlumat alırdıq.&#x20;
 >
 > Burada dogs bizim resursumuzdur. Gəlin onun üzərində baxaqki HTTP metodların tələb olunan əməliyyatlar ilə necə map edə bilərik.
+
+<figure><img src="https://lh5.googleusercontent.com/dN4Nfzwi5lVxf_0bBIkY2-VvpatR-RbYAQdVBwAnBXRO5wo-x6SZ4lLGGPMAFclf8vyqVatsNrFEIGPk4VfW6MCk6mf_6Af8MLNu7Wu8PHEcPEe7S6iJQD2s9pwE1F6J1FbQwx-cJGFI6HKRmUaHajctA9EHa-HhcVgosDxogO1KXe_7GEgC2QznfVCN1Qo" alt=""><figcaption></figcaption></figure>
+
+> Biz gördüyümüz HTTP metodların (verbs)  əməliyyatlar ilə necə əlaqələndirildiyinə baxaq. Create, Read, Update and Delete.
+>
+> Biz adətən bu əməliyyatlara CRUD deyirik
+>
+> CRUD ilə tez tez qarşılaşcaqsız. CRUD akrominin açılışı - Create, Read, Update və delete-dir.
+
+<figure><img src="https://lh4.googleusercontent.com/YQqVMb5-107PXR_omemm1vRiC59gOxW_jZA4dArRI9kJyLspLwIZ1Ec6RHQW92DWo7E9M_gd7XVDfXVf3W_aWeHLdUJUYRZsoZHeIa_7HRd9yDfU1Ye2rx-yayM-dqm3kQFaCj3pcvpnFH7p-b22RO9Oq7cIGHGElPxQXIsSGBcZhzHaOGwd0TCBAn4u7sg" alt=""><figcaption></figcaption></figure>
+
+> Gördüyünüz kimi resursumuz üçün 2 əsas URL miz/endpointimiz mövcuddur. /dogs itlərin ümumi siyahısa istinad edir /dogs/1234isə spesifik olaraq 1234 nömrəli itə istinad edir.
+>
+> Gəlin indi baxaq ki, HTTP metodlarından istifadə edərək itlər üzərində hansı əməliyyatları keçirmək olar.
+>
+>
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+> Gördüyünüz kimi ilk öncə POST dan yox GET dən başladım. Çünki baxdığımız avibile nümunəsi GET idi və demək olarki ən çox istifadə olunan metoduur.
+>
+> GET bütün resurslar üzrə məlumatı və ya bir resurs üzrə məlumatı qaytarmaq üçün istifadə edilir.&#x20;
+>
+> Buna yaxşı bir misal kimi brauzeri göstərmək olar. Siz brauzerdə hansısa saytı açarkən orda HTTP GET metodundan istifadə edilir.
+>
+> GET məlumatları update yəni dəyişdirə bilməz. Buna görə də, ən təhlükəsiz metod hesab edilir. Belə ki, məlumatları dəyişdirməyən metodlar təhlükəszidir çünki onlar təhlükəli məlumatları göndərib sistemi çökdürə və ya digər fraud edə bilməzlər.
+>
+> Belə ki digər metodlar hər sorğu zamanı bizim resursumuzun məlumatların dəyişə bilər amma GET sorğusunu nə qədər təkrarlasaqda nəticə eyni olacaqdır.&#x20;
+>
+> Təkrar sorğular nəticəsində eyni nəticəni almaq idempotent adlanır. Qarşınıza çox çıxacaq.
+>
+> &#x20;HTTP GET metodunun təhlükəzi və idempotent olmasını təyin edir. Ona görədə gələcəkdə API dizayn edərək APIlarının bu standartlara cavab verməsindən əmin olun.
 
 {% hint style="danger" %}
 **Metodların** **endpoint**-lər ilə sıx əlaqəsi olduğu üçün onları bir yerdə göstərdim.&#x20;
