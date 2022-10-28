@@ -4,8 +4,6 @@
 
 <summary>API Overview</summary>
 
-
-
 API Overview information:
 
 * _1.0 \[Version]_: 3
@@ -39,5 +37,18 @@ API Overview information:
 
 * _License (MIT, Apache 2.0, etc)_: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 * _License URL_: https://creativecommons.org/licenses/by-sa/4.0/
+
+</details>
+
+<details>
+
+<summary>Path information</summary>
+
+Paths:
+
+* _/_prices\_for\_dates
+* _\[Operation]_: GET
+* _Operation ID_: get-prices\_for\_dates
+* _Description_: Access current weather data for any location on Earth including over 200,000 cities! Current weather is frequently updated based on global models and data from more than 40,000 weather stations.
 
 </details>
