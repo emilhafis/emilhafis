@@ -109,3 +109,24 @@ Paths:
 
 </details>
 
+<details>
+
+<summary>Sample response info</summary>
+
+* **origin** — the point of departure
+* **destination** — the point of destination
+* **origin\_airport** — the IATA of the origin airport
+* **destination\_airport** — the IATA of the destination airport
+* **price** — price of the ticket
+* **airline** — the IATA of the airline
+* **flight\_number** — flight number
+* **departure\_at** — departure date
+* **return\_at** — return date
+* **transfers** — number of stops on the way to the destination
+* **return\_transfers** — number of stops on the way back
+* **duration** — the flight duration in minutes
+* **link** — the ticket link. Add the code to the URL [https://www.aviasales.com/](https://www.aviasales.com/search/) to open the search results on the given route on Aviasales. Use our [link generator](https://support.travelpayouts.com/hc/en-us/articles/360027634052-How-to-create-a-link-to-any-page-of-the-travel-brand-s-website) to create your partner link out of the resulting link
+* **currency** — the currency of prices.
+
+</details>
+
