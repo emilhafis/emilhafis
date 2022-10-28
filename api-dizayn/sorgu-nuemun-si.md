@@ -12,6 +12,42 @@ description: Request example
 
 
 
+### Sorğu nümunələri
+
+> Aşağıdakı nümunə [Stripe-ın göstərdiyi sorğu](https://stripe.com/docs/api/customer\_bank\_accounts/create) nümunəsidir.
+
+<figure><img src="../.gitbook/assets/Stripe_request_example_v1.png" alt=""><figcaption></figcaption></figure>
+
+> Gördüyünüz kimi burada API dizayn 3 hissəli təsvir edilmişdir. Sol tərəfdə Resurs və resurs üzrə əməliyyatlar, ortada Parametrlər, sağda isə request və response nümunəsi.&#x20;
+
+{% hint style="info" %}
+Bu formada dizaynı ilk dəfə **Stripe** gətirmişdir. Mənim bu dizayn çox xoşuma gəlir. API documenting üçün istifadə olunan ReDoc və Stoplight platformasının da dizaynı buna çox oxşardır. Nümunə üçün sonda verəcəyim **avtomatlaşdırılmış API Dizaynı da** bu formada olacaqdır.
+{% endhint %}
+
+> Sorğu nümunəsi default olaraq **cURL**-də göstərilmişdir. **cURL**-i daha dərindən növbəti mövzularda müzakirə edəcəyik.&#x20;
+>
+> Həmçinin də seçim əsnasında digər proqramlaşdırma dillərində nümunələrə baxmaq mümkündür.
+
+### Müxtəlif proqramlaşdırma dillərində sorğular <a href="#requests-in-various-languages" id="requests-in-various-languages"></a>
+
+> Bildiyimiz kimi **REST API** "`language agnostic`"-dir, yəni proqramlaşdırma dili deyil. Müxtəlif proqramlaşdırma dilləri üzrə istifadə olunan protokoldur. Proqramçılar öz tətbiqlərini istənilən dildə (**Java, Ruby, Python** və s) yaza bilərlər. Proqramçılar istifadə etdikləri proqramlaşdırma dili vasitəsilə **API-**ları sorğulayıb onlar üzrə cavabları ala bilərlər. Cavablar [**JSON**](parametrl-r.md#json-uezr-uemumi-m-lumat) və ya **XML** formatında olur.&#x20;
+>
+> Yazdıqlarımızın məntiqi nəticəsi olaraq biz proqramçıların hansı dildən istifadə edəcəyini tam olaraq bilməyəcəyimiz üçün, proqramlaşdırma dillərində kod nümunələri təqdim etməyimiz bir növ nəticəsizdir. Bir çox API-larda sorğu və cavab nümunələri təqdim olunur və proqramçıların özləri bilir ki, yazdıqları dildə hansı formada **HTTP** requests göndərə bilərlər.
+>
+> Buna baxmayaraq əksər **API**-lar bir neçə fərqli proqramlaşdırma dillərində nümunələr təqdim edirlər:
+>
+> Məsələn aşağıda [Stripe üzrə](https://stripe.com/docs/api/customer\_bank\_accounts/object?lang=python) görə bilərsiniz ki, bir neçə seçim imkanı verilir.
+
+<figure><img src="../.gitbook/assets/stripe_code_snip_v1.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Çox vaxt **Tech writer**-lər API-ların hansı proqramlaşdırma dilində yazılacağını bilirlər. Belə olduqda həmin proqramlaşdırma dilinə fokuslanmaq məqsədəuyğundur.&#x20;
+
+Əgər siz **API doc platformalarından** (Swagger UI, ReDoc, Stoplight və s) istifadə edirsinizsə bu platformalar yazdığınız API-lara uyğun sizin üçün avtomatik kod nümunələri generasiya edirlər.
+{% endhint %}
+
+###
+
 ### Request body <a href="#request_bodies" id="request_bodies"></a>
 
 > Əksər hallarda biz request body-də POST sorğusu ilə JSON obyekti göndəririk. Bu request body kimi tanınır və formatı adətən **JSON** olur (məsələn, yuxarıdakı [Person Object](sorgu-nuemun-si.md#json-uezr-uemumi-m-lumat)-i).&#x20;
@@ -44,21 +80,7 @@ Nəzərə alın ki, OpenAPI spesifikasiyasında Request body texniki olaraq **pa
 >
 > Hər bir halda, əgər **JSON** obyekti nisbətən kiçikdirsə, cədvəl yəqin ki, ən yaxşı seçiminizdir. Lakin dizaynerlərin qəbul etdiyi başqa yanaşmalar da var.
 
-### Sorğu nümunələri
-
-> Aşağıdakı nümunə [Stripe-ın göstərdiyi sorğu](https://stripe.com/docs/api/customer\_bank\_accounts/create) nümunəsidir.
-
-<figure><img src="../.gitbook/assets/Stripe_request_example_v1.png" alt=""><figcaption></figcaption></figure>
-
-> Gördüyünüz kimi burada API dizayn 3 hissəli təsvir edilmişdir. Sol tərəfdə Resurs və resurs üzrə əməliyyatlar, ortada Parametrlər, sağda isə request və response nümunəsi.&#x20;
-
-{% hint style="info" %}
-Bu formada dizaynı ilk dəfə **Stripe** gətirmişdir. Mənim bu dizayn çox xoşuma gəlir. API documenting üçün istifadə olunan ReDoc və Stoplight platformasının da dizaynı buna çox oxşardır. Nümunə üçün sonda verəcəyim **avtomatlaşdırılmış API Dizaynı da** bu formada olacaqdır.
-{% endhint %}
-
-> Sorğu nümunəsi default olaraq **cURL**-də göstərilmişdir. **cURL**-i daha dərindən növbəti mövzularda müzakirə edəcəyik.&#x20;
->
-> Həmçinin də seçim əsnasında digər proqramlaşdırma dillərində nümunələrə baxmaq mümkündür.
+###
 
 #### [Travelpayouts](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)
 
@@ -81,24 +103,6 @@ https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c6
 ```
 
 > Bəzən bu formada bir neçə sorğu nümunələri göstərirlər. Əgər sorğu nümunəsi üçün eyni vaxtda bir neçə parametrin birgə işlədilməsi mümkün olmazsa bu zaman bir neçə sorğu nümunəsinin göstərilməsi məqsədəuyğundur.
-
-### Müxtəlif proqramlaşdırma dillərində sorğular <a href="#requests-in-various-languages" id="requests-in-various-languages"></a>
-
-> Bildiyimiz kimi **REST API** "`language agnostic`"-dir, yəni proqramlaşdırma dili deyil. Müxtəlif proqramlaşdırma dilləri üzrə istifadə olunan protokoldur. Proqramçılar öz tətbiqlərini istənilən dildə (**Java, Ruby, Python** və s) yaza bilərlər. Proqramçılar istifadə etdikləri proqramlaşdırma dili vasitəsilə **API-**ları sorğulayıb onlar üzrə cavabları ala bilərlər. Cavablar [**JSON**](parametrl-r.md#json-uezr-uemumi-m-lumat) və ya **XML** formatında olur.&#x20;
->
-> Yazdıqlarımızın məntiqi nəticəsi olaraq biz proqramçıların hansı dildən istifadə edəcəyini tam olaraq bilməyəcəyimiz üçün, proqramlaşdırma dillərində kod nümunələri təqdim etməyimiz bir növ nəticəsizdir. Bir çox API-larda sorğu və cavab nümunələri təqdim olunur və proqramçıların özləri bilir ki, yazdıqları dildə hansı formada **HTTP** requests göndərə bilərlər.
->
-> Buna baxmayaraq əksər **API**-lar bir neçə fərqli proqramlaşdırma dillərində nümunələr təqdim edirlər:
->
-> Məsələn aşağıda [Stripe üzrə](https://stripe.com/docs/api/customer\_bank\_accounts/object?lang=python) görə bilərsiniz ki, bir neçə seçim imkanı verilir.
-
-<figure><img src="../.gitbook/assets/stripe_code_snip_v1.png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-Çox vaxt **Tech writer**-lər API-ların hansı proqramlaşdırma dilində yazılacağını bilirlər. Belə olduqda həmin proqramlaşdırma dilinə fokuslanmaq məqsədəuyğundur.&#x20;
-
-Əgər siz **API doc platformalarından** (Swagger UI, ReDoc, Stoplight və s) istifadə edirsinizsə bu platformalar yazdığınız API-lara uyğun sizin üçün avtomatik kod nümunələri generasiya edirlər.
-{% endhint %}
 
 ### Kod nümunələrinin avtomatik generasiyası
 
