@@ -52,3 +52,60 @@ Paths:
 * _Description_: Access current weather data for any location on Earth including over 200,000 cities! Current weather is frequently updated based on global models and data from more than 40,000 weather stations.
 
 </details>
+
+<details>
+
+<summary>Sample query parameter</summary>
+
+
+
+* **currency** — the currency of prices. The default value is RUB
+
+<!---->
+
+* **origin** — An IATA code of a city or an airport of the origin
+
+<!---->
+
+* **destination** — An IATA code of a city or an airport of the destination (if you don't specify origin parameter, you must set destination)
+
+<!---->
+
+* **departure\_at** — the departure date (`YYYY-MM` or `YYYY-MM-DD`)
+
+<!---->
+
+* **return\_at** — the return date. For one-way tickets do not specify it
+
+<!---->
+
+* **direct** — non-stop tickets, `true` or `false`. By default:  `false`
+
+<!---->
+
+* **market** — sets the market of the data source (by default, ru)
+
+<!---->
+
+* **limit** — the total number of records on a page. The default value — 30. The maximum value — 1000
+
+<!---->
+
+* **page** — a page number, is used to skip some massive of results. For example, if we want to get the entries from 100 to 150, we need to set `page=3`, and `limit=50`
+
+<!---->
+
+* **sorting** — the assorting of prices:
+  * **price** — by the price (the default value). For the directions, only city — city assorting by the price is possible
+  * **route** — by the popularity of a route.
+
+<!---->
+
+* **unique** — returning only unique routes, if only `origin` is specified, `true` or `false`. By default: `false`
+
+<!---->
+
+* **token** — your API token.
+
+</details>
+
