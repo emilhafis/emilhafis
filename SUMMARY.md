@@ -9,4 +9,13 @@
 * [Demo site](i-lesson/demo-site.md)
 * [Postman collection](i-lesson/postman-collection.md)
 * [cURL tips](i-lesson/curl-tips.md)
-* [Activity](i-lesson/page-2.md)
+* [Activity](<i-lesson/page-2 (1).md>)
+* [Page 2](i-lesson/page-2.md)
+
+***
+
+* [Page 1](page-1.md)
+
+## 2 Lesson
+
+* [Page 3](2-lesson/page-3.md)
