@@ -8,6 +8,6 @@ Swagger UI-ni yüklədikdən sonra əlinizdəki faylı ora import etmək və laz
 
 The Swagger UI aşağıdakı formada bizim OpenAPI spesifikasiyamızı nümayiş etdirir
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Gəlin baxaq

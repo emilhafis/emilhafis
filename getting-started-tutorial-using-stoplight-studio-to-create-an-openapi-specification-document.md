@@ -48,17 +48,17 @@
 > * Follow the on-screen instruction to create a workspace, and then sign into it, authenticating with one of the ID options.
 > * Click the **+** button ![Add project button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_plus\_button.png) at the top to add a new project. Give the project a name, and then click
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 > 4\. Click the **API** button in the sidebar.
 >
@@ -68,13 +68,13 @@
 
 
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 7\. Stoplight sizə forma və kod editor arasında keçid etməyə imkan verir. Yuxarıdakı ekran görüntüsü Form görünüşünü göstərir. Avtomatik yaradılmış kodu görmək üçün yuxarı sağ küncdəki Kod düyməsini klikləyin.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 > (Bu kodda bəzi sample məlumat qeyd olunub `/users/{userid}` and `/user`.)
 >
@@ -82,7 +82,7 @@
 
 Click the **Preview** button in the upper-right corner to see what the content would look like when published:
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 The ability to switch views between Form, Code, and Preview gives you a lot of authoring power.
 
@@ -92,7 +92,7 @@ The ability to switch views between Form, Code, and Preview gives you a lot of a
 
 > To get started, populate the fields in the API Overview section (this includes the version, name, description, security, contact, license, and other general details). For this tutorial, I’ve prepared sample information for you to easily insert into the Stoplight Editor. (Note that, in the sample information in the orange expandable buttons, for fields that don’t have names, I put the assumed titles of these fields in \[brackets].)
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 To populate the API overview:
 
@@ -109,11 +109,11 @@ Bitirdikd'n sonra yuxar; soldak; Publish etməyi unutmayın
 
 When finished, the form should look like this:
 
-<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 3\. Now that you entered information for the first section, check out how it looks. Click the **Preview** button in the upper-right corner. It should look as follows:
 
-<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. Return to the Form view by clicking the **Form** button again.
 
@@ -165,7 +165,7 @@ API Overview information:
 >
 > 1. In the sidebar, right-click the **Paths** folder and select **New Path**.
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can remove the default `/users/{userid}` and `/user` and endpoints. Right-click each endpoint and select **Delete Path**.
 
@@ -223,11 +223,11 @@ Kim deyə bilər ki, burada hansı parametrlər istifadə olunub və nədən bil
 
 </details>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Yekunda Stoplight bu formada görünəcəkdir
 
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 You don’t need to add security for this endpoint because you already configured global security in the previous section. However, if this endpoint had unique security method, you could override the global security here by clicking the + Security button.
 
@@ -246,7 +246,7 @@ To re-use a parameter:
 3. Return to the previous query parameters section where you entered the `currency` parameter, and click the Reference button ![Reference button](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_link\_button.png) for this parameter.
 4. Search for “currency” and select it.
 
-<figure><img src=".gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
 
 When you link the parameter to the reference like this, the icon turns red: ![Reference button turns red when linked](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stoplight\_link\_button\_red6.png)
 
@@ -261,7 +261,7 @@ You don’t need to do anything in the code here — I’m just pointing out wha
 
 6\. Preview your updates. The preview should look like this:
 
-<figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 This endpoint in the travelpayouts API doesn’t have any path, header, or body parameters, so you can skip those elements.

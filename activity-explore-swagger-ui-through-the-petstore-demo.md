@@ -6,11 +6,11 @@ Petstore demosundan istifadə edərək Swagger UI ilə praktiki təcrübəyə ke
 
 Əksər Swagger-əsaslı platformalarda olduğu kimi, **Swagger UI** də “**Try it out**” funksionallığını təmin edir. Bunun işləməsi üçün ilk növbədə, **Avtorizasiya** düyməsini klikləyərək və Avtorizasiya box-da API açarınızı daxil etməklə Swagger-ə icazə verməlisiniz. Burada, Petstore demo məqsədi üçün olduğundan burada real avtorizasiya kodundan istifadə edilmir. Buna görəd də Avtotorizasiyanı bağlaya və ya tamamilə skip edə bilərsiniz.
 
-<figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 2\. **POST `/pet`** endpoint-ni expand edək
 
-<figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. Klik **Try it out**.
 
@@ -20,11 +20,11 @@ Petstore demosundan istifadə edərək Swagger UI ilə praktiki təcrübəyə ke
 
 5\. **Execute** klik edək
 
-<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Swagger UI sorğunu göndərdikdən sonra istifadə edilmiş **curl** sorğusunu göstərir. Burada göndərilmiş **curl** sorğusunu görə bilərsiniz
 
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```json
 curl -X 'POST' \
@@ -55,7 +55,7 @@ Notice that, with the `-d` (data) parameter, the request body is escaped and add
 
 Response hissədə serverdən qayıdan cavab göstərilir. By default qayıdan cavab JSON formatında olur.
 
-<figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```json
 {
@@ -82,11 +82,11 @@ Response hissədə serverdən qayıdan cavab göstərilir. By default qayıdan c
 
 Sorğu. Buradad eyni formada göndərilən sorğunun **curl** formasını görürük.
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Response - qayıdan cavabda isə bildirdiyimiz kimi əlavə etdiyimiz Rex-i görürük.
 
-<figure><img src=".gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Swagger UI kimi bir neçə platformada var ki, sizin OpenAPI spesifikasiyalarınızı parse dib vizual görünüşü yarad bilir. Bu tool-lara [Apiary](https://apiary.io/), [Apigee](https://apigee.com/about/), [Lucybot](https://lucybot.com/), [Gelato](https://gelato.io/), [Readme.com](http://readme.com/), [swagger2postman](https://github.com/josephpconley/swagger2postman), [swagger-ui responsive theme](https://github.com/jensoleg/swagger-ui) və digərləri aiddir.
 

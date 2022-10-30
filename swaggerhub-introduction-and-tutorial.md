@@ -4,17 +4,17 @@
 >
 > [Buradan](https://swagger.io/tools/swaggerhub/opensource-comparison/) həmin versiyalar üzrə müqaisəni görə bilərsiniz.
 
-<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### SwaggerHub qeydiyyat və Yaml import
 
 > SwaggerHub da qeydiyyatdan keçək.
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Qeydiyyatdan keçdikdən sorna gördüyünüz kimi ekran açılır. Burada `Create` new edib seçimləri görə bilərik.
 
-<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Burada olan Create new API məsələsinə növbəti dərslərdə baxacağıq və manual olaraq Open API spec yaradacağıq.
 
@@ -22,19 +22,19 @@ Burada olan Create new API məsələsinə növbəti dərslərdə baxacağıq və
 
 1. Bunun üçün Stoplight a daxil oluruq. Yaml faylı üzərinə klik edirik.
 
-<figure><img src=".gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 2\. Ya export edirik yaml üzərindən yada sağda Code hissəyə klik edib kop edirib save edirik.
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. Əldə etdiyimiz faylı Svagger Hub a import edirik.
 
-<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 4\. İmport etdikdən sonra aşağıdakı kimi səhifə qarşımıza çıxır&#x20;
 
-<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Qeyd edildiyi kimi burada problem Open API spec versiyasındadır. Belə ki Spotlight 3.1.0 versiyasın istifadə edir , amma Svagger bu yeni versiyanı dəstəkləmir. Ona görə də spesifikasiyada versiyanı 3.0.0 edirik.
@@ -42,7 +42,7 @@ Qeyd edildiyi kimi burada problem Open API spec versiyasındadır. Belə ki Spot
 
 5\. Bu dəyişikliyi etdikdən sonra spefisifikaımız emal olunur və Svagger onu vizual interfeysdə göstərir. Həmçinin də xətaları svagger göstərir. Versiya fərqinə əsasən bir çox xətalar yaranır. Amma ən əsası istədiyimiz nəticəni aldıq.
 
-<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Burada User model və summary əvəvlki versiyada olmadığı üçün dəstəkləmir. Qalan məsələlər qaydasındadır
 
@@ -75,7 +75,7 @@ Smartbear developed SwaggerHub as a way to help teams collaborate around the Ope
 
 To get started with SwaggerHub, go to [swaggerhub.com](https://swaggerhub.com/) and create an account or sign in with your GitHub credentials. After signing in, you see the SwaggerHub dashboard.
 
-<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 The dashboard shows a list of the APIs you’ve created. In this example, you see the [OpenWeatherMap API](https://idratherbewriting.com/learnapidoc/docapis\_scenario\_for\_using\_weather\_api.html) that I’ve been using throughout this course.
 
@@ -101,7 +101,7 @@ SwaggerHub yalnız OpenAPI spesifikasiyanızı saxlamağa imkan vermir, həm də
 
 SwaggerHub&#x20;
 
-<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Versiyanı dərc etdiyiniz zaman dərc edilmiş versiya Yalnız Read only olur. Əgər dərc edilmiş versiyaya dəyişiklik etmək istəyirsinizsə (yeni versiya yaratmaq əvəzinə) versiyanı dərcdən çıxarıb ona düzəlişlər edə bilərsiniz.
 
@@ -130,7 +130,7 @@ Swagger sənədlərinizi SwaggerHub-da dərc etdiyiniz zaman Swagger-in əsas UR
 Key to the review process is the ability for team members to comment on the spec inline, similar to Google Docs and its margin annotations. When you’re working in SwaggerHub’s editor, a small plus sign ![](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/swaggerhub\_plus.png) appears to the left of every line. Click the plus button to add a comment inline at that point.\
 
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 When you click the plus sign, a comment pane appears on the right where you can elaborate on comments, and where others can reply. Users can edit, delete, or resolve the comments. This commenting feature helps facilitate the review process in a way that tightly integrates with your content. You can also collapse or show the comments pane as desired
 
@@ -141,6 +141,8 @@ This is all included in SwaggerHub.
 ### Auto-Generate Client SDKs
 
 For example, suppose a user is implementing your REST API in a Java application. The user can choose to download the Java client SDK for extensive code that shows a Java implementation of your API. Other options include Ruby, Android, Go, CSharp, JavaScript, Python, Scala, PHP, Swift, and many more.
+
+Təsəvvür edinki sizin API lar prqoramistlər tərəfindən Java proqramlaşdırma dilində hazırlanacaqdır. Bu halda Proqramistlər Java client SDK export edərək Javada bu API-ların necə impelementasiya olunmasını görə və ya istifadə edə bilərlər. Həmçinin də digər proqramlaşdırma dillərinə aid SDK çıxara bilərlər
 
 Some API documentation sites look impressive for showing implementations in various programming languages. SwaggerHub takes those programming languages and multiplies them tenfold to provide every possible output a user could want.
 
@@ -198,7 +200,7 @@ Additionally, within an organization, you can further group APIs into different 
 \
 
 
-<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 This aspect of organizations and projects may not seem essential if you have just one or two APIs, but consider how you’ll scale and grow as you have dozens of APIs and multiple teams. In these more robust scenarios, the organization and project features become essential.
 
