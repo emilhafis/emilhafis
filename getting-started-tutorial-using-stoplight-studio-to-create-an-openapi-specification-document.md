@@ -165,7 +165,7 @@ API Overview information:
 >
 > 1. In the sidebar, right-click the **Paths** folder and select **New Path**.
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 You can remove the default `/users/{userid}` and `/user` and endpoints. Right-click each endpoint and select **Delete Path**.
 
@@ -223,7 +223,7 @@ Kim deyə bilər ki, burada hansı parametrlər istifadə olunub və nədən bil
 
 </details>
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Yekunda Stoplight bu formada görünəcəkdir
 

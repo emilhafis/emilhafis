@@ -42,7 +42,7 @@ Qeyd edildiyi kimi burada problem Open API spec versiyasındadır. Belə ki Spot
 
 5\. Bu dəyişikliyi etdikdən sonra spefisifikaımız emal olunur və Svagger onu vizual interfeysdə göstərir. Həmçinin də xətaları svagger göstərir. Versiya fərqinə əsasən bir çox xətalar yaranır. Amma ən əsası istədiyimiz nəticəni aldıq.
 
-<figure><img src=".gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Burada User model və summary əvəvlki versiyada olmadığı üçün dəstəkləmir. Qalan məsələlər qaydasındadır
 
@@ -130,7 +130,7 @@ Swagger sənədlərinizi SwaggerHub-da dərc etdiyiniz zaman Swagger-in əsas UR
 Key to the review process is the ability for team members to comment on the spec inline, similar to Google Docs and its margin annotations. When you’re working in SwaggerHub’s editor, a small plus sign ![](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/swaggerhub\_plus.png) appears to the left of every line. Click the plus button to add a comment inline at that point.\
 
 
-<figure><img src=".gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 When you click the plus sign, a comment pane appears on the right where you can elaborate on comments, and where others can reply. Users can edit, delete, or resolve the comments. This commenting feature helps facilitate the review process in a way that tightly integrates with your content. You can also collapse or show the comments pane as desired
 
@@ -152,17 +152,15 @@ Bu kodun təmin edilməsi developerlər üçün proqramı yazmağı srətləndir
 
 ### Export to HTML
 
-Among SwaggerHub’s many options for generating client and SDK files is an HTML option. You can export your OpenAPI spec as a static HTML file in one of two styles: HTML or HTML2.
+SwaggerHub-ın bir çox özəllikləri arasında HTML export seçimi də var. Siz OpenAPI spesifikasiyanızı iki üslubdan birində statik HTML faylı kimi ixrac edə bilərsiniz: HTML və ya HTML2.
 
-You can see a demo export of the OpenWeatherAPI API here: [HTML](https://idratherbewriting.com/learnapidoc/assets/files/swaggerhub\_htmloutput/index.html) or [HTML2](https://idratherbewriting.com/learnapidoc/assets/files/swaggerhub\_html2output/index.html). Both exports generate all the content into an index.html file.
+Export olunan HTML ləri istənilən saytda göstəmək və öz saytınıza uyğun formalaşdırmaq olar.&#x20;
 
-The HTML export is a more basic output than HTML2. You could potentially incorporate the HTML output into your other documentation, such as what [Cherryleaf did in importing Swagger into Flare](https://www.cherryleaf.com/blog/2017/07/example-project-api-documentation-portal-using-madcap-flare/). (You might have to strip away some of the code and provide styles for the various documentation elements, and there wouldn’t be any interactivity for users to try it out, but it could be done.) In another part of the course, I expand on ways to [integrate Swagger UI’s output with the rest of your docs](https://idratherbewriting.com/learnapidoc/pubapis\_combine\_swagger\_and\_guide.html).
+HTML export HTML2 yə əsasən sadə formada export olunur. Siz bildirdiyimiyim kimi HTML i özünüzə uyğun elementlərin dəyişdirə bilərsiz.&#x20;
 
-The HTML2 export is more intended to stand on its own, as it has a fixed left sidebar to navigate the endpoints and navtabs showing six different code samples:
+Növbəti dərslərdə bunun necə baş verdiyini göstərəcəm.
 
-You can see a demo export of the OpenWeatherAPI API here: [HTML](https://idratherbewriting.com/learnapidoc/assets/files/swaggerhub\_htmloutput/index.html) or [HTML2](https://idratherbewriting.com/learnapidoc/assets/files/swaggerhub\_html2output/index.html). Both exports generate all the content into an index.html file.
-
-Both outputs would need a healthy dose of custom styling to be usable.\
+HTML2 də gördüyünüz kimi daha çox funksionallıq və 6 fərqli dildə sorğular göstərilmişdir. \
 
 
 ### Mocking Servers
@@ -200,7 +198,7 @@ Additionally, within an organization, you can further group APIs into different 
 \
 
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 This aspect of organizations and projects may not seem essential if you have just one or two APIs, but consider how you’ll scale and grow as you have dozens of APIs and multiple teams. In these more robust scenarios, the organization and project features become essential.
 
