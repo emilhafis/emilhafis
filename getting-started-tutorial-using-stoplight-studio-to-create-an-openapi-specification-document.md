@@ -113,7 +113,7 @@ When finished, the form should look like this:
 
 3\. Now that you entered information for the first section, check out how it looks. Click the **Preview** button in the upper-right corner. It should look as follows:
 
-<figure><img src=".gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 4\. Return to the Form view by clicking the **Form** button again.
 
@@ -165,7 +165,7 @@ API Overview information:
 >
 > 1. In the sidebar, right-click the **Paths** folder and select **New Path**.
 
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 You can remove the default `/users/{userid}` and `/user` and endpoints. Right-click each endpoint and select **Delete Path**.
 

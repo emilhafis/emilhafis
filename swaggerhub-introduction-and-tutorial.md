@@ -42,7 +42,7 @@ Qeyd edildiyi kimi burada problem Open API spec versiyasındadır. Belə ki Spot
 
 5\. Bu dəyişikliyi etdikdən sonra spefisifikaımız emal olunur və Svagger onu vizual interfeysdə göstərir. Həmçinin də xətaları svagger göstərir. Versiya fərqinə əsasən bir çox xətalar yaranır. Amma ən əsası istədiyimiz nəticəni aldıq.
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 Burada User model və summary əvəvlki versiyada olmadığı üçün dəstəkləmir. Qalan məsələlər qaydasındadır
 
@@ -130,7 +130,7 @@ Swagger sənədlərinizi SwaggerHub-da dərc etdiyiniz zaman Swagger-in əsas UR
 Key to the review process is the ability for team members to comment on the spec inline, similar to Google Docs and its margin annotations. When you’re working in SwaggerHub’s editor, a small plus sign ![](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/swaggerhub\_plus.png) appears to the left of every line. Click the plus button to add a comment inline at that point.\
 
 
-<figure><img src=".gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 When you click the plus sign, a comment pane appears on the right where you can elaborate on comments, and where others can reply. Users can edit, delete, or resolve the comments. This commenting feature helps facilitate the review process in a way that tightly integrates with your content. You can also collapse or show the comments pane as desired
 
@@ -140,15 +140,15 @@ This is all included in SwaggerHub.
 
 ### Auto-Generate Client SDKs
 
-For example, suppose a user is implementing your REST API in a Java application. The user can choose to download the Java client SDK for extensive code that shows a Java implementation of your API. Other options include Ruby, Android, Go, CSharp, JavaScript, Python, Scala, PHP, Swift, and many more.
-
 Təsəvvür edinki sizin API lar prqoramistlər tərəfindən Java proqramlaşdırma dilində hazırlanacaqdır. Bu halda Proqramistlər Java client SDK export edərək Javada bu API-ların necə impelementasiya olunmasını görə və ya istifadə edə bilərlər. Həmçinin də digər proqramlaşdırma dillərinə aid SDK çıxara bilərlər
 
-Some API documentation sites look impressive for showing implementations in various programming languages. SwaggerHub takes those programming languages and multiplies them tenfold to provide every possible output a user could want.
+Bəzi API doc platformaları məsələn gördüyümüz Stoplight bir neçə fərqli dilədə API request göndərməyi göstərirdi Svagger Hub isə daha da detallı edərək birbaşa SDK təmin edir.
 
 The output includes more than a simple code sample showing how to call a REST endpoint in that language. The output includes a whole SDK that includes the various nuts and bolts of an implementation in that language. (For more information on SDKs, see [SDKs](https://idratherbewriting.com/learnapidoc/docapis\_sdks.html).)
 
 Providing this code speeds implementation for developers and helps you scale your language-agnostic REST API to a greater variety of platforms and users, reducing the friction in adoption.
+
+Bu kodun təmin edilməsi developerlər üçün proqramı yazmağı srətləndirir və sizin REST PI larınızın müxtəlif platformalarda daha rahat hazır edilməsinə şəarait yaradır.
 
 ### Export to HTML
 
@@ -200,7 +200,7 @@ Additionally, within an organization, you can further group APIs into different 
 \
 
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 This aspect of organizations and projects may not seem essential if you have just one or two APIs, but consider how you’ll scale and grow as you have dozens of APIs and multiple teams. In these more robust scenarios, the organization and project features become essential.
 

@@ -86,7 +86,7 @@ Sorğu. Buradad eyni formada göndərilən sorğunun **curl** formasını görü
 
 Response - qayıdan cavabda isə bildirdiyimiz kimi əlavə etdiyimiz Rex-i görürük.
 
-<figure><img src=".gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Swagger UI kimi bir neçə platformada var ki, sizin OpenAPI spesifikasiyalarınızı parse dib vizual görünüşü yarad bilir. Bu tool-lara [Apiary](https://apiary.io/), [Apigee](https://apigee.com/about/), [Lucybot](https://lucybot.com/), [Gelato](https://gelato.io/), [Readme.com](http://readme.com/), [swagger2postman](https://github.com/josephpconley/swagger2postman), [swagger-ui responsive theme](https://github.com/jensoleg/swagger-ui) və digərləri aiddir.
 
