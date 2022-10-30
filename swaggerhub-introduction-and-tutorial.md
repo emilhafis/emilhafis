@@ -138,29 +138,6 @@ Few tech comm tools support inline annotations like this, and it wouldn’t be p
 
 This is all included in SwaggerHub.
 
-### Auto-Generate Client SDKs
-
-Təsəvvür edinki sizin API lar prqoramistlər tərəfindən Java proqramlaşdırma dilində hazırlanacaqdır. Bu halda Proqramistlər Java client SDK export edərək Javada bu API-ların necə impelementasiya olunmasını görə və ya istifadə edə bilərlər. Həmçinin də digər proqramlaşdırma dillərinə aid SDK çıxara bilərlər
-
-Bəzi API doc platformaları məsələn gördüyümüz Stoplight bir neçə fərqli dilədə API request göndərməyi göstərirdi Svagger Hub isə daha da detallı edərək birbaşa SDK təmin edir.
-
-The output includes more than a simple code sample showing how to call a REST endpoint in that language. The output includes a whole SDK that includes the various nuts and bolts of an implementation in that language. (For more information on SDKs, see [SDKs](https://idratherbewriting.com/learnapidoc/docapis\_sdks.html).)
-
-Providing this code speeds implementation for developers and helps you scale your language-agnostic REST API to a greater variety of platforms and users, reducing the friction in adoption.
-
-Bu kodun təmin edilməsi developerlər üçün proqramı yazmağı srətləndirir və sizin REST PI larınızın müxtəlif platformalarda daha rahat hazır edilməsinə şəarait yaradır.
-
-### Export to HTML
-
-SwaggerHub-ın bir çox özəllikləri arasında HTML export seçimi də var. Siz OpenAPI spesifikasiyanızı iki üslubdan birində statik HTML faylı kimi ixrac edə bilərsiniz: HTML və ya HTML2.
-
-Export olunan HTML ləri istənilən saytda göstəmək və öz saytınıza uyğun formalaşdırmaq olar.&#x20;
-
-HTML export HTML2 yə əsasən sadə formada export olunur. Siz bildirdiyimiyim kimi HTML i özünüzə uyğun elementlərin dəyişdirə bilərsiz.&#x20;
-
-Növbəti dərslərdə bunun necə baş verdiyini göstərəcəm.
-
-HTML2 də gördüyünüz kimi daha çox funksionallıq və 6 fərqli dildə sorğular göstərilmişdir. \
 
 
 ### Mocking Servers
