@@ -155,16 +155,6 @@ Using the mock server approach, SwaggerHub not only provides documentation but a
 
 To set up a mocking server in SwaggerHub, click the plug icon ![](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/swaggerhub\_integration\_button.png) and select to add a new integration. Select the **API Auto Mocking** service and complete the configuration details. Make sure you have `examples` for each of the endpoint responses in your spec. See [API Auto Mocking](https://app.swaggerhub.com/help/integrations/api-auto-mocking) for more details.
 
-### Content Re-use (Domains)
-
-Another feature exclusively available in SwaggerHub is the concept of domains. Domains are re-useable code snippets that you can leverage to avoid duplication in your spec.
-
-When you create definitions for your requests and responses, you may find yourself re-using the same code over and over. Rather than duplicating this code, you can save it as a domain. When you want to re-use the code, you select this domain.
-
-Using the domain minimizes duplicate content and enables you to be more consistent and efficient. You can read more in [Domains](https://app.swaggerhub.com/help/domains/about-domains).\
-\
-
-
 ### Organizations and projects
 
 The collaborative aspect of SwaggerHub is the most common reason people move from the open source tools to SwaggerHub. You might have a lot of different engineers working on a variety of APIs in SwaggerHub. To organize the work, you can group APIs into [organizations](https://app.swaggerhub.com/help/organizations/index), and then assign members to the appropriate organization. When that member logs in to SwaggerHub, he or she will see only the organizations to which he or she has access.
