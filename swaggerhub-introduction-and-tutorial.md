@@ -138,10 +138,6 @@ Few tech comm tools support inline annotations like this, and it wouldn’t be p
 
 This is all included in SwaggerHub.
 
-
-
-###
-
 ### Organizations and projects
 
 The collaborative aspect of SwaggerHub is the most common reason people move from the open source tools to SwaggerHub. You might have a lot of different engineers working on a variety of APIs in SwaggerHub. To organize the work, you can group APIs into [organizations](https://app.swaggerhub.com/help/organizations/index), and then assign members to the appropriate organization. When that member logs in to SwaggerHub, he or she will see only the organizations to which he or she has access.
@@ -156,13 +152,6 @@ Additionally, within an organization, you can further group APIs into different 
 
 This aspect of organizations and projects may not seem essential if you have just one or two APIs, but consider how you’ll scale and grow as you have dozens of APIs and multiple teams. In these more robust scenarios, the organization and project features become essential.
 
-### Expanding the tech writer’s role with APIs
-
-Tech writers are positioned to be power players in the spec-first philosophy with OpenAPI design. By becoming adept at coding the OpenAPI spec and familiar with robust collaborative tools like SwaggerHub, tech writers can lead engineering teams not only through the creation and refinement of the API documentation but also pave the way for beta testing, spec review, client/server SDK generation, and more.
-
-Designing a fully-featured, highly functioning OpenAPI spec is at the heart of this endeavor. Few engineers are familiar with creating these specs, and technical writers who are skilled at both creating the spec and setting up Swagger tooling can fill critical roles on API teams.
-
-Great tools aren’t free. SwaggerHub does [cost money](https://swaggerhub.com/pricing/), but this is a good thing since free tools are frequently abandoned, poorly maintained, and lack documentation and support. By using a paid tool from a robust API company (the same company that maintains the Swagger tools and sponsors the OpenAPI specification), you can plug into the infrastructure you need to scale your API documentation efforts.\
-
+###
 
 \
