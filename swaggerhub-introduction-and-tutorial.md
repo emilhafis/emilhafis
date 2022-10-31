@@ -150,12 +150,9 @@ API spesifikasiyanızda nümunə cavablarınız olduğunu fərz etsək, API-nizi
 
 API-ların simulyasiya edilməsi xüsusilə beta user-lər ilə API-larınızın test edilməsi üçün çox əhəmiyyətli olacaqdır.  Kodlaşdırılma edilməmişdən öcə API spesifikasiyanın hazırlanmasının ən əsas səbəbi istifadəçilər tərəfindən istənilməyən və ya lazım olmayan endpoint və cavabların kodlaşdırılmamaısıdr (buna spec-first philosophy və ya API-first approach deyilir)
 
+SwaggerHub mock server yanaşmasından istifadə etməklə təkcə sənədləri təqdim etmir, həm də  saatlarla faktiki kodlaşdırmaya sərf etməzdən dərhal əvvəl API-nizin dizaynını əldə etmək üçün beta-sınaq vasitəsi kimi çıxış edir. Siz API-nizin müxtəlif versiyaları üçün avtomatik mock-u aktivləşdirə, variantlar yarada və variantların hər birini sınaqdan keçirə bilərsiniz.
 
-
-Using the mock server approach, SwaggerHub not only provides documentation but also acts as a beta-testing tool to get the design of your API right before sinking thousands of hours of time into actual coding. You can enable auto-mocking for different versions of your API, creating variants and testing each of the variants.\
-
-
-To set up a mocking server in SwaggerHub, click the plug icon ![](https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/swaggerhub\_integration\_button.png) and select to add a new integration. Select the **API Auto Mocking** service and complete the configuration details. Make sure you have `examples` for each of the endpoint responses in your spec. See [API Auto Mocking](https://app.swaggerhub.com/help/integrations/api-auto-mocking) for more details.
+SwaggerHub-da mock server qurmaq üçün plug ikonasına klikləyin və yeni inteqrasiya əlavə edin. API Auto Mocking xidmətini seçin və konfiqurasiya təfərrüatlarını tamamlayın. Spesifikasiyanızda endpointlərin hər biri üçün `nümunələr` olduğundan əmin olun. Ətraflı məlumat üçün [API Auto Mocking](https://app.swaggerhub.com/help/integrations/api-auto-mocking) -ə baxın.
 
 ### Organizations and projects
 
