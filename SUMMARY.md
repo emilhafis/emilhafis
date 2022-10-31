@@ -16,6 +16,6 @@
 
 * [Page 1](page-1.md)
 
-## 2 Lesson
+## 3 Lesson
 
-* [Stoplight sample data](2-lesson/stoplight-sample-data.md)
+* [Stoplight sample data](3-lesson/stoplight-sample-data.md)

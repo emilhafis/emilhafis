@@ -132,3 +132,4 @@ Paths:
 
 </details>
 
+{% embed url="https://support.smartbear.com/swaggerhub/docs/integrations/api-auto-mocking.html" %}
