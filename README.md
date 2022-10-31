@@ -134,3 +134,25 @@ Aşağıda isə eyni dəyərlərin YAML-a konvert olumuş forması
   age: 41
 ```
 
+Bununla belə, YAML daha çətin ola bilər, çünki bu, probeldən çox asılıdır. Bəzən bu məsafəni görmək çətindir (xüsusilə də mürəkkəb quruluşda) və JSON-da (bəlkə də daha çətin olsa da) problemi həll etmək daha asandır.
+
+### Some features of YAML not present in JSON
+
+YAML-də JSON-da çatışmayan bəzi xüsusiyyətlər var. `#` işarəsindən istifadə edərək YAML fayllarına şərhlər əlavə edə bilərsiniz. YAML həmçinin “anchors” adlanan elementdən də istifadə etməyə imkan verir. Məsələn, tutaq ki, sizdə oxşar olan iki definiton var.&#x20;
+
+Definitonu bir dəfə yaza və hər ikisinə istinad etmək üçün göstəricidən istifadə edə bilərsiniz:\
+
+
+```yaml
+api: &apidef Application programming interface
+application_programming_interface: *apidef
+```
+
+> Əgər bu dəryərləri götürsəniz hər ikisi üçün eyni izah (definition) istifadə olunacaqdır.&#x20;
+>
+> `*apidef` `&apidef-`də qurulmuş definiton üçün anchor və ya göstərici kimi çıxış edir.
+>
+> Siz OpenAPI tutorial-da bu unikal YAML xüsusiyyətlərindən istifadə etməyəcəksiniz, lakin JSON və YAML tam ekvivalent olmadığı üçün onları qeyd etmək lazımdır. For details on other differences between JSON and YAML, see [Learn YAML in Minutes](http://learnxinyminutes.com/docs/yaml/). To learn more about YAML, see this [YAML tutorial](http://rhnh.net/2011/01/31/yaml-tutorial).
+
+
+
