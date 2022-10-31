@@ -1,10 +1,5 @@
-# Page 2
+# Working in YAML
 
-### Content Re-use (Domains)
-
-Another feature exclusively available in SwaggerHub is the concept of domains. Domains are re-useable code snippets that you can leverage to avoid duplication in your spec.
-
-When you create definitions for your requests and responses, you may find yourself re-using the same code over and over. Rather than duplicating this code, you can save it as a domain. When you want to re-use the code, you select this domain.
-
-Using the domain minimizes duplicate content and enables you to be more consistent and efficient. You can read more in [Domains](https://app.swaggerhub.com/help/domains/about-domains).
-
+> OpenAPI tutorial mövzusuna keçməmişdən öncə Yaml nədir ona baxaq. Çünki YAML OpenAPI  spesifikasiyasının sintaksisidir (siz JSOn formatından da istifadə edə bilərsiz, amma qəbul olunmuş praktika YAML dır).
+>
+> YAML açılışı "YAML Ain't Markup Language" deməkdir. Bunun mənası odur ki, YAMl sintaksisində markup tag-ları yəni < tag > olmur. Bunların əvəzində obyektin xassələrini göstərmək üçün iki nöqtədən, massivi (array) göstərmək üçün isə tirelərdən istifadə edir.
