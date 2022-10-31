@@ -140,9 +140,9 @@ This is all included in SwaggerHub.
 
 ### Organizations and projects
 
-The collaborative aspect of SwaggerHub is the most common reason people move from the open source tools to SwaggerHub. You might have a lot of different engineers working on a variety of APIs in SwaggerHub. To organize the work, you can group APIs into [organizations](https://app.swaggerhub.com/help/organizations/index), and then assign members to the appropriate organization. When that member logs in to SwaggerHub, he or she will see only the organizations to which he or she has access.
+SwaggerHub-ın istifadəçiləri bir yerə yığmaq aspekti insanların SwaggerHub-a keçməsinin ən əsas səbəbidir. SwaggerHub-da müxtəlif API-lər üzərində işləyən bir çox fərqli mühəndisiniz ola bilər. İşi təşkil etmək üçün siz API-ləri təşkilatlara qruplaşdıra və sonra müvafiq təşkilata üzvləri təyin edə bilərsiniz. Həmin üzv SwaggerHub-a daxil olduqda, o, yalnız daxil ola biləcəyi təşkilatları görəcək.[organizations](https://app.swaggerhub.com/help/organizations/index),
 
-Additionally, within an organization, you can further group APIs into different projects. This way teams working in the same organization but on different projects can have visibility into other APIs.\
+Bundan əlavə, bir təşkilat daxilində API-ləri müxtəlif layihələrdə qruplaşdıra bilərsiniz. Bu yolla eyni təşkilatda, lakin fərqli layihələrdə işləyən komandalar özlərinə aid olan API-ları görə bilər.\
 
 
 \
@@ -151,6 +151,8 @@ Additionally, within an organization, you can further group APIs into different 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 This aspect of organizations and projects may not seem essential if you have just one or two APIs, but consider how you’ll scale and grow as you have dozens of APIs and multiple teams. In these more robust scenarios, the organization and project features become essential.
+
+Təşkilat aspekti sizin bir və ya 2 API-nız olanda lazımlı məsələ olmur. Amma təsəvvür edinki böyük şirkətdə işləyirsiz və sizin onlarla API-nız və bir neçə komandalar vardır. Bu halda bu funksionallıq çox yararlı olur.
 
 ###
 
