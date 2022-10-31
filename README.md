@@ -6,8 +6,6 @@
 
 ### Working in YAML
 
-YAML is easier to work with because it removes the brackets, curly braces, and commas that get in the way of reading content
-
 > YAML ilə işləmək daha asandır, çünki məzmunu oxumağa mane olan mötərizələri, fiqurlu mötərizələr və vergüllər burada olmur.
 >
 > YAML daha çox insan tərəfindən oxuna bilən məlumat mübadiləsi formatı yaratmaq addımıdır. O, JSON-a bənzəyir, lakin strukturu göstərmək üçün boşluqlar, iki nöqtə və defislərdən istifadə edir.
@@ -15,8 +13,6 @@ YAML is easier to work with because it removes the brackets, curly braces, and c
 > Bir çox proqram təminatları məlumatları YAML və ya JSON formatında qəbul edir. Bu, demək olar əksər server konfiqurasiya fayllarında və avto doc platformalarında istifadə edirlir. Ona görə YAMl ı bilmək sizin üçün çox faydalı olacaqdlr.
 
 ### Yaml JSON nun bir üst versiyadır deyək
-
-For the most part, YAML and JSON are different ways of structuring the same data. Dot notation accesses the values the same way. For example, the Swagger UI can read the `openapi.json` or `openapi.yaml` files equivalently. Pretty much any parser that reads JSON will also read YAML. However, some JSON parsers might not read YAML because there are a few features YAML has that JSON lacks (more on that [below](https://idratherbewriting.com/learnapidoc/pubapis\_yaml.html#yaml\_specific\_features)).
 
 > Əksər hallarda YAML və JSON eyni verilənləri strukturlaşdırmağın müxtəlif yollarıdır. Məsələn, Swagger UI  olaraq `openapi.json` və ya `openapi.yaml` fayllarını oxuya bilər və nəticə eyni olur. JSON-u oxuyan demək olar ki, hər hansı bir parser YAML-i də oxuyacaq. Bununla belə, bəzi JSON parser-lər YAML-i oxumaya bilər, çünki YAML-də JSON-da çatışmayan bir neçə xüsusiyyət var .
 
@@ -138,8 +134,6 @@ Bununla belə, YAML daha çətin ola bilər, çünki bu, probeldən çox asılı
 
 ### Some features of YAML not present in JSON
 
-YAML-də JSON-da çatışmayan bəzi xüsusiyyətlər var. `#` işarəsindən istifadə edərək YAML fayllarına şərhlər əlavə edə bilərsiniz. YAML həmçinin “anchors” adlanan elementdən də istifadə etməyə imkan verir. Məsələn, tutaq ki, sizdə oxşar olan iki definiton var.&#x20;
-
 Definitonu bir dəfə yaza və hər ikisinə istinad etmək üçün göstəricidən istifadə edə bilərsiniz:\
 
 
@@ -209,8 +203,6 @@ JSON üzrə isə bu formada görünür
 ```
 
 The specification often uses the term “field” in the titles and table column names when listing the properties for a specific object. (Further, it identifies two types of fields — “fixed” fields are declared, unique names while “patterned” fields are regex expressions.) _Fields_ and _properties_ are used synonymously in the OpenAPI spec.
-
-In the following code, `countries` contains an object called `united_states`, which contains an object called `california`, which contains several properties with string values:
 
 > Aşağıdakı kodda `countries` obyektinə `united_states` obyekti daxildir buna isə `california` obyekti. `california` obyektinin isə bir neçə string dəyəri vardır.
 
