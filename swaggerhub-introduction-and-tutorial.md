@@ -142,9 +142,9 @@ This is all included in SwaggerHub.
 
 ### Mocking Servers
 
-Another cool feature of SwaggerHub is the ability to [create mock API servers](https://app.swaggerhub.com/help/integrations/api-auto-mocking). Suppose you have an API in which you don’t want users to generate real requests. (Maybe it’s an ordering system where users might be ordering products through the API, or you don’t have test accounts/systems). Even so, you can still simulate responses that let users get a sense of how your API works.
+SwaggerHub-ın digər gözəl xüsusiyyəti Mock API serverləri yaratmaq qabiliyyətidir. Tutaq ki, istifadəçilərin real sorğular yaratmasını istəmədiyiniz bir API var. (Bəlkə bu, istifadəçilərin API vasitəsilə məhsul sifariş edə biləcəyi bir sifariş sistemidir və ya sizin test hesablarınız/sistemləriniz yoxdur). Bununla belə, siz hələ də istifadəçilərə API-nizin necə işlədiyini anlamağa imkan verən cavabları simulyasiya edə bilərsiniz.
 
-Assuming you have example responses in your API spec, you can set your API to “auto-mock.” When a user tries out a request, SwaggerHub will return the example response from your spec. The response won’t contain the custom parameters the user entered in the UI but will instead return the example responses coded into your spec as if returned from a server.
+API spesifikasiyanızda nümunə cavablarınız olduğunu fərz etsək, API-nizi “auto-mock” olaraq təyin edə bilərsiniz. İstifadəçi sorğunu test etdikdə, SwaggerHub spesifikasiyanızda olan nümunə cavabı qaytaracaq. Cavab istifadəçinin UI-yə daxil etdiyi xüsusi parametrlər olmayacaq, əksinə, spesifikasiyanızda olan cavab nümunəsi qaytaracaq hansıkı real server cavabı ilə eynilik təşkil edəcək.
 
 Providing an auto-mock for your API solves the problem of potentially complicating user data by having users interact with their real API keys and data. In many cases, you don’t want users junking up their data with tests and other experiments. At the same time, you also want to simulate the API response.
 
