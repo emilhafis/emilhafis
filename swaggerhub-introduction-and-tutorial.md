@@ -146,9 +146,11 @@ SwaggerHub-ın digər gözəl xüsusiyyəti Mock API serverləri yaratmaq qabili
 
 API spesifikasiyanızda nümunə cavablarınız olduğunu fərz etsək, API-nizi “auto-mock” olaraq təyin edə bilərsiniz. İstifadəçi sorğunu test etdikdə, SwaggerHub spesifikasiyanızda olan nümunə cavabı qaytaracaq. Cavab istifadəçinin UI-yə daxil etdiyi xüsusi parametrlər olmayacaq, əksinə, spesifikasiyanızda olan cavab nümunəsi qaytaracaq hansıkı real server cavabı ilə eynilik təşkil edəcək.
 
-Providing an auto-mock for your API solves the problem of potentially complicating user data by having users interact with their real API keys and data. In many cases, you don’t want users junking up their data with tests and other experiments. At the same time, you also want to simulate the API response.
+Əlavə olaraq auto mock un üstünlüyü ondan ibarətdir ki, istifadəçinin real məlumatları və ya serverdən götürülən real API key lər lazım olmur. Bir çox keyslərdə siz istəməyəcəksinizki real məlumatlar ortalıqda gəzsin. Həmçinin də siz API cavablarını rahatlıqla simulyasiya edə biləcəksiz.&#x20;
 
-Simulating the API can be especially useful for testing your API with beta users. One reason many people code their API with the spec before writing any lines of code (following a [spec-first philosophy such as that described by Michael Stowe](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_intro.html#specfirst)) is to avoid coding an API with endpoints and responses that users don’t want.
+API-ların simulyasiya edilməsi xüsusilə beta user-lər ilə API-larınızın test edilməsi üçün çox əhəmiyyətli olacaqdır.  Kodlaşdırılma edilməmişdən öcə API spesifikasiyanın hazırlanmasının ən əsas səbəbi istifadəçilər tərəfindən istənilməyən və ya lazım olmayan endpoint və cavabların kodlaşdırılmamaısıdr (buna spec-first philosophy və ya API-first approach deyilir)
+
+
 
 Using the mock server approach, SwaggerHub not only provides documentation but also acts as a beta-testing tool to get the design of your API right before sinking thousands of hours of time into actual coding. You can enable auto-mocking for different versions of your API, creating variants and testing each of the variants.\
 
