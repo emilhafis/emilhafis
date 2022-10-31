@@ -140,19 +140,7 @@ This is all included in SwaggerHub.
 
 
 
-### Mocking Servers
-
-SwaggerHub-ın digər gözəl xüsusiyyəti Mock API serverləri yaratmaq qabiliyyətidir. Tutaq ki, istifadəçilərin real sorğular yaratmasını istəmədiyiniz bir API var. (Bəlkə bu, istifadəçilərin API vasitəsilə məhsul sifariş edə biləcəyi bir sifariş sistemidir və ya sizin test hesablarınız/sistemləriniz yoxdur). Bununla belə, siz hələ də istifadəçilərə API-nizin necə işlədiyini anlamağa imkan verən cavabları simulyasiya edə bilərsiniz.
-
-API spesifikasiyanızda nümunə cavablarınız olduğunu fərz etsək, API-nizi “auto-mock” olaraq təyin edə bilərsiniz. İstifadəçi sorğunu test etdikdə, SwaggerHub spesifikasiyanızda olan nümunə cavabı qaytaracaq. Cavab istifadəçinin UI-yə daxil etdiyi xüsusi parametrlər olmayacaq, əksinə, spesifikasiyanızda olan cavab nümunəsi qaytaracaq hansıkı real server cavabı ilə eynilik təşkil edəcək.
-
-Əlavə olaraq auto mock un üstünlüyü ondan ibarətdir ki, istifadəçinin real məlumatları və ya serverdən götürülən real API key lər lazım olmur. Bir çox keyslərdə siz istəməyəcəksinizki real məlumatlar ortalıqda gəzsin. Həmçinin də siz API cavablarını rahatlıqla simulyasiya edə biləcəksiz.&#x20;
-
-API-ların simulyasiya edilməsi xüsusilə beta user-lər ilə API-larınızın test edilməsi üçün çox əhəmiyyətli olacaqdır.  Kodlaşdırılma edilməmişdən öcə API spesifikasiyanın hazırlanmasının ən əsas səbəbi istifadəçilər tərəfindən istənilməyən və ya lazım olmayan endpoint və cavabların kodlaşdırılmamaısıdr (buna spec-first philosophy və ya API-first approach deyilir)
-
-SwaggerHub mock server yanaşmasından istifadə etməklə təkcə sənədləri təqdim etmir, həm də  saatlarla faktiki kodlaşdırmaya sərf etməzdən dərhal əvvəl API-nizin dizaynını əldə etmək üçün beta-sınaq vasitəsi kimi çıxış edir. Siz API-nizin müxtəlif versiyaları üçün avtomatik mock-u aktivləşdirə, variantlar yarada və variantların hər birini sınaqdan keçirə bilərsiniz.
-
-SwaggerHub-da mock server qurmaq üçün plug ikonasına klikləyin və yeni inteqrasiya əlavə edin. API Auto Mocking xidmətini seçin və konfiqurasiya təfərrüatlarını tamamlayın. Spesifikasiyanızda endpointlərin hər biri üçün `nümunələr` olduğundan əmin olun. Ətraflı məlumat üçün [API Auto Mocking](https://app.swaggerhub.com/help/integrations/api-auto-mocking) -ə baxın.
+###
 
 ### Organizations and projects
 
