@@ -18,4 +18,4 @@
 
 ## 2 Lesson
 
-* [Page 3](2-lesson/page-3.md)
+* [Stoplight sample data](2-lesson/stoplight-sample-data.md)

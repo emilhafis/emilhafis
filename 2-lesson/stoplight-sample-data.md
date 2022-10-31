@@ -1,4 +1,6 @@
-# Page 3
+# Stoplight sample data
+
+### Travelpayouts
 
 <details>
 
