@@ -153,6 +153,97 @@ application_programming_interface: *apidef
 > `*apidef` `&apidef-`də qurulmuş definiton üçün anchor və ya göstərici kimi çıxış edir.
 >
 > Siz OpenAPI tutorial-da bu unikal YAML xüsusiyyətlərindən istifadə etməyəcəksiniz, lakin JSON və YAML tam ekvivalent olmadığı üçün onları qeyd etmək lazımdır. For details on other differences between JSON and YAML, see [Learn YAML in Minutes](http://learnxinyminutes.com/docs/yaml/). To learn more about YAML, see this [YAML tutorial](http://rhnh.net/2011/01/31/yaml-tutorial).
+>
+> YAML is also used with [Jekyll](https://idratherbewriting.com/learnapidoc/pubapis\_jekyll.html). See my [YAML tutorial in the context of Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/mydoc\_yaml\_tutorial) for more details.
 
+### JSON versus YAML for the spec format <a href="#json-versus-yaml-for-the-spec-format" id="json-versus-yaml-for-the-spec-format"></a>
 
+> JSON və YAML ətrafında bəzi məsələləri aydınlaşdıraq.&#x20;
+>
+> Mənim göstərəcəyim OpenAPI təlimatımdakı spesifikasiya sənədi YAML-dən istifadə edirəm, lakin JSON-da da ifadə oluna bilər. JSON YAML-in alt dəstidir, ona görə də ikisi praktik olaraq bir-birini əvəz edə bilən formatlardır (istifadə etdiyimiz məlumat strukturları üçün). Nəhayət, OpenAPI spesifikasiyası JSON obyektidir. Spesifikasiya qeyd edir:
 
+{% hint style="info" %}
+OpenAPI Spesifikasiyasına uyğun gələn OpenAPI sənədinin özü JSON və ya YAML formatında təqdim oluna bilən JSON obyektidir. (See [Format](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#format))
+{% endhint %}
+
+> Başqa sözlə, yaratdığınız OpenAPI sənədi JSON obyektidir, lakin siz bu obyekti həm JSOn ilə həmdə YAML ilə göstərə bilərsiniz.
+>
+> YAML daha oxunaqlıdır və daha çox yayılmış formatdır (see API Handyman’s take on [JSON vs YAML](https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-1-introduction/#json-vs-yaml) for more discussion), buna görə də mən YAML-dən buradakı kod nümunələrində istifadə etmişəm.&#x20;
+>
+> Siz görəcəksiniz ki, GitHub-da OpenAPI spesifikasiya sənədləri spesifikasiya formatlarını göstərərkən həmişə JSON və YAML sintaksisinin hər ikisini verirlər. (For a more detailed comparison of YAML versus JSON, see “Relation to JSON” in the [YAML spec](http://www.yaml.org/spec/1.2/spec.html).)
+
+> YAML üç əsas termini olan məlumat strukturlarına istinad edir:&#x20;
+>
+> “mappings (hashes/dictionaries),&#x20;
+>
+> sequences (arrays/lists) və&#x20;
+>
+> scalars (strings/numbers)” &#x20;
+>
+> Bununla belə, OpenAPI spesifikasiyası JSON obyekti olduğu üçün o, JSON terminologiyasından istifadə edir - məsələn, “objects,” “arrays,” “properties,” “fields,”və s. Beləliklə, mən YAML formatlı məzmunu göstərəcəyəm, lakin onu JSON terminologiyasından istifadə edərək təsvir edəcəyəm.
+
+### Review and summary
+
+> Növbəti dərsləri daha yaxşı başa düşmək üçün gəlin bir daha məsələyə nəzər salaq.
+>
+> YAML-də hər level (iki boşluqlu abzas ilə müəyyən edilir) obyektdir. Aşağıdakı kodda `california` bir obyektdir. `animal`, `flower` və `bird` isə `california` obyektinin propertisi yəni xüsusiyyətləridir.\
+>
+
+```yaml
+california:
+  animal: Grizzly Bear
+  flower: Poppy
+  bird: Quail
+```
+
+JSON üzrə isə bu formada görünür
+
+```json
+{
+  "california": {
+    "animal": "Grizzly Bear",
+    "flower": "Poppy",
+    "bird": "Quail"
+  }
+}
+```
+
+The specification often uses the term “field” in the titles and table column names when listing the properties for a specific object. (Further, it identifies two types of fields — “fixed” fields are declared, unique names while “patterned” fields are regex expressions.) _Fields_ and _properties_ are used synonymously in the OpenAPI spec.
+
+In the following code, `countries` contains an object called `united_states`, which contains an object called `california`, which contains several properties with string values:
+
+> Aşağıdakı kodda `countries` obyektinə `united_states` obyekti daxildir buna isə `california` obyekti. `california` obyektinin isə bir neçə string dəyəri vardır.
+
+```yaml
+countries:
+  united_states:
+    california:
+      animal: Grizzly Bear
+      flower: Poppy
+      bird: Quail
+```
+
+> Bu nümunədə isə `demographics`  obeyktinə array-lər daxildir.
+
+```yaml
+demographics:
+ - population
+ - land
+ - rivers
+```
+
+JSON üzrə isə bu formada görünür
+
+```json
+{
+  "demographics": [
+    "population",
+    "land",
+    "rivers"
+  ]
+}
+```
+
+Ümid edirəmki bu qısa nümunələr bizə mövzunu başa düşməyə daha çox kömək olacaqdır.
+
+#### İndi isə addım addım YAML sintaksisində OpenAPI code tutorial ilə tanış olaq
