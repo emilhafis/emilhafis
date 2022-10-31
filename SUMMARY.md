@@ -19,3 +19,7 @@
 ## 3 Lesson
 
 * [Stoplight sample data](3-lesson/stoplight-sample-data.md)
+
+## 4 Lesson
+
+* [Yaml](4-lesson/yaml.md)
