@@ -48,6 +48,89 @@ level3:
     itembmeta: "four"
 ```
 
-Each level can contain either a single key-value pair (also referred to as a _dictionary_ in YAML lingo) or a _sequence_ (a list of hyphens):
-
 > Hər bir key üçün dəyərlər istəyə bağlı olaraq (yəni optional) dırnaq içərisində verilə bilər.  Əgər sizin dəyərinizdə iki nöqtə və ya dırnaq işarəsi varsa onu dırnaq içərisində verin.
+
+### Comparing JSON to YAML <a href="#comparing-json-to-yaml" id="comparing-json-to-yaml"></a>
+
+> Bundan əvvəlki dərslərdə müxtəlif obyekt və array lər olan JSOn strukturlarına baxmışdıq. Gəlin indi də onların Yaml qarşılığı üzrə ekvivalentlərinə baxaq.
+
+{% hint style="info" %}
+You can use [Unserialize.me](http://www.unserialize.me/) dən istifadə edərək  JSON to YAML or YAML to JSON. faylları konvert edə bilərsiz.
+{% endhint %}
+
+JSON üzrə key value cütlüyü
+
+{% code overflow="wrap" %}
+```json
+{
+"key1":"value1",
+"key2":"value2"
+}
+```
+{% endcode %}
+
+Eyni dəyərlərin YAML da alternativi
+
+```yaml
+key1: value1
+key2: value2
+```
+
+JSON da array
+
+```json
+["first", "second", "third"]
+```
+
+YAML da array defis ilə göstərilir
+
+```yaml
+- first
+- second
+- third
+```
+
+Aşağıda isə JSON da iki obyekt üzrə array göstərilib
+
+```json
+{
+"children": ["Avery","Callie","lucy","Molly"],
+"hobbies": ["swimming","biking","drawing","horseplaying"]
+}
+```
+
+YAML üzrə qarşılığı
+
+```yaml
+{
+"children": ["Avery","Callie","lucy","Molly"],
+"hobbies": ["swimming","biking","drawing","horseplaying"]
+}
+```
+
+JSON da array daxilində iki obyekt göstərilib
+
+```json
+[  
+   {  
+      "name":"Tom",
+      "age":43
+   },
+   {  
+      "name":"Shannon",
+      "age":41
+   }
+]
+```
+
+Aşağıda isə eyni dəyərlərin YAML-a konvert olumuş forması
+
+```yaml
+-
+  name: Tom
+  age: 42
+-
+  name: Shannon
+  age: 41
+```
+
