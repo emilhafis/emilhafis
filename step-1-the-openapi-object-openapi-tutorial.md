@@ -83,6 +83,8 @@ paths: {}
 
 ![](.gitbook/assets/image.png)
 
+Əgər çətinliyiniz olsa buradakı Yaml dan istifadə edərsiniz.
+
 <details>
 
 <summary>Travelpayouts.yaml</summary>
@@ -277,5 +279,11 @@ security:
 ```
 
 </details>
+
+> Hazırda Svagger 3.0.n variantını dəstəkləyir. Nümunədə olan v3 API ın versiyasın göstərir, open API nin deyilı. Bunu qarışdırmayın.
+
+> `openapi obyektində versiyalardan əlavə bölmələr yer almır. OpenAPİ versiyaları ilə buradan tanış ola bilərsiniz.` (see [Version History](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#appendix-a-revision-history)). Hələki platformalar və online tool-lar əsasən 3.0.n versiyaya fokuslanıblar. Siz həmçinin müxtəlif versiyalar arasında konvertasiya edə bilərsiniz. [https://www.apimatic.io/transformer/](https://www.apimatic.io/transformer/)
+
+![](<.gitbook/assets/image (1).png>)
 
 \
