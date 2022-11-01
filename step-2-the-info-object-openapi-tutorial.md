@@ -34,6 +34,15 @@ If you get stuck, see the [sample OpenAPI spec here](https://idratherbewriting.c
 
 ### Description properties and Markdown
 
-Note that in any `description` property, you can use [CommonMark Markdown](http://spec.commonmark.org/0.27/), which is much more precise, unambiguous, and robust than the original Markdown.
+> Qeyd edim ki, bütün `description` propertilər üzrə siz [CommonMark Markdown](http://spec.commonmark.org/0.27/) istifadə edə bilrəsiniz.&#x20;
 
-For example, CommonMark markdown offers some [backslash escapes](http://spec.commonmark.org/0.27/#backslash-escapes), and it specifies exactly how many spaces you need in lists and other punctuation. You can also break to new lines with  and escape problematic characters like quotation marks or colons with a backslash.\
+> As you write content in `description` properties, note that colons are problematic in YAML because they signify new levels. Either enclose the `description` value in quotation marks or escape colons with a backslash. (If you enclose the values in quotation marks, syntax highlighters in text editors can display better color coding between the properties and values.)
+
+### Update your file in Swagger Editor
+
+> To update the spec file in Swagger Editor:
+>
+> 1. Paste the code from the preceding section (“Sample info object”) containing the `info` object into the Swagger Editor.
+> 2. Uncomment the `openapi` and `paths` objects (remove the “`#`”). The display looks as follows:
+
+\
