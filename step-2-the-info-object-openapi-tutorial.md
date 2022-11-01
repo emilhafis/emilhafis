@@ -15,13 +15,18 @@ openapi: 3.0.3
 info:
   title: Travelpayouts API
   version: v3
-  description: '**Aviabilet** haqqında məlumatların əldə olunması üçün  istifadə olunur '
+  description: "Aviasales Data API — the way to get travel insights for your site or blog. Get flight price trends and find popular destinations for your customers.
+Data is transferred from the cache, which is formed on the basis of searches of users of sites Aviasales for the last 48 hours. So it is recommended that you use them to generate static pages.
+For developers, documentation is available with examples of requests and answers in various programming languages, as well as a link to Postman.
+Please note, API methods use limits, which are described in the article API rate limits.
+This documentation is for the public Aviasales API of the same name.
+To access the API, you must pass your token in the X-Access-Token header or in the token parameter. To obtain a token for the Data Access API, go to https://www.travelpayouts.com/programs/100/tools/api"
   license: 
     name: "License (MIT, Apache 2.0, etc): Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License"
     url: https://creativecommons.org/licenses/by-sa/4.0/'
-  termsOfService: https://support.travelpayouts.com/hc/en-us/articles/360004162111-Terms-of-the-Travelpayouts-Travel-Affiliate-Network
+  termsOfService: "https://support.travelpayouts.com/hc/en-us/articles/360004162111-Terms-of-the-Travelpayouts-Travel-Affiliate-Network"
   contact:
-    name: Travelpayouts support
+    name: "Travelpayouts support"
     url: https://support.travelpayouts.com/hc/en-us
     email: someone@gmail.com
   
@@ -44,5 +49,13 @@ If you get stuck, see the [sample OpenAPI spec here](https://idratherbewriting.c
 >
 > 1. Paste the code from the preceding section (“Sample info object”) containing the `info` object into the Swagger Editor.
 > 2. Uncomment the `openapi` and `paths` objects (remove the “`#`”). The display looks as follows:
+
+{% hint style="warning" %}
+Swagger UI interfeysində`info` obyekt məlumatı `title` məluamtının altında verilir&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+`description` property sizin API nız üzrə ümumi məlumatı əks etdirir. Siz ola bilsinki burada intruksiya ilə bağlı ümumi məlumatda verə bilərsiniz.&#x20;
+{% endhint %}
 
 \
