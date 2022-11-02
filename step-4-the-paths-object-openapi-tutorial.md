@@ -249,4 +249,72 @@ paths:
 If you get stuck, see the [sample OpenAPI spec here](https://idratherbewriting.com/learnapidoc/docs/openapi\_spec\_and\_generated\_ref\_docs/openapi\_openweathermap.yml) for the fully working sample. This will help you spot and troubleshoot indentation or other errors.
 {% endhint %}
 
+**Responses object**
+
+> Digər operation obyektində əhəmiyyətli property [`responses` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#responsesObject). Response property üçün siz demək olar ki,  componenets obyektinə istinad edirsiniz. Biz response a 5-ci addında baxacağıq, çünki bu addımda çox məlumat oldu.
+>
+> Hazırda Svagerrin yazdığımız code validate etməsi və error olmaması üçün example response əlavə edək
+
+```yaml
+responses:
+  200:
+    description: Successful response
+    content:
+      application/json:
+        schema:
+          title: Sample
+          type: object
+          properties:
+            placeholder:
+              type: string
+              description: Placeholder description
+
+  404:
+    description: Not found response
+    content:
+      text/plain:
+        schema:
+          title: Weather not found
+          type: string
+          example: Not found
+```
+
+See [Describing Parameters](https://swagger.io/docs/specification/describing-parameters/) in Swagger’s OpenAPI documentation for more details.
+
+### Paths object code
+
+Now let’s combine the above two code blocks (both `parameters` and `responses`) for our `paths` object. You can paste the following code into the Swagger Editor — add this `paths` object below the `openapi`, `info`, and `servers` code you added in the previous tutorials.\
+
+
+### &#x20;View the Appearance in Swagger UI
+
+Swagger UI displays the `paths` object like this:
+
+\
+
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+> Expand the Current Weather Data section to see the details. When you click **Try it out**, you’ll notice that the field populates with the description. If you want the field to populate with a value, add a `default` property under `schema` (as shown with the `mode` parameter in the code above).
+>
+> However, with this API, the parameters can’t all be passed with the same request — you use only the parameters you want for the request you’re making. (For example, you can’t pass zip code _and_ city name _and_ lat/long, etc. in the same request.) As a result, it wouldn’t make sense to use defaults for each parameter because the user would then need to remove most of them.
+
+{% hint style="info" %}
+Swagger’s UI collapses each path by default. You can set whether the initial display is collapsed or open using the [`docExpansion` parameter in Swagger UI](https://github.com/swagger-api/swagger-ui#parameters). This `docExpansion` parameter is for Swagger UI and not part of the OpenAPI spec. Swagger UI has more than [20 different parameters](https://github.com/swagger-api/swagger-ui#parameters) of its own that control the display. For example, if you don’t want the `Models` section to appear, add the parameter `defaultModelsExpandDepth: -1` in your Swagger UI file.
+{% endhint %}
+
+### Note about parameter dependencies
+
+\
+The OpenAPI specification doesn’t allow you to declare dependencies with parameters, or mutually exclusive parameters. According to the Swagger OpenAPI documentation,
+
+> OpenAPI 3.0 does not support parameter dependencies and mutually exclusive parameters. There is an open feature request at [https://github.com/OAI/OpenAPI-Specification/issues/256](https://github.com/OAI/OpenAPI-Specification/issues/256). What you can do is document the restrictions in the parameter description and define the logic in the 400 Bad Request response. ([Parameter Dependencies](https://swagger.io/docs/specification/describing-parameters/#parameter-dependencies-19))
+
+In the case of the weather endpoint with the OpenWeatherMap, most of the parameters are mutually exclusive. You can’t search by City ID _and_ zip code simultaneously. Although the parameters are optional, you must use at least one parameter. Also, if you use the `lat` parameter, you must also use the `lon` parameter because they’re a pair. The OpenAPI spec can’t programmatically reflect that structured logic, so you have to explain it in the `description` property or in other more conceptual documentation.
+
+\
+
+
+>
+
 ### &#x20;

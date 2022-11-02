@@ -81,7 +81,7 @@ paths: {}
 
 > The editor renders the display as follows.
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (2).png>)
 
 Əgər çətinliyiniz olsa buradakı Yaml dan istifadə edərsiniz.
 
