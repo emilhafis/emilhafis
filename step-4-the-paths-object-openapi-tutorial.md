@@ -50,7 +50,7 @@ paths:
 >
 >
 >
-> * `deprecated`: Whether the path is deprecated. Omit unless you want to indicate a deprecated field. Boolean.
+> * `deprecated`: Whether the path is deprecated. Omit unless you want to indicate a deprecated field. Boolean. path artıq müxtəlif səbəblərdən istifadəyə yararsız. Əgər bu fieldi mütləq göstərmək istəyirsənizsə və path işləkdirsə onda dəyərin false edin
 >
 >
 >
@@ -69,6 +69,50 @@ You’ll undoubtedly need to consult the [OpenAPI spec](https://github.com/OAI/O
 > Gəlin bu obyektləri məlumatların kodumuza əlavə edək\
 >
 
+```yaml
+paths:
+  /weather:
+    get:
+      tags:
+      summary:
+      description:
+      operationId:
+      externalDocs:
+      parameters:
+      responses:
+      deprecated:
+      security:
+      servers:
+      requestBody:
+      callbacks:
+```
 
+{% hint style="info" %}
+At this point, if you paste this content into the Swagger Editor, you will get errors until some additional properties are added.
+{% endhint %}
+
+> Now we can remove a few unnecessary fields that we don’t need for our OpenWeatherMap API documentation:
+>
+> Bizim travel API mız üçün lazım olmayan bir necə fieldi çıxaraq
+>
+> * &#x20;[`requestBody` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#requestBodyObject)  daxil etməyə ehtiyac yoxdur çünki API mızda request body yoxdur sorğulara path parametrləri ilə alınır
+> * [`servers` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#serverObject) daxil etməyə ehtiyac yoxdur çünki bizim bir server URL miz var və biz onu Global mənimsətmişik
+> * [security](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#securityRequirementObject) obyektindəndə həmçinin, bütün path larimiz üçün eyni formaları təhlükəzilik olacaq. biz bunu növbəti stepdə baxacağıq. Deyə bilərsinizmi travel də avtorizaisya necə həyata keçirdi? Hamı şəxsiyə yazsın
+> * endpintimiz işlək olduğu üçün depreciated lazım deyik
+> * `callbacks` istifadə edirikmi burda? Lazım deyil
+> * Nəticədə aşağıdakı fieldlər qaldı:
+
+```yaml
+paths:
+  /prices_for_dates:
+    get:
+    tags:
+    summary:
+    description:
+    operationId:
+    externalDocs:
+    parameters:
+    responses:
+```
 
 ### &#x20;
