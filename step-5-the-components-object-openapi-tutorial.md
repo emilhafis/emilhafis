@@ -500,6 +500,47 @@ Describing a JSON response can be complicated and confusing. Fortunately, there�
 
 
 
+### Using GUI editors to work with the specification code
+
+At this point, you’re probably thinking how impractical and error-prone it’s going to be as you work directly in the YAML code like this. For this reason, several companies have developed GUI editors to make it easier to work with the specification code. In particular, check out [Stoplight](https://idratherbewriting.com/learnapidoc/pubapis\_stoplight.html), which provides an editor that lets you toggle between code and a GUI display. Smartbear also offers [SwaggerHub](https://idratherbewriting.com/learnapidoc/pubapis\_swaggerhub\_smartbear.html), which doesn’t necessarily provide a GUI but which gives you inline commenting and versioning tools
+
+### View the Appearance in Swagger UI
+
+In the Response section, observe how the Example Value code has been dynamically built from the `example` values in the schema to show a sample response.
+
+Also, click the **Model** link to see how the descriptions of each element appear in an expandable/collapsible way:
+
+> Response bölməsinə nəzər salıb example value-ların necə göründüyünə baxaq. Həmçinin də Model ə klik edərək hər bir element üzrə açılan bağlanan görünüşdə dəyərləri görə bilərik.
+
+![](.gitbook/assets/image.png)
+
+>
+
+### The Models section – why it exists, how to hide it
+
+\
+You’ll also notice another “Models” section below all the other paths:
+
+![](https://lh6.googleusercontent.com/8UzOtjzirtc3QHwXm3cGeVCQ0hWkVWjFcibtxbTif8pONl1f9bvetrKTr1bV6NBy1nHxUsTqU9IEsDM4sEkx7a3ggEZnjwV3Fzuao\_3D4lXOoTSTUGSiS0BPjuYfy0VPClhFw-VbEbJ6UUq4JxHgZR3m8WdEV7rugijg8DE5Utza\_gAzkgm5XrEl19ty7\_tE4i4)
+
+By default, Swagger UI displays each object in `components` in a section called “Models” at the end of your Swagger UI display. If you consolidate all schemas into a single object, without using the `$ref` property to point to new objects, you will see just one object in Models. If you split out the objects, then you see each object listed separately, including the object that contains all the references.
+
+Because I want to re-use objects, I’m going to define each object in `components` separately. As a result, the Models section looks like this:
+
+Why is there a Models section here? Apparently, it was added by popular request because the online Swagger Editor showed the display, and many users asked for it to be incorporated into Swagger UI.
+
+You don’t need this Models section in Swagger UI because both the request and response sections of Swagger UI provide a “Model” link that lets the user toggle to this view.
+
+To hide the Models section, you can add the parameter `defaultModelsExpandDepth: -1` parameter in your Swagger UI project. I provide a [Swagger UI tutorial](https://idratherbewriting.com/learnapidoc/pubapis\_swagger.html#create\_swaggerui) in an upcoming section in this course, with details about the [Swagger UI parameters](https://github.com/swagger-api/swagger-ui/blob/master/docs/usage/configuration.md#parameters) where you could configure this parameter.
+
+### Security definitions
+
+> `components` obyektinə həmçinin də hər bir path üzrə avtorizaisya metodunu təyin edən [`securitySchemes` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#securitySchemeObject) də daxildir. Bu mövzuda danışmaq çox olar deyə onu növbəti bölmədə danışacam.
+
+\
+
+
+\
 \
 
 
