@@ -54,3 +54,5 @@ If you get stuck, see the [sample OpenAPI spec here](https://idratherbewriting.c
 > Təyin etdiyimiz `servers` URL ni Swaggerə daxil edək. Bunu bizim kodlarımızın arxasına əlavə edəj. Görünüş bu formada olacaqdır.
 
 <figure><img src="https://lh4.googleusercontent.com/TJstZ-fZyj82byGYdpTigD9ccRV98sEhF70Axaf8bNkWEvSMiPkrjC38af3svT7Av9huramPGDRYiokzQvG5i5oaU5NPLLSMrw0Tuhw3FRXsUYM2ZGAsN5lZ3UWJTMlziPvpwNKnkaFpsywKdUuLmGqO7_h-LaCuhq-RLiMPJXNkTNeppTRpmmFuge-4CH4" alt=""><figcaption></figcaption></figure>
+
+> Notice the drop-down menu that appears in the lower-right. (Even if you have just one URL, it still appears in a drop-down menu.)
