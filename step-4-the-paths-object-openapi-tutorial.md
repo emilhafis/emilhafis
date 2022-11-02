@@ -62,6 +62,13 @@ paths:
 >
 > Göstərilən hyperlinkli olanlar obyektlər dir. yəni onlar daxilində fieldlər olur. Onların dəyərləri sadə string deyir, hər xassəsəinə uyğun məlumatlar təşkil edir.
 
+{% hint style="warning" %}
+You’ll undoubtedly need to consult the [OpenAPI spec](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md) to see what details are required for each of the values and objects here. I can’t replicate all the details you need, nor would I want to. I’m just trying to introduce you to the OpenAPI properties at a surface level.
+{% endhint %}
+
+> Gəlin bu obyektləri məlumatların kodumuza əlavə edək\
+>
+
 
 
 ### &#x20;
