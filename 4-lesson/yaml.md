@@ -196,3 +196,13 @@ security:
 ```
 
 </details>
+
+[CommonMark Markdown](http://spec.commonmark.org/0.27/)
+
+```
+servers:
+  - url: "https://api.travelpayouts.com/aviasales/v3/"
+    description: "Production Server"
+  - url: "https://test.travelpayouts.com/aviasales/v3/"
+    description: "Test server"
+```
