@@ -293,7 +293,7 @@ Swagger UI displays the `paths` object like this:
 \
 
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 > Expand the Current Weather Data section to see the details. When you click **Try it out**, you’ll notice that the field populates with the description. If you want the field to populate with a value, add a `default` property under `schema` (as shown with the `mode` parameter in the code above).
 >
