@@ -284,6 +284,6 @@ security:
 
 > `openapi obyektində versiyalardan əlavə bölmələr yer almır. OpenAPİ versiyaları ilə buradan tanış ola bilərsiniz.` (see [Version History](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#appendix-a-revision-history)). Hələki platformalar və online tool-lar əsasən 3.0.n versiyaya fokuslanıblar. Siz həmçinin müxtəlif versiyalar arasında konvertasiya edə bilərsiniz. [https://www.apimatic.io/transformer/](https://www.apimatic.io/transformer/)
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (4).png>)
 
 \

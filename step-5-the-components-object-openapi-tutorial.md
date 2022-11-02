@@ -196,11 +196,88 @@ components:
         default: false
 ```
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you get stuck, see the [sample OpenAPI spec here](https://idratherbewriting.com/learnapidoc/docs/openapi\_spec\_and\_generated\_ref\_docs/openapi\_openweathermap.yml) for the fully working sample. This will help you spot and troubleshoot indentation or other errors.
 {% endhint %}
+
+###
+
+> \
+> 4-cü addımda path obyektin izah edərkən biz responses obyektini path obyekti kimi təsvir etdik hətta sadə formada ora response artırdıq.we used a [`schema`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#schemaObject) object to describe the model for the request or response. The `schema` refers to the data structure (the fields, values, and hierarchy of the various objects and properties of a JSON or YAML object — see [What is a schema?](https://spacetelescope.github.io/understanding-json-schema/about.html#what-is-a-schema)).
+
+> Gəlin indi detallı baxaq ki `responses` obyektində scheme properties necə işləyir. Biz həmçinində bu məlumatları `componenets` də saxlayacağıq və sənədin digər yerlərində istifadə etmək mümkün olacaq. Əgər 4 cü addıma baxsaq bizim ordakı nümunə `response` bu formada görünürdü
+
+```
+paths:
+  //prices_for_dates:
+    get:
+      parameters:
+
+      ...
+
+      responses:
+        200:
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                title: Sample
+                type: object
+                properties:
+                  placeholder:
+                    type: string
+                    description: Placeholder description
+
+        404:
+          description: Not found response
+          content:
+            text/plain:
+              schema:
+                title: Weather not found
+                type: string
+                example: Not found
+
+```
+
+Now let’s move the `schema` description for the `200` response into the `components` object:
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Then in `components/schemas`, we’ll define the `200` schema.
+
+Before we describe the response in the `components` object, it might be helpful to review what the `weather` response from the OpenWeatherMap API looks like. The JSON response contains multiple nested objects at various levels.
+
+```json
+{
+    "success": true,
+    "data": [
+        {
+            "origin": "BAK",
+            "destination": "IST",
+            "origin_airport": "GYD",
+            "destination_airport": "SAW",
+            "price": 8777,
+            "airline": "",
+            "flight_number": "7703",
+            "departure_at": "2023-03-26T05:15:00+04:00",
+            "transfers": 0,
+            "return_transfers": 0,
+            "duration": 185,
+            "link": "/search/BAK2603IST1?t=TK16797933001679804400000185GYDSAW_772e0eb34e7755ce3c2a74565fa76f90_143&search_date=01112022&expected_price_uuid=ac8a8c14-d565-45c2-b959-8ecb2bc80587&expected_price_currency=usd"
+        }
+    ],
+    "currency": "rub"
+}
+```
+
+> Responsu təsvir etmək üçün bir neçə yol vardır. Siz ierarxiya ilə uzun təsvir düzəldə bilərsiniz . Bu varaintlardan biridir amma bütün səviyyələri düzgün formada nizamlamaq çətindir. Çünki çoxlu nested obyektlər olanda bu dah da çətinləşəcəkdir. Həmçinin də səhv etmək çox asan olur.  Ən pisi isə siz bundan yenidən istifadə edə bilmirsiz (yəni referens). This undercuts one of the main reasons for storing this object in `components` in the first place.
+>
+> Digər yanaşma isə hər bir obyekt üçün `components` öz enetitisin yaratmaqdır. Hər hansı obyekt nested olduqda obyektin içində obyekt olduqda `$ref` əlavə edərək  onu yeni obyektə yönəltmək olar. Beləliklə, obyektlər saadə qalır (çox səviyyəli nesting olmaq əvəzinə) və siz qarışıq alt səviyyələr dənizində itməyəcəksiniz. (Əgər alt obyekt yoxdursa, $ref istifadə etmədən təsviri birbaşa təqdim edə bilərsiz).
+>
+> Burada `200` response descriptionu price\_for\_date göstərmişəm. Həmçinin də `paths` tag əlavə edəərk ümumi kontektsi saxlamışam\
+> ``
 
 
 
