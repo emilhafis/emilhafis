@@ -115,4 +115,138 @@ paths:
     responses:
 ```
 
+> Operation obyektinin bir çox obyekti ya sadə string istəyir ya da nested obyekt olaraq öz daxilində bir neçə sadə field yazılmasın tələb edir.&#x20;
+>
+> Burada ən detallı nested obyektlər  [`parameters` object](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_step4\_paths\_object.html#parameters) and the [`responses` object](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_step4\_paths\_object.html#responses).
+
+### **Parameters object**
+
+> The [`parameters` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#parameterObject) array olmaqla aşağıdakı fieldlərdən ibarətdir:
+>
+> * `name`: Parameter adı.
+> * `in`: Where the parameter appears. Possible values are `header`, `path`, `query`, or `cookie`. (Request bodies are not described here.)
+> * `description`: Description of the parameter.
+> * `required`: Whether the parameter is required.
+> * `deprecated`: Whether the parameter is deprecated.
+> * `allowEmptyValue`: Boş dəyər göndərməyə imkan verir yoxsa yox, onu təyin edir
+> * `style`: Məlumatların göndərilməsi zamanı onların byte-lara çevrildiyi bilmək üçün istifadə edilir. Bu çox nadir halda qarşınıza çıxacaqdır
+> * `explode`: Advanced parameter related to arrays.
+> * `allowReserved`: Whether reserved characters are allowed.
+> * [`schema`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#schemaObject) (object): The schema or model for the parameter. The schema defines the input or output data structure. Note that the `schema` can also contain an `example` object.
+> * `example`: An example of the media type. If your `examples` object contains examples, those examples appear in Swagger UI rather than the content in the `example` object.
+> * [`examples`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#exampleObject) (object): An example of the media type, including the schema.
+>
+> Here’s the `paths` object that includes the `parameters` details:
+
+```yaml
+openapi: 3.0.3
+info:
+  title: Travelpayouts API
+  version: v3
+  description: "Aviasales Data API — the way to get travel insights for your site or blog. Get flight price trends and find popular destinations for your customers. <p> 
+  
+    Data is transferred from the cache, which is formed on the basis of searches of users of sites Aviasales for the last 48 hours. So it is recommended that you use them to generate static pages. <p>
+  
+    For developers, documentation is available with examples of requests and answers in various programming languages, as well as a link to Postman.<p>
+
+    >**Please note**: *API methods use limits, which are described in the article API rate limits.*<p>
+
+  This documentation is for the public Aviasales API of the same name.
+    To access the API, you must pass your `token` in the `X-Access-Token header` or in the token parameter. To obtain a  token for the Data Access API, go to the [Dashboard](https://www.travelpayouts.com/programs/100/tools/api)"
+  license: 
+    name: "License (MIT, Apache 2.0, etc): Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License"
+    url: https://creativecommons.org/licenses/by-sa/4.0/'
+  termsOfService: "https://support.travelpayouts.com/hc/en-us/articles/360004162111-Terms-of-the-Travelpayouts-Travel-Affiliate-Network"
+  contact:
+    name: "Travelpayouts support"
+    url: https://support.travelpayouts.com/hc/en-us
+    email: someone@gmail.com
+servers:
+  - url: "https://api.travelpayouts.com/aviasales/v3/"
+    description: "Production Server"
+  - url: "https://test.travelpayouts.com/aviasales/v3/"
+    description: "Test server"
+paths:
+  /prices_for_dates:
+    get:
+      tags: 
+      - Flight
+      summary: Get the cheapest ticket
+      description: Get the cheapest ticket by date
+      operationId: get-prices_for_dates
+      #externalDocs:
+      parameters:
+      - name: currency
+        in: query
+        description: "The currency of **prices**"
+        schema:
+          type: string
+          default: "RUB"
+          
+      - name: departure_at
+        in: query
+        description: "The departure date"
+        schema:
+          type: string
+      
+      - name: return_at
+        in: query
+        description: "Non-stop tickets"
+        schema:
+          type: string      
+ 
+      - name: direct
+        in: query
+        description: "The return date. For one-way tickets do not specify it"
+        schema:
+          type: boolean 
+          
+      - name: limit
+        in: query
+        description: "The total number of records on a page `max 1000`"
+        schema:
+          type: integer
+          default: 30
+ 
+      - name: market
+        in: query
+        description: "Sets the market of the data source"
+        schema:
+          type: string
+          default: ru
+ 
+      - name: page
+        in: query
+        description: "A page number, is used to skip some massive of results. For example, if we want to get the entries from `100 to 150`, we need to `set page=3`, and `limit=50`"
+        schema:
+          type: string
+          
+      - name: origin
+        in: query
+        description: "[An IATA code](https://www.nationsonline.org/oneworld/IATA_Codes/airport_code_list.htm#:~:text=The%20International%20Air%20Transport%20Association's,it%2C%20New%20York's%20John%20F.) of a city or an airport of the origin"
+        schema:
+          type: string
+
+      - name: sorting
+        in: query
+        description: "The assorting of prices"
+        schema:
+          type: string
+          enum: [price, route]
+          default: price
+          
+      - name: unique
+        in: query
+        description: "Returning only unique routes, if only origin is specified, `true` or `false`"
+        schema:
+          type: boolean
+          default: false
+
+
+```
+
+{% hint style="info" %}
+If you get stuck, see the [sample OpenAPI spec here](https://idratherbewriting.com/learnapidoc/docs/openapi\_spec\_and\_generated\_ref\_docs/openapi\_openweathermap.yml) for the fully working sample. This will help you spot and troubleshoot indentation or other errors.
+{% endhint %}
+
 ### &#x20;
