@@ -31,15 +31,36 @@ paths:
 > * `description`: path üzrə tam təsvir. Burada artıq detallı məlumat yaza bilərsiniz. Svagger Uİ də description üçün kifayət qədər yer olur. Burada həmçinində Markdown dili dəstəklənir.
 > * [`externalDocs`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#externalDocumentationObject) (object): path üzrə əlavə məlumat əldə etmək üçün, kənar sənədləşməyə link
 > * `operationId`: path üzrə unikal id. Spesifikasiya daxilində
-> * [`parameters`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#parameterObject) (object): Parameters accepted by the path. Does not include request bodies, which are instead detailed in the [`requestBody` object](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_step4\_paths\_object.html). The `parameters` object can also include a [reference object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#requestBodyObject) that contains a pointer to the description in the `components` object (this is explained in [Step 5: The components object](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_step5\_components\_object.html)). path tərəfindən qəbul edilən parametrlər. Buraya request body daxil deyil a
-> * [`requestBody`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#requestBodyObject) (object): The request body details for this path. The `requestBody` object can also include a [reference object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#referenceObject) that contains a pointer to the description in the `components` object (explained in [step 5](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_step5\_components\_object.html)). (You can find an example of a `requestBody` parameter in the [Swagger Petstore demo](https://petstore.swagger.io/#/pet/addPet). The `/pet` endpoint submits a request body when adding a pet. Check out the `requestBody` YAML syntax in [petstore-expanded.yml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore-expanded.yaml) — look at `post` under `/pets`. Also see [Describing Request Body](https://swagger.io/docs/specification/describing-request-body/).)
-> * [`responses`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#responsesObject) (object): Responses provided from requests with this path. The `responses` object can also include a [reference object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#referenceObject) that contains a pointer to the description in the `components` object. Responses use standard [status codes](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#http-status-codes).
-> * [`callbacks`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#callbackObject) (object): Callback details to be initiated by the server if desired. Callbacks are operations performed after a function finishes executing. The `callbacks` object can also include a [reference object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#referenceObject) that contains a pointer to the description in the `components` object.
-> * `deprecated`: Whether the path is deprecated. Omit unless you want to indicate a deprecated field. Boolean.
-> * [`security`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#securityRequirementObject) (object): Security authorization method used with the operation. Include this object at the path level only if you want to overwrite the `security` object at the root level. The name is defined by the `securitySchemes` object in the `components` object. More details about this are provided in the [security object](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_step6\_security\_object.html).
-> * [`servers`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#serverObject) (object): A servers object that might differ from the [global `servers` object](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_step3\_servers\_object.html) for this path.
 >
-> Each of the above hyperlinked properties that say “(object)” contain additional levels. Their values aren’t just simple data types like strings but are rather objects that contain their own properties.
+>
+>
+> * [`parameters`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#parameterObject) (object):  Əvvəlki mövzuda bildirdiyimiz kimi son versiyalarda Reqeust body parametr kimi nəzərə alınmadığından ayrıca obyekt kimi göstərilir. parametr obyketinə həmçinində [reference object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#requestBodyObject) daxildir və bu `components` object nə istnad edir (bu step 5 də izah ediləcək)
+>
+>
+>
+> * [`requestBody`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#requestBodyObject) (object): path üçün request body detalları. `requestBody` obyektinə də həmçinin compnenet obyektinə istinad edən r[eference object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#referenceObject) daxildir. (You can find an example of a `requestBody` parameter in the [Swagger Petstore demo](https://petstore.swagger.io/#/pet/addPet). The `/pet` endpoint submits a request body when adding a pet. Check out the `requestBody` YAML syntax in [petstore-expanded.yml](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore-expanded.yaml) — look at `post` under `/pets`. Also see [Describing Request Body](https://swagger.io/docs/specification/describing-request-body/).)
+>
+>
+>
+> * [`responses`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#responsesObject) (object): Request nəticəsində qayıdan Responsu göstərir. Response obyektinə də reference obyekti daxildir. Response standart status codelarından istifadə edir. [status codes](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#http-status-codes).&#x20;
+>
+>
+>
+> * [`callbacks`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#callbackObject) (object): Callback details to be initiated by the server if desired. Callbacks are operations performed after a function finishes executing. The `callbacks` object can also include a [reference object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#referenceObject) that contains a pointer to the description in the `components` object.
+>
+>
+>
+> * `deprecated`: Whether the path is deprecated. Omit unless you want to indicate a deprecated field. Boolean.
+>
+>
+>
+> * [`security`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#securityRequirementObject) (object): Security authorization method used with the operation. Include this object at the path level only if you want to overwrite the `security` object at the root level. The name is defined by the `securitySchemes` object in the `components` object. More details about this are provided in the [security object](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_step6\_security\_object.html).
+> *
+> * [`servers`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#serverObject) (object): Server obyketi global server obyektindən fərqli olduqda qeyd edilir. Yadınızdadırsa 3 cü addımda bildirdimki hə rendpoint üzrə server fərqli ola bilər.
+>
+>
+>
+> Göstərilən hyperlinkli olanlar obyektlər dir. yəni onlar daxilində fieldlər olur. Onların dəyərləri sadə string deyir, hər xassəsəinə uyğun məlumatlar təşkil edir.
 
 
 
