@@ -42,7 +42,11 @@ You can store a lot of different re-usable objects in the `components` object. T
 
 Replace the existing `paths` object in the Swagger Editor with the above code sample, include the new `components` object, and observe that the rendered display still looks the same.
 
-```yaml
+<details>
+
+<summary>Re-using parameters</summary>
+
+```
 openapi: 3.0.3
 info:
   title: Travelpayouts API
@@ -196,7 +200,9 @@ components:
         default: false
 ```
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+</details>
+
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you get stuck, see the [sample OpenAPI spec here](https://idratherbewriting.com/learnapidoc/docs/openapi\_spec\_and\_generated\_ref\_docs/openapi\_openweathermap.yml) for the fully working sample. This will help you spot and troubleshoot indentation or other errors.
@@ -512,7 +518,7 @@ Also, click the **Model** link to see how the descriptions of each element appea
 
 > Response bölməsinə nəzər salıb example value-ların necə göründüyünə baxaq. Həmçinin də Model ə klik edərək hər bir element üzrə açılan bağlanan görünüşdə dəyərləri görə bilərik.
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (3).png>)
 
 >
 
@@ -548,3 +554,12 @@ To hide the Models section, you can add the parameter `defaultModelsExpandDepth:
 
 
 \
+
+
+> Replace the existing `paths` object in the Swagger Editor with the above code sample, include the new `components` object, and observe that the rendered display still looks the same.
+>
+> Mövcud `paths` obeyktini Üvagger Editorda kodda göstərilən nümunə ilə əvəz edək və `components`  obyektin əlavə edək. Görəcəyik ki, nəticə eyni oldu.
+
+{% hint style="info" %}
+If you get stuck, see the [sample OpenAPI spec here](https://idratherbewriting.com/learnapidoc/docs/openapi\_spec\_and\_generated\_ref\_docs/openapi\_openweathermap.yml) for the fully working sample. This will help you spot and troubleshoot indentation or other errors.
+{% endhint %}
