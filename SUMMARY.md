@@ -6,5 +6,6 @@
 * [Step 3: The servers object (OpenAPI tutorial)](step-3-the-servers-object-openapi-tutorial.md)
 * [Step 4: The paths object (OpenAPI tutorial)](step-4-the-paths-object-openapi-tutorial.md)
 * [Step 5: The components object (OpenAPI tutorial)](step-5-the-components-object-openapi-tutorial.md)
+* [Step 6: The security object (OpenAPI tutorial)](step-6-the-security-object-openapi-tutorial.md)
 * [Page 2](page-2.md)
 * [Spec first and Mock](spec-first-and-mock.md)

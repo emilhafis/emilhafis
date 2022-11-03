@@ -202,7 +202,7 @@ components:
 
 </details>
 
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you get stuck, see the [sample OpenAPI spec here](https://idratherbewriting.com/learnapidoc/docs/openapi\_spec\_and\_generated\_ref\_docs/openapi\_openweathermap.yml) for the fully working sample. This will help you spot and troubleshoot indentation or other errors.
@@ -249,7 +249,7 @@ paths:
 
 Now let’s move the `schema` description for the `200` response into the `components` object:
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then in `components/schemas`, we’ll define the `200` schema.
 
@@ -518,7 +518,7 @@ Also, click the **Model** link to see how the descriptions of each element appea
 
 > Response bölməsinə nəzər salıb example value-ların necə göründüyünə baxaq. Həmçinin də Model ə klik edərək hər bir element üzrə açılan bağlanan görünüşdə dəyərləri görə bilərik.
 
-![](<.gitbook/assets/image (3).png>)
+![](<.gitbook/assets/image (1).png>)
 
 >
 
