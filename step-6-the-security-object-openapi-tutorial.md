@@ -115,7 +115,7 @@ name - yerində apiKey adı qeyd edilir. Məsələn travelpayouts da bu token ge
 
 > When you click Authorize, the `description` and other security details appear:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 > After users enter an API key and click **Authorize**, the authorization method is set for as many requests as they want to make. The authorization session expires only when users refresh the page.
 
@@ -140,6 +140,16 @@ curl -X 'GET' \
 > (Replace APIKEY with your actual API key.)
 >
 > The `&appid=APIKEY"` indicates that the API key is being included in the query string, so the request will be authorized. If you copy the curl submitted, customize the API key, and paste it into the command line, you’ll see a successful response:
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+> The server response also appears directly in the Swagger UI display, with a link to download it:
+
+![](.gitbook/assets/image.png)
+
+{% hint style="warning" %}
+Note that when you implement Swagger UI, if you find that the curl request works but the response doesn’t appear in Swagger UI, there might be a CORS issue with your API blocking requests from web applications like Swagger. See [Troubleshooting issues with Swagger UI](https://idratherbewriting.com/learnapidoc/pubapis\_swagger.html#troubleshooting\_swagger) for details.
+{% endhint %}
 
 \
 \
