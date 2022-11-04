@@ -1,6 +1,6 @@
 # Step 6: The security object (OpenAPI tutorial)
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 > Swagger UI  istifadəçilərin real sorğu göndərməsi üçün “Try it out” funksionallığı təqdim edir. API serveri tərəfindən göndərilən sonruğunnn avtorizasiyadan keçməsi üçün spesifikasiyada avtorizaiysa məlumatları olmadıır.he [`security` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#securityRequirementObject) sorğu göndərən zaman avtorizaiy və ya təhlükəsizlik protokolunu müəyyənləşdirir.
 
@@ -145,7 +145,7 @@ curl -X 'GET' \
 
 > The server response also appears directly in the Swagger UI display, with a link to download it:
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (2).png>)
 
 {% hint style="warning" %}
 Note that when you implement Swagger UI, if you find that the curl request works but the response doesn’t appear in Swagger UI, there might be a CORS issue with your API blocking requests from web applications like Swagger. See [Troubleshooting issues with Swagger UI](https://idratherbewriting.com/learnapidoc/pubapis\_swagger.html#troubleshooting\_swagger) for details.
