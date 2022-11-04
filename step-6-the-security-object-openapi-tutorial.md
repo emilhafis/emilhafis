@@ -107,7 +107,7 @@ components:
 
 > Then check out the Swagger UI display. You’ll see an “Authorize” button appear.
 
-![](https://lh3.googleusercontent.com/RnJI6t1ruWebkaa5pSN1ZFGXJ5z8wUBtHaJysQQb4tB9U92Qwtq7Zx2cCR1sSwe579KdRFqK4Z2iypM3f8DURqbMnb1GVNcamim0e\_o1krBLO83ZD8iUgHIBAn8RkOJ3S04pj-y4qmxHqQiRYWz-dPazJFCuij5S3W7jrmVaWoT4ce1XiI9i3oQxPt5czn84p7E)
+<figure><img src="https://lh3.googleusercontent.com/RnJI6t1ruWebkaa5pSN1ZFGXJ5z8wUBtHaJysQQb4tB9U92Qwtq7Zx2cCR1sSwe579KdRFqK4Z2iypM3f8DURqbMnb1GVNcamim0e_o1krBLO83ZD8iUgHIBAn8RkOJ3S04pj-y4qmxHqQiRYWz-dPazJFCuij5S3W7jrmVaWoT4ce1XiI9i3oQxPt5czn84p7E" alt=""><figcaption></figcaption></figure>
 
 > When you click Authorize, the `description` and other security details appear:
 
@@ -115,5 +115,16 @@ components:
 
 > After users enter an API key and click **Authorize**, the authorization method is set for as many requests as they want to make. The authorization session expires only when users refresh the page.
 
+### &#x20;Test out how authorization works
+
+> Avtorizasiya əlavə etməklə gəlin real sorğu göndərk. Svagger Editorda Authorize bölməsin  klik edib travelpayouts üzrə APı Key-mizi əlavə edək. Və sonra Authorize klik edib bağlayaq.
+>
+> **Get the cheapest** metoduna klik edib expand edək və **Try it out** klikləyək**.** Query parametrlərin əlavə edək və **Execute** klikləyək**.**
+>
+> When you execute the request, Swagger UI shows you the [curl request](https://idratherbewriting.com/learnapidoc/docapis\_make\_curl\_call.html) submitted. For example, after executing a travel request, the curl is as follows:
+
+![](<.gitbook/assets/image (3).png>)
+
+\
 \
 \
