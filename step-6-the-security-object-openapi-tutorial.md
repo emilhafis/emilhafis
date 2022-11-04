@@ -50,4 +50,70 @@ If you get stuck, see the [sample OpenAPI spec here](https://idratherbewriting.c
 
 > In the [`components` object](https://idratherbewriting.com/learnapidoc/pubapis\_openapi\_step5\_components\_object.html), add a [`securitySchemes` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#securitySchemeObject) that defines details about the security scheme the API uses:
 
+```
+components:
+  ...
+
+  securitySchemes:
+    app_id:
+      type: apiKey
+      description: API key to authorize requests.
+      name: appid
+      in: query
+```
+
+{% hint style="warning" %}
+Response schemedən sonra əlavə edilməldiir
+{% endhint %}
+
+>
+>
+> Properties you can use for each item in the `securitySchemes` object include the following:
+>
+> * `type`: The authorization protocol — `apiKey`, `http`, `oauth2`, or `openIdConnect`.
+> * `description`: A description of your security method. In Swagger UI, this description appears in the Authorization modal (see the screenshot below). CommonMark Markdown is allowed.
+> * `name`: The name of the header value submitted in the request. Used only for `apiKey` type security.
+> * `in`: Specifies where the security key is applied. Options are `query`, `header` or `cookie`. Used only for `apiKey` type security.
+> * `scheme`. Used with `http` type authorization.
+> * `bearerFormat`. Used with `http` type authorization.
+> * [`flows`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#oauthFlowsObject) (object): Used with `oauth2` type authorization.
+> * `openIdConnectUrl`: Used with `openIdConnect` type authorization.
+
+### &#x20;View the Appearance in Swagger UI
+
+> In Swagger Editor, if you haven’t already done so, insert the `security` object at the root level:
+
+```
+security:
+- app_id: []
+```
+
+> And insert the `securitySchemes` object into `components` (indented at the same level as `parameters` and `responses`):
+
+```yaml
+components:
+  parameters:
+  ...
+  responses:
+  ...
+
+  securitySchemes:
+    app_id:
+      type: apiKey
+      description: API key to authorize requests.
+      name: appid
+      in: query
+```
+
+> Then check out the Swagger UI display. You’ll see an “Authorize” button appear.
+
+![](https://lh3.googleusercontent.com/RnJI6t1ruWebkaa5pSN1ZFGXJ5z8wUBtHaJysQQb4tB9U92Qwtq7Zx2cCR1sSwe579KdRFqK4Z2iypM3f8DURqbMnb1GVNcamim0e\_o1krBLO83ZD8iUgHIBAn8RkOJ3S04pj-y4qmxHqQiRYWz-dPazJFCuij5S3W7jrmVaWoT4ce1XiI9i3oQxPt5czn84p7E)
+
+> When you click Authorize, the `description` and other security details appear:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+> After users enter an API key and click **Authorize**, the authorization method is set for as many requests as they want to make. The authorization session expires only when users refresh the page.
+
+\
 \
