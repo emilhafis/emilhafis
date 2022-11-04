@@ -105,6 +105,10 @@ components:
       in: query
 ```
 
+{% hint style="info" %}
+name - yerində apiKey adı qeyd edilir. Məsələn travelpayouts da bu token gedir. Query key.
+{% endhint %}
+
 > Then check out the Swagger UI display. You’ll see an “Authorize” button appear.
 
 <figure><img src="https://lh3.googleusercontent.com/RnJI6t1ruWebkaa5pSN1ZFGXJ5z8wUBtHaJysQQb4tB9U92Qwtq7Zx2cCR1sSwe579KdRFqK4Z2iypM3f8DURqbMnb1GVNcamim0e_o1krBLO83ZD8iUgHIBAn8RkOJ3S04pj-y4qmxHqQiRYWz-dPazJFCuij5S3W7jrmVaWoT4ce1XiI9i3oQxPt5czn84p7E" alt=""><figcaption></figcaption></figure>
@@ -123,7 +127,19 @@ components:
 >
 > When you execute the request, Swagger UI shows you the [curl request](https://idratherbewriting.com/learnapidoc/docapis\_make\_curl\_call.html) submitted. For example, after executing a travel request, the curl is as follows:
 
-![](<.gitbook/assets/image (3).png>)
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
+
+```bash
+curl -X 'GET' \
+  'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?currency=RUB&limit=30&market=ru&origin=GYD&sorting=price&unique=false&token=3c63416a24d3b969da6df9271faa9d6e' \
+  -H 'accept: application/json'
+```
+
+> (Replace APIKEY with your actual API key.)
+>
+> The `&appid=APIKEY"` indicates that the API key is being included in the query string, so the request will be authorized. If you copy the curl submitted, customize the API key, and paste it into the command line, you’ll see a successful response:
 
 \
 \
