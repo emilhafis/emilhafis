@@ -50,7 +50,7 @@ Bir sözlə müxtəlif API-ları bir yerə toplayan böyük bir platformadır. S
 >
 > Aşağıda OAuth 2.0 üzrə ümumi təsvir göstərilmişdir.
 
-![](<../.gitbook/assets/OAuth authentication (1).png>)
+![](<../.gitbook/assets/OAuth authentication.png>)
 
 > Növbəti bölmələrdə prosesi daha dərindən analiz edəcəyik.
 

@@ -20,7 +20,7 @@
 [travelpayouts](https://www.travelpayouts.com/)-dan məlumatları əldə etmək üçün orada qeydiyyatdan keçib [**API Key** ](../avtorizasiya-noevl-ri/api-key.md#travelpayouts-api-key)alınmalıdır.&#x20;
 {% endhint %}
 
-![Ticket.az](<../.gitbook/assets/Ticket (3).png>)
+![Ticket.az](<../.gitbook/assets/Ticket (1).png>)
 
 {% hint style="warning" %}
 Bundan sonrakı grant növləri birbaşa istifadəçilər ilə əlaqəlidir.

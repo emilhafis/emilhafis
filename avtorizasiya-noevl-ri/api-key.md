@@ -16,7 +16,7 @@ Qəbul olunmuş ən yaxşı təcrübə bu dəyərin `header parameter` kimi gön
 Bu səbəbdən də, **API Dizayn** hazırlayarkən **API Key** dəyərini `headerparameter` kimi sənədləşdirin.
 {% endhint %}
 
-![API Key](../.gitbook/assets/api\_key.png)
+![API Key](<../.gitbook/assets/api\_key (2).png>)
 
 > Bir çox API dokumentasiya saytlarına qeydiyyatdan keçib daxil olduqdan sonra, sizin `API Key` dəyəriniz avtomatik formalaşdırılır və sizə təqdim olunur.&#x20;
 >

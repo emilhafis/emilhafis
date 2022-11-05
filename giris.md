@@ -21,7 +21,7 @@ description: >-
 >
 > Belə nəticəyə gəlirik ki, API səni autentifikasiya edib içəri buraxa bilər, amma avtorizasiya etməyərək oradakı məlumatlardan istifadə etməyə qoymaz.
 
-![Autentifikasiya və Avtorizasiya](../.gitbook/assets/authentication-vs-authorization-diff-a7acc34e88679381.png)
+![Autentifikasiya və Avtorizasiya](.gitbook/assets/authentication-vs-authorization-diff-a7acc34e88679381.png)
 
 ### API-da təhlükəsizlik olmasa idi
 
@@ -39,7 +39,7 @@ description: >-
 Adətən API-lar üzrə qazanc göndərilən sorğuların sayına əsasən hesablanır, məsələn, bu API üçün aylıq 1000 sorğu x manat, 1000-dən artıq sorğu isə y manat olacaqdır.  &#x20;
 {% endhint %}
 
-![OpenWeather](<../.gitbook/assets/rate limits.png>)
+![OpenWeather](<.gitbook/assets/rate limits.png>)
 
 > Əlavə olaraq, autentifikasiya olmadan istifadəçinin yalnız özünə aid olan məlumatlarına çıxışını rahat yolla təmin edə bilməyəcəyik. Və bir istifadəçinin səhvən digər istifadəçi məlumatlarını silməsinin qarşısını rahatlıqla ala bilməyəcəyik (məsələn, bir istifadəçi digər istifadəçi adından **DELETE** sorğusu göndərib onun məlumatlarını silə bilər).
 >

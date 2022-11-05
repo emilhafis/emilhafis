@@ -30,6 +30,10 @@ curl -I -X GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?orig
 --header 'X-Access-Token: 3c63416a24d3b969da6df9271faa9d6e'
 ```
 
+{% hint style="info" %}
+Replace `APIKEY` with your actual API key.
+{% endhint %}
+
 \
 
 

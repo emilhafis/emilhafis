@@ -99,7 +99,7 @@ Bir daha qeyd edək ki, [`base64 encoding`](../avtorizasiya-noevl-ri/basic-auth.
 
 ### Token istifadəsi
 
-![](<../.gitbook/assets/Apigee use token (1).png>)
+![](<../.gitbook/assets/Apigee use token.png>)
 
 > **Google** **Token**-nin `Authorization header`-də göndərilməsini tələb edir. Şəkildə `Bearer` qarşısında gördüyünüz **Token** nümunəsidir.
 >

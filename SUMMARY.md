@@ -4,7 +4,7 @@
 
 ## Autentifikasiya və Avtorizasiya
 
-* [Overview](autentifikasiya-v-avtorizasiya/overview.md)
+* [Overview](giris.md)
 
 ## Avtorizasiya növləri
 
