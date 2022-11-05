@@ -53,7 +53,7 @@ x-robots-tag: noindex
 >
 > HTTP status code uzun xəta mesajlarınıa aid qısaldılmış kodlardır.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > Bəzən status kodların düzgün tətbiq etməyəndə, səhvin harda olduğunu anlamaq olmur. Buna görədə düzgün status kodlar təyin etməliyik ki, API-mız üzrə qayıdan xətalar dərhal aydın olsun.
 
@@ -65,7 +65,7 @@ x-robots-tag: noindex
 
 ### TOP 10 HTTP status code
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Where to list the HTTP response and error codes
 
@@ -82,11 +82,41 @@ x-robots-tag: noindex
 ### How to list status codes
 
 > You can list your status and error codes in a basic table or definition list, somewhat like this:
+>
+> Məsələn Bizim hazırladığımız sadə vord sənədində Error kodları bu formada qeyd olunub.
+
+
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### Status/error codes can assist in troubleshooting 
+
+> Status və error kodlar bildirdiyimiz kimi troubleshooting zamanı xeyli köməklik göstərir.&#x20;
+>
+> Bundan əlavə olaraq hər bir sənədləşmənin sonunda mümkün error kodlar və onların mənaları qeyd olunur.&#x20;
+>
+> Tək status kodla problemin əksər vaxtı nədə olduğunu bilmək olmur. Amma hansı istiqamətə getməli olduğumuza çox kömək edir.
+
+> A section on troubleshooting could list error messages related to the following situations:
+>
+> * The wrong API keys are used
+> * Invalid API keys are used
+> * The parameters don’t fit the data types
+> * The API throws an exception
+> * There’s no data for the resource to return
+> * The rate limits have been exceeded
+> * The parameters are outside the max and min boundaries of what’s acceptable
+> * A required parameter is absent from the endpoint
+>
+> Where possible, document the exact text of the error in the documentation so that it easily surfaces in searches.
+
+OBİs və real digər servis nümunəsi
+
+### Example of status and error codes
+
+The following are some sample status and error code pages in API documentation.
 
 \
 \
-\
 
-
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
