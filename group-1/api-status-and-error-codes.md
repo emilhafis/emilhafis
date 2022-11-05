@@ -53,7 +53,7 @@ x-robots-tag: noindex
 >
 > HTTP status code uzun xəta mesajlarınıa aid qısaldılmış kodlardır.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > Bəzən status kodların düzgün tətbiq etməyəndə, səhvin harda olduğunu anlamaq olmur. Buna görədə düzgün status kodlar təyin etməliyik ki, API-mız üzrə qayıdan xətalar dərhal aydın olsun.
 
@@ -65,7 +65,7 @@ x-robots-tag: noindex
 
 ### TOP 10 HTTP status code
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Where to list the HTTP response and error codes
 
@@ -87,7 +87,7 @@ x-robots-tag: noindex
 
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### Status/error codes can assist in troubleshooting 
 
@@ -140,7 +140,38 @@ The following are some sample status and error code pages in API documentation.
 Error kodların düzgün təqdim edilməsi çox vacibdir. Bu əlavə sualları azaldır və sizin API-zıa inteqraisyanı sürətləndirir.
 {% endhint %}
 
-\
-\
+> Most developers will probably be familiar with 200, 400, and 500 codes, so these codes don’t need a lot of explanatory detail. But if your API has unique codes, make sure to describe these adequately.
 
+### [YouTube Error codes](https://developers.google.com/youtube/v3/docs/errors)  ![](<../.gitbook/assets/image (5).png>)
+
+> YouTube da görürük ki, Error code-lar üçün ayrıca səhifə verilib. Orada kod ilə yanaşı Error detail və descriptionda təsvir edilib.
+>
+> Gördüyünüz kimi böyük şirkətlər error handling məsələsinə çox ciddi yanaşırlar. Təsəvvür edin ki, onların yüz minlərlə istifadəçisi var və development zamanı çıxan problemlər onlara məlum olmasa nələ baş verər...
+>
+> Bu gün bizim ölkə də də bununla bağlı ciddi problemlər vardır. Əminəmki sizinlə bu məsələlər get gedə optimallaşacaq.
+
+### Startups
+
+#### Open Banking
+
+Məsələn biz özümüz develop etdiyimiz APIyanaşmalarına baxaq.
+
+1. AÖS də yaradılan Open Banking nümunəsi. Burada Hər metodun altında HTTP status kodlar göstərilir və əlavə olaraq, response body də error details aydın formada əks olunur.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### 2. QR Payment
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Bu yanaşma çox yaxşıdır. Burda xəta ilə bərabər xətanın sırf nədən qaynaqlandığı deyilir.
+
+Ümumiyyətlə error məsələsində developerlərin 2 yanaşması olur
+
+* İlk xəta çıxan kimi prosesi dayandırmaq və geriyə xəta qaytarmaq.&#x20;
+* Bütün sorğunu yoxlayıb bütün xətaları qaytarmaq. hazırda biz bu formatdan istifadə edirik və çox gözəl nəticələri olur.
 
