@@ -53,7 +53,7 @@ x-robots-tag: noindex
 >
 > HTTP status code uzun xəta mesajlarınıa aid qısaldılmış kodlardır.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 > Bəzən status kodların düzgün tətbiq etməyəndə, səhvin harda olduğunu anlamaq olmur. Buna görədə düzgün status kodlar təyin etməliyik ki, API-mız üzrə qayıdan xətalar dərhal aydın olsun.
 
@@ -65,7 +65,7 @@ x-robots-tag: noindex
 
 ### TOP 10 HTTP status code
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Where to list the HTTP response and error codes
 
@@ -87,7 +87,7 @@ x-robots-tag: noindex
 
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Status/error codes can assist in troubleshooting 
 
@@ -115,6 +115,30 @@ OBİs və real digər servis nümunəsi
 ### Example of status and error codes
 
 The following are some sample status and error code pages in API documentation.
+
+<figure><img src="https://lh3.googleusercontent.com/38nR7s_ZRJTq7jec30k7vmHiyneQ1QbtlIb1YNQmKy2i09wVCgrKBK_yeod4ruTk0-dngsCO7_z2Hy3VhbeVMqQ-tuetyAzblWAg_TUC-JpHhuo6mjmS5yicDDoclIoH2Pyz7bkt8j6L-FP8tcqirqx4E4M7P-p8nx5hr9Pay5_805bdh4rFf0ciNITsAlefqKE" alt=""><figcaption></figcaption></figure>
+
+> API dizayn edərkən yalnız HTTP error kodlar verməklə kifayətlənmək olmaz. Məsələn Mailchinp nümunəsində olduğu kimi bir çox yaxşı development olunmuş API-lar dəqiq göstərir ki problem haradadır.&#x20;
+>
+> ```
+> HTTP/1.1 405 Method Not Allowed
+> ```
+>
+> &#x20;Mailchimp bununla yanaşı geniş formada JSON response body-də bildiririki problem nədən ibaərtdir.
+>
+> ```json
+> {
+>     "type": "https://mailchimp.com/developer/marketing/docs/errors/",
+>     "title": "Method Not Allowed",
+>     "status": 405,
+>     "detail": "The requested method and resource are not compatible. See the Allow header for this resource's available methods.",
+>     "instance": "3b4dcb40-0b6b-4820-bfaa-41267b3826ea"
+> }
+> ```
+
+{% hint style="warning" %}
+Error kodların düzgün təqdim edilməsi çox vacibdir. Bu əlavə sualları azaldır və sizin API-zıa inteqraisyanı sürətləndirir.
+{% endhint %}
 
 \
 \
