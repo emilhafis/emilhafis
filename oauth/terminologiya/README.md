@@ -50,7 +50,7 @@ Tətbiq dedikdə - saytlar, mobil tətbiqlər və digər proqram təminatları n
 
 ![](<../../.gitbook/assets/vk\_swiftshader\_icd.json (1).png>)
 
-> Giriş ilə bərabər, OAuth 3-cü tərəf platformalara Google-da artıq mövcud olan bir sıra məlumatları da təqdim etməyə icazə verir. Siz artıq rastlaşmısınızsa bu formada qeydiyyatdan keçəndə [razılıq verirsiniz](../../oauth-grant-noevl-ri/authorization-code/#icaz) və avtomatik olaraq gmail-də qeyd etdiyiniz ad və soyad 3 cü tərəf saytda əks olunur. Bu məlumat paylaşmasıda OAuth ilə həyata keçirilir.
+> Giriş ilə bərabər, OAuth 3-cü tərəf platformalara Google-da artıq mövcud olan bir sıra məlumatları da təqdim etməyə icazə verir. Siz artıq rastlaşmısınızsa bu formada qeydiyyatdan keçəndə [razılıq verirsiniz](broken-reference) və avtomatik olaraq gmail-də qeyd etdiyiniz ad və soyad 3 cü tərəf saytda əks olunur. Bu məlumat paylaşmasıda OAuth ilə həyata keçirilir.
 >
 > Biz bu haqda növbəti bölmələrdə daha geniş danışacağıq.
 

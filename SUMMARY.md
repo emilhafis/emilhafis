@@ -24,10 +24,6 @@
 
 * [Overview](oauth-grant-noevl-ri/overview.md)
 * [Ümumi proses](oauth-grant-noevl-ri/uemumi-proses.md)
-* [Client Credentials](oauth-grant-noevl-ri/client-credentials.md)
-* [Resource Owner Password](oauth-grant-noevl-ri/resource-owner-password.md)
-* [Authorization Code](oauth-grant-noevl-ri/authorization-code/README.md)
-  * [Authorization Code with PKCE](oauth-grant-noevl-ri/authorization-code/authorization-code-with-pkce.md)
 
 ***
 

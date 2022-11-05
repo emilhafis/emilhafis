@@ -31,8 +31,8 @@ Bu sualları cavablandırmağa çalışacam.
 * **OAuth grant növləri:**
   * [Overview](oauth-grant-noevl-ri/overview.md)
   * [Ümumi proseslər](oauth-grant-noevl-ri/uemumi-proses.md)
-  * [Client Credential](oauth-grant-noevl-ri/client-credentials.md)
-  * [Resource Owner Password](oauth-grant-noevl-ri/resource-owner-password.md)
-  * [Authorization Code](oauth-grant-noevl-ri/authorization-code/)
-    * [Authorization Code with PKCE](oauth-grant-noevl-ri/authorization-code/authorization-code-with-pkce.md)
+  * [Client Credential](broken-reference)
+  * [Resource Owner Password](broken-reference)
+  * [Authorization Code](broken-reference)
+    * [Authorization Code with PKCE](broken-reference)
 * [**API Dizayn**](api-dizayn.md)****
