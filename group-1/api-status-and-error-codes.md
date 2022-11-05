@@ -65,7 +65,7 @@ x-robots-tag: noindex
 
 ### TOP 10 HTTP status code
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Where to list the HTTP response and error codes
 
@@ -73,6 +73,20 @@ x-robots-tag: noindex
 >
 > On the other hand, if some endpoints are prone to triggering certain status and error codes more than others, it makes sense to highlight those status and error codes on same API reference pages. One strategy might be to call attention to any particularly relevant status or error codes for a specific endpoint, and then link to the centralized “Response and Status Codes” page for full information.
 
+### Where to get status and error codes
+
+> Status and error codes may not be readily apparent when you’re documenting your API. You’ll probably need to ask developers for a list of all the status and error codes that are unique to your API. Sometimes developers hard-code these status and error codes directly in the programming code and don’t have easy ways to hand you a comprehensive list (this makes localization problematic as well).
+>
+> As a result, you may need to experiment a bit to ferret out all the codes. Specifically, you might need to [try to break the API](https://idratherbewriting.com/learnapidoc/testingdocs\_test\_your\_instructions.html) to see all the potential error codes. For example, if you exceed the [rate limit](https://idratherbewriting.com/learnapidoc/docapis\_rate\_limiting\_and\_thresholds.html) for a specific call, the API might return a special error or status code. You would especially need to document this custom code. A troubleshooting section in your API might make special use of the error codes.
+
+### How to list status codes
+
+> You can list your status and error codes in a basic table or definition list, somewhat like this:
+
+\
+\
 \
 
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
