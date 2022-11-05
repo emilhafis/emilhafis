@@ -31,8 +31,47 @@ curl -I -X GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?orig
 ```
 
 {% hint style="info" %}
-Replace `APIKEY` with your actual API key.
+APIKey-ni öz valid keyniz ilə əvəz edərsiniz. Cavab bu formada olacaqdır:
 {% endhint %}
+
+```bash
+HTTP/2 200 
+server: nginx
+date: Sat, 05 Nov 2022 05:58:44 GMT
+content-type: application/json; charset=utf-8
+content-length: 496
+vary: Accept-Encoding
+x-krakend: Version undefined
+x-krakend-completed: false
+x-request-id: 97a82753b4046361f8c3b115117a2f30
+x-robots-tag: noindex
+```
+
+> İlk sətirdə olan `HTTP/1.1 200 OK` bizə sorğunun stausunun 200 olduğunu bildirir. Əksər REST API-lər response header-dəki standart protokollara əsaslanır. Məsələn 200 travelpayouts developerləri tərəfindən təyin edilən ixtiyari kod deyildir. 200 HTTP sorğuları üçün universal qəbul edilmiş koddur.&#x20;
+
+> GET request edəndə sorğunun uğurlu və ya uğursuz olmasını təyin etmək çox asan olur. Çünki siz ccavabı aldıqda bilirsinizki bu uğurludur.. Amma təsəvvür edinki siz backenddə POST, PUThər hansı məlumatları dəyişirsiniz.  bu halda siz necə biləcəksinzi ki, sorğu uğurlu olmuşdur və lazımı dəyişiklikləri backenddə icra etmişdir? Bu halda HTTP response code sorğunun uğurlu və ya uöursuz olmasını göstərir.
+>
+> HTTP status code uzun xəta mesajlarınıa aid qısaldılmış kodlardır.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+> Bəzən status kodların düzgün tətbiq etməyəndə, səhvin harda olduğunu anlamaq olmur. Buna görədə düzgün status kodlar təyin etməliyik ki, API-mız üzrə qayıdan xətalar dərhal aydın olsun.
+
+> You can see a list of common [REST API status codes here](http://www.restapitutorial.com/httpstatuscodes.html) and a [general list of HTTP status codes here](https://en.wikipedia.org/wiki/List\_of\_HTTP\_status\_codes). Although it’s probably good to include a few standard status codes, comprehensively documenting _all standard_ status codes, especially if rarely triggered by your API, is unnecessary.
+>
+> [REST API status codes here](http://www.restapitutorial.com/httpstatuscodes.html) buradan REST API üzrə ümumi istifadə edilən kodları görə bilərsiniz. Həmçinin də ümumi list ilə buradan tanış ola bilərsiniz -  [general list of HTTP status codes here](https://en.wikipedia.org/wiki/List\_of\_HTTP\_status\_codes)
+>
+> Burdakı bütün kodları nəzərə almağınıza ehtiyac yoxdur. REST API üzrə ulduz qoyulan kodlar ən geniş istifadə olunanlardır. bunları istifadə etsəniz bəs edər.
+
+### TOP 10 HTTP status code
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### Where to list the HTTP response and error codes
+
+> Most APIs should have a general page listing response and error codes across the entire API. A standalone page listing the status codes (rather than including these status codes with each endpoint) allows you to expand on each code with more detail without crowding the other documentation. It also reduces redundancy and the sense of information overload.
+>
+> On the other hand, if some endpoints are prone to triggering certain status and error codes more than others, it makes sense to highlight those status and error codes on same API reference pages. One strategy might be to call attention to any particularly relevant status or error codes for a specific endpoint, and then link to the centralized “Response and Status Codes” page for full information.
 
 \
 
