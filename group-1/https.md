@@ -8,6 +8,14 @@
 
 > Məqsədimiz məlumat mübadiləsini başa düşməkdir. Ona görə də HTTP protokolunun dərinliyinə girməyəcəyik.
 
+> HTTP HTML documentləri kimi resursların alınması üçün protokoldur. O, İnternetdə hər hansı məlumat mübadiləsinin əsasını təşkil edir və client -server protokoludur, yəni sorğular client, çox vaxt Veb brauzer tərəfindən başlanır. Tam sənəd əldə edilən müxtəlif sub-sənədlərdən, məsələn, mətn,şəkillər, videolar, skriptlər və sairdən əsasında qurulur. Yəni biz bir veb sayta girəndə arxada müxtəlif sorğular gedərək alınan nəticələr birləşdirili və bizə göstərilir.
+
+{% hint style="info" %}
+## Protocol
+
+A **protocol** is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol.
+{% endhint %}
+
 ![](<../.gitbook/assets/image (3).png>)
 
 
