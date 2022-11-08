@@ -8,7 +8,39 @@
 
 > Məqsədimiz məlumat mübadiləsini başa düşməkdir. Ona görə də HTTP protokolunun dərinliyinə girməyəcəyik.
 
+> **HTTP** açılışı **Hyper Text Transfer Protocol-dur.**&#x20;
+>
+> Hazırda bizim istifadə etdiyimiz veb brauzerlər bu protokoldan (www) istifadə edir.
+>
+> Bizim komputerimiz ilə veb server arasındakı əlaqə HTTP Request və Response əsasında həyata keçir.
+
+### World Wide Web Communication
+
+> WWW dediyimiz World Wide Web  web client (məsələn bizim brauzer) və web serverlər (məsələn bizim açdığımız travelpayouts serveri) arasındakı əlaqəni HTTP protokolu üzərindən təmin edir.
+>
+> **Client** dediyimiz **** adətən **** bizim brauzerlər (Chrome, Mozilla və s) nəzərdə tutulur amma bu istənilən proqram təminatı və ya qurğusu ola bilər. Məsələn biz cUrl-dən və ya Postmandan sorğu ediriksə biz burada clientik.
+>
+> Server isə məlumatları emal edib onlara cavabı qaytarandır, \
+>
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### HTTP Request / Response
+
+> Client və server arasındakı məlumat mübadiləsi bildiyimiz kimi reqeust və response-a əsaslanaır. Məsələn,
+>
+> 1. Client (brauzer) serverə (saytın yerləşdiyi server, cloud və s.) **HTTP request** göndərir
+> 2. Server sorğunu qəbul edir
+> 3. Server sorğunu emal edir
+> 4. Serer brazuerə **HTTP response** (output) qaytarır
+> 5. Client (brazuer) sorğunu qəbul edir
+
+\
+
+
 > HTTP HTML documentləri kimi resursların alınması üçün protokoldur. O, İnternetdə hər hansı məlumat mübadiləsinin əsasını təşkil edir və client -server protokoludur, yəni sorğular client, çox vaxt Veb brauzer tərəfindən başlanır. Tam sənəd əldə edilən müxtəlif sub-sənədlərdən, məsələn, mətn,şəkillər, videolar, skriptlər və sairdən əsasında qurulur. Yəni biz bir veb sayta girəndə arxada müxtəlif sorğular gedərək alınan nəticələr birləşdirili və bizə göstərilir.
+
+
 
 {% hint style="info" %}
 ## Protocol
@@ -46,7 +78,7 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (19).png>)
 
 > Let's look at the Request Line. It identifies the resource that's being requested and the desired action, sometimes this is called request, verb or method instead of action, that you'd like to apply to that resource. The resource is identified by a Universal Resource Identifier, more specifically, a Uniform Resource Locator, sometimes you'll hear this referred to as URL, very common, is a specific type of a URI. Now there are nine request types that can be specified and I'm going to list each of them.
 
