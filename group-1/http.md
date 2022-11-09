@@ -1,4 +1,4 @@
-# HTTPS
+# HTTP
 
 > Bir çox mövuzlarda HTTP işlətmişik. REST API HTTP protokolu üzərindən məlumat mübadiləsi aparır, HTTP erro, status code, HTTP metodlar.
 >
@@ -60,15 +60,9 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 
 
-> hat it involves a request-response protocol. And that it's an application layer protocol. HTTP is relatively simple. So let's start with a quick overview and then I'll introduce a few definitions.
-
 ![](<../.gitbook/assets/image (9).png>)
 
 > Once again here's the client server interaction associated with HTTP consisting of a request followed by a response. So, what is the request all about? Well, the client is requesting some resource from the server. Once the server receives the request it may be able to provide this resource directly. It may need to create it. It may need to retrieve it from some other server. Or it may not be able to satisfy the request at all. Whatever might be the case, the server's job is to respond accordingly. So let's take a closer look at this.
-
-> We've seen that the HTTP protocol involves the delivery of resources within a distributed hypermedia system. That's what the World Wide Web is. It's a distributed, hyper media system. In a web application, the request initiates activities, that are implemented over the middleware. And the response typically involves returning resources to the browser, as I just described. In order to build, and debug web applications, it's vital to have a good understanding of how http works. Let's start with some definitions.
-
-![](<../.gitbook/assets/image (2).png>)
 
 > The resources delivered as a part of this protocol typically include Hypertext, Cascading Style Sheets, Hypermedia, and Scripts. So Hypertexts, these are just texts that's marked-up using HTML, or HyperText Mark-up Language and it could be styled with CSS and it may contain references. In other words, hyperlinks to other resources. These hyperlinks are to other resources that the reader's able to immediately access via a mouse click.
 
@@ -100,7 +94,7 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 ![](<../.gitbook/assets/image (17).png>)
 
-> So a couple of things about these types of requests. The HEAD, GET, OPTIONS and TRACE are referred to as safe methods. What this means is that they do not produce side effects on the server. So if you do a GET request, for example, it'll get the resource but it does not change it on the server side. So no side effects. If a GET method is implemented in a safe way, then think about this, a browser can make an arbitrary number of GET requests without modifying the state of a web application. Play video starting at :2:40 and follow transcript2:40 So these requests therefore can be cached and this allows you to improve performance.
+> So a couple of things about these types of requests. The HEAD, GET, OPTIONS and TRACE are referred to as safe methods. What this means is that they do not produce side effects on the server. So if you do a GET request, for example, it'll get the resource but it does not change it on the server side. So no side effects. If a GET method is implemented in a safe way, then think about this, a browser can make an arbitrary number of GET requests without modifying the state of a web application.&#x20;
 
 
 
@@ -114,7 +108,7 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 ![](<../.gitbook/assets/image (13).png>)
 
-> The headers can be any application-specific string, but they are a core set that was defined by the IETF that are commonly used. An HTTP message header must be separated from the message body by a blank line. So after the header, blank line, and then here comes the third part, the body. So the message body is optional. Doesn't have to appear in a request. It's typically included if there's user-entered data that needs to be uploaded to the server side. If an HTTP request includes a body, there are usually header fields that describe what is up in the body. So, for example, you might see something like Content-Type is text/html or the Content-Length is 3495 bytes. So these things are describing the body itself. So these are the three parts of the request, the request line, the header, and then the message body.
+> An HTTP message header must be separated from the message body by a blank line. So after the header, blank line, and then here comes the third part, the body. So the message body is optional. Doesn't have to appear in a request. It's typically included if there's user-entered data that needs to be uploaded to the server side. If an HTTP request includes a body, there are usually header fields that describe what is up in the body. So, for example, you might see something like Content-Type is text/html or the Content-Length is 3495 bytes. So these things are describing the body itself. So these are the three parts of the request, the request line, the header, and then the message body.
 
 
 
