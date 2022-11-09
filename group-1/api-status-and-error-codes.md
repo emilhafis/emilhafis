@@ -87,7 +87,7 @@ x-robots-tag: noindex
 
 
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Status/error codes can assist in troubleshooting 
 
@@ -166,7 +166,7 @@ Məsələn biz özümüz develop etdiyimiz APIyanaşmalarına baxaq.
 
 ### 2. QR Payment
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Bu yanaşma çox yaxşıdır. Burda xəta ilə bərabər xətanın sırf nədən qaynaqlandığı deyilir.
 

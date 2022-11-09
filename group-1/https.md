@@ -23,7 +23,7 @@
 > Server isə məlumatları emal edib onlara cavabı qaytarandır, \
 >
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### HTTP Request / Response
 
@@ -46,7 +46,7 @@
 > 5. The browser requests data. The server returns data (in XML or JSON).\
 >
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 > HTTP HTML documentləri kimi resursların alınması üçün protokoldur. O, İnternetdə hər hansı məlumat mübadiləsinin əsasını təşkil edir və client -server protokoludur, yəni sorğular client, çox vaxt Veb brauzer tərəfindən başlanır. Tam sənəd əldə edilən müxtəlif sub-sənədlərdən, məsələn, mətn,şəkillər, videolar, skriptlər və sairdən əsasında qurulur. Yəni biz bir veb sayta girəndə arxada müxtəlif sorğular gedərək alınan nəticələr birləşdirili və bizə göstərilir.
 
@@ -129,7 +129,7 @@ Idempotency nədir (So a couple of things about these types of requests. The HEA
 
 
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 > DELETE is the next one, this allows you to delete a resource. TRACE echoes back a received response. OPTIONS returns the HTTP methods that the server supports for that specific resource. CONNECT converts the request connection to a TCP/IP tunnel. This is what's used to facilitate a TSL or SSL encrypted communication to HTTPS. And then finally PATCH allows you to apply a partial modification to a resource.
 
@@ -137,7 +137,7 @@ Idempotency nədir (So a couple of things about these types of requests. The HEA
 
 
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 >
 
@@ -151,15 +151,62 @@ Idempotency nədir (So a couple of things about these types of requests. The HEA
 
 
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 > So the message body is optional. Doesn't have to appear in a request. It's typically included if there's user-entered data that needs to be uploaded to the server side. If an HTTP request includes a body, there are usually header fields that describe what is up in the body. So, for example, you might see something like Content-Type is text/html or the Content-Length is 3495 bytes. So these things are describing the body itself. So these are the three parts of the request, the request line, the header, and then the message body. To make this a little bit more concrete, let me pull up a website.
 
 
 
-So here's The New York Times, and I'm going to use Chrome in this case, and I'm going to select > View > Developer > Developer Tools. So, again, all of the browsers have these. So, here's the Developer Tools and I'm going to go ahead and hit reload, so you can see the request that is made here. And so here it is. Let's select Network and then I can look at the requests, and a lot of stuff happened here but the initial request was www.newyorktimes.com and you'll see that it was a get request, it returned status 200. We're going to talk about that in the next video, but let's take a look at this request itself. And I'm going to select the headers here. And I want to see the actual request since that's what we're talking about. I'm going to select View Source and if you look at this, you'll see that it was a GET request and it used HTTP/1.1. And here you see the headers. So there's host, so the field name, and then the value, Connection: keep-alive, Cache-Control, maximum age. Accept: text, so this is saying what the browser can accept, so on and so forth. So, everything here are headers. There's no body to this and at the very end, you'll see a big, massive cookie. So again, provide as a header. So the header field and then the actual value is specified here. So this is a GET request. Let's go to our blog application and let's enter a new post. And so I'm going to create a new post and again I'm going to turn on the Developer Tools, so that we can see what happens. And so we'll create a new post and let's just call it Test and Test. We're going to create that post and let me look here, and we'll see that this post is actually using the post method. Again we can take a look at this and we can see that the Request Header was of type POST and it used the route called POST. This is what was added to the end of the URL here, then it was using HTTP/1.1. You'll see in this case that the Header Field and down below there's actually a body associated with this as well and it's in this Form Data. So the form data contains the body.
-
 ### [Travelpayouts example ](https://app.travelpayouts.com/dashboard)
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (20).png>)
+
+> Gəlin nümunə üzərindən baxaq ki, arxa fonda nələr baş verir. Travelpayouts saytın açaq. Sonra Chrome-da Settings > More tools > Developer Tools seçək. Bütün brauzerlərdə Developer tool vardır. Yerləri settingsdə fərqli ola bilər.&#x20;
+>
+> Sorğunu veririk və görürük ki,xeyli sayda məlumatlar gəldi. İndi Network seçib göndərilən sorğulara baxaq. Burada gördüyünüz kimi çox saylı sorğular göndərilir. Gördüynüz kimi burada GET requestdən istifadə olunub və 200 HTTP status code qayıdıb və əməliyyatımızın uğurlu olduğunu bildirir.&#x20;
+
+![](<../.gitbook/assets/image (11).png>)
+
+
+
+>
+>
+> We're going to talk about that in the next video, but let's take a look at this request itself. And I'm going to select the headers here. And I want to see the actual request since that's what we're talking about. I'm going to select View Source and if you look at this, you'll see that it was a GET request and it used HTTP/1.1. And here you see the headers. So there's host, so the field name, and then the value, Connection: keep-alive, Cache-Control, maximum age. Accept: text, so this is saying what the browser can accept, so on and so forth. So, everything here are headers. There's no body to this and at the very end, you'll see a big, massive cookie. So again, provide as a header. So the header field and then the actual value is specified here. So this is a GET request. Let's go to our blog application and let's enter a new post. And so I'm going to create a new post and again I'm going to turn on the Developer Tools, so that we can see what happens. And so we'll create a new post and let's just call it Test and Test. We're going to create that post and let me look here, and we'll see that this post is actually using the post method. Again we can take a look at this and we can see that the Request Header was of type POST and it used the route called POST. This is what was added to the end of the URL here, then it was using HTTP/1.1. You'll see in this case that the Header Field and down below there's actually a body associated with this as well and it's in this Form Data. So the form data contains the body.
+
+![](<../.gitbook/assets/image (2).png>)
+
+<pre class="language-bash"><code class="lang-bash"><strong>General
+</strong><strong>Request URL: https://app.travelpayouts.com/dashboard
+</strong>Request Method: GET
+Status Code: 200 
+Remote Address: 172.255.224.36:443
+Referrer Policy: strict-origin-when-cross-origin
+
+Response header
+content-encoding: br
+content-type: text/html
+date: Wed, 09 Nov 2022 08:15:55 GMT
+last-modified: Wednesday, 09-Nov-2022 08:15:55 GMT
+server: nginx
+x-request-id: 4078a867c2b86503e021293c973f850e
+
+Request header
+:authority: app.travelpayouts.com
+:method: GET
+:path: /dashboard
+:scheme: https
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9,az;q=0.8
+cookie: locale=en; app_referer=https://www.google.com/; regpage=mainpage; _ym_uid=1666552879338889828; _ym_d=1666552879; uxs_uid=df550180-5307-11ed-9d36-e1ae213eb832; _fbp=fb.1.1666552880189.337540356; promotion_code=; _ga_XC952XPR7M=GS1.1.1666552879.1.1.1666552895.0.0.0; _iidt=F8Ho8Y9D/YMP0AukQxUhT6UTrr0uIjTS6NDxTWxqcCc0BSSjpLiN7ikz7hma4rlyBCvbT8sHRpl0amVcAMn3tAlYMw==; _vid_t=He520iosYNGaWnqKW9AfwbZe11qB9B7WprB8kzI9VfUnEaB+s7PdLopnXh2ssUZln1lQ+hk613Dil6/dL9FE0QlYuw==; refresh_token=EBe-7qFHG8VN-yMzbwjJPq-QxX0DM85aJdvKQuHuAbq15_HdlrACfA; marker=direct; _hjSessionUser_302269=eyJpZCI6ImI4YWNkNWI0LTM1NDEtNWZlYy04M2M1LTkxZmM5YzhmNmVhYiIsImNyZWF0ZWQiOjE2NjY1NTI4OTMyNzUsImV4aXN0aW5nIjp0cnVlfQ==; mindboxDeviceUUID=5550fda9-2619-4cf7-b6b5-dc20769bcf17; directCrm-session=%7B%22deviceGuid%22%3A%225550fda9-2619-4cf7-b6b5-dc20769bcf17%22%7D; partners_marker=368030; ad_source=support_en; ad_content=articles+203956163-Travel-insights-with-Aviasales-Data-API; tp_referrer=app.gitbook.com/s/n8Zzef3LcIaitPYhMJp0/~/changes/4rRSMEr0x2EzSXWvvEBD/api-dizayn/sorgu-nuemun-si; _hjSessionUser_302666=eyJpZCI6IjRlMGE4N2RhLTkyNjQtNTIzZS1iNGRkLTVjMDE1NmFmODlhZSIsImNyZWF0ZWQiOjE2NjY1NTI5NDM1NDcsImV4aXN0aW5nIjp0cnVlfQ==; _ga_1WLL0NEBEH=GS1.1.1667670655.6.0.1667670655.60.0.0; app_locale=en; _sp_ses.2042=*; _hjSession_302269=eyJpZCI6IjA4YTA5MDg3LTU0ZGQtNDY5Zi1hZGNkLTBkYTQ1YzI0M2M2MiIsImNyZWF0ZWQiOjE2Njc5ODA2OTQyOTUsImluU2FtcGxlIjp0cnVlfQ==; _hjAbsoluteSessionInProgress=0; access_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InI2Ukl1WEdiV1o0b2o5VmxMNWNEVDRhLW1TZyJ9.eyJhdWQiOiJiMGUwMmZjYy0wYWI0LTRiMmMtYTE2NC03NDI3NjI3ODNhNGUiLCJleHAiOjE2Njc5ODE1OTMsImlhdCI6MTY2Nzk4MDY5MywiaXNzIjoidHJhdmVscGF5b3V0cy5jb20iLCJzdWIiOiIzMzlkZGU1Zi01MTQ5LTRhOGItOGJmOS00YjFjMjI5MjZlNDAiLCJqdGkiOiJlMDZiZGViYi0zZjAyLTQwOWMtYjJlZC1lNjM3MjA3YjE3MTUiLCJhdXRoZW50aWNhdGlvblR5cGUiOiJSRUZSRVNIX1RPS0VOIiwiZW1haWwiOiJlLmguYWJiYXNvdkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImUuaC5hYmJhc292QGdtYWlsLmNvbSIsInJvbGVzIjpbIlBBUlRORVIiXSwiYXBwbGljYXRpb25JZCI6ImIwZTAyZmNjLTBhYjQtNGIyYy1hMTY0LTc0Mjc2Mjc4M2E0ZSJ9.TVigKvwenuFtCOr153IBns1Z9Vkbbtz74rBefYu93BCua92BqxyIMXzjd6k7q9EfuCrl4K1REIjCIWSuRkmSe0kUEZ3VTqjhUKEfASOdy9p0fNIEg82CczXzzljsz2I4iUZ5YQISZVetRR3kicu0W-1pN4GUojZlnssFqMRAcrpo2SAnP9ZHRiz3nhIqPYWWrSWhz5SPXSmAfSJ3Ir0r6RZ8B0ibO1LkqsZYa8RHnrBFaEOB7QA9eShfxXU6xO9SYLWMBTem_lLGUVfhptwdOLP3wIc-ibV7j-AuLVi6-56sxmWwUnZcJm0CSLKuOXj7jM9-OU0smGqduY54lWR2LA; daily_logged_in=true; tp_session=true; _ga=GA1.2.1625802743.1666552879; _gid=GA1.2.1920764687.1667980695; _ym_isad=2; _ym_visorc=w; _sp_id.2042=ac0fb207-849f-4ee3-93e1-1005540e2d3e.1666552879.5.1667980699.1667414002.41549885-1cc5-40f8-b290-c6db5fbfe192; _ga_Y3REWYRN9K=GS1.1.1667980695.4.1.1667981349.0.0.0
+if-modified-since: Wednesday, 09-Nov-2022 07:58:11 GMT
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: none
+sec-fetch-user: ?1
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36ba</code></pre>
 
