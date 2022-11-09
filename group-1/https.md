@@ -35,8 +35,18 @@
 > 4. Serer brazuerə **HTTP response** (output) qaytarır
 > 5. Client (brazuer) sorğunu qəbul edir
 
-\
+### The HTTP Request Circle
 
+> A typical HTTP request / response circle:
+>
+> 1. The browser requests an HTML page. The server returns an HTML file.
+> 2. The browser requests a style sheet. The server returns a CSS file.
+> 3. The browser requests an JPG image. The server returns a JPG file.
+> 4. The browser requests JavaScript code. The server returns a JS file
+> 5. The browser requests data. The server returns data (in XML or JSON).\
+>
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 > HTTP HTML documentləri kimi resursların alınması üçün protokoldur. O, İnternetdə hər hansı məlumat mübadiləsinin əsasını təşkil edir və client -server protokoludur, yəni sorğular client, çox vaxt Veb brauzer tərəfindən başlanır. Tam sənəd əldə edilən müxtəlif sub-sənədlərdən, məsələn, mətn,şəkillər, videolar, skriptlər və sairdən əsasında qurulur. Yəni biz bir veb sayta girəndə arxada müxtəlif sorğular gedərək alınan nəticələr birləşdirili və bizə göstərilir.
 
@@ -47,8 +57,6 @@
 
 A **protocol** is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol.
 {% endhint %}
-
-![](<../.gitbook/assets/image (3).png>)
 
 
 
