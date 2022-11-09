@@ -23,7 +23,7 @@
 > Server isə məlumatları emal edib onlara cavabı qaytarandır, \
 >
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### HTTP Request / Response
 
@@ -84,9 +84,50 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 > Let's look at the Request Line. It identifies the resource that's being requested and the desired action, sometimes this is called request, verb or method instead of action, that you'd like to apply to that resource. The resource is identified by a Universal Resource Identifier, more specifically, a Uniform Resource Locator, sometimes you'll hear this referred to as URL, very common, is a specific type of a URI. Now there are nine request types that can be specified and I'm going to list each of them.
 
+```bash
+curl --include GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=rub&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e' \
+--header 'X-Access-Token: 3c63416a24d3b969da6df9271faa9d6e'
+```
+
+```bash
+curl --include GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=rub&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e' \
+--header 'X-Access-Token: 3c63416a24d3b969da6df9271faa9d6e'
+curl: (6) Could not resolve host: GET
+HTTP/2 200 
+server: nginx
+date: Wed, 09 Nov 2022 06:55:57 GMT
+content-type: application/json; charset=utf-8
+content-length: 500
+vary: Accept-Encoding
+x-krakend: Version undefined
+x-krakend-completed: false
+x-request-id: 99a5d8a0af5e046bcec232828a295f29
+x-robots-tag: noindex
+
+{"success":true,"data":[{"origin":"BAK","destination":"IST","origin_airport":"GYD","destination_airport":"SAW","price":8967,"airline":"TK","flight_number":"7703","departure_at":"2023-03-26T05:15:00+04:00","transfers":0,"return_transfers":0,"duration":185,"link":"/search/BAK2603IST2?t=TK16797933001679804400000185GYDSAW_d8b41db8fd891a5f27e406371756c862_17934\u0026search_date=06112022\u0026expected_price_uuid=3d5f4ee6-0303-4e73-9b58-44fc59546b99\u0026expected_price_currency=rub"}],"currency":"rub"}% 
+```
+
 ![](<../.gitbook/assets/image (18).png>)
 
-> The first is a Head request. This is the response that would be supplied to a GET request but it doesn't include the body. One of the most common requests is a GET request. It simply returns a representation of the resource. POST allows you to submit data, for example from an HTML form to the resource. So the data is supplied in the body of the request, and the result may be the creation of a new resource or it could involve updating an existing resource. PUT. This submits a representation of the resource to the server.
+> Bunlardan birincisi **HEAD** requestdir. Normal sorğularda bildiyimiz kimi HEAD response-da görünmür. Amma onu bildirdiyimi zkimi sorğulasaq görünəcəkdir.
+>
+> Digəri isə ən geniş istifadə olunan **GET** metodudur.&#x20;
+
+{% hint style="danger" %}
+GET metodu nədir?
+
+POST nədir?
+
+PUT nədir?
+
+DELETE nədir?
+
+(The POST, PUT, and DELETE methods, they can cause side effects. They're changing the resource. So therefore they're not called safe methods. The PUT and DELETE methods, what you'd like is for them to be idempotent. What this means, if you do multiple identical requests, they should have the same effect as a single request. So if you put a resource multiple times, it should continue to override it. If you delete a resource multiple times, it should be deleted the first time. And after that it shouldn't change what's on the server side.  So the safe methods, if you think about, since they don't change the state of the server, are therefore by definition also idempotent.)
+
+Idempotency nədir (So a couple of things about these types of requests. The HEAD, GET, OPTIONS and TRACE are referred to as safe methods. What this means is that they do not produce side effects on the server. So if you do a GET request, for example, it'll get the resource but it does not change it on the server side. So no side effects. If a GET method is implemented in a safe way, then think about this, a browser can make an arbitrary number of GET requests without modifying the state of a web application. )
+{% endhint %}
+
+
 
 ![](<../.gitbook/assets/image (11).png>)
 
@@ -94,13 +135,11 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 ![](<../.gitbook/assets/image (17).png>)
 
-> So a couple of things about these types of requests. The HEAD, GET, OPTIONS and TRACE are referred to as safe methods. What this means is that they do not produce side effects on the server. So if you do a GET request, for example, it'll get the resource but it does not change it on the server side. So no side effects. If a GET method is implemented in a safe way, then think about this, a browser can make an arbitrary number of GET requests without modifying the state of a web application.&#x20;
-
 
 
 ![](<../.gitbook/assets/image (8).png>)
 
-> The POST, PUT, and DELETE methods, they can cause side effects. They're changing the resource. So therefore they're not called safe methods. The PUT and DELETE methods, what you'd like is for them to be idempotent. What this means, if you do multiple identical requests, they should have the same effect as a single request. So if you put a resource multiple times, it should continue to override it. If you delete a resource multiple times, it should be deleted the first time. And after that it shouldn't change what's on the server side. Play video starting at :3:19 and follow transcript3:19 So the safe methods, if you think about, since they don't change the state of the server, are therefore by definition also idempotent.
+>
 
 ![](<../.gitbook/assets/image (15).png>)
 
@@ -119,4 +158,8 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 
 So here's The New York Times, and I'm going to use Chrome in this case, and I'm going to select > View > Developer > Developer Tools. So, again, all of the browsers have these. So, here's the Developer Tools and I'm going to go ahead and hit reload, so you can see the request that is made here. And so here it is. Let's select Network and then I can look at the requests, and a lot of stuff happened here but the initial request was www.newyorktimes.com and you'll see that it was a get request, it returned status 200. We're going to talk about that in the next video, but let's take a look at this request itself. And I'm going to select the headers here. And I want to see the actual request since that's what we're talking about. I'm going to select View Source and if you look at this, you'll see that it was a GET request and it used HTTP/1.1. And here you see the headers. So there's host, so the field name, and then the value, Connection: keep-alive, Cache-Control, maximum age. Accept: text, so this is saying what the browser can accept, so on and so forth. So, everything here are headers. There's no body to this and at the very end, you'll see a big, massive cookie. So again, provide as a header. So the header field and then the actual value is specified here. So this is a GET request. Let's go to our blog application and let's enter a new post. And so I'm going to create a new post and again I'm going to turn on the Developer Tools, so that we can see what happens. And so we'll create a new post and let's just call it Test and Test. We're going to create that post and let me look here, and we'll see that this post is actually using the post method. Again we can take a look at this and we can see that the Request Header was of type POST and it used the route called POST. This is what was added to the end of the URL here, then it was using HTTP/1.1. You'll see in this case that the Header Field and down below there's actually a body associated with this as well and it's in this Form Data. So the form data contains the body.
+
+### [Travelpayouts example ](https://app.travelpayouts.com/dashboard)
+
+![](../.gitbook/assets/image.png)
 

@@ -32,4 +32,4 @@
 ## Group 1
 
 * [API status and error codes](group-1/api-status-and-error-codes.md)
-* [HTTP](group-1/http.md)
+* [HTTP](group-1/https.md)
