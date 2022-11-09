@@ -142,7 +142,7 @@ Error kodların düzgün təqdim edilməsi çox vacibdir. Bu əlavə sualları a
 
 > Most developers will probably be familiar with 200, 400, and 500 codes, so these codes don’t need a lot of explanatory detail. But if your API has unique codes, make sure to describe these adequately.
 
-### [YouTube Error codes](https://developers.google.com/youtube/v3/docs/errors)  ![](<../.gitbook/assets/image (5) (1).png>)
+### [YouTube Error codes](https://developers.google.com/youtube/v3/docs/errors)  ![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 > YouTube da görürük ki, Error code-lar üçün ayrıca səhifə verilib. Orada kod ilə yanaşı Error detail və descriptionda təsvir edilib.
 >

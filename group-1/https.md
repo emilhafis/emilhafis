@@ -23,7 +23,7 @@
 > Server isə məlumatları emal edib onlara cavabı qaytarandır, \
 >
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### HTTP Request / Response
 
@@ -60,7 +60,7 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (1).png>)
 
 > Once again here's the client server interaction associated with HTTP consisting of a request followed by a response. So, what is the request all about? Well, the client is requesting some resource from the server. Once the server receives the request it may be able to provide this resource directly. It may need to create it. It may need to retrieve it from some other server. Or it may not be able to satisfy the request at all. Whatever might be the case, the server's job is to respond accordingly. So let's take a closer look at this.
 
@@ -68,7 +68,7 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 > Hypermedia, this is just Just a logic extension of hypertext to graphics, audio, and visual. Hyperlinks, these are references to other hyper media and if you think about it they actually define the structure of the world wide web. Indeed, this is the structure that Google uses to determine the relevance of the hyperlinks that are returned to you when you do a search. And lastly, you could have scripts as an HTTP resource. Nowadays this is typically JavaScript so this is code that's returned to your browser and then executed in your browser.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 > The HTTP protocol is extremely right weight and simple. Indeed that's one of the main reasons for its success. Initially, with HTTP/0.9 a client could only issue what are called GET requests so ask for a resource from the server and that's it. Here's what it might look like. GET and then from the root of the application welcome.html. This would cause the server to return the contents of the whatever the HTML was contained inside the file welcome dot HTML. With HTTP one point o, which was introduced a little bit later in 1996 this HTTP protocol was extended to include additional headers with additional requests methods as well.
 
@@ -151,7 +151,7 @@ Idempotency nədir (So a couple of things about these types of requests. The HEA
 
 
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../.gitbook/assets/image (14).png>)
 
 > So the message body is optional. Doesn't have to appear in a request. It's typically included if there's user-entered data that needs to be uploaded to the server side. If an HTTP request includes a body, there are usually header fields that describe what is up in the body. So, for example, you might see something like Content-Type is text/html or the Content-Length is 3495 bytes. So these things are describing the body itself. So these are the three parts of the request, the request line, the header, and then the message body. To make this a little bit more concrete, let me pull up a website.
 
@@ -159,21 +159,19 @@ Idempotency nədir (So a couple of things about these types of requests. The HEA
 
 ### [Travelpayouts example ](https://app.travelpayouts.com/dashboard)
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (9).png>)
 
 > Gəlin nümunə üzərindən baxaq ki, arxa fonda nələr baş verir. Travelpayouts saytın açaq. Sonra Chrome-da Settings > More tools > Developer Tools seçək. Bütün brauzerlərdə Developer tool vardır. Yerləri settingsdə fərqli ola bilər.&#x20;
 >
 > Sorğunu veririk və görürük ki,xeyli sayda məlumatlar gəldi. İndi Network seçib göndərilən sorğulara baxaq. Burada gördüyünüz kimi çox saylı sorğular göndərilir. Gördüynüz kimi burada GET requestdən istifadə olunub və 200 HTTP status code qayıdıb və əməliyyatımızın uğurlu olduğunu bildirir.&#x20;
 
-![](<../.gitbook/assets/image (11).png>)
+![](../.gitbook/assets/image.png)
 
 
 
->
->
-> We're going to talk about that in the next video, but let's take a look at this request itself. And I'm going to select the headers here. And I want to see the actual request since that's what we're talking about. I'm going to select View Source and if you look at this, you'll see that it was a GET request and it used HTTP/1.1. And here you see the headers. So there's host, so the field name, and then the value, Connection: keep-alive, Cache-Control, maximum age. Accept: text, so this is saying what the browser can accept, so on and so forth. So, everything here are headers. There's no body to this and at the very end, you'll see a big, massive cookie. So again, provide as a header. So the header field and then the actual value is specified here. So this is a GET request. Let's go to our blog application and let's enter a new post. And so I'm going to create a new post and again I'm going to turn on the Developer Tools, so that we can see what happens. And so we'll create a new post and let's just call it Test and Test. We're going to create that post and let me look here, and we'll see that this post is actually using the post method. Again we can take a look at this and we can see that the Request Header was of type POST and it used the route called POST. This is what was added to the end of the URL here, then it was using HTTP/1.1. You'll see in this case that the Header Field and down below there's actually a body associated with this as well and it's in this Form Data. So the form data contains the body.
+> Siz burada real request görürüsünüz. Gördüyümüz kimi bu GET requestdir. Və response tab-a keçəndə artıq bizə `content-type: text/html` HTML göndərildiyini görürük.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 <pre class="language-bash"><code class="lang-bash"><strong>General
 </strong><strong>Request URL: https://app.travelpayouts.com/dashboard
