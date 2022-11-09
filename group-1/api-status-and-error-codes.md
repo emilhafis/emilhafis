@@ -87,7 +87,7 @@ x-robots-tag: noindex
 
 
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Status/error codes can assist in troubleshooting 
 
@@ -142,7 +142,7 @@ Error kodların düzgün təqdim edilməsi çox vacibdir. Bu əlavə sualları a
 
 > Most developers will probably be familiar with 200, 400, and 500 codes, so these codes don’t need a lot of explanatory detail. But if your API has unique codes, make sure to describe these adequately.
 
-### [YouTube Error codes](https://developers.google.com/youtube/v3/docs/errors)  ![](<../.gitbook/assets/image (5) (1) (1).png>)
+### [YouTube Error codes](https://developers.google.com/youtube/v3/docs/errors)  ![](<../.gitbook/assets/image (5) (1).png>)
 
 > YouTube da görürük ki, Error code-lar üçün ayrıca səhifə verilib. Orada kod ilə yanaşı Error detail və descriptionda təsvir edilib.
 >
@@ -158,15 +158,15 @@ Məsələn biz özümüz develop etdiyimiz APIyanaşmalarına baxaq.
 
 1. AÖS də yaradılan Open Banking nümunəsi. Burada Hər metodun altında HTTP status kodlar göstərilir və əlavə olaraq, response body də error details aydın formada əks olunur.
 
-<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. QR Payment
 
-<figure><img src="../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Bu yanaşma çox yaxşıdır. Burda xəta ilə bərabər xətanın sırf nədən qaynaqlandığı deyilir.
 

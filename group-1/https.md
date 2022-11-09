@@ -23,7 +23,7 @@
 > Server isə məlumatları emal edib onlara cavabı qaytarandır, \
 >
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### HTTP Request / Response
 
@@ -46,7 +46,7 @@
 > 5. The browser requests data. The server returns data (in XML or JSON).\
 >
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 > HTTP HTML documentləri kimi resursların alınması üçün protokoldur. O, İnternetdə hər hansı məlumat mübadiləsinin əsasını təşkil edir və client -server protokoludur, yəni sorğular client, çox vaxt Veb brauzer tərəfindən başlanır. Tam sənəd əldə edilən müxtəlif sub-sənədlərdən, məsələn, mətn,şəkillər, videolar, skriptlər və sairdən əsasında qurulur. Yəni biz bir veb sayta girəndə arxada müxtəlif sorğular gedərək alınan nəticələr birləşdirili və bizə göstərilir.
 
@@ -60,7 +60,7 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](<../.gitbook/assets/image (9).png>)
 
 > Once again here's the client server interaction associated with HTTP consisting of a request followed by a response. So, what is the request all about? Well, the client is requesting some resource from the server. Once the server receives the request it may be able to provide this resource directly. It may need to create it. It may need to retrieve it from some other server. Or it may not be able to satisfy the request at all. Whatever might be the case, the server's job is to respond accordingly. So let's take a closer look at this.
 
@@ -68,11 +68,11 @@ A **protocol** is a system of rules that define how data is exchanged within or 
 
 > Hypermedia, this is just Just a logic extension of hypertext to graphics, audio, and visual. Hyperlinks, these are references to other hyper media and if you think about it they actually define the structure of the world wide web. Indeed, this is the structure that Google uses to determine the relevance of the hyperlinks that are returned to you when you do a search. And lastly, you could have scripts as an HTTP resource. Nowadays this is typically JavaScript so this is code that's returned to your browser and then executed in your browser.
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5) (2).png>)
 
 > The HTTP protocol is extremely right weight and simple. Indeed that's one of the main reasons for its success. Initially, with HTTP/0.9 a client could only issue what are called GET requests so ask for a resource from the server and that's it. Here's what it might look like. GET and then from the root of the application welcome.html. This would cause the server to return the contents of the whatever the HTML was contained inside the file welcome dot HTML. With HTTP one point o, which was introduced a little bit later in 1996 this HTTP protocol was extended to include additional headers with additional requests methods as well.
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 ### HTTP Request
 
@@ -129,7 +129,7 @@ Idempotency nədir (So a couple of things about these types of requests. The HEA
 
 
 
-![](<../.gitbook/assets/image (11) (1).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 > DELETE is the next one, this allows you to delete a resource. TRACE echoes back a received response. OPTIONS returns the HTTP methods that the server supports for that specific resource. CONNECT converts the request connection to a TCP/IP tunnel. This is what's used to facilitate a TSL or SSL encrypted communication to HTTPS. And then finally PATCH allows you to apply a partial modification to a resource.
 
@@ -137,7 +137,7 @@ Idempotency nədir (So a couple of things about these types of requests. The HEA
 
 
 
-![](<../.gitbook/assets/image (8) (1).png>)
+![](<../.gitbook/assets/image (8) (2).png>)
 
 >
 
@@ -159,19 +159,19 @@ Idempotency nədir (So a couple of things about these types of requests. The HEA
 
 ### [Travelpayouts example ](https://app.travelpayouts.com/dashboard)
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (2).png>)
 
 > Gəlin nümunə üzərindən baxaq ki, arxa fonda nələr baş verir. Travelpayouts saytın açaq. Sonra Chrome-da Settings > More tools > Developer Tools seçək. Bütün brauzerlərdə Developer tool vardır. Yerləri settingsdə fərqli ola bilər.&#x20;
 >
 > Sorğunu veririk və görürük ki,xeyli sayda məlumatlar gəldi. İndi Network seçib göndərilən sorğulara baxaq. Burada gördüyünüz kimi çox saylı sorğular göndərilir. Gördüynüz kimi burada GET requestdən istifadə olunub və 200 HTTP status code qayıdıb və əməliyyatımızın uğurlu olduğunu bildirir.&#x20;
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (10).png>)
 
 
 
 > Siz burada real request görürüsünüz. Gördüyümüz kimi bu GET requestdir. Və response tab-a keçəndə artıq bizə `content-type: text/html` HTML göndərildiyini görürük.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (20).png>)
 
 <pre class="language-bash"><code class="lang-bash"><strong>General
 </strong><strong>Request URL: https://app.travelpayouts.com/dashboard

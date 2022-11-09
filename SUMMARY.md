@@ -33,3 +33,4 @@
 
 * [API status and error codes](group-1/api-status-and-error-codes.md)
 * [HTTP](group-1/https.md)
+* [JSON Dot notation](group-1/json-dot-notation.md)
