@@ -43,3 +43,17 @@ Bura da da console-a gələn cavabı görə bilərik
 
 <figure><img src="https://lh4.googleusercontent.com/DY4opU8Sp9-t6PNQWiaqvmlsZiVv46a4Wm7oQj9KKBoUjwpVMIADiRZNaI4xE9QDX6w7UYgEi3V-sw5_8U82raQ7EbF43Rplz078ehaXktsYWs9KBoPS0f8Keh_ugGv5ORQTeUPHvRPedXV6jGTxo_DihxCD-euutFZP8cA7PMX-lSi8fbBQ_J9M6LgUQaWgSdo" alt=""><figcaption></figcaption></figure>
 
+> Bizim senarimizdə biz ucuz bilet qiyməti ilə maraqlnırdırdıq, yəni bizə lazım olan `price` dəyəridir.
+>
+> bu dəyərə gedib çıxamaq üçün isə bu formada dot notation istifadə etməliyik
+
+```
+response.data[0].price
+```
+
+> JSOn response-dan `price` əldə etmək və onu JavaScript Console da print etmək üçün, aşağıda göstəriləni  `console.log(response)`  altına əlavə edək.
+
+```
+console.log("flight-price: " + response.data[0].price);
+```
+
