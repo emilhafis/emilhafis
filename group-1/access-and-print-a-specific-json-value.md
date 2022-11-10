@@ -152,6 +152,13 @@ $("#flight_price").append(content);
 });
 ```
 
+```
+      <h1>Sample Page</h1>
+      <div id="flight_price">Price: </div>
+```
+
+
+
 > Kodumuz bu formadda görünəcəkdir
 
 ```html
@@ -162,31 +169,75 @@ $("#flight_price").append(content);
       <meta charset="utf-8">
       <link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
       <title>travelpayouts Integration</title>
-   </head>
-   <body>
+  
       <script>
-        {
-          var settings = {
-             "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=azn&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e",
-             "method": "GET",
-             "timeout": 0,
-};
-           $.ajax(settings)
-           .done(function (response) {
-             console.log(response);
-             
-             var content = response.data[0].price;
+           {
+             var settings = {
+                "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=azn&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e",
+                "method": "GET",
+                "timeout": 0,
+            };
+              $.ajax(settings)
+              .done(function (response) {
+                console.log(response);
+               
+            var content = response.data[0].price;
             $("#flight_price").append(content);
-         });
-         }
+
+            });
+            }
       </script>
+   </head>
+     <body>
+
+       <h1>Sample Page</h1>
+      <div id="flight_price">Qiymət: </div>
       
-   </body>
+     </body>
 </html>
 ```
 
+>
+
 > 2\. Səhifəni yeniləyək və görəcəyik ki, qiymət ekranda çap edildi.
 
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+### Biz burada nə etdik?
+
 \
+Gəlin baxaq.
 
+Inside the tags of the AJAX `done` method, we pulled out the value we wanted into a variable, like this:
 
+```
+var settings = {
+                "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=azn&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e",
+                "method": "GET",
+                "timeout": 0,
+```
+
+Burada biz API-ya müraciət etdik.
+
+```
+  $.ajax(settings)
+              .done(function (response)
+```
+
+AJAX daxilindəki `done` metodu ilə biz istədiyimiz dəyəri götürdük
+
+```
+var content = response.data[0].price;
+```
+
+Sonra biz ekranda görünməsi üçün element əlavə etdik və `Qiymət` olaraq adlandırdıq.
+
+```
+  <div id="flight_price">Qiymət: </div>
+```
+
+&#x20;Sonra biz JQuery append metodundan istifadə edib `content` dəyərində  götürdüyümüz `price` dəyərini ekrandakı `flight_price` dəyərinə mənimsədirik.
+
+```
+$("#flight_price").append(content);
+```
