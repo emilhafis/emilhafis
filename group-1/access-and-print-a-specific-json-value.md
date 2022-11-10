@@ -246,29 +246,50 @@ $("#currency").append(content);
 
 In the previous section, you retrieved a value from a JSON object. Now let’s get a value from an array. Let’s get the `main` property from the `weather` array in the response. Here’s what the JSON array looks like:
 
+Biz bundan öncə JSON obyektindəki dəyəri götürüb print etdik. İndi isə bir qədər işimizi qəlizləşdirib array dən dəyərləri götürməyə çalışacaq. Çünki bizə lazım olan digər məlumat data array daxilindədəir. Gəlin qiyməti çıxaraq. Qiymətimiz price adı altındadır. Bir daha nəzərə salaq JSOn muza
+
 ```
 {
-  "weather": [
-    {
-      "id": 801,
-      "main": "Clouds",
-      "description": "few clouds",
-      "icon": "02d"
-    }
-  ]
-]
+    "success": true,
+    "data": [
+        {
+            "origin": "BAK",
+            "destination": "IST",
+            "origin_airport": "GYD",
+            "destination_airport": "SAW",
+            "price": 8967,
+            "airline": "TK",
+            "flight_number": "7703",
+            "departure_at": "2023-03-26T05:15:00+04:00",
+            "transfers": 0,
+            "return_transfers": 0,
+            "duration": 185,
+            "link": "/search/BAK2603IST2?t=TK16797933001679804400000185GYDSAW_d8b41db8fd891a5f27e406371756c862_17934&search_date=06112022&expected_price_uuid=3d5f4ee6-0303-4e73-9b58-44fc59546b99&expected_price_currency=rub"
+        }
+    ],
+    "currency": "rub"
 }
 ```
 
-Remember that brackets signify an array. Inside the `weather` array is an unnamed object. To get the `main` element from this array, you would use the following dot notation:
+{% hint style="warning" %}
+data - nın array olduğun haradan bilirik?
+
+* Mötərizədən
+{% endhint %}
+
+data array-dən price dəyərini götürmək üçün bu formada dot notation istifadə etməliyik.
 
 ```
-response.weather[0].main
+response.data[0].price)
 ```
 
-Then you would follow the same pattern as before to print it to the page. While objects allow you to get a specific property, arrays require you to select the position in the list that you want.
 
-Here’s the code from the [sample page](https://idratherbewriting.com/learnapidoc/assets/files/weather-windspeed.html):
+
+Sonra onu səhifədə çap etmək üçün qeyd etdiyimiz nümunələrə əməl etməliyik.
+
+Obyektlər sizə istədiyiniz dəyərləri götürməyə icazə verirsə də, array tələb edirki siyahı üzrə dəyərin yerləşdiyi siyahını seçməyi tələb edir.
+
+Düzəltdiyimiz nümunə üzrə sample kodumuz
 
 ```
 <!DOCTYPE html>
