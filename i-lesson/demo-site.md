@@ -36,10 +36,10 @@ Nümunədə göstərdiyimiz HTML faylı hansı formada bizə məlumatları qayta
       <script>
          function checkFlight() {
           var settings = {
-             "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-23&return_at=2023-03-26&currency=azn&limit=1&token=3c63416a24d3b969da6df9271faa9d6e",
+             "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=rub&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e",
              "method": "GET",
              "timeout": 0,
-};
+           };
            $.ajax(settings)
            .done(function (response) {
              console.log(response);
