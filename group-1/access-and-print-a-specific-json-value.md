@@ -57,3 +57,32 @@ response.data[0].price
 console.log("flight-price: " + response.data[0].price);
 ```
 
+```html
+<!DOCTYPE html>
+ <html>
+   <head>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <meta charset="utf-8">
+      <link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+      <title>travelpayouts Integration</title>
+   </head>
+   <body>
+      <script>
+        {
+          var settings = {
+             "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=azn&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e",
+             "method": "GET",
+             "timeout": 0,
+};
+           $.ajax(settings)
+           .done(function (response) {
+             console.log(response);
+             console.log("flight-price: " + response.data[0].price)
+         });
+         }
+      </script>
+      
+   </body>
+</html>
+```
+
