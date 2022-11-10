@@ -86,3 +86,107 @@ console.log("flight-price: " + response.data[0].price);
 </html>
 ```
 
+> Refresh your Chrome browser and see the information that appears in the console:
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+CORS söndürməyi unutmayın
+{% endhint %}
+
+### Printing a JSON value to the page
+
+> Let’s say you wanted to print part of the JSON (the wind speed data) to the page, not just the console. (By “print,” I mean make the value appear on the page, not send it to a printer.) Printing the value involves a little bit of JavaScript (or jQuery to make it easier).
+>
+> I’m assuming you’re starting with the [same code](https://idratherbewriting.com/learnapidoc/assets/files/weather-plain.html) from the [previous tutorial](https://idratherbewriting.com/learnapidoc/docapis\_json\_console.html). That code looks like this:
+>
+> İndi isə baxaq ki, JSOn value-nu (flight-price) səhifədə necə print edirik (print dedikdə printer nəzərdə tutumuruq, ekranda göstərməyi deyirəm).&#x20;
+>
+> Deməli bizim kodumuz hazırda bu formadadır.\
+>
+
+```html
+<!DOCTYPE html>
+ <html>
+   <head>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <meta charset="utf-8">
+      <link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+      <title>travelpayouts Integration</title>
+  
+      <script>
+        {
+          var settings = {
+             "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=azn&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e",
+             "method": "GET",
+             "timeout": 0,
+};
+           $.ajax(settings)
+           .done(function (response) {
+             console.log(response);
+             console.log("flight-price: " + response.data[0].price)
+         });
+         }
+      </script>
+   </head>
+     <body>
+     </body>
+</html>
+```
+
+{% hint style="info" %}
+(In the above code, replace `APIKEY` with your actual API key.)
+{% endhint %}
+
+### İstənilən dəyərin print edilməsi üçün
+
+> 1. Add the following inside the `ajax` function:
+
+```javascript
+$.ajax(settings).done(function (response) {
+console.log(response);
+
+var content = response.data[0].price;
+$("#flight_price").append(content);
+
+});
+```
+
+> Kodumuz bu formadda görünəcəkdir
+
+```html
+<!DOCTYPE html>
+ <html>
+   <head>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <meta charset="utf-8">
+      <link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+      <title>travelpayouts Integration</title>
+   </head>
+   <body>
+      <script>
+        {
+          var settings = {
+             "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=azn&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e",
+             "method": "GET",
+             "timeout": 0,
+};
+           $.ajax(settings)
+           .done(function (response) {
+             console.log(response);
+             
+             var content = response.data[0].price;
+            $("#flight_price").append(content);
+         });
+         }
+      </script>
+      
+   </body>
+</html>
+```
+
+> 2\. Səhifəni yeniləyək və görəcəyik ki, qiymət ekranda çap edildi.
+
+\
+
+

@@ -53,7 +53,7 @@ x-robots-tag: noindex
 >
 > HTTP status code uzun xəta mesajlarınıa aid qısaldılmış kodlardır.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > Bəzən status kodların düzgün tətbiq etməyəndə, səhvin harda olduğunu anlamaq olmur. Buna görədə düzgün status kodlar təyin etməliyik ki, API-mız üzrə qayıdan xətalar dərhal aydın olsun.
 
@@ -162,7 +162,7 @@ Məsələn biz özümüz develop etdiyimiz APIyanaşmalarına baxaq.
 
 <figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. QR Payment
 
