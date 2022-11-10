@@ -30,7 +30,7 @@ Sizcə biz API request üçün JavaScript kodun hardan əldə edə bilərik? API
    </head>
    <body>
       <h1>Sample Page</h1>
-      flight_price: <span id="flightPrice"></span>
+      flight_price: <span id="flight_Price"></span>
    </body>
 </html>
 ```
@@ -60,13 +60,45 @@ $.ajax(settings).done(function (response) {
 });
 ```
 
-1. Kodu kopyalayıb `POSTMAN CODE GOES HERE` deyilən hissəyə əlavə edirik.
-2.  `console.log(response);`altına bu sətri artırırıq
+4\. Kodu kopyalayıb `POSTMAN CODE GOES HERE` deyilən hissəyə əlavə edirik.
 
-    ```
-    var content = response.wind.speed;
-    $("#windSpeed").append(content);
-    ```
+5\. `console.log(response);`altına bu sətri artırırıq
+
+```
+$("#flight_price").append (response.data[0].price);
+```
+
+> 6\. Nəticədə kodumuz bu formada görünəcəkdir
+
+```html
+<html>
+   <meta charset="UTF-8">
+   <head>
+      <title>Sample page</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script>
+      var settings = {
+           "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=rub&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e",
+           "method": "GET",
+           "timeout": 0,
+           "headers": {
+             "X-Access-Token": "3c63416a24d3b969da6df9271faa9d6e"
+           },
+         };
+
+         $.ajax(settings).done(function (response) {
+           console.log(response);
+
+         $("#flight_price").append (response.data[0].price);
+         });
+      </script>
+   </head>
+   <body>
+      <h1>Sample Page</h1>
+      flight_price: <span id="flight_Price"></span>
+   </body>
+</html>
+```
 
 \
 
