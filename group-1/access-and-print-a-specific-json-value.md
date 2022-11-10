@@ -241,3 +241,71 @@ Sonra biz ekranda görünməsi üçün element əlavə etdik və `Qiymət` olara
 ```
 $("#flight_price").append(content);
 ```
+
+### Get the value from an array
+
+In the previous section, you retrieved a value from a JSON object. Now let’s get a value from an array. Let’s get the `main` property from the `weather` array in the response. Here’s what the JSON array looks like:
+
+```
+{
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ]
+]
+}
+```
+
+Remember that brackets signify an array. Inside the `weather` array is an unnamed object. To get the `main` element from this array, you would use the following dot notation:
+
+```
+response.weather[0].main
+```
+
+Then you would follow the same pattern as before to print it to the page. While objects allow you to get a specific property, arrays require you to select the position in the list that you want.
+
+Here’s the code from the [sample page](https://idratherbewriting.com/learnapidoc/assets/files/weather-windspeed.html):
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<title>Sample Page</title>
+
+<script>
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://api.openweathermap.org/data/2.5/weather?zip=95050&appid=APIKEY&units=imperial",
+  "method": "GET"
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+
+  var content = response.wind.speed;
+  $("#windSpeed").append(content);
+
+  var currentWeather = response.weather[0].main;
+  $("#currentWeather").append(currentWeather);
+
+});
+</script>
+</head>
+<body>
+<h1>Sample Page</h1>
+
+<div id="windSpeed">Wind speed: </div>
+<div id="currentWeather">Current weather conditions: </div>
+
+</body>
+</html>
+```
+
+(In the above code, replace `APIKEY` with your actual API key.)
