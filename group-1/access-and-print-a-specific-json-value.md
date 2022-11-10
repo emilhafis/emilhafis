@@ -280,7 +280,7 @@ data - nın array olduğun haradan bilirik?
 data array-dən price dəyərini götürmək üçün bu formada dot notation istifadə etməliyik.
 
 ```
-response.data[0].price)
+response.data[0].price
 ```
 
 
@@ -293,39 +293,39 @@ Düzəltdiyimiz nümunə üzrə sample kodumuz
 
 ```
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<title>Sample Page</title>
+ <html>
+   <head>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <meta charset="utf-8">
+      <link rel="stylesheet"  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+      <title>travelpayouts Integration</title>
+  
+      <script>
+           {
+             var settings = {
+                "url": "https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-26&unique=false&sorting=price&direct=false&currency=azn&limit=30&page=1&one_way=true&token=3c63416a24d3b969da6df9271faa9d6e",
+                "method": "GET",
+                "timeout": 0,
+            };
+              $.ajax(settings)
+              .done(function (response) {
+                console.log(response);
+               
+            var content = response.currency;
+            $("#currency").append(content);
 
-<script>
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "https://api.openweathermap.org/data/2.5/weather?zip=95050&appid=APIKEY&units=imperial",
-  "method": "GET"
-}
+            var content = response.data[0].price;
+            $("#price").append(content);
+            });
+            }
+      </script>
+   </head>
+     <body>
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-
-  var content = response.wind.speed;
-  $("#windSpeed").append(content);
-
-  var currentWeather = response.weather[0].main;
-  $("#currentWeather").append(currentWeather);
-
-});
-</script>
-</head>
-<body>
-<h1>Sample Page</h1>
-
-<div id="windSpeed">Wind speed: </div>
-<div id="currentWeather">Current weather conditions: </div>
-
-</body>
+       <h1>Sample Page</h1>
+      <div id="currency">Məzənnə: </div>
+      <div id="price">Qiymət: </div>
+     </body>
 </html>
 ```
 
