@@ -48,13 +48,13 @@ Bura da da console-a gələn cavabı görə bilərik
 > bu dəyərə gedib çıxamaq üçün isə bu formada dot notation istifadə etməliyik
 
 ```
-response.data[0].price
+response.currency
 ```
 
-> JSOn response-dan `price` əldə etmək və onu JavaScript Console da print etmək üçün, aşağıda göstəriləni  `console.log(response)`  altına əlavə edək.
+> JSOn response-dan `currency` əldə etmək və onu JavaScript Console da print etmək üçün, aşağıda göstəriləni  `console.log(response)`  altına əlavə edək.
 
 ```
-console.log("flight-price: " + response.data[0].price);
+console.log("flight-price: " + response.currency);
 ```
 
 ```html
@@ -77,7 +77,7 @@ console.log("flight-price: " + response.data[0].price);
            $.ajax(settings)
            .done(function (response) {
              console.log(response);
-             console.log("flight-price: " + response.data[0].price)
+             console.log("currency: " + response.currency)
          });
          }
       </script>
@@ -124,7 +124,7 @@ CORS söndürməyi unutmayın
            $.ajax(settings)
            .done(function (response) {
              console.log(response);
-             console.log("flight-price: " + response.data[0].price)
+             console.log("flight-price: " + response.currency)
          });
          }
       </script>
@@ -146,15 +146,15 @@ CORS söndürməyi unutmayın
 $.ajax(settings).done(function (response) {
 console.log(response);
 
-var content = response.data[0].price;
-$("#flight_price").append(content);
+var content = response.currency;
+$("#currency").append(content);
 
 });
 ```
 
 ```
       <h1>Sample Page</h1>
-      <div id="flight_price">Price: </div>
+      <div id="currency">Price: </div>
 ```
 
 
@@ -181,8 +181,8 @@ $("#flight_price").append(content);
               .done(function (response) {
                 console.log(response);
                
-            var content = response.data[0].price;
-            $("#flight_price").append(content);
+            var content = response.currency;
+            $("#currency").append(content);
 
             });
             }
@@ -191,7 +191,7 @@ $("#flight_price").append(content);
      <body>
 
        <h1>Sample Page</h1>
-      <div id="flight_price">Qiymət: </div>
+      <div id="currency">Məzənnə: </div>
       
      </body>
 </html>
@@ -224,22 +224,22 @@ Burada biz API-ya müraciət etdik.
               .done(function (response)
 ```
 
-AJAX daxilindəki `done` metodu ilə biz istədiyimiz dəyəri götürdük
+AJAX daxilindəki `done` metodu ilə biz istədiyimiz `currency` dəyəri götürdük
 
 ```
-var content = response.data[0].price;
+var content = response.currency;
 ```
 
-Sonra biz ekranda görünməsi üçün element əlavə etdik və `Qiymət` olaraq adlandırdıq.
+Sonra biz ekranda görünməsi üçün element əlavə etdik və `Məzənnə` olaraq adlandırdıq.
 
 ```
-  <div id="flight_price">Qiymət: </div>
+  <div id="currency">Məzənnə: </div>
 ```
 
-&#x20;Sonra biz JQuery append metodundan istifadə edib `content` dəyərində  götürdüyümüz `price` dəyərini ekrandakı `flight_price` dəyərinə mənimsədirik.
+&#x20;Sonra biz JQuery append metodundan istifadə edib `content` dəyərində  götürdüyümüz `currency` dəyərini ekrandakı `currency` dəyərinə mənimsədirik.
 
 ```
-$("#flight_price").append(content);
+$("#currency").append(content);
 ```
 
 ### Get the value from an array
