@@ -141,7 +141,7 @@ Idempotency nədir (So a couple of things about these types of requests. The HEA
 
 >
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15) (1).png>)
 
 > On the client side, let's talk about now the header. Again, we talked about there's a request line, a header, and then a message body, so this is the second piece. The HTTP message header is the primary part of the request. Here's a typical syntax. There's a field\_name: and then the value for that field. Here's an example, you might see something the header that looks like Accept: text/plain. This is saying that the browser can accept just plain text
 
