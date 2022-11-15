@@ -24,3 +24,7 @@
 
 * [Yaml](4-lesson/yaml.md)
 * [Page 3](4-lesson/page-3.md)
+
+## Lesson 7
+
+* [MySQL installation](lesson-7/mysql-installation.md)
