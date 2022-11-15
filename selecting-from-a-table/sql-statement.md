@@ -18,7 +18,7 @@ SELECT LAST_NAME FROM CUSTOMERS;
 
 
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 Gördüyümüz kimi cədvəlimizdəki yalnız soyadları yəni last\_name lər qayıtdı. Həmçinində biz istədiyimiz qədə rcolumn adları yaza bilərik. Və statementləri bildiyimiz kimi bir birindən nöqtəli vergül ilə ayırırıq.
 

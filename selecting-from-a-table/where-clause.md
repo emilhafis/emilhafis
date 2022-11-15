@@ -14,7 +14,7 @@ Gördüyümüz kimi burada yalnız bizə lazım olan Babayev soyadlı şəxs qay
 
 Əgər type char və ya varchar deyilsə, int və ya decimal dırsa onda dırnaqsızda yazmaq olar.
 
-![](<../.gitbook/assets/image (29).png>)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Gördüyümz kimi biz burada Babayev ilə sorğu edəndə 2 Babayev gəlir.&#x20;
 
@@ -38,7 +38,11 @@ and phone_number = '+994708976545';
 
 
 
+### Or
 
+AND istifadə etdiyimiz kimi OR da istifadə edə bilərik. Əgər biz hər iki dəyərdən birinin olmasını istəyiriksə onda OR yalnız ikisinədə iuyğun olmasın istəyirksə AND işlədirik.
+
+![](<../.gitbook/assets/image (20).png>)
 
 As well as using the and
 
