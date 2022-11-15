@@ -14,7 +14,7 @@ Gördüyümüz kimi burada yalnız bizə lazım olan Babayev soyadlı şəxs qay
 
 Əgər type char və ya varchar deyilsə, int və ya decimal dırsa onda dırnaqsızda yazmaq olar.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Gördüyümz kimi biz burada Babayev ilə sorğu edəndə 2 Babayev gəlir.&#x20;
 
@@ -42,48 +42,10 @@ and phone_number = '+994708976545';
 
 AND istifadə etdiyimiz kimi OR da istifadə edə bilərik. Əgər biz hər iki dəyərdən birinin olmasını istəyiriksə onda OR yalnız ikisinədə iuyğun olmasın istəyirksə AND işlədirik.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Gördüymüz kimi OR nəticəsində bizə həm Əhmədov, çünki Əhmədov istəmişik, həmdə mobil nömrə çünki bunuda istəmişik qayıtdı. Amma bunu AND ə dəyişsək nəticə olmayaca. Çünki hər iki dəyərin eyni olduğu sətr və ya şəxs yoxdur.
 
-statement, we can also use or.
+Burada biz AND və OR üzrə istədiyimiz qədər bir birinin ardınca şərt yaza bilərik.
 
-So we can say select star from products
-
-where price is equal to 3.00
-
-or coffee origin is equal to Colombia.
-
-And if we run that, let's see what we get.
-
-So you can see here it's returned all the rows
-
-which meet either one or both of the criterias.
-
-So here we've got both our coffee origins which are equal to Colombia.
-
-But you can see it's also included the espresso,
-
-which has a price of 2.5, so that didn't meet
-
-the price is equal to 3.0 but it did meet the coffee origin is equal to Colombia.
-
-And then similarly here, we have the filter coffee
-
-which does have a price of 3.00,
-
-but it doesn't have a coffee origin of Sri Lanka.
-
-So that all means it only has to meet one of the where clauses
-
-but the and it has to meet both of the where clauses.
-
-So that's it for adding a simple where clause to our select statement.
-
-We just have to type where column name is equal to a certain value,
-
-and we can add as many where clauses as we want
-
-using the and or the or statement.
-
-So let's move on to the next video.
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
