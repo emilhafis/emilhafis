@@ -29,7 +29,7 @@
 >
 > Bu nümunədə biz görürük ki, relational databse də cədvəllər hansı formada olur.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 > Now the whole point of relational databases
 >
@@ -55,4 +55,4 @@ Mən çalışıram terminləri ingilis dilində deyim ki qarşınıa çıxanda b
 >
 > Beləki RDBMS olan MySQL bizə relation database ə giriş və onunla işləməyə imkan verən proqram təminatıdır.&#x20;
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>

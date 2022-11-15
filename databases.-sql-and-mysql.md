@@ -26,7 +26,7 @@
 >
 > Bir azdan biz SQL sorğularına baxıb örənəcəyik
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ### MySQL nədir?
 
@@ -34,5 +34,5 @@
 >
 > RDBMS-lərin daha çox nümunələri var, lakin onların hamısı verilənlər bazalarını sorğulamaq üçün standart dil kimi SQL-dən istifadə edirlər.
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 

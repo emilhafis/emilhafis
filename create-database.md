@@ -6,7 +6,7 @@ Burada ilk işimiz root user adından MySQL workbench ə daxil olmaqdır. Sol me
 
 Və bu useri seçib administrativ bölməyə keçək. Burada görürüsünzki heç bir bölmə seçkili deyil. Və biz burada bu istifadəçiyə root ilə eyni hüquqlara malik olan DBA rolun verək. Və userimiz artıq root ilə eyni hüquqa malikdir. Və artıq biz Databsevə Table yarada və onları idarə edə bilərik. Yəni tam bizim istədiyimiz hər şeyi edə bilərik. Və sonda apply edək. Və son olaraq root userdən çıxıb yeni yaratdığımız user ilə daxil olaq.&#x20;
 
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### Creating Database and Tables
 
@@ -16,7 +16,7 @@ Hazırda biz ilk SQL sorğumuzu yazacağıq. İlk sorğumuz bizə mövcud olan D
 SHOW DATABASES;
 ```
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 Bu sorğu bizə mövcud olan bütün Databaseləri göstərir. Burada 4 database görəcəksiniz. Hansıkı default olaraq install vaxtı yaranır. Və bunların heç biri bizim üçün yararlı olmayacaq. Bunun üçün də biz öz Databasemizi yaratmalıyıq və onu adlandırmalıyıq. Biz databasemizi analyst adlandıraq.
 
@@ -26,7 +26,7 @@ CREATE DATABSE ANALYST;
 
 Və gəlin komandanı icra edək. Və görürsünüzki uğurlu oldu. VƏ yenidən SHOW DATABASES; edək və yaratdığımız database i aşağıda görəəcyik.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 Buradan gördük ki, biz database necə yaratdıq. İndi isə biz yaratdığımız database ə daxil olaq. Bunun üçün biz aşağıdakı komandanı buraxmalıyıq.&#x20;
 
@@ -40,7 +40,7 @@ Indi biz yaratd;];m;z database daxilindəyik. İndi isə biz bunun içərisində
 SHOW TABLES;
 ```
 
-<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Delete Database
 
@@ -52,6 +52,6 @@ DROP DATABASE ANALYST;
 SHOW DATABASES;
 ```
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 İndi isə biz yenidən Databse yaradıb onun daxilində cədvəl yaradacğaıq.

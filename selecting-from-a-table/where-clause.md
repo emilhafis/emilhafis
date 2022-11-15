@@ -4,67 +4,41 @@ Burada isə biz select statemntsdə `where`  şərtinə baxacağıq. Burada biz 
 
 Bəs mən ancaq istədiyim bir rov nu yəni stəri gətirmək istəsəm nə emtəliyəm. Gəlin dəqiqləşdirək, mən anca Babayev soyadlı şəxsləri axtarmaq istəyirəmş. Bunun üçün biz sorğumuza vhere şərtini əlavə edirik.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 Burada gördüyünüz kimi bütün məlumatları gətirdik. İndi isə şərt yazıb dediyimiz məlumatı gətirək. Bunun üçün sorğudan sonra ühere clause yazırıq
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-Gördüyümüz kimi burada yalnız bizə lazım olan Babayev soyadlı şəxs qayıdıb. char və varchar üçün tək dırnaq isitfadə edirik.Və bu dırnaq içərisində istədiyimiz soyadı qeyd edirik.  Nəticəədə gördünüz ki istədiyimiz sətr qyaıtdı. əgər burda 1-dən çox Babayev olsa idi hamsı qayıdacaqdır.
+Gördüyümüz kimi burada yalnız bizə lazım olan Babayev soyadlı şəxs qayıdıb. char və varchar üçün tək dırnaq isitfadə edirik.Və bu dırnaq içərisində istədiyimiz soyadı qeyd edirik.  API dan öyrəndiyimiz kimi String üçün dırnaq əlavə edirik. Rəqəm üçün ehtiyac olmur. Nəticəədə gördünüz ki istədiyimiz sətr qyaıtdı. əgər burda 1-dən çox Babayev olsa idi hamsı qayıdacaqdır.
+
+Əgər type char və ya varchar deyilsə, int və ya decimal dırsa onda dırnaqsızda yazmaq olar.
+
+![](<../.gitbook/assets/image (29).png>)
+
+Gördüyümz kimi biz burada Babayev ilə sorğu edəndə 2 Babayev gəlir.&#x20;
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+Bəs biz konkret olaraq Babayev ləri və istədiyimiz nömrələri axtaranda necə olur. bunun üçün AND şərtindən istifdə edirik. Nəticədə bizim tətbiq etdiyimiz nömrəyə uyğun yalnız bir Bababyev qayıtdı.
+
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+```
+SELECT * FROM customers;
+
+SELECT * FROM customers
+WHERE last_name = 'Babayev';
+
+SELECT * FROM customers
+WHERE last_name = 'Babayev'
+and phone_number = '+994708976545';
+
+```
 
 
 
 
-
-So let's type where price
-
-is equal to three dollars or 3.00.
-
-Now because it's a number we don't have to use single quotes,
-
-we can just type 3.00.
-
-And we see we have
-
-our two products where the price was equal to 3.00.
-
-So that's how we use where clauses in select statements.
-
-And we can also have more than one where clause in a single select statement.
-
-So here I've just got one where clause.
-
-So I've got where price is equal to 3.00,
-
-but I can also add a second one by going to the next line and typing
-
-and then putting my next where clause.
-
-So I type and column name equal to a certain value.
-
-So let's type where price is equal to 3.00
-
-and coffee origin is equal to Colombia.
-
-And because it's a string we have single quotes
-
-and let's run that and see what we get.
-
-And you can see it returns one row which meets both where clauses.
-
-So we have a price that's equal to 3.00
-
-and we also have an origin that's equal to Colombia.
-
-And we can keep going
-
-adding more and more where clauses as many as we want.
-
-We just have to keep typing ands
-
-column name equal to a certain value and column name equal to certain value
-
-for as long as you want, for as many where clauses as you want.
 
 As well as using the and
 
