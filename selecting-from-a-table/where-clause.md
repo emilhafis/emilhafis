@@ -14,7 +14,7 @@ Gördüyümüz kimi burada yalnız bizə lazım olan Babayev soyadlı şəxs qay
 
 Əgər type char və ya varchar deyilsə, int və ya decimal dırsa onda dırnaqsızda yazmaq olar.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Gördüyümz kimi biz burada Babayev ilə sorğu edəndə 2 Babayev gəlir.&#x20;
 
@@ -42,9 +42,9 @@ and phone_number = '+994708976545';
 
 AND istifadə etdiyimiz kimi OR da istifadə edə bilərik. Əgər biz hər iki dəyərdən birinin olmasını istəyiriksə onda OR yalnız ikisinədə iuyğun olmasın istəyirksə AND işlədirik.
 
-![](<../.gitbook/assets/image (20).png>)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-As well as using the and
+Gördüymüz kimi OR nəticəsində bizə həm Əhmədov, çünki Əhmədov istəmişik, həmdə mobil nömrə çünki bunuda istəmişik qayıtdı. Amma bunu AND ə dəyişsək nəticə olmayaca. Çünki hər iki dəyərin eyni olduğu sətr və ya şəxs yoxdur.
 
 statement, we can also use or.
 
