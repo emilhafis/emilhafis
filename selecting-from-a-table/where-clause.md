@@ -4,49 +4,19 @@ Burada isə biz select statemntsdə `where`  şərtinə baxacağıq. Burada biz 
 
 Bəs mən ancaq istədiyim bir rov nu yəni stəri gətirmək istəsəm nə emtəliyəm. Gəlin dəqiqləşdirək, mən anca Babayev soyadlı şəxsləri axtarmaq istəyirəmş. Bunun üçün biz sorğumuza vhere şərtini əlavə edirik.
 
-![](<../.gitbook/assets/image (5).png>)
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-So here I have selected star from products,
+Burada gördüyünüz kimi bütün məlumatları gətirdik. İndi isə şərt yazıb dediyimiz məlumatı gətirək. Bunun üçün sorğudan sonra ühere clause yazırıq
 
-and I'm going to add a where clause which will mean
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-that it's only going to return
+Gördüyümüz kimi burada yalnız bizə lazım olan Babayev soyadlı şəxs qayıdıb. char və varchar üçün tək dırnaq isitfadə edirik.Və bu dırnaq içərisində istədiyimiz soyadı qeyd edirik.  Nəticəədə gördünüz ki istədiyimiz sətr qyaıtdı. əgər burda 1-dən çox Babayev olsa idi hamsı qayıdacaqdır.
 
-rose where coffee origin is equal to Colombia.
 
-So to add a where clause,
 
-we need to type select star from products.
 
-And then on the next line, we need to type where
 
-a column is equal to a certain value.
-
-So you put where followed by the column name.
-
-So in this case, it's coffee origin
-
-is equal to a certain value.
-
-So in this case, I want to be to be equal to Colombia.
-
-So for varchar or char data types, I need to use single quotes.
-
-And then within those single quotes, I need to type the value so. In this case,it's Colombia.
-
-And then I can run that. So we've got select star from products
-
-where coffee origin column is equal to Colombia.
-
-And you can see that's just returned
-
-the first two rows where coffee origin was equal to Colombia.
-
-Now we can also do it with
-
-integers or numbers.
-
-So let's try the price column now. So let's type where price
+So let's type where price
 
 is equal to three dollars or 3.00.
 

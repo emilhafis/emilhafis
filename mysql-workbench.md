@@ -71,13 +71,13 @@ Və burada həmçinində user and privilegiyalar vardır. Buradan bizim sevrerd�
 
 Burada bizim üçün ən vacib məsələ **Schema** bölməsidir. Databse scheme databse diagramdır və bizə databse-mizdə olan cədvəlləri həmçinində əlaqələri və digər məlumatları göstərir. Siz buradan database siyahısın görə bilərsiz.
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Databse qarşısında bu formada silindir işarə olur hər zaman. Sxemlərdə də bu icon qoyulur.&#x20;
 
 Hər bir databesin adın görürük. Sizdə ilk öncə mobile\_app və qrgenerator olmayacaq. Amma biz onları indi yaradacağıq. Biz databse üzrəinə klik edəndə, görürük ki burada cədvəllər,view prosedur və funskiyaları görürük. Burada table üzrəinə klik etdikdə isə qr üzrə hansı cədvəllərin olduğunu görürük. Amma bunların hamsın bilməyiniz üçün narahat olmayın. Laızm olanları keçəcəyik.
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 Database sxemləri database də hansı cədvəllərin olduğunu hansı databse lərin olduğunu və ya digər məlumatları göstərən əhəmiyyətli bir funksionallıqdır.
 
