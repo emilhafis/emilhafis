@@ -28,3 +28,4 @@
 ## Lesson 7
 
 * [MySQL installation](lesson-7/mysql-installation.md)
+* [Page 4](lesson-7/page-4.md)
