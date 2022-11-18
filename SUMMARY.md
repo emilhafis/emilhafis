@@ -12,3 +12,4 @@
 
 * [SQL Statement](selecting-from-a-table/sql-statement.md)
 * [Where clause](selecting-from-a-table/where-clause.md)
+* [Inequality symbol](selecting-from-a-table/inequality-symbol.md)
