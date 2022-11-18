@@ -6,6 +6,12 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 ### Tanışlıq
 
+I have an engineering background and more than 10 years of experience in the IT world as a functional
+
+analyst and then as a project manager in France and then in Australia, I have experienced the agile
+
+transformation in a business and managed several projects using agile.
+
 ### API Tech Writer və ya Tech Writer nə üçün lazımdır
 
 > Əminliklə deyə bilərəm ki, ölkəmizdəki bir çox klassik təşkilatlarda “**API Tech Writer**” üzrə mütəxəssis olmur.
