@@ -86,7 +86,7 @@ Bundan sonra müştərimiz qərara alır ki, mobil tətbiqin ilk versiyasını �
 Burada priroitet dəyişməyin ona görə problemi olmurki biz sub layihə üzrə analiz aparmağa, kodlaşdırmağa və digər məsələlərə əvvəldən başlamamışıq və indi başlayırıq.
 {% endhint %}
 
-![](<.gitbook/assets/image (4).png>)
+![](.gitbook/assets/image.png)
 
 4\. 4-cü iterasiyada büdcə ödənişləri əlavə edilir
 
@@ -140,7 +140,7 @@ Agile-da gördüyümü kimi müştəri (client) bütün proseslərə cəlb olunu
 
 MVP - minimum viable product. Bizim nümunəmizdə MVP Resgitration, Homepgae və köçürmə funksionallığı idi.&#x20;
 
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Hansılarki biz bunları istifadəçiyə işlətmək üçün verdik. Bunun üstünlüyü odur ki, produktumuz tez bir zamanda istifadəçilər tərəfindən test edilə bilinir. Əgər biz görsəkki istifadəçilər burada nəyisə bəyənmir ümumilikdə getdiyimiz istiqamət səhvdirsə biz çevik olaraq dəyişiklik qərarı veər bilirikş Və bu bizə xeyli məbləğ və əziyyətdən qurtarır. Həmçinin də bizim müştərimiz artıq qərar verə bilirki proyekti davam etsin yoxsa yox.
 
