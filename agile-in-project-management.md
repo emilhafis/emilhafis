@@ -6,7 +6,7 @@
 Agile çevik deməkdir
 {% endhint %}
 
-![](<.gitbook/assets/image (21).png>)
+<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 Indi baxaq ki, Agile metodu nə olan məsələdir.&#x20;
 
@@ -32,7 +32,7 @@ Biz bütün mobil development proyektini hissələrə bölürük.&#x20;
 
 1. Biz A dan Z yə bütün proyekto planlaşdırmalı,&#x20;
 
-![](<.gitbook/assets/image (29).png>)
+<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 1. sonra hər şeyi develop etməli
 
@@ -40,7 +40,7 @@ Biz bütün mobil development proyektini hissələrə bölürük.&#x20;
 
 1. Bütün verilənləri validate etməli
 
-![](<.gitbook/assets/image (30).png>)
+<figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 1. &#x20;və yekunda bütün məhsulu hazır formada müştəriyə verməli idik.
 
@@ -128,7 +128,7 @@ Siz sonda gördünüz ki, classic metod ilə təhvil verilən mobil tətbiq Agil
 
 Nəticədə bizim yaratdığımız tətbiq müştərinin və istifadəçinin tələblərinə daha çox cavab verir.
 
-![](<.gitbook/assets/image (5).png>)
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Agile-da gördüyümü kimi müştəri (client) bütün proseslərə cəlb olunur və komandamızın bir hissəsi olur. Bu komanda və müştəri arasında çox yaxşı əməkdaşlıqdır. Beləki müştəri hissə hissə produktu test edərək öz feedbacklərin verə bilir və komandada tez bir zamanda feedbacklərə cavab verərək laızmı düzəlişləri və ya əlavələri edirlər. Həmçinin də produkt minimum istifadə eidlə bilən tələblər ilə istifadəyə hazır olurlar.
 
