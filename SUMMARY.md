@@ -4,3 +4,5 @@
 * [Giriş](giris.md)
 * [Course content](course-content.md)
 * [Agile in Project Management](agile-in-project-management.md)
+* [Example of Agile](example-of-agile.md)
+* [Agile Manifesto](agile-manifesto.md)
