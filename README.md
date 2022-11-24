@@ -6,25 +6,29 @@ description: API ilə tanışlıq və kurs üzrə ümumi mənzərə
 
 ### Tanışlıq
 
-I have an engineering background and more than 10 years of experience in the IT world as a functional
+Adım Emil Abbasovdur. Hazırda Mərkəzi Bankda Ani Ödənişlər Ssiteminin şöbə müdiri vəzifəsində işləyirəm. Komandamız ilə birlikdə sistemin inkişafı, bir çox proqram tətbiqlərinin yazılması və texniki infrastrukturunu təmin edirik. Bunlardan əlavə bir neçə start up üzrəində işləmişəm. Onlardan bəziləri fərqli səbəblərdən fail olub, bəziləri real mühitdədir, bəziləri isə bu yaxınlarda istismara veriləcəkdir.
 
-analyst and then as a project manager in France and then in Australia, I have experienced the agile
+Bütün bu layihələrdə IT komandası ilə sıx əməkdaşlıq etmişəm və bir çox sahələrdə onlara dəstək göstərmişəm.
 
-transformation in a business and managed several projects using agile.
+Çox detallara enmirəm, kurs müddəti ərzində kimin nə sualı olsa hər zaman verə bilər.
 
-### API Tech Writer və ya Tech Writer nə üçün lazımdır
+Sizləri tanımağı çox istərdim. Çox qısa olaraq, Adınız, işlədiyiniz müəssisə və sahəni bildirərdiniz.
 
-> Əminliklə deyə bilərəm ki, ölkəmizdəki bir çox klassik təşkilatlarda “**API Tech Writer**” üzrə mütəxəssis olmur.
->
-> Bu işi görən olmadıqda isə, developer-ə düzgün tapşırıq verilmir. Belə ki, çox vaxt developer-ə ümumi prosesləri əhatə edən bir sənəd verilir, bəzən isə heç bu da verilmir və birbaşa maraqlı şəxslərlə developer-i ünsiyyətə çıxarırlar. Konkret task olmadıqda isə, developerlə saysız hesabsız müzakirələrin, "call"-ların sayı artır, məhsulu dəflərlə onlara izah etməyə ehtiyac yaranır və developer yenidən məhsulun analitikasını aparmağa məcbur qalır. Nəticədə developer həm analitik, həm kommunikasiyanı təşkil edən, həm də mübahisəli məsələ yarandıqda onu danışıqlar yolu ilə həll edən şəxs olur. Ən sonda isə öz işi, yəni devlopment ilə məşğul olmağa çox az vaxtı qalır və bütün problemlərdə "analitika yoxdur" deyərək günahları analitikanın üzərinə atır .
->
-> Bu kimi təcrübələrimizə əsaslanaraq yeni formatda Analitika kursu təşkil etmək qərarına gəldi.k. Bu səbəbdən də kursu ümumi olaraq 3 hissəyə ayırmışam:
+### Course information and Learning Path
 
-{% embed url="https://www.linkedin.com/pulse/api-tech-writer-n%C9%99-%C3%BC%C3%A7%C3%BCn-laz%C4%B1md%C4%B1r-emil-abbasov/?trackingId=NTjNkZEPTrKIC8ROmdpZgg%3D%3D" %}
+İndi isə kurs haqqında məlumat vermək istərdim.
 
-![API First](.gitbook/assets/API-Interface.png)
+Ümumiyyətlə biz layihələri edərkən çox üsullardan istifadə etmişik. Hər layihə zamanı komanda ilə müzakirə edib developeri necə rahat başa sala bilərik sualları ilə mübarizə aparımışıq.&#x20;
 
-### Kurs üzrə ümumi məlumat
+Əvvəllər bütün məsələləri detallı yazıb ötürərdik. Amma yenədə istədiyimizə nail olmurduq, çünki developerlər sənədi oxumurdu. Nəhayət növbəti üsulumuz API First yanaşması oldu. Bu yanaşmanı öyrənərkən artıq bizdə əminlik yaranırdır ki, developerlərlə aramızda anlaşılmazlıq olmayacaq. Həqiqitəndə belə oldu, işlədiyimiz layihələr çox qısa zamanda baş ağrısız ərsəyə gəlirdi.
+
+Təbii ki, bütün tələbləri API First formasında developerə çatdıra bilməzsən, bunun üçündə fərqli üsullardan istifadə etdik.
+
+Və mənim çoxdankı arzum idiki, bu üsulları IT Analtiklər ilə bölüşüm. Fikir verirsinizsə sırf IT analitiklər deyirəm. Çünki bu gün işlədilən Biznes Analitik sahəsi çox genişdir. Bir qolu IT dən başlayıb, sistem analitik, biznes analitik IT ilə az işləyən və s kateqoriyalara bölener. Bu mövzunun dərininə getmək istəmirəm.&#x20;
+
+Bu kursdakı əsas məqsədim sizlərə lazımı texniki biliklərimi ötürmək, təcrübələrimizi bir birimizlə bölüşmək və ən əsası ölkədə API First yanaşmalı analtikaya keçid etməkdir.&#x20;
+
+&#x20;
 
 > Kursu ümumi olaraq 3 hissəyə bölmüşəm.
 >
@@ -77,10 +81,6 @@ transformation in a business and managed several projects using agile.
 > Bu anlayışı ölkəyə ilk dəfə biz gətirəcəyimizə görə gəlin onun nə üçün lazım olduğun qısa müzakirə edək.
 >
 > Bu məsələ ilə əlaqədar mən bir yazı yazmışdım və orada bu günə kimi qarşılaşdığım və şahidi olduğum əsas problemləri necə həll edə bilərik onu qeyd etmişdim.
->
->
-
-{% embed url="https://www.linkedin.com/pulse/api-tech-writer-n%C9%99-%C3%BC%C3%A7%C3%BCn-laz%C4%B1md%C4%B1r-emil-abbasov/?trackingId=NTjNkZEPTrKIC8ROmdpZgg%3D%3D" %}
 
 ### Kurs kimlər üçün nəzərdə tutulmuşdur?
 
@@ -94,6 +94,16 @@ Kurs ilk növbədə aşağıdakı auditoriyalara xidmət edir:
 6. IT innovasiyalar ilə məşğul olan mütəxəssislər və menecerlər
 
 
+
+
+
+### API Tech Writer və ya Tech Writer nə üçün lazımdır
+
+> Əminliklə deyə bilərəm ki, ölkəmizdəki bir çox klassik təşkilatlarda “**API Tech Writer**” üzrə mütəxəssis olmur.
+>
+> Bu işi görən olmadıqda isə, developer-ə düzgün tapşırıq verilmir. Belə ki, çox vaxt developer-ə ümumi prosesləri əhatə edən bir sənəd verilir, bəzən isə heç bu da verilmir və birbaşa maraqlı şəxslərlə developer-i ünsiyyətə çıxarırlar. Konkret task olmadıqda isə, developerlə saysız hesabsız müzakirələrin, "call"-ların sayı artır, məhsulu dəflərlə onlara izah etməyə ehtiyac yaranır və developer yenidən məhsulun analitikasını aparmağa məcbur qalır. Nəticədə developer həm analitik, həm kommunikasiyanı təşkil edən, həm də mübahisəli məsələ yarandıqda onu danışıqlar yolu ilə həll edən şəxs olur. Ən sonda isə öz işi, yəni devlopment ilə məşğul olmağa çox az vaxtı qalır və bütün problemlərdə "analitika yoxdur" deyərək günahları analitikanın üzərinə atır .
+>
+> Bu kimi təcrübələrimizə əsaslanaraq yeni formatda Analitika kursu təşkil etmək qərarına gəldi.k. Bu səbəbdən də kursu ümumi olaraq 3 hissəyə ayırmışam:
 
 ### Kurs sizə yeni iş imkanları açacaqmı? <a href="#will-this-course-help-you-get-a-job-in-api-documentation" id="will-this-course-help-you-get-a-job-in-api-documentation"></a>
 
