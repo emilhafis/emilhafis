@@ -75,6 +75,14 @@ Bu kursdakı əsas məqsədim sizlərə lazımı texniki biliklərimi ötürmək
 >
 > Bu kursda çalışcam ki, sizi yormadan məlumatları rahat şəkildə sizə çatdırım. Sırf bölgünün bu formada təşkilidə bunun üçündür, yəni ilk olaraq biz bilikləri əldə edib sonradan onlar üzərindən metodologiya və standartlara baxırıq.
 
+### Proqramlaşdırma bacarıqları tələb olunmur <a href="#no-programming-skills-required" id="no-programming-skills-required"></a>
+
+> Bu kursda iştirak etmək üçün sizə hər hansı bir proqramlaşdırma təcrübəsinin olmasına ehtiyac yoxdur. Amma HTML və JavaScript, həmçinin də texniki baza biliklərinin olması sizə prosesləri daha yaxşı anlamağa kömək edəcəkdir. Bunları isə biz kurs daxilində ümumi olaraq öyrənəcəyik.
+>
+> JavaScript REST API sənədləşməsi zamanı ən çox istifadə edilən və ən asan başa düşülən proqramlaşdırma dillərindən biridir. JavaScript bizə kodları sadəcə brauzerdə açmaqla yoxlamağa imkan verir, yəni proqramın IDE-də işə salınmasına ehtiyac qalmır.&#x20;
+>
+> Kurs ərzində JavaScript-dən istifadə etdikcə ümumi prinsiplə sizi tanış edəcəm.
+
 ### API Tech Writer və ya Tech Writer nə üçün lazımdır
 
 > Burada biz Tech Vriter anlayışından çox istifadə edəcəyik. Bu nə deməkdir bəs&
@@ -145,8 +153,6 @@ Bu kursdakı əsas məqsədim sizlərə lazımı texniki biliklərimi ötürmək
 
 > API-ların əsas üstünlüklərindən və məqsədlərindən biri də ondan ibarətdir ki, sistemin daxildə necə işlədiyini gizlətmək və yalnız proqramçılara (inteqratorlara) lazım olan hissələrə kənara çıxarmaqdır. Yəni, sistemdən API vasitəsilə istifadə edən tərəflərə dəyişiklikləri bildirməməklə sistemin daxili tələbləri və funksiyalarını sonradan dəyişməyin mümkünlüyüdür. Məsələn bizim nümunəmizdə - mətbəxdəki işçilərin dəyişdirilməsi, yemək hazırlanma standartlarının dəyişdirilməsi nə biz (yəni müraciət edən tətbiq), nə də ofisiant (yəni API) tərəfdə hər hansı dəyişikliyə səbəb olmur.&#x20;
 
-
-
 ### Kurs üçün hansı vasitələr (tools) lazım olacaqdır?
 
 > * **Kompüter**.
@@ -160,6 +166,8 @@ Bu kursdakı əsas məqsədim sizlərə lazımı texniki biliklərimi ötürmək
 > * Swagger - [Swagger](https://swagger.io/) API dizayn və sənədləşməsi üçün istifadə olunan vasitədir. Hazırda ən geniş istifadə olunan Open API vasitəsidir.
 > * Stoplight
 > * Apigee API Management - [Google Cloud API](https://cloud.google.com/apigee) proqramçılara cloud üzərindən çox rahatlıqla API yaratmaq, publish etmək onların monitorinqi aparmağa imkan verir.&#x20;
+>
+> Bunların hamsını sizin üçün hazırlamışam, evdə yükləyib hazır edərsiniz. Həmçinində yoxlanılma üsulun qeyd etmişəm
 
 ### Proqram təminatlarının yoxlanılması <a href="#testing-your-setup" id="testing-your-setup"></a>
 
