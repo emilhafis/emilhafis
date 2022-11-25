@@ -25,7 +25,7 @@ Hazırda bir neçə REST GUI klientləri (proqram təminatları) vardır ki, onl
 > * [Paw](https://luckymarmot.com/paw)
 > * [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo) (Chrome browser extension)
 >
-> bu proqram təminatlarının arasında Postman fikrimcə ən yaxşı seçimdir. Çünki o bizə sorğu göndərmək, cavabı almaq müxtəlif əməliyyatları pulsuz formada keçirməyə imkan verir. Həmçinin də müxtəlif əməliyyat sistemlərini (MAC,  Windows, Ubuntu) dəstəkləyir.
+> bu proqram təminatlarının arasında Postman fikrimcə ən yaxşı və ən çox istifadə edilən seçimdir. Çünki o bizə sorğu göndərmək, cavabı almaq müxtəlif əməliyyatları pulsuz formada keçirməyə imkan verir. Həmçinin də müxtəlif əməliyyat sistemlərini (MAC,  Windows, Ubuntu) dəstəkləyir.
 
 {% hint style="info" %}
 Bizim ənənəvi öyrənmə üsullarımız ondan ibarət olurdu ki, biz ilk öncə öyrənəcəyimiz mövzunun və ya hansısa prosesin nəzəriyyəsi ilə tanış olub sonradan onun təcrübə tərəfinə keçirikdir. Amma mən bu kursda bildirdiyim kimi təcrübədən nəzəriyyəyə keçəcəm ki, həm başa düşmək rahat olsun, həm də çoxlu informasiya ilə sizi yükləməyim.
@@ -35,7 +35,7 @@ Məsələn aşağıda istifadə edəcəyimiz **GET** metoduna və ya endpoint n�
 
 ### Activity 1. İlkin sorğunun göndərilməsi&#x20;
 
-> Burada biz Postman-dən istifadə edərək Bakıdan (Heydər Əliyev aeroportundan) olan uçuşların [travelpayouts aviabilet API](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)-ları vasitəsilə yoxlayıb qiymətlərini öyrənəcəyik. Sorğu göndərmək üçün:
+> Burada biz travelpayoutsun bizə hazır sorğu nümunəsin götürüb Postman-dən istifadə edərək Bakıdan (Heydər Əliyev aeroportundan) olan uçuşların [travelpayouts aviabilet API](https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API)-ları vasitəsilə yoxlayıb qiymətlərini öyrənəcəyik. Sorğu göndərmək üçün:&#x20;
 >
 > 1. Əgər sizdə Postman yoxdursa o zaman onu yükləyib quraşdırmaq lazımdır ( [https://www.getpostman.com/downloads](https://www.getpostman.com/downloads/)). Əmin olun ki, Chrome extension yox, Postman applikasiyasın yükləmisiniz.
 > 2. Postman app-ı start edib qeydiyyatdan keçin.&#x20;
