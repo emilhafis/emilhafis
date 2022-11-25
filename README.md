@@ -33,10 +33,6 @@ Bu kursdakı əsas məqsədim sizlərə lazımı texniki biliklərimi ötürmək
 > Kursu ümumi olaraq 3 hissəyə bölmüşəm.
 >
 > 1. Tech  Writing&#x20;
-> 2. Business Analyst
-> 3. Praktika
->
->
 >
 > **Birinci hissədə,** API-ın hazırlanmasından onun kodlaşdırılmasına kimi prosesləri əhatə edəcəyik. Həmçinin də, API və documentasiya üzrə sıfırdan sona kimi bütün prosesləri bitirəcəyik.
 >
@@ -46,76 +42,64 @@ Bu kursdakı əsas məqsədim sizlərə lazımı texniki biliklərimi ötürmək
 >
 > API-dən istifadə etdikcə siz endpoints, parameters, data types, authentication, curl, JSON, the command line, Chrome’s Developer Console, JavaScript və s. haqqında öyrənəcəksiniz. İdeya ondan ibarətdir ki, nağıl formasında bu anlayışları öyrənməkdənsə, siz real senarilər əsasında proseslərin necə getdiyinin şahidi olacaqsınız. Qarşılaşdığınız proseslərin hansı formada həyata keçdiyini real nümunələr ilə görmək sizə texnologiyaların iş prinsipini daha rahat qavramağa kömək edəcəkdir.
 >
-> Daha sonra REST API-lar üçün standartlara, alətlərə və spesifikasiyalara keçəcəyik. Siz API sənədlərində tələb olunan bölmələr haqqında öyrənəcək, müxtəlif şirkətlərin REST API sənədlərinin nümunələrini təhlil edəcək, təcrübə əldə etmək üçün proqramçılarla birlikdə real layihələrə qoşulacaqsınız.
+> Daha sonra REST API-lar üçün standartlara, alətlərə və spesifikasiyalara keçəcəyik. Siz API sənədlərində tələb olunan bölmələr haqqında öyrənəcək, müxtəlif şirkətlərin REST API sənədlərinin nümunələrini təhlil edəcəksiniz
 >
-> **İkinci hissə olan** Business Analitika hissədə isə tələblərin necə toplanılması, Steykholderlə işlərin təşkili, müxtəlif formalarda analizilərin aparılması ilə tanış olacaq.
+> Həmçinin də daha yuxarı səviyyədə analitika üçün Data Base üzrə ümumi modeli, həmçinində IT analitik üçün lazım olan SQL sorğularını görəcəksiniz.
 >
-> **Sonuncu 3 cü** bölmədə isə öyrəndiklərimizi real olaraq proqramistlər ilə həyata keçirərəcəyik. Həmçinin də, hər dərs boyunca real layihələri işləyəcəyik. Bunlara Mobile banking app development, Open banking API-lar və s də aiddir.
+> Siz həmçinin müxtəlif yollar ilə REST API sənədləşməsinin publish olunmasına, yeni tool-ların, GitHub kimi spesifikasiyaların, Gitbook kimi statik sayt generatorları və başqa docs-ad-codes yanaşmalarını öyrənəcəksiniz.
 >
-> Bu kursda çalışcam ki, sizi yormadan məlumatları rahat şəkildə sizə çatdırım. Sırf bölgünün bu formada təşkilidə bunun üçündür, yəni ilk üçün biz bilikləri əldə edib sonradan onlar üzərindən metodologiya və standartlara baxırıq.
-
-### Real təcrübədən sənədləşməyə doğru
-
-> Bu kursda "API-lardan proqramçı kimi istifadə etmək" mövzusunu bitridikdən sonra "Technical writer" kimi API sənədləşmələrin real layihələr əsasında hazırlayıb proqramçılara təqdim edəcəksiniz. "Technical writer" kimi siz REST API sənədləşdirməsi zamanı aşağıdakı resurslara əsaslanan sənədləşdirmələr hazırlayacaqsınız:
->
-> 1. **Resource descriptions**
-> 2. **Endpoints and methods**
-> 3. **Parameters**
-> 4. **Request example**
-> 5. **Response example**
->
-> Bu bölmələrin hər birinin mənimsənilməyi sizlərə daha yaxşı REST API sənədləşdirilməsi necə yaradılmalısını başa düşməyə imkan verəcəkdir. Siz həmçinin API üçün konseptual bölmələri necə sənədləşdirməli lazım olduğunu öyrənəcəksiniz, məsələn ilkin təlimatlar (Getting started tutorial),  məhsulun icmalı (product overview), status və xəta kodları, sorğu icazəsi (request authorisation) və s.
->
-> Siz həmçinin müxtəlif yollar ilə REST API sənədləşməsinin publish olunmasına, yeni tool-ların, GitHub kimi spesifikasiyaların, Jekyll kimi statik sayt generatorları və başqa docs-ad-codes yanaşmalarını öyrənəcəksiniz.
->
-> Biz həmçinin OpenAPI spesifikasiyası və Swagger UI (OpenAPI spesifikasiyası üçün vasitələr) detallarına düşmüş olacağıq. Əlavə olaraq siz native library API-ları necə sənədləşdirməyi və Javadoc-u necə generasiya etməli olduğunuzu öyrənəcəksiniz.
->
-> Vasitə və texnologiyalardan savayı biz proses və metodologiyaları dərindən araşdırıb, böyük və kiçik sənədləşmə layihələrini necə idarə etməyi, sənədlərlə bağlı rəyləri necə toplamağı və maraqlı tərəfləri necə məmnun etməyi öyrənəcəyik.
->
-> Mən həmçinin hərtərəfli keyfiyyət yoxlama siyahısını əks etdirən metrics and measurement bölməsini kuersa daxil etmişəm. <mark style="color:red;"></mark> Təsvir edilən meyarlar öz developer portalınızı  ən yaxşı təcrübələrinə qarşı saysız-hesabsız üsullarla qiymətləndirməyə kömək edə bilər.
+> Biz həmçinin OpenAPI spesifikasiyası və Swagger UI (OpenAPI spesifikasiyası üçün vasitələr) detallarına düşmüş olacağıq.&#x20;
 >
 > Bu kurs boyu mən bu anlayışları praktiki fəaliyyətlər və demolarla real, tətbiq oluna bilən kontekstlərə göstərəcəyəm.
-
-### Tech Writer nə üçün lazımdır?
-
-> Bu anlayışı ölkəyə ilk dəfə biz gətirəcəyimizə görə gəlin onun nə üçün lazım olduğun qısa müzakirə edək.
 >
-> Bu məsələ ilə əlaqədar mən bir yazı yazmışdım və orada bu günə kimi qarşılaşdığım və şahidi olduğum əsas problemləri necə həll edə bilərik onu qeyd etmişdim.
+>
+>
+> **Practice. Software development case studies**
+>
+> Hər bir mövzumuzu real keyslər üzrəindən başa salacam. Əlavə olaraq Software development case studies mövzularında özümüz real olaraq analitika ilə məşğul olub, layihələr üzrə API lar dizayn edəcəyik və developer Portallar yaradacağıq.
+>
+>
+>
+> **BA skills**\
+> **Burada isə,** Vasitə və texnologiyalardan savayı biz proses və metodologiyaları dərindən araşdırıb, böyük və kiçik sənədləşmə layihələrini necə idarə etməyi, sənədlərlə bağlı rəyləri necə toplamağı və maraqlı tərəfləri necə məmnun etməyi öyrənəcəyik.
+>
+> Həmçinində burada sizə Project managementdə Agile-ın tətbiqi, Scrum Kanban framevorkları üzrə məlumat verib real proyektlər üzrə izah edəcəyəm.
+>
+>
+>
+> **Practice. Software development case studies**
+>
+> Növbəti hissədə, yenədə özümüz real olaraq analitika ilə məşğul olub, layihələr üzrə API lar dizayn edəcəyik və developer Portallar yaradacağıq.
 
-### Kurs kimlər üçün nəzərdə tutulmuşdur?
+> Kurs üzrə bildirdiyim kimi real layihələri işləyəcəyik. Bunlara Mobile banking app development, Open banking API-lar və s də aiddir.
+>
+> Bu kursda çalışcam ki, sizi yormadan məlumatları rahat şəkildə sizə çatdırım. Sırf bölgünün bu formada təşkilidə bunun üçündür, yəni ilk olaraq biz bilikləri əldə edib sonradan onlar üzərindən metodologiya və standartlara baxırıq.
 
-Kurs ilk növbədə aşağıdakı auditoriyalara xidmət edir:
+### API Tech Writer və ya Tech Writer nə üçün lazımdır
 
-1. Proqramçılar üçün hazırlanan ənənəvi sənədləşmədən API First yönümlü sənədləşməyə keçmək istəyən peşəkar **Tech writer-lar**.
-2. Texniki sahədə özlərini inkişaf etdirib zamanın tələblərinə cavab verən IT analitik olmaq istəyən **Tələbələr**.
-3. Öz API-larını sənədləşdirmək və sənədləşdirmə zamanı API-lar üzrə ən yaxşı struktur, dizayn və terminalagoiyalardan istifadə etmək istəyən **Proqramçılar**.
-4. IT Business Analitiklər&#x20;
-5. Sistem analitiklər
-6. IT innovasiyalar ilə məşğul olan mütəxəssislər və menecerlər
-
-
+> Burada biz Tech Vriter anlayışından çox istifadə edəcəyik. Bu nə deməkdir bəs&
+>
+>  Bu anlayışı ölkəyə ilk dəfə biz gətirəcəyimizə görə gəlin onun nə üçün lazım olduğun qısa müzakirə edək.
+>
+> Bu məsələ ilə əlaqədar mən bir yazı yazmışdım və orada bu günə kimi qarşılaşdığım və şahidi olduğum əsas problemləri necə həll edə bilərik onu qeyd etmişdim.&#x20;
 
 
 
 ### API Tech Writer və ya Tech Writer nə üçün lazımdır
 
-> Əminliklə deyə bilərəm ki, ölkəmizdəki bir çox klassik təşkilatlarda “**API Tech Writer**” üzrə mütəxəssis olmur.
+> Yazımda qeyd etmişdim ki,  ölkəmizdəki bir çox klassik təşkilatlarda “**API Tech Writer**” üzrə mütəxəssis olmur.
 >
 > Bu işi görən olmadıqda isə, developer-ə düzgün tapşırıq verilmir. Belə ki, çox vaxt developer-ə ümumi prosesləri əhatə edən bir sənəd verilir, bəzən isə heç bu da verilmir və birbaşa maraqlı şəxslərlə developer-i ünsiyyətə çıxarırlar. Konkret task olmadıqda isə, developerlə saysız hesabsız müzakirələrin, "call"-ların sayı artır, məhsulu dəflərlə onlara izah etməyə ehtiyac yaranır və developer yenidən məhsulun analitikasını aparmağa məcbur qalır. Nəticədə developer həm analitik, həm kommunikasiyanı təşkil edən, həm də mübahisəli məsələ yarandıqda onu danışıqlar yolu ilə həll edən şəxs olur. Ən sonda isə öz işi, yəni devlopment ilə məşğul olmağa çox az vaxtı qalır və bütün problemlərdə "analitika yoxdur" deyərək günahları analitikanın üzərinə atır .
 >
-> Bu kimi təcrübələrimizə əsaslanaraq yeni formatda Analitika kursu təşkil etmək qərarına gəldi.k. Bu səbəbdən də kursu ümumi olaraq 3 hissəyə ayırmışam:
-
-### Kurs sizə yeni iş imkanları açacaqmı? <a href="#will-this-course-help-you-get-a-job-in-api-documentation" id="will-this-course-help-you-get-a-job-in-api-documentation"></a>
-
-
-
-İnsanların bu kursu almasının ən ümumi səbəbi API sənədlərinə keçiddir. Bu kurs sizə bu keçidi həyata keçirməyə kömək edəcək, lakin siz sadəcə məzmunu passiv oxuya bilməzsiniz. Siz hər bir bölmədə qeyd olunan fəaliyyətləri, xüsusən də məzmunla işləməyi əhatə edən mövzuları yerinə yetirməlisiniz
-
+> Amma developerin öz dilində ona məlumatlar verəndə, artıq developerin bəhanə etməyə imkanı qalmır. Nəsə problem olsa biz hazırlaığımız analitikada ola bilər. Ona görə bu iş bizim işimizi dəfələrlə azaltasada məsuliyyətimizi bir o qədər də çoxaldır.&#x20;
+>
 > Bu kursun əsas məqsədi API-First yanaşmasının tətbiq edilməsi, API sənədləşməsinin hazırlanması və nəticədə proqramçılara aydın və dəqiq tələbləri onlara daha rahat formada çatırmaqdan ibarətdir. Həmçinin də, hazırlanmış proqram təminatının tələblərə uyğun hazırlanmasının yoxlanılmasıdır. Biz bu keyfiyyətləri mənimsəmək üçün proseslərin dərinliyinə enəcəyik.&#x20;
 >
 > Sadalanan keyfiyyətlərə malik olan şəxslərə isə bu gün tələblər daha yüksəkdir və artıq xaricdə Tech Writer tələbləri ilə kifayət qədər xeyli vakansiyalar mövcuddur. Əminəm ki, qısa zamanda ölkəmizdə də sırf belə mütəxəssislər axtaracaqlar.
 >
 > Aşağıda real iş imkanlarından bəzilərini görə bilərsiniz:
+>
+> Məhz bu səbəblərdəndə siz interüntdə axtarış etsəz son zamanlar məşhur şirkətlərin TEch Vriter, API Tech vakansiyalarına tələblərinin çoxaldığın görərik.
 
 ### API nədir?
 
@@ -123,9 +107,21 @@ Kurs ilk növbədə aşağıdakı auditoriyalara xidmət edir:
 
 ### API nümunəli izah
 
-> Siz telefonunuzda hər hansı bir tətbiqi işlətdiyiniz vaxt, tətbiq internetə bağlanır və məlumatları serverə göndərir. Server məlumatları aldıqdan sonra lazımı prosesləri icra edir və məlumatları yenidən sizin telefonunuza daha dəqiq telefonunzdakı tətbiqinizə qaytarır. Tətbiq daha sonra həmin məlumatları emal edir və istədiyiniz məlumatları oxunaqlı şəkildə sizə təqdim edir.
+> Gəlin real nümunə üzrə başa düşməyə çalışaq.
 >
-> Bunu daha yaxşı izah etmək üçün çox məhşur olan API nümunəsi ilə tanış olaq.
+> Məsələn, Siz telefonunuzda hər hansı bir tətbiqi işlətdiyiniz vaxt nə baş verir?
+>
+> Bu sxemdə bizim mobil telefonumuz və serverimiz vardır. Server məlumatların emal olunduğu yer kimi başa düşək, növbəti dərslərdə daha yaxşı başa düşəcəksiniz.
+>
+> Deməli bizim telefon və serverimiz vardır. Telefondakı tətbiqimizi açdıqdıa, təsəvvür edək ki, bu mobil bankşılıqdır, tətbiqimiz internetə bağlanır və məlumatları serverə göndərir.&#x20;
+>
+> Server məlumatları aldıqdan sonra lazımı prosesləri icra edir və məlumatları yenidən sizin telefonunuza daha dəqiq telefonunzdakı tətbiqinizə qaytarır.&#x20;
+>
+> Tətbiq daha sonra həmin məlumatları emal edir və istədiyiniz məlumatları oxunaqlı şəkildə sizə təqdim edir.
+>
+>
+>
+> Bunu daha yaxşı izah etmək üçün digər çox məhşur olan real həyatla müqayisədəki API nümunəsi ilə tanış olaq.
 >
 > Təsəvvür edin ki, siz restoranda oturmusunuz və qarşısınızda bir çox seçim olan menyu vardır. Mətbəx isə sizin sifarişlərinizi hazır edən "sistemin" bir hissəsidir. buradan çatışmayan məsələ seçdiyiniz sifarişin mətbəxə çatdırılması və hazırlanmış sifarişin mətbəxdən sizə gətirilməsidir. Sırf burada isə bizim köməyimizə ofisiant və ya API gəlmiş olur. Ofisiant sorğunuzu və ya sifarişinizi qəbul edən və mətbəxə – sistemə nə etməli olduğunuzu söyləyən vasitə və ya API-dir. Yekunda ofisiant cavabı sizə çatdırır; yəni bizim keysimizdə yeməyi bizə gətirir.
 >
@@ -133,27 +129,23 @@ Kurs ilk növbədə aşağıdakı auditoriyalara xidmət edir:
 
 ![API vs Real life](.gitbook/assets/blueprint-APIs-requests.jpg)
 
-> Real həyatda biz artıq bir çox yerdə rastlaşırıq ki, yemək isfarişlərini online və ya restoran daxilində elektron cihazdan (planşet, mobil telefon və s) vermək mümkündür.&#x20;
+> Real həyatda biz artıq bir çox yerdə rastlaşırıq ki, yemək isfarişlərini online və ya restoran daxilində elektron cihazdan (planşet, mobil telefon və s) vermək mümkündür və bu sifarişlər mətbəxdə yerləşən cihaza necə çatdırılır.
 >
 > Burada proses bəs necə qurulmuşdur?&#x20;
 >
 > Məsələ çox sadədir, biz istədiyimiz sifarişi elektron cihazdan seçib təsdiq etdikdən sonra, cihaz internet üzərindən bizim sorğumuzu mətbəxdə yerləşən cihaza çatdırır. Aşpaz həmin cihaza baxaraq bizim nə sifariş etdiyimiz ilə tanış olur. Aşağıdakı şəkildə bunun texniki təsvirini daha yaxşı görə bilərsiniz. Burada biz mətbəxə bir ədə burgeri mobil cihaz üzərindən sifariş veririk.
+>
+> Bizim sifarişimiz mətbəxə çatdıqdan sonra dərhal mobil tətbiqimizə qayıdır ki, burgeriniz hazırlanır. Müəyyən müddətdən sonra sifarişimi zhazır olan kimi mətbəx bizim mobil tətbiqimizə hazırdır qaytarır.
 
 ![](.gitbook/assets/request\_response.png)
 
 > Növbəti mövzularda real nümunələr ilə daha da prosesi aydın formada izah edəcəyəm.
->
+
+### API əsas üstünlükləri
+
 > API-ların əsas üstünlüklərindən və məqsədlərindən biri də ondan ibarətdir ki, sistemin daxildə necə işlədiyini gizlətmək və yalnız proqramçılara (inteqratorlara) lazım olan hissələrə kənara çıxarmaqdır. Yəni, sistemdən API vasitəsilə istifadə edən tərəflərə dəyişiklikləri bildirməməklə sistemin daxili tələbləri və funksiyalarını sonradan dəyişməyin mümkünlüyüdür. Məsələn bizim nümunəmizdə - mətbəxdəki işçilərin dəyişdirilməsi, yemək hazırlanma standartlarının dəyişdirilməsi nə biz (yəni müraciət edən tətbiq), nə də ofisiant (yəni API) tərəfdə hər hansı dəyişikliyə səbəb olmur.&#x20;
 
 
-
-### Proqramlaşdırma bacarıqları tələb olunmur <a href="#no-programming-skills-required" id="no-programming-skills-required"></a>
-
-> Bu kursda iştirak etmək üçün sizə hər hansı bir proqramlaşdırma təcrübəsinin olmasına ehtiyac yoxdur. Amma HTML və JavaScript, həmçinin də texniki baza biliklərinin olması sizə prosesləri daha yaxşı anlamağa kömək edəcəkdir. Bunları isə biz kurs daxilində ümumi olaraq öyrənəcəyik.
->
-> JavaScript REST API sənədləşməsi zamanı ən çox istifadə edilən və ən asan başa düşülən proqramlaşdırma dillərindən biridir. JavaScript bizə kodları sadəcə brauzerdə açmaqla yoxlamağa imkan verir, yəni proqramın IDE-də işə salınmasına ehtiyac qalmır.&#x20;
->
-> Kurs ərzində JavaScript-dən istifadə etdikcə ümumi prinsiplə sizi tanış edəcəm.
 
 ### Kurs üçün hansı vasitələr (tools) lazım olacaqdır?
 
