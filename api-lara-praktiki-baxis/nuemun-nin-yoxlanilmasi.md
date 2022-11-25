@@ -1,8 +1,18 @@
 # Nümunənin yoxlanılması
 
-Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya parametrləri tələb olunur. Yəni, API-dan cavab almaq üçün platforma tərəfindən sizə verilmiş təhlükəsizlik parametrlərindən istifadə etməlisiniz. Bu parametrlərə üzrə ən çox qarşılaşacağımız anlayış API Key olacaqdır. Və API-ları test etmək üçün mütləq sizə bu məlumatları almaq lazım olacaq. Həmçinin də, biz sonradan autentifikasiya və avtorizasiyanı detallı analiz edəcəyik. İndi isə bizə travelpayouts API-lara sorğu göndərə bilmək üçün API Key lazımdır.&#x20;
+Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya parametrləri tələb olunur. Yəni, API-dan cavab almaq üçün platforma tərəfindən sizə verilmiş təhlükəsizlik parametrlərindən istifadə etməlisiniz. Bu parametrlərə üzrə ən çox qarşılaşacağımız anlayış API Key olacaqdır. Və API-ları test etmək üçün mütləq sizə bu məlumatları almaq lazım olacaq. Həmçinin də, biz sonradan autentifikasiya və avtorizasiyanı detallı analiz edəcəyik. İndi isə bizə travelpayouts API-lara sorğu göndərə bilmək üçün API Key lazımdır.  İlk öncə qısa olaraq deyim ki, avtorizasiya nə üçün lazım olur, kiminsə bu haqda fikri varmı&
 
 
+
+### Nə üçün avtorizasiya lazımdır?
+
+> Avtorizasiyanın olması API-ı hazırlayan tərəflərə aşağıdakı üstünlükləri verir:
+>
+> * API-lara giriş üzrə icazə (lisenziya) verilməsi
+> * Göndərilən sorğular üzrə limitlər tətbiq etmək
+> * API daxilində müxtəlif parametrlərin sorğu göndərən üzrə idarə edilməsi
+>
+> Aviabilet üzrə sorğunu göndərmək üçün bizə travelpayouts veb səhifəsindən API Key almaq lazımdır. API Key servisə giriş üçün parol rolunu oynayır və açıq şəkildə paylaşılmır
 
 ### Activity. Travelpayouts API Key əldə olunması
 
@@ -33,15 +43,7 @@ Demək olar ki, bütün API-larda təhlükəsizliklə əlaqədar autentifikasiya
 
 ![API Key](<../.gitbook/assets/api\_key (1).png>)
 
-### Nə üçün avtorizasiya lazımdır?
 
-> Avtorizasiyanın olması API-ı hazırlayan tərəflərə aşağıdakı üstünlükləri verir:
->
-> * API-lara giriş üzrə icazə (lisenziya) verilməsi
-> * Göndərilən sorğular üzrə limitlər tətbiq etmək
-> * API daxilində müxtəlif parametrlərin sorğu göndərən üzrə idarə edilməsi
->
-> Aviabilet üzrə sorğunu göndərmək üçün bizə travelpayouts veb səhifəsindən API Key almaq lazımdır. API Key servisə giriş üçün parol rolunu oynayır və açıq şəkildə paylaşılmır
 
 {% hint style="info" %}
 Daha sonrakı dərslərdə autorisation metodlarının detallarına enəcəyik. Hazırda ümumi olaraq başa düşün ki, avtorizasiya prosesi necə həyata keçirilir və API sənədləşməsində hansı formalarda qeyd edilir.
