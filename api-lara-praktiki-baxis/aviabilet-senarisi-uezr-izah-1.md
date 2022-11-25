@@ -47,6 +47,8 @@ Help centre-ə keçirik
 >
 > Bu API-lar proqramçıların istədikləri məlumatları əldə etməyə xidmət edir. Proqramçılar onlara lazım olan API-lara müvafiq kriteriyalar ilə müraciət edərək lazımı məlumatları əldə edə bilirlər.
 >
+> **Və burada göstərilir ki, API lara giriş əldə etmək üçün X-Access-Token header-də göndərməlisiz.  Bəs bu məlumatı əladə edib necə sorğu göndərə bilərik& İndi gəlin ona baxaq**
+>
 >
 
 ![Travel insight](<../.gitbook/assets/Travel\_insight (1).png>)

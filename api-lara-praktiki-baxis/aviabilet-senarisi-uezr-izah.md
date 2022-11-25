@@ -6,7 +6,9 @@ description: Proqramçı kimi API-lardan necə istifadə etmək lazımdır?
 
 ### Ümumi məlumat&#x20;
 
-> Özünüzü proqramçıların yerinə qoymaqla onların ehtiyacların daha yaxşı başa düşəcəksiniz və onlara API sənədləşdirilməsində nələr lazım olduğunu daha yaxşı anlayacaqsınız. Proqramçılar adətən **Postman** və **cURL** tool-larından istifadə edərək sorğu nəticəsində əldə etdikləri cavab strukturu ilə tanış olurlar və dinamik olaraq sadə formada lazımı məlumatları veb səhifələr və ya digər tətbiqlər ilə inteqrasiya edib yoxlayırlar.
+> Özünüzü proqramçıların yerinə qoymaqla onların ehtiyacların daha yaxşı başa düşəcəksiniz və onlara API sənədləşdirilməsində nələr lazım olduğunu daha yaxşı anlayacaqsınız deyə, gəlin baxaq proqramçılar ümumiyytlə inteqrasiya üçün nə edirlər.
+>
+> Proqramçılar adətən **Postman** və **cURL** tool-larından istifadə edərək sorğu nəticəsində əldə etdikləri cavab strukturu ilə tanış olurlar və dinamik olaraq sadə formada lazımı məlumatları veb səhifələr və ya digər tətbiqlər ilə inteqrasiya edib yoxlayırlar.
 >
 > Gəlin real API nümunəsi ilə tanış olaq.&#x20;
 >
@@ -18,7 +20,7 @@ description: Proqramçı kimi API-lardan necə istifadə etmək lazımdır?
 
 > Bu nümunədə məsələ bizə aydındır. Belə ki, Azal-ın öz məlumat bazası vardır və rahatlıqla bizə öz daxili bazasından məlumatları göstərir. Bəs aviabilet üzrə məlumat bazası olmayan, məsələn [https://www.expedia.com](https://www.expedia.com/), [https://www.tripadvisor.com](https://www.tripadvisor.com) kimi səyahət xidməti təklif edə platformalar nə etməlidirlər?&#x20;
 >
-> Proses çox sadədir, bu halda səyahət xidmətləri təmin edən saytlar müxtəlif aviabilet API-larını təmin edən platformalara müraciət edir və alınan cavabı müvafiq formada istifadəçiyə göstərir. Həmin platformalar müxtəlif avia şirkətin məlumat bazası ilə inteqrasiya olunduğu üçün real rejimdə cari məlumatları səyahət xidməti verən saytlara göndərə bilirlər.
+> Proses çox sadədir, bu halda səyahət xidmətləri təmin edən saytlar müxtəlif aviabilet API-larını təmin edən platformalara müraciət edir və alınan cavabı müvafiq formada istifadəçiyə göstərir. Həmin platformalar müxtəlif avia şirkətin məlumat bazası ilə inteqrasiya olunduğu üçün real rejimdə cari məlumatları səyahət xidməti verən saytlara göndərə bilirlər. Gəlin indi daha da detala gedək
 
 ![Tripadvisor](../.gitbook/assets/tripadvisor.png)
 
