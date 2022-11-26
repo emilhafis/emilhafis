@@ -1,4 +1,4 @@
-# Activity taska
+# Activity task
 
 ### Hansı tapşırıqlar olacaqdır?
 

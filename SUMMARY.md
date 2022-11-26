@@ -2,6 +2,10 @@
 
 * [Giriş](README.md)
 
+## Tech Writer & API Tech
+
+* [Tech Writer & API Tech](tech-writer-and-api-tech/tech-writer-and-api-tech.md)
+
 ## API-lara praktiki baxış
 
 * [Aviabilet senarisi üzrə izah](api-lara-praktiki-baxis/aviabilet-senarisi-uezr-izah.md)
@@ -13,5 +17,5 @@
 
 ## Activity task
 
-* [Current/future trends](activity-task/current-future-trends.md)
-* [Activity task](activity-task/activity-task.md)
+* [Current/future trends](api-lara-praktiki-baxis/current-future-trends.md)
+* [Activity task](api-lara-praktiki-baxis/activity-task.md)
