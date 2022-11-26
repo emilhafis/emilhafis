@@ -28,4 +28,14 @@ curl --location --request GET 'https://api.travelpayouts.com/aviasales/v3/prices
 
 <figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+Windows-da **Ctrl+ V** ilə kopyaladığınızı əlavə edə bilməyəcəksiz. Bunun üçün **Paste** istifadə edin.
+{% endhint %}
+
+> **Windows ilə işləyənlər üçün qeydlər**
+>
+> Windows ilə işləyirsinizsə aşağıdakı formatlara fikir verin:
+>
+> * Sətrləri ayırmaq üçün (`\`) istifadə etməyin. (Ümumiyyətlə bu simvol kodun oxuna bilməsi üçün istifadə olunur və adətən MAC user-ləri istifadə edir. Olmamaıs MAC üçündə problem deyil.)
+
 ****
