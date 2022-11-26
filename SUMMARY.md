@@ -10,5 +10,8 @@
 * [GUI-dən sorğunun göndərilməsi](api-lara-praktiki-baxis/postman-il-sorgunun-goend-rilm-si.md)
 * [cURL Overview](api-lara-praktiki-baxis/curl-overview.md)
 * [Demo site](api-lara-praktiki-baxis/demo-site.md)
-* [Current/future trends](api-lara-praktiki-baxis/current-future-trends.md)
-* [Activity task](api-lara-praktiki-baxis/activity-task.md)
+
+## Activity task
+
+* [Current/future trends](activity-task/current-future-trends.md)
+* [Activity task](activity-task/activity-task.md)
