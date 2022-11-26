@@ -164,18 +164,3 @@ Bu kursdakı əsas məqsədim sizlərə lazımı texniki biliklərimi ötürmək
 > * Apigee API Management - [Google Cloud API](https://cloud.google.com/apigee) proqramçılara cloud üzərindən çox rahatlıqla API yaratmaq, publish etmək onların monitorinqi aparmağa imkan verir.&#x20;
 >
 > Bunların hamsını sizin üçün hazırlamışam, evdə yükləyib hazır edərsiniz. Həmçinində yoxlanılma üsulun qeyd etmişəm
-
-### Proqram təminatlarının yoxlanılması <a href="#testing-your-setup" id="testing-your-setup"></a>
-
-> * **Postman yoxlanılması** - Postman app açdıqdan sonra **New** - **HTTP Request** seçib aşağıdakı **URL**-i **GET** qarşısında qeyd edin: [`https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&token=3c63416a24d3b969da6df9271faa9d6e`](https://api.travelpayouts.com/aviasales/v3/prices\_for\_dates?origin=GYD\&token=3c63416a24d3b969da6df9271faa9d6e) `` **Send** düyməsini basın. Əgər cavab alırsınızsa hər şey qaydasındadır (bəzən komputerdə olan məhdudiyyətlərə görə sorğuya cavab alınmaya bilər)&#x20;
-> * <mark style="color:red;">To check whether Git is installed, open up Terminal (on Mac) or Command Prompt (on Windows) and type</mark> <mark style="color:red;"></mark><mark style="color:red;">`git --version`</mark><mark style="color:red;">. If it’s installed, you’ll see the version.</mark>
-
-![](<.gitbook/assets/Postman\_check (1).png>)
-
-> * **cURL yoxlanılması** - cURL quraşdırıldığından əmin olmaq üçün Mac-da Terminalı, Windows-da isə Command Prompt-u açıb aşağıdakı kod bloku qeyd edin. Əgər JSON cavabı alırsınızsa demək ki, hər şey qaydasındadır.
-
-```
-curl --location --request GET 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates?origin=GYD&destination=IST&departure_at=2023-03-23&return_at=2023-03-26&currency=azn&limit=2&token=3c63416a24d3b969da6df9271faa9d6e'
-```
-
-<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
