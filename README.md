@@ -91,11 +91,7 @@ Bu kursdakı əsas məqsədim sizlərə lazımı texniki biliklərimi ötürmək
 >
 > Bu məsələ ilə əlaqədar mən bir yazı yazmışdım və orada bu günə kimi qarşılaşdığım və şahidi olduğum əsas problemləri necə həll edə bilərik onu qeyd etmişdim.&#x20;
 
-
-
-### API Tech Writer və ya Tech Writer nə üçün lazımdır
-
-> Yazımda qeyd etmişdim ki,  ölkəmizdəki bir çox klassik təşkilatlarda “**API Tech Writer**” üzrə mütəxəssis olmur.
+> Yazımda qeyd etmişdim ki,  ölkəmizdəki bir çox klassik təşkilatlarda “**API Tech Writer**” üzrə mütəxəssis çox azdır, düzü görməmişəm ola bilər olsun deyə yazdım.
 >
 > Bu işi görən olmadıqda isə, developer-ə düzgün tapşırıq verilmir. Belə ki, çox vaxt developer-ə ümumi prosesləri əhatə edən bir sənəd verilir, bəzən isə heç bu da verilmir və birbaşa maraqlı şəxslərlə developer-i ünsiyyətə çıxarırlar. Konkret task olmadıqda isə, developerlə saysız hesabsız müzakirələrin, "call"-ların sayı artır, məhsulu dəflərlə onlara izah etməyə ehtiyac yaranır və developer yenidən məhsulun analitikasını aparmağa məcbur qalır. Nəticədə developer həm analitik, həm kommunikasiyanı təşkil edən, həm də mübahisəli məsələ yarandıqda onu danışıqlar yolu ilə həll edən şəxs olur. Ən sonda isə öz işi, yəni devlopment ilə məşğul olmağa çox az vaxtı qalır və bütün problemlərdə "analitika yoxdur" deyərək günahları analitikanın üzərinə atır .
 >
