@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Course information and Learning path](README.md)
+* [Course info and Learning path](README.md)
 * [Course tutorial](course-tutorial.md)
 
 ## Tech Writer & API Tech
