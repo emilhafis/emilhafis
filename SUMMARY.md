@@ -1,10 +1,12 @@
 # Table of contents
 
-* [Giriş](README.md)
+* [Course information and Learning path](README.md)
+* [Course tutorial](course-tutorial.md)
 
 ## Tech Writer & API Tech
 
 * [Tech Writer & API Tech](tech-writer-and-api-tech/tech-writer-and-api-tech.md)
+* [API](tech-writer-and-api-tech/api.md)
 
 ## API-lara praktiki baxış
 
@@ -17,5 +19,6 @@
 
 ## Activity task
 
+* [Tools](activity-task/tools.md)
 * [Current/future trends](api-lara-praktiki-baxis/current-future-trends.md)
 * [Activity task](api-lara-praktiki-baxis/activity-task.md)
