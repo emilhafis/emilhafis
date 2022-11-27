@@ -196,3 +196,243 @@ security:
 ```
 
 </details>
+
+[CommonMark Markdown](http://spec.commonmark.org/0.27/)
+
+```
+servers:
+  - url: "https://api.travelpayouts.com/aviasales/v3/"
+    description: "Production Server"
+  - url: "https://test.travelpayouts.com/aviasales/v3/"
+    description: "Test server"
+```
+
+
+
+```
+openapi: 3.0.3
+info:
+  title: Travelpayouts API
+  version: v3
+  description: "Aviasales Data API — the way to get travel insights for your site or blog. Get flight price trends and find popular destinations for your customers. <p> 
+  
+    Data is transferred from the cache, which is formed on the basis of searches of users of sites Aviasales for the last 48 hours. So it is recommended that you use them to generate static pages. <p>
+  
+    For developers, documentation is available with examples of requests and answers in various programming languages, as well as a link to Postman.<p>
+
+    >**Please note**: *API methods use limits, which are described in the article API rate limits.*<p>
+
+  This documentation is for the public Aviasales API of the same name.
+    To access the API, you must pass your `token` in the `X-Access-Token header` or in the token parameter. To obtain a  token for the Data Access API, go to the [Dashboard](https://www.travelpayouts.com/programs/100/tools/api)"
+  license: 
+    name: "License (MIT, Apache 2.0, etc): Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License"
+    url: https://creativecommons.org/licenses/by-sa/4.0/'
+  termsOfService: "https://support.travelpayouts.com/hc/en-us/articles/360004162111-Terms-of-the-Travelpayouts-Travel-Affiliate-Network"
+  contact:
+    name: "Travelpayouts support"
+    url: https://support.travelpayouts.com/hc/en-us
+    email: someone@gmail.com
+servers:
+  - url: "https://api.travelpayouts.com/aviasales/v3/"
+    description: "Production Server"
+  - url: "https://test.travelpayouts.com/aviasales/v3/"
+    description: "Test server"
+security:
+- app_id: []
+externalDocs:
+  description: API Documentation
+  url: https://support.travelpayouts.com/hc/en-us/articles/203956163-Travel-insights-with-Aviasales-Data-API
+
+tags:
+  - name: Flight
+    description: "Get the cheapest ticket"
+
+paths:
+  /prices_for_dates:
+    get:
+      tags: 
+        - "Flight"
+      summary: Get the cheapest ticket
+      description: Get the cheapest ticket by date
+      operationId: get-prices_for_dates
+      parameters:
+        - $ref: '#/components/parameters/currency'
+        - $ref: '#/components/parameters/departure_at'
+        - $ref: '#/components/parameters/return_at'
+        - $ref: '#/components/parameters/direct'
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/market'
+        - $ref: '#/components/parameters/page'
+        - $ref: '#/components/parameters/origin'
+        - $ref: '#/components/parameters/sorting'
+        - $ref: '#/components/parameters/unique'
+      #externalDocs:
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/200'
+        "404":
+          description: Not found response
+          content:
+            text/plain:
+              schema:
+                title: Weather not found
+                type: string
+                example: Not found
+
+  /dates:
+    get:
+      tags: 
+        - "Dates"
+      summary: Get the cheapest ticket
+      description: Get the cheapest ticket by date
+      operationId: for_dates
+      parameters:
+        - $ref: '#/components/parameters/currency'
+        - $ref: '#/components/parameters/departure_at'
+        - $ref: '#/components/parameters/return_at'
+        - $ref: '#/components/parameters/direct'
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/market'
+        - $ref: '#/components/parameters/page'
+        - $ref: '#/components/parameters/origin'
+        - $ref: '#/components/parameters/sorting'
+        - $ref: '#/components/parameters/unique'
+      #externalDocs:
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/200'
+        "404":
+          description: Not found response
+          content:
+            text/plain:
+              schema:
+                title: Weather not found
+                type: string
+                example: Not found
+
+
+components:
+  parameters:
+    currency:
+      name: currency
+      in: query
+      description: "The currency of **prices**"
+      schema:
+        type: string
+        default: "RUB"
+    
+    departure_at:  
+      name: departure_at
+      in: query
+      description: "The departure date"
+      schema:
+        type: string
+  
+    return_at:
+      name: return_at
+      in: query
+      description: "Non-stop tickets"
+      schema:
+        type: string      
+  
+    direct:
+      name: direct
+      in: query
+      description: "The return date. For one-way tickets do not specify it"
+      schema:
+        type: boolean 
+     
+    limit:  
+      name: limit
+      in: query
+      description: "The total number of records on a page `max 1000`"
+      schema:
+        type: integer
+        default: 30
+  
+    market:
+      name: market
+      in: query
+      description: "Sets the market of the data source"
+      schema:
+        type: string
+        default: ru
+   
+    page:
+      name: page
+      in: query
+      description: "A page number, is used to skip some massive of results. For example, if we want to get the entries from `100 to 150`, we need to `set page=3`, and `limit=50`"
+      schema:
+        type: string
+      
+    origin:
+      name: origin
+      in: query
+      description: "[An IATA code](https://www.nationsonline.org/oneworld/IATA_Codes/airport_code_list.htm#:~:text=The%20International%20Air%20Transport%20Association's,it%2C%20New%20York's%20John%20F.) of a city or an airport of the origin"
+      schema:
+        type: string
+  
+    sorting:
+      name: sorting
+      in: query
+      description: "The assorting of prices"
+      schema:
+        type: string
+        enum: [price, route]
+        default: price
+      
+    unique:
+      name: unique
+      in: query
+      description: "Returning only unique routes, if only origin is specified, `true` or `false`"
+      schema:
+        type: boolean
+        default: false
+        
+  schemas:
+    "200":
+      title: Successful response
+      type: object
+      properties:
+        success:
+          type: boolean
+          description: Success request
+          example: true
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Data'
+          description: (more info Weather condition codes)
+    Data:
+      title: Data
+      type: object
+      properties:
+        trip_class:
+          type: string
+          enum: ["0","1","2"]
+          description: "the flight class: `0 — Economy class` `1 — Business class` `2 — First`"
+        depart_date:
+          type: string
+          description: "the date of departure"
+          example: 12-03-2022
+        value:
+          type: string
+          description: "the cost of a flight, in the **currency specified**"
+  securitySchemes:
+    app_id:
+      type: apiKey
+      description: API key to authorize requests.
+      name: token
+      in: query       
+        
+          
+```
+
