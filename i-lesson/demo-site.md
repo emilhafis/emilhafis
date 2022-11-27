@@ -55,7 +55,7 @@ Nümunədə göstərdiyimiz HTML faylı hansı formada bizə məlumatları qayta
       </script>
       <!-- <button type="button" onclick="checkWind()" class="btn btn-success weatherbutton">Axtar</button>  -->
       <input type="button" onclick="checkFlight()" class="button" value="Axtar">
-      <h2>İstanbula ən ucuz bilet (İyul 11 2022 gediş - İyul 18 2022 dönüş)</h2>
+      <h2>İstanbula ən ucuz bilet (Mart 23 2023 gediş - Mart 26 2023 dönüş)</h2>
       <span><b>Gediş aeroportu: </b></span><span id="origin_airport"></span><span id="origin_airport_desc"></span><br/>
       <span><b>Eniş aeroportu: </b></span><span id="destination_airport"></span> <span id="destination_airport_desc"></span><br/>
       <span><b>Qiymət: </b></span><span id="flight_price"></span><span id="price_ccy"></span><br/>
