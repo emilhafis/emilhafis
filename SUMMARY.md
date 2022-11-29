@@ -2,6 +2,7 @@
 
 * [General Overview](README.md)
 * [Tapşırıq](tapsiriq.md)
+* [Raw data](raw-data.md)
 * [Why need documentation?](why-need-documentation.md)
 
 ## API Dizayn

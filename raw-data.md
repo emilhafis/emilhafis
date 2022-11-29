@@ -2,23 +2,7 @@
 description: Task
 ---
 
-# Tapşırıq
-
-> Prosesi daha yaxşı anlamaq üçün yenədə məsələləri sıfırdan başlamıram. Belə ki, artıq analiz olunmuş məlumat üzərindən Rest API prinsiplərin və sənədləşməsin başa düşməyə çalışacağıq.
-
-> Gəlin indi güman edək ki, siz **Tech Writer**-siniz və **Bankda** **Payment team** ilə işləyirsiniz.&#x20;
->
-> Komandanıza tapşırılıb ki, bank müştərilərinin məlumatlarını 3-cü tərəf təşkilatlara vermək üçün **PSD2 standartı** əsasında **Open Banking** yaradın.
->
-> Hazırda bu formatlı standart Mərkəzi Bank tərəfindən [**Ani Ödənişlər Sistemində**](https://anipay.az/open-banking) yaradılmışdır. Amma, bizə sırf bankda yaradılmış mərkəzləşdirilmiş Open Banking lazımdır ki, onu istədyimiz formada hazırlayaq.
->
-> Komandanız sizə bildirir ki, API tələblərin artıq digər analitiklər analiz etmiş, **API First** hazırlamış, yəni **endpoint proqramlaşdırılmış** və **** bizə isə **** onu dizayn edib sənədləşdirmək lazım olduğu bildirilir. Bizim sənədləşmədən digər 3-cü tərəflər istifadə edibservisləri öz proqramları ilə inteqrasiya etməlidirlər.
-
-{% hint style="info" %}
-Çox vaxt, **endpoint** yerinə **API**-da deyilir.
-{% endhint %}
-
-> Aşağıda sizə yeni API `Get account balance API` haqqında məlumatları təqdim edirlər.
+# Raw data
 
 ### Sənədləşdirmək üçün məlumat
 
@@ -58,6 +42,8 @@ description: Task
 > CreditLine
 >
 >
+
+Bu məlumatları Travelpayouts və ya ev tapşırığınızdakı API məlumatları ilə müqaisə etsəniz, görərsiniz ki, bunları loru dildə desəm "adam içinə çıxarmaq olmaq"
 
 > _**Bunun üçün nələr etməlisiniz, ümumiyyətlə məsələyə necə yanaşmalısınız?**_&#x20;
 
