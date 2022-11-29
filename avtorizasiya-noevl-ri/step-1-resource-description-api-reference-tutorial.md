@@ -79,7 +79,7 @@ və digərləri
 {% endcode %}
 
 {% hint style="info" %}
-**Trello** - Task management sistemidir. Təqdim etdiyi API-ları öz platformanıza inteqrasiya edib task management-i birbaşa oradan idarə edə bilərsiniz.
+**Trello** - Task management sistemidir. Təqdim etdiyi API-ları öz platformanıza inteqrasiya edib birbaşa öz saytımızdan task açıb idarə edə bilərik.
 {% endhint %}
 
 {% hint style="warning" %}
