@@ -67,4 +67,4 @@ Növbəti mövzularımızda artıq biznes tələblərini analiz edərək sıfır
 
 ### Növbəti addım
 
->
+> İndi isə baxaqki bu sənədləşmə bizə nə üstünlük verəcəkdir&
