@@ -21,10 +21,3 @@ Arxitekt nədir, kod yazmaq necə həyata keçirilir. Merge request, Gitlba və 
 {% hint style="warning" %}
 Bu proseslərin üzərindən addım addım bütün prosesin üzərindən keçəcəyik və sonda **API** prinsiplərini mənimsəmiş olacağıq. Hazırda yalnız ümumi olaraq tanış olun və başa düşməyə çalışın ki, bu **API** nəyə xidmət edəcəkdir.
 {% endhint %}
-
-### Agile Myth
-
-> Belə bir Mif yaranıb, çox adam elə fikirləşirki Agile metodologiyasında documentation tələb edilmir.  Deyirlərki bu agile-dır, burada sənədləşmə olmur və ya Agile sənədləşməyə qarşıdır. Bu fikirlərin heç biri düzgün deyildir.
->
-> Bunların əksinə olaraq, iterativ yəni hissəli development gətirən Agile daha yeni tərzdə sənədləşmələr tələb edirki layihəmizə və steykholderlərmizə bunun faydası dəysin.\
->
