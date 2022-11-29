@@ -10,15 +10,15 @@
 
 #### [Resursun təsviri](../avtorizasiya-noevl-ri/step-1-resource-description-api-reference-tutorial.md)
 
-Resurslar API tərəfindən qaytarılan məlumatlara deyilir.
+Resurslar API tərəfindən qaytarılan məlumatlara deyilir. Ümumiyyətlə bizim yazdığımız API hansı məlumatları qaytarırsa, hansı resursa aid məlumatları qaytarırsa biz o resursun təsvirin veririk. Məsələn travelpayoutsda API bilet resursu üzrə məlumat qaytarırdı.
 
 #### [Endpoint və metodlar](../avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
 
-**Endpoint** resursa necə giriş əldə edə biləcəyinizi, **metod** isə resurs üzərində hansı əməliyyatları (`GET`, `POST`, `DELETE` və s) icra edə biləcəyinizi göstərir.
+**Endpoint** resursa necə giriş əldə edə biləcəyimizi, **metod** isə resurs üzərində hansı əməliyyatları (`GET`, `POST`, `DELETE` və s) icra edə biləcəyimizi göstərir.
 
 #### [Parametrlər](../api-dizayn/parametrl-r.md)
 
-**Parameter**-lər **Endpoint** ilə göndərə biləcəyiniz dəyərlərdir. Bu dəyərlər qayıdan cavabda (bundan sonra **Response**) hansı dəyərlərin olmasını və ya **Response**-un formatını təyin edir.&#x20;
+**Parameter**-lər **Endpoint** ilə göndərə biləcəyimiz dəyərlərdir. Bu dəyərlər qayıdan cavabda (bundan sonra **Response**) hansı dəyərlərin olmasını və ya **Response**-un formatını təyin edir.&#x20;
 
 #### [Sorğu nümunəsi](../api-dizayn/sorgu-nuemun-si.md)
 
@@ -31,7 +31,7 @@ Cavab nümunəsi sorğu nümunəsinə əsaslanan nümunə cavabı göstərir; **
 {% hint style="info" %}
 Biz işlərimizi sadə formada heç bir avtomatlaşdırılımış **API doc platformalarından** istifadə etmədən görəcəyik. Həmçinin, bilin ki, bu işləri görmək üçün müxtəlif Avtomatlaşdırılmış **API platformalar** vardır və biz onlar ilə növbəti məqalələrimizdə tanış olacağıq.
 
-Amma sonda sizə hazırladığımız **API**-ın həmin platformaların birində necə göründüyünü göstərəcəm.
+Amma sonda sizə hazırladığım **API**-ın həmin platformaların birində necə göründüyünü göstərəcəm.
 {% endhint %}
 
 ### Növbəti addım
