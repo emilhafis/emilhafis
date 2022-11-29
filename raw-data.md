@@ -67,4 +67,4 @@ Növbəti mövzularımızda artıq biznes tələblərini analiz edərək sıfır
 
 ### Növbəti addım
 
-> İndi isə gəlin REST API prinsipləri əsasında sənədləşməmizi hazırlayaq. Bu [bölmədə](api-reference-tutorial/api-reference-tutorial-overview.md) API üzrə qeyd etdiyimiz 5 əsas hissə ilə tanış olacağıq.&#x20;
+>
