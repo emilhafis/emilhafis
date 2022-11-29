@@ -164,7 +164,7 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 >
 > PUT təhlükəsiz metod deyil, çünki o, resursları yeniləmək üçün nəzərdə tutulub.
 >
-> Amma Bununla belə, PUT HTTP tərəfindən idempotent metod kimi müəyyən edilir. Buna görə də ikinci eyni PUT çağırışı resurs və ya resursları yenidən dəyişdirməməli və eyni vəziyyətdə salamalıdır. API tələblərinizdə bunu mütləq qeyd edin. Əks ahlda halda hər dəfə PUT metodu ilə məlumatlar yenilənəcək və servisiniz üçün lazımsız iş yükü yaranacaqdır.
+> Amma Bununla belə, PUT HTTP tərəfindən idempotent metod kimi müəyyən edilir. Buna görə də ikinci eyni PUT çağırışı resurs və ya resursları yenidən dəyişdirməməli və eyni vəziyyətdə salamalıdır. Bunu proqramçıdan alanda mütləq yoxlayın və API tələblərinizdə bunu mütləq qeyd edin. Əks ahlda halda hər dəfə PUT metodu ilə məlumatlar yenilənəcək və servisiniz üçün lazımsız iş yükü yaranacaqdır.
 >
 > PUT və PATCH arasında fərq ondan ibarətdir ki, PUT bütün resursu update etmək üçün nəzərdə tutulub, PATCh isə seçilmiş fieldləri.
 >
