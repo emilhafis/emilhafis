@@ -59,6 +59,8 @@ POST /campaigns/{campaign_id}/actions/unschedule
 > ****[**YouTube**](https://developers.google.com/youtube/v3/docs/comments) üzrə də gördüyünüz kimi `Comment` resursunu işarələmişəm. Bu resursla yanaşı sol tərəfdə YouTube üzrə bir neçə resurs vardır. Məsələn - `Members`**,** `Playlist` **** və s.
 >
 > `Comment` resursu üzrə də bir neçə metod (**list, insert, update** və s.) mövcuddur.
+>
+> Məsələn burada fərqli yanaşıblar list içərisinə girdikdə artıq endpointimizi görürükü. Siz bunun vasitəsilə öz call center işinizi avtomatlaşdıra bilərsiniz. Məsələn istəyirsiznizki bütün sosial şənğbəkələrdəki komentlər bir yerə gəlsin. youtubdakını bu formada ala bilərsiz
 
 #### [Trello](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-group-cards)
 
