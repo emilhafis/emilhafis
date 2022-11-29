@@ -66,6 +66,10 @@ POST /campaigns/{campaign_id}/actions/unschedule
 
 <figure><img src="../.gitbook/assets/trello_v1.png" alt=""><figcaption></figcaption></figure>
 
+> Çalışıramki sizə uyğun olan nümunələr göstərim
+>
+> Trello task managementdir nümunə göstərməkj.
+>
 > Digər nümunə isə [Trello](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-group-cards)-dur. Burada da gördüyünüz kimi sol tərəfdə bir çox resurslar mövcuddur. bizim seçdiyimiz resurs `Cards`-dır və onun üzrə aşağıdakı metdolar mövcuddur.
 
 {% code lineNumbers="true" %}
