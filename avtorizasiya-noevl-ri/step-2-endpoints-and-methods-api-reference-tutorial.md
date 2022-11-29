@@ -18,7 +18,13 @@ description: Endpoint and HTTP methods
 >
 > **Endpoint**-lərin təsviri adətən ümumi **resursun** təsvirinə oxşar, lakin daha qısa təsvirlərə malik olur.&#x20;
 >
-> Daha yaxşı başa düşmək üçün nümunəyə baxaq. Bizə tanış olan travelpayouts nümunəsində baxdıqda endpointi daha yaxşı anlamaq olur. Burada travelpayoutsa brauzerdən sorğu edəndə, onun gateveyi, yəni ilk sorğunu qəbul edən proqram təminarı sorğunun hansı Endpointə aid olduğun analiz edib sorğunu ora yönləndirir. Məsələn travelpayoutsda bir neçə endpoitnint ola bilrə. Biri biletlərə, biri isə hotellərə baxa bilər. Məhz gatevey sorğunu analiz edərək hansı endpointə göndərməlli olduğu qərarı verir.
+> Daha yaxşı başa düşmək üçün nümunəyə baxaq.&#x20;
+
+
+
+> Bizə tanış olan travelpayouts nümunəsində baxdıqda endpointi daha yaxşı anlamaq olur.&#x20;
+>
+> 1. Burada travelpayoutsa brauzerdən sorğu edəndə, onun gateveyi, yəni ilk sorğunu qəbul edən proqram təminarı sorğunun hansı Endpointə aid olduğun analiz edib sorğunu ora yönləndirir. Məsələn travelpayoutsda bir neçə endpoitnint ola bilrə. Biri biletlərə, biri isə hotellərə baxa bilər. Məhz gatevey sorğunu analiz edərək hansı endpointə göndərməlli olduğu qərarı verir.
 >
 > Bu gün tez tez eşitdiyimiz microservis arxitekturasınında özəyi budurki hər bir funksionallıq üçün ayrıca endpoint olur. Belə olanda bir endpointdə problem olanda digərinə təsir etmir. məsələn bu nümunədə, travel endpointində problem olsa, istifadəçilər Hotel məlumatların hotel endpointi ilə ala biləcəklər.
 
@@ -128,13 +134,13 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 >
 > GET bütün resurslar üzrə məlumatı və ya bir resurs üzrə məlumatı qaytarmaq üçün istifadə edilir.&#x20;
 >
-> Buna yaxşı bir misal kimi brauzeri göstərmək olar. Siz brauzerdə hansısa saytı açarkən orda HTTP GET metodundan istifadə edilir.
+> Buna yaxşı bir misal kimi brauzeri göstərmək olar. Siz brauzerdə hansısa saytı açarkən orda HTTP GET metodundan istifadə edilir. Məsələn cbar.az açanda görəcəksizki Get ilə müraciət edir.
 >
 > GET məlumatları update yəni dəyişdirə bilməz. Buna görə də, ən təhlükəsiz metod hesab edilir. Belə ki, məlumatları dəyişdirməyən metodlar təhlükəszidir çünki onlar təhlükəli məlumatları göndərib sistemi çökdürə və ya digər fraud edə bilməzlər.
 >
 > Belə ki digər metodlar hər sorğu zamanı bizim resursumuzun məlumatların dəyişə bilər amma GET sorğusunu nə qədər təkrarlasaqda nəticə eyni olacaqdır.&#x20;
 >
-> Təkrar sorğular nəticəsində eyni nəticəni almaq idempotent adlanır. Qarşınıza çox çıxacaq.
+> Təkrar sorğular nəticəsində eyni nəticəni almaq **idempotent** adlanır. Qarşınıza çox çıxacaq.
 >
 > &#x20;HTTP GET metodunun təhlükəzi və idempotent olmasını təyin edir. Ona görədə gələcəkdə API dizayn edərək APIlarının bu standartlara cavab verməsindən əmin olun.
 
