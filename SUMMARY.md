@@ -1,8 +1,8 @@
 # Table of contents
 
 * [General Overview](README.md)
-* [Why need documentation?](why-need-documentation.md)
 * [Tapşırıq](tapsiriq.md)
+* [Why need documentation?](why-need-documentation.md)
 
 ## API Dizayn
 

@@ -4,7 +4,7 @@ description: Task
 
 # Tapşırıq
 
-> Prosesi daha yaxşı anlamaq üçün yenədə məsələləri sıfırdan başlamıram. Belə ki, artıq analiz olunmuş məlumat üzərindən Rest API prinsiplərin və sənədləşməsin başa düşməyə çalışacağıq.
+> Prosesi daha yaxşı anlamaq üçün yenədə məsələləri praktika üzərindən edəcəyik. Belə ki, artıq analiz olunmuş məlumat üzərindən Rest API prinsiplərin və sənədləşməsin başa düşməyə çalışacağıq.
 
 > Gəlin indi güman edək ki, siz **Tech Writer**-siniz və **Bankda** **Payment team** ilə işləyirsiniz.&#x20;
 >
@@ -13,6 +13,10 @@ description: Task
 > Hazırda bu formatlı standart Mərkəzi Bank tərəfindən [**Ani Ödənişlər Sistemində**](https://anipay.az/open-banking) yaradılmışdır. Amma, bizə sırf bankda yaradılmış mərkəzləşdirilmiş Open Banking lazımdır ki, onu istədyimiz formada hazırlayaq.
 >
 > Komandanız sizə bildirir ki, API tələblərin artıq digər analitiklər analiz etmiş, **API First** hazırlamış, yəni **endpoint proqramlaşdırılmış** və **** bizə isə **** onu dizayn edib sənədləşdirmək lazım olduğu bildirilir. Bizim sənədləşmədən digər 3-cü tərəflər istifadə edibservisləri öz proqramları ilə inteqrasiya etməlidirlər.
+
+{% hint style="info" %}
+Ödəniş Xidmətləri Direktivi İkinci (PSD2) ödəniş xidmətləri təminatçılarını müştərilərin autentifikasiyası proseslərini təkmilləşdirməyə məcbur etmək və həmçinin üçüncü tərəflərin iştirakı ilə bağlı yeni tənzimləmələr gətirmək üçün nəzərdə tutulmuş qanunvericilikdir.
+{% endhint %}
 
 {% hint style="info" %}
 Çox vaxt, **endpoint** yerinə **API**-da deyilir.
