@@ -12,10 +12,12 @@ description: Task
 >
 > Hazırda bu formatlı standart Mərkəzi Bank tərəfindən [**Ani Ödənişlər Sistemində**](https://anipay.az/open-banking) yaradılmışdır. Amma, bizə sırf bankda yaradılmış mərkəzləşdirilmiş Open Banking lazımdır ki, onu istədyimiz formada hazırlayaq.
 >
-> Komandanız sizə bildirir ki, API tələblərin artıq digər analitiklər analiz etmiş, **API First** hazırlamış, yəni **endpoint proqramlaşdırılmış** və **** bizə isə **** onu dizayn edib sənədləşdirmək lazım olduğu bildirilir. Bizim sənədləşmədən digər 3-cü tərəflər istifadə edibservisləri öz proqramları ilə inteqrasiya etməlidirlər.
+> Komandanız sizə bildirir ki, API tələblərin artıq digər analitiklər analiz etmiş, **API First** hazırlamış, yəni **endpoint proqramlaşdırılmış** və **** bizə isə **** onu dizayn edib sənədləşdirmək lazım olduğu bildirilir. Bizim sənədləşmədən digər 3-cü tərəflər istifadə edib servisləri öz proqramları ilə inteqrasiya etməlidirlər. 1-ci dərsdəki Travlepayoutsu təsəvvür edinki biz yaradıqır amma burada biz bilet yox bank haqqında məlumatlar qaytaracağıq.
 
 {% hint style="info" %}
 Ödəniş Xidmətləri Direktivi İkinci (PSD2) ödəniş xidmətləri təminatçılarını müştərilərin autentifikasiyası proseslərini təkmilləşdirməyə məcbur etmək və həmçinin üçüncü tərəflərin iştirakı ilə bağlı yeni tənzimləmələr gətirmək üçün nəzərdə tutulmuş qanunvericilikdir.
+
+Bizdə də qanunvercilik olacaq və 3 cü tərəflər bank məlumatların ala biləcəklər.
 {% endhint %}
 
 {% hint style="info" %}
@@ -62,6 +64,8 @@ description: Task
 > CreditLine
 >
 >
+
+Bu məlumatları Travelpayouts və ya ev tapşırığınızdakı API məlumatları ilə müqaisə etsəniz, görərsiniz ki, bunları loru dildə desəm "adam içinə çıxarmaq olmaq"
 
 > _**Bunun üçün nələr etməlisiniz, ümumiyyətlə məsələyə necə yanaşmalısınız?**_&#x20;
 
