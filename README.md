@@ -5,7 +5,7 @@ coverY: -196.17130144605113
 
 # General Overview
 
-> Bu mövzuda artıq biz real [**PSD2**](https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366\_en) tələbləri əsasında [Mərkəzi Bank tərəfindən](https://anipay.az/open-banking) hazırlanan **Open Banking API**  dizaynını həyata keçirəcəyik. Bu çox vacib mövzudur.
+> Bu mövzuda artıq biz real **Open Banking API**  dizaynını həyata keçirəcəyik. Bu çox vacib mövzudur.
 >
 > Mövzunun sonunda isə biz tam olaraq **REST API** prinsiplərin mənimsəyib, **API Dizayn** edərkən **Tech Writer** nəyə fikir verməlidir onlar ilə tanış olacağıq.
 >
