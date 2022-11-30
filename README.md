@@ -11,7 +11,7 @@
 1. İlk öncə [sendgrid.com daxil oluruq](https://sendgrid.com/)
 2. Developer hissəyə keçirik
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. Developer hissədə seçirik
 
@@ -27,13 +27,13 @@
 
 6\. Email və göstərilən tələbə uyğun şifrəni daxil edirik
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
 7\. Bizim haqda məlumat istəyir. Onu doldururuq
 
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 8\. Artıq şəxsi kabinetə keçid edirik və burada sms göndərmək üçün sender yaradırıq
 
@@ -49,7 +49,7 @@
 
 11\. Accountu yaratdıq indi 2-ci bənddə göstərdiyi API Key əldə etməliyik
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 12\. Klik etdikdən sonra bu səhifə açılır və orada **Create API Key** seçirik.
 
@@ -71,7 +71,7 @@ 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
 
 <figure><img src=".gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 16\. cURL də **to email** hissənə hansı emailə göndərmək istəyirksə onu qeyd edirik, **from email** hissəyə isə qeydiyyatdan keçirdiyimiz emaili daxil edirik ki, bu emaildən göndərilsin. Nümunədə baxa bilrəsiniz
 
@@ -89,6 +89,6 @@ curl --request POST \
 
 18\. Göndərilən email-ə keçid etdikdə (apifirst.aze@gmail.com) görürük ki, email gəlib
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 19\. Sonda cURL i Postmana import edib collection çıxardıb google drive-nıza yerləşdirib linkin mənə göndərirsiniz (video dərsliyin sonunda izah etmişəm)
