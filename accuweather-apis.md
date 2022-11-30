@@ -32,7 +32,7 @@
 
 7\. Paketimiz aktivləşir və yeni APP yaratmalıyıq
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 8\. Məlumatları daxil edib APP ı yaradırıq
 
@@ -72,15 +72,19 @@ bJHZ7tw1F9DeMnXUYjqt0nXbzM8e8dM3
 
 16\. Qayıdan cavabda artıq Bakının Location Key-in Key yazılan hissədən götürürük
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
-17\. Qayıdıb Current Conditions API da&#x20;
+17\. Qayıdıb Current Conditions API da apiKey-mizi və işarələdiyim yerdə Bakının key dəyərini yazırıq
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-1rw6adQzFkEzjDvxvXGYo8CQYoElIh4J
+18\. Sorğunu run etdikdə cavabın qayıtdığın görürük.&#x20;
 
 <figure><img src=".gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
+
+19\. Sorğu hissəsində cURL bölməsinə keçib lazım olan cURL i götürürk və bundan sonrasın bildiyimiz kimi davam edirik
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ```
 curl -X GET "http://dataservice.accuweather.com/currentconditions/v1/27103?apikey=1rw6adQzFkEzjDvxvXGYo8CQYoElIh4J"
