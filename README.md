@@ -19,11 +19,11 @@
 
 4\. Burada görürük ki, sorğu göndərmək üçün 3 etapı tamamlamalıyıq
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 5\. Start for free seçimi ilə qeydiyyata başlayırıq
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 6\. Email və göstərilən tələbə uyğun şifrəni daxil edirik
 
@@ -33,19 +33,19 @@
 
 7\. Bizim haqda məlumat istəyir. Onu doldururuq
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 8\. Artıq şəxsi kabinetə keçid edirik və burada sms göndərmək üçün sender yaradırıq
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 9\. Sender üçün məlumatları daxil edirik. From email hissədə öz emailmizi yazırıq. Sms bu emaildən göndəriləcək
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 10\. Emailimizə keçib təsdiq edirik
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 11\. Accountu yaratdıq indi 2-ci bənddə göstərdiyi API Key əldə etməliyik
 
@@ -69,7 +69,7 @@ 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
 
 15\. cURL install olduğu üçün səhifəni aşağı scroll edib cURL kodunu götürürk və text editora atırıq
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
