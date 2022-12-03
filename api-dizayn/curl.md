@@ -31,3 +31,21 @@
     ```
 
     This response is minified. You can un-minify it by going to a site such as [JSON pretty print](http://jsonprettyprint.com/), or if you have [Python installed](https://www.python.org/downloads/), you can add `| python -m json.tool` at the end of your cURL request to un-minify the JSON in the response (see [this Stack Overflow thread](https://stackoverflow.com/questions/352098/how-can-i-pretty-print-json-in-a-unix-shell-script) for details).
+
+### Note about single and double quotes with Windows curl requests
+
+If you’re using Windows to submit a lot of curl requests, and the curl requests require you to submit JSON in the [request body](https://idratherbewriting.com/learnapidoc/docapis\_doc\_parameters.html#request\_bodies), you might run into issues with single versus double quotes. The problem is that request body content is often formatted in JSON, which requires double quotes.
+
+Since you can’t use double quotes inside of other double quotes, you’ll run into issues in submitting curl requests in these scenarios.
+
+_Sponsored message:_Acrolinx helps technical writers ensure consistent style and terminology throughout their extensive manuals. Find out how Siemens uses Acrolinx to clear customer-oriented manuals more efficiently. [Read more](https://idbwrtng.com/acrolinx\_snippet6)
+
+Here’s the workaround. If you have to submit body content in JSON, you can store the content in a JSON file. Then you reference the file with an `@` symbol, like this:
+
+```
+curl -H "Content-Type: application/json" -H "Authorization: 123" -X POST -d @mypostbody.json http://endpointurl.com/example
+```
+
+Here curl will look in the existing directory for the `mypostbody.json` file. (You can also reference the complete path to the JSON file on your machine.)
+
+\
