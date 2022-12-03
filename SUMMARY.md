@@ -14,4 +14,5 @@
 * [JSON](api-dizayn/json.md)
 * [Sorğu nümunəsi](api-dizayn/sorgu-nuemun-si.md)
 * [Cavab nümunəsi və sxemi](api-dizayn/cavab-nuemun-si-v-sxemi.md)
+* [cURL](api-dizayn/curl.md)
 * [Ümumi baxış](api-dizayn/uemumi-baxis.md)
