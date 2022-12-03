@@ -21,6 +21,8 @@
 Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz parameter kimi CreditCard yazıb göndəririk. Amma yazılmış proqram bu **Parametr** üçün bizdən yalnız rəqəm gözləyir və CreditCard sözünə **error** qaytarır.
 {% endhint %}
 
+Data Type ları haqqında məlumat verməmişdən öncə istərdim ki, JSON üzrə sizə məlumat verim və ondan sonra fieldlər üzrə istifadə olunan data type ları analiz edək
+
 ### JSON üzrə ümumi məlumat
 
 **JSON**, _**JavaScript Object Notation**_ deməkdir. **JSON** məlumatları **Strukturlaşdırılmış Məlumat** kimi təqdim etmək üçün insan və maşın tərəfindən oxuna bilən formatdır. JSON **əsasən** məlumatları bir kompüterdən digərinə və ya hətta eyni kompüterdəki müxtəlif proqramlar arasında ötürmək üçün istifadə olunur.
@@ -34,6 +36,8 @@ Məsələn, nümunədə bizə Credit kartımızın balansı lazımdır və biz p
 > * _Hər bir **obyekt** Fiqurlu mötərizənin bağlanması <mark style="color:orange;">{</mark> ilə **bitməlidir**_
 >
 > Aşağıdakı nümunə **Person** obyektidir. **Person** obyektində qeyd olunan qaydalara əməl edilmişdir.
+
+Məsələn, bizim yoxladığımız bütün API larda məlumat mübadiləsi JSON üzərindən edilir. Amma bu o demək deyilki mütləq JSOn olmalıdır. XML də ola bilər. Amma JSOn çox sadə olduğu üçün demək olarki hamı JSON istifadə edir
 
 ```javascript
 {
@@ -135,6 +139,8 @@ Məsələn, mən hər zaman sənədləşmələrdə **enum** məlumat növünü g
 
 Əgər bizim **CardType** üzrə bəlli sayda seçimimiz olursa bu məlumat növü **enum** adlanır.&#x20;
 {% endhint %}
+
+double da göstərməyiniz yaxşıdır. Çünki amount ilə çox işləyəcəksiz
 
 ### Max and min dəyərlər <a href="#max_min_values" id="max_min_values"></a>
 
