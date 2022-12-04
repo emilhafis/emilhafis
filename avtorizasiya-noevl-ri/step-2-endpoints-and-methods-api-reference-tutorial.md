@@ -106,7 +106,7 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 
 ### CRUD əməliyyatı üçün HTTP metodlarından (verbs) istifadə
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > Metodları nümunə üzərində daha aydın başa düşməyə çalışaq. Bundan əvvəlki nümunəmizdəki metod Get metodu idi və biz onunla aviabilet haqqında məlumat alırdıq.&#x20;
 >
@@ -128,7 +128,7 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 >
 >
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > Gördüyünüz kimi ilk öncə POST dan yox GET dən başladım. Çünki baxdığımız avibile nümunəsi GET idi və demək olarki ən çox istifadə olunan metoduur.
 >
@@ -170,7 +170,7 @@ Bəs Postmanda gördüyümüz və ya **endpoint**-lərin qarşısında olan **GE
 >
 > Amma təcrübədə bütün update-lər PUT ilə göstərilir. Sizdə PUT ilə göstərə bilərsiz. Çox dərinliyə getmək çox vaxtı developerləridə çaşqın vəziyyətə salır.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 > DELETE metodu resursu silmək üçün istifadə edilir.
 >

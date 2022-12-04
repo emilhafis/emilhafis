@@ -162,9 +162,7 @@ Unutmayın ki, Path parametrlərində sıralamadakı dəyərlərin yeri dəyişd
 
 <mark style="color:blue;">**Path parameter-ləri**</mark>
 
-| Path parametri                                 | Məlumat növü | Təsviri              |   |
-| ---------------------------------------------- | ------------ | -------------------- | - |
-| <mark style="color:orange;">{AccountId}</mark> | String (28)  | Hesab nömrəsi (IBAN) |   |
+<table><thead><tr><th>Path parametri</th><th>Məlumat növü</th><th>Təsviri</th><th data-hidden></th></tr></thead><tbody><tr><td><mark style="color:orange;">{AccountId}</mark></td><td>String (28)</td><td>Hesab nömrəsi (IBAN)</td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
 Path parametri qeyd etdiyimiz kimi hər zaman mandatory olur. Bu səbəbdən də burada field-in mandatory və ya optional olmasını qeyd etməyə ehtiyac yoxdur

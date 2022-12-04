@@ -12,6 +12,8 @@
 * [Endpoint və metodlar](avtorizasiya-noevl-ri/step-2-endpoints-and-methods-api-reference-tutorial.md)
 * [Parametrlər](api-dizayn/parametrl-r.md)
 * [JSON](api-dizayn/json.md)
+* [Data Types](api-dizayn/data-types.md)
+* [Page 1](api-dizayn/page-1.md)
 * [Sorğu nümunəsi](api-dizayn/sorgu-nuemun-si.md)
 * [Cavab nümunəsi və sxemi](api-dizayn/cavab-nuemun-si-v-sxemi.md)
 * [cURL](api-dizayn/curl.md)
