@@ -38,6 +38,22 @@ Cavab nümunəsində dəyərlər real məlumatlara uyğun olmalıdır, amma real
 Həmçinin də, əmin olun ki, response məlumatlarının içərisində real müştəri məlumatları yoxdur. Əgər **API** nümunələrini sizə təqdim ediblərsə və nümunələrdəki məlumatlar real məlumatlara oxşayırsa əmin olun ki, bunlar production database-dən deyildir. Adətən production verilənlər bazasının nüsxəsin (clone) çıxarıb onun üzərində development aparırlar. Belə olanda da real datalar nümunələrdə işitrak edir.&#x20;
 {% endhint %}
 
+### White space and indentation
+
+Just a few words about whitespace and indentation to end this lecture.Whitespace refers to spaces and new lines and J sound pretty much ignores them.
+
+You can have spaces before your lines or after your commas or any place like that.It doesn't really matter.
+
+Also you can have line breaks wherever you want as long as they're not in the middle of quotation marks or in the middle of a number or something like that.
+
+And although spacing doesn't matter to the computer reading the Jaison it's much easier for a human to read it if it's formatted nicely.
+
+There are some general rules for good Jason formatting in general and 2 to 4 spaces as an indent for every new level of brackets.
+
+Whether that's curly or square brackets after a comma is usually a good place to put a line break if you need a line break and then there are lots of exceptions to these rules.
+
+Basically you just want to make it look good and readable. There are Jason forming tools on the web that you can use to help you with this and I'll talk about these in the next lecture which is the hands on exercise.
+
 ### JSON Formatter və Validator <a href="#format-the-json-and-use-code-syntax-highlighting" id="format-the-json-and-use-code-syntax-highlighting"></a>
 
 > Qeyd etdiyimiz kimi, əksər API-larda cavab **JSON** formatında olur. Ona görə də, response nümunəsi hazırlayarkən [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/) istifadə edib cavabı səliqəli formada göstərin.
