@@ -29,6 +29,41 @@ Data Type ları haqqında məlumat verməmişdən öncə istərdim ki, JSON üzr
 
 JavaScript prorqramlaşdırma dilidir və JSOn məlumatlrın strukturlaşdırılmış formada bu proqram təminatında istifadəsi üçün yaradılmışdır. Cammaat bunun rahatlığın görəndən sonra artıq demək olarki çox yerdə istifadə etməyə başlayıb. Və indi Veb API larında əsasən JSOn formatında məluamt mübadiləsi həyata keçirilir. Bunu siz bu günəkimi olan dərslərdə şahidi olmusuz.
 
+### JSON Data Types
+
+JSOn da sadə data typelardan istifadə olunur. Hansıkı bir az əvvəl danışdıq
+
+* String - Rəqəmlər, hərflər xüsusi işarələr və s. istifadə oluna bilər
+* Number - İnteger kimi mənfi və müsbət ədədlər
+* Boolean - Stringdən fərqli olaraq burada dırnaq işarəsinə ehityac olmur
+* Null - Dərnaq işarəsin işlədə bilərsiz. mƏnası heç nə deməkdir
+
+### Array
+
+Bunlardan əlavə olaraq, JSON da array və object data type-ıda vardır. Buradakı dəyərlər mötərziələr içərisində olur və bir birindən vürgül ilə ayrılır.
+
+Arraydəki məlumat növləri fərqli ola bilər. Nümunəyə baxaq.
+
+### Objects
+
+JSOn da objecct dicitionries adlanır. **Strukturun göstərmək.** burada bütün data typelar ola bilər amma əsasən string istifadə edilir.
+
+Here's an example of an object that holds values for red green and blue. You can see that the first key is this string red which has a value of 2 0 5. These are separated by a colon. Then there is a comma and then the next key is green with a value of 123 and the same for blue.Everything is enclosed in curly brackets.
+
+### Nested
+
+Nesting mənası odurki obyektləri bir birinin içərisindədir. Yəni qarışıqdır. Siz müxtəlif təbəqələi məlumatlar üçün array ləri obyektlərin və obyektləridə obyektlərin içərisində verə bilərsiniz.&#x20;
+
+Example
+
+Let's look at an example&#x20;
+
+Jason File that captures information about a song.&#x20;
+
+It starts with a curly bracket. So that means that the whole thing is an object. The object has only one key value pair the key of that key value pair is the string song.
+
+The value starts with a curly bracket.So that means that the value is another object.This is a really common way for Jason files to begin because it informs immediately what the object is supposed to represent.In this case a song inside the song object you can see that there are three keys.Title artist and musicians.The value for the title and artist keys are also strings.The value for the musicians key starts with the bracket.So that means it's an array.The array has four strings in it.Each separated by commas I'll go over this whole file one more time just so that you can see it from a slightly different point of view. This data on file consists of two objects.Note that there are two pairs of curly brackets and one array.Note that there is one pair of square brackets from a nesting point of view the top object contains the second object which contains the array. The top object has only one key which is song. The value of song is the second object which contains the song data. The first key of the data is title which has a value of Hey Jude.The second key is artist which has the value of the Beatles and the Laskey musicians which has a value that is an array of strings which is the Beatles names.
+
 > <mark style="color:orange;">**object**</mark><mark style="color:orange;">:</mark> JSON formatı üzrə object (obyekt) **key-value** cütlüyünü bildirir. **Key-value** cütlərinin bu kolleksiyası <mark style="color:orange;">{fiqurlu mötərizlərin açılması və bağlanması ilə}</mark> <mark style="color:orange;">{ }</mark> qruplaşdırılır.
 >
 > Obyektin yazılması qaydaları
