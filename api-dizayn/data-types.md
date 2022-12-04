@@ -39,77 +39,53 @@ String texniki termindir və mansı tekst deməkdir. Mahiyyətcə birləşmiş m
 
 Gəlin nümunəyə baxaq
 
+#### Boolean
 
+Boolean adı qəliz görünsədə özü çox sadədir. Bunu xeyli vaxt əvvəl riyaziyyatçı George Boole yaratmışdır. Bilməli olduğunuz yalnız odurki bu növdə iki dəyər vardır true və ya false.
 
->
->
-> A single name, a code, and a sentence. Booleans sound extremely technical.
->
-> But they are in fact very simple.
->
-> Long ago a mathematician named George Boole came up with a radical idea if we can do math with numbers
->
-> why can't we do math with logic.
->
-> He invented a math system with only two values: true and false. With these two values you can do all sorts
->
-> of things just like you do with numbers for documentation purposes.
->
-> All you need to know is that a boolean value can be either true or false.
->
-> Let's do a little exercise here.
->
-> This is a screen shot from a Facebook profile.
->
-> Once I make changes and submit it, it'll send data back to Facebook.
->
-> Of course the data will have data types.
->
-> Let's see if we can find all three of the data types that I've talked about.
->
-> Well, string is easy. The current city and hometown are both strings.
->
-> Numbers are easy, too. The day and year of the birthday are clearly numbers.
->
-> What about Booleans?
->
-> It has a value of true if it's checked and false if it's not.
->
-> In addition to individual data values you can have groups of data called collections.
->
-> There are two common types.
->
-> Arrays are a list of data values and dictionaries are what are called lookup tables.
->
-> Let me explain each of these. Arrays as I mentioned before are a list of data values.
->
-> That means that they have a size, which is how many are in the list, and they have an order, which describes
->
-> which data value comes first then which comes second and third and so on.
->
-> So for example you could have a list of numbers or you could have a list of strings.
->
-> You can even have a list of lists. Dictionaries are a little more complicated.
->
-> They are a list of data keys and values.
->
-> The idea is you use the key to look up the value.
->
-> Think about how you use a dictionary. Each word in a dictionary as a definition.
->
-> If your dictionary is electronic then you give it the word and it returns the definition.
->
-> The word is the key and the definition is the value.
->
-> Let me give you a different kind of example.
->
-> Let's say you had data that divided the United States into several regions and you want to have a dictionary
->
-> where you could give it the region name and it would return the number of U.S. states in that region.
->
-> Your dictionary might look like this. In front of the colon is the key -- a string in quotes -- and after the
->
-> colon is the value. Structured data combines data types and collections. Collections can consist of other
+Gəlin nümunədə baxaq
+
+<figure><img src="https://lh6.googleusercontent.com/FeqA90MLkBPjz5NxgEDoA3VASp8gflyzMsl7mWNWrJwslrFipZkM0C-o_xLITZADxmYOBDS226adToTJWetUETgRE4Lhmd-zvzwvMhXQZ8aWAMxVEQ_YkrzXZeJ_ABlN-HTuSpR2W3RLdBeETw1Boq-C6PH__n_1WlnoZ03CDbHloasbdJ-bZ2--tOtnzO71r2kl5nMA3Q=s2048" alt=""><figcaption></figcaption></figure>
+
+Bu Facebookdan üscreen shot dur.&#x20;
+
+This is a screen shot from a Facebook profile.
+
+Once I make changes and submit it, it'll send data back to Facebook.
+
+Of course the data will have data types.
+
+Let's see if we can find all three of the data types that I've talked about.
+
+Well, string is easy. The current city and hometown are both strings.
+
+Numbers are easy, too. The day and year of the birthday are clearly numbers.
+
+What about Booleans?
+
+It has a value of true if it's checked and false if it's not.
+
+### Array
+
+* Array məlumatlar listidir. Listdəki məlumatların ölçüsü olur
+* Listdəki məlumatlaırn sırlaması vacibdir. yəni hansı məlumat hansından sonra gəlir. Çünki Proqram yazılarkən həmin məlumata gedib çıxmaq üçün sırlamadan istifadə olunur. Buna Dot notation deyilir. Buna növbəti mövzularda göz gəzdirəcəyik
+* Məsələn sizin rəqəmlərdən ibraət və ya stringlərdən ibarət listiniz ola bilər. Həçinində siin list içərisində listiniz ola bilər.
+
+### Object or Dictionary
+
+Burada data key listi və onun dəyərləri olur. İdea ondan ibarətdirki siz key dən istifadə edib onun dəyərini tapa bilərsiniz. Fikirləşinki biz lüğəti necə istifadə edirik. Hər bir sözün mənası olur. Əgər bizim dictionrimiz elektorndursa onda biz söz veririk və mənası qayıdır.&#x20;
+
+Gəlin nümunə üzərindən baxaq.&#x20;
+
+Güman edəkki bizdə məlumatlar var və biz bilirik ki USAnin 7 regionu var. İndi biz istəyirikk i, biz region adı verək və bizə ordakı rayonları qaytarmalıdır.&#x20;
+
+**Your dictionary might look like this. In front of the colon is the key -- a string in quotes -- and after the**
+
+### Structured data. Nested JSON
+
+Nested JSON array və objectlördən ibarət olur. Array başqa arraydən object isə başqa objectlərdən ibarət ola bilər. Nə qədər istəsəz şaxələndirə bilərsiz amma ehtiyatlı olun.
+
+> Structured data combines data types and collections. Collections can consist of other
 >
 > collections.
 >
