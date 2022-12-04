@@ -85,36 +85,6 @@ Güman edəkki bizdə məlumatlar var və biz bilirik ki USAnin 7 regionu var. �
 
 Nested JSON array və objectlördən ibarət olur. Array başqa arraydən object isə başqa objectlərdən ibarət ola bilər. Nə qədər istəsəz şaxələndirə bilərsiz amma ehtiyatlı olun.
 
-> Structured data combines data types and collections. Collections can consist of other
->
-> collections.
->
-> In other words, you can have a dictionary of lists, or a list of dictionaries, a dictionary of dictionaries,
->
-> and so on.
->
-> You can have as many levels as you need. What you end up with is a tree structure where each collection
->
-> is a branch and at the end of each branch is a data value.
->
-> You may be wondering what this has to do with APIs.
->
-> The answer is very simple.
->
-> As I mentioned in the introductory lecture API, I have requests and responses. The responses almost always
->
-> return information from the server in the form of structured data and sometimes the request uses structured
->
-> data to pass information to the server
->
-> That's all for structured data.
->
-> Next take the quiz to see how much you've learned.
->
-> Autoscroll
->
->
-
 ### Parametrlər üzrə qeyd edilməli məqamlar
 
 > **Parametr**-ləri göstərərkən onların aşağıdakı xassələrini də mütləq qeyd edin.
