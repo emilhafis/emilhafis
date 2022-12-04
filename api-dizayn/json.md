@@ -27,6 +27,8 @@ Data Type ları haqqında məlumat verməmişdən öncə istərdim ki, JSON üzr
 
 **JSON**, _**JavaScript Object Notation**_ deməkdir. **JSON** məlumatları **Strukturlaşdırılmış Məlumat** kimi təqdim etmək üçün insan və maşın tərəfindən oxuna bilən formatdır. JSON **əsasən** məlumatları bir kompüterdən digərinə və ya hətta eyni kompüterdəki müxtəlif proqramlar arasında ötürmək üçün istifadə olunur.
 
+JavaScript prorqramlaşdırma dilidir və JSOn məlumatlrın strukturlaşdırılmış formada bu proqram təminatında istifadəsi üçün yaradılmışdır. Cammaat bunun rahatlığın görəndən sonra artıq demək olarki çox yerdə istifadə etməyə başlayıb. Və indi Veb API larında əsasən JSOn formatında məluamt mübadiləsi həyata keçirilir. Bunu siz bu günəkimi olan dərslərdə şahidi olmusuz.
+
 > <mark style="color:orange;">**object**</mark><mark style="color:orange;">:</mark> JSON formatı üzrə object (obyekt) **key-value** cütlüyünü bildirir. **Key-value** cütlərinin bu kolleksiyası <mark style="color:orange;">{fiqurlu mötərizlərin açılması və bağlanması ilə}</mark> <mark style="color:orange;">{ }</mark> qruplaşdırılır.
 >
 > Obyektin yazılması qaydaları
