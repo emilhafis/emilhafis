@@ -1,21 +1,68 @@
-# Open API. Specs and visual modeling platforms
+# SLDC
 
-> Open API spesifikasiyası əvvəlki bölmədə əhatə etdiyimiz API Dizayn üzrə bütün bölmələrini əhatə etməklə onları rəsmi formada təsvirlərini özündə əks etdirir. Swageger UI kimi framevorklar Open APİ spesifikasiyalarını oxuyub onları vizual görünütü halına çevirə bilər. Əlavə olaraq da, istifadəçilərə API inteqrasiyası və ya APİ ilə tanışlıq zamanı spesifikasiyadan istifadə etmədən istifadəçi interfeysindən **endpointləri** test etməyə imkan verir.
+Software development lifecycle həmçinin də SDLC adlanır. Yəni Proqram təminatının ərsəyə gəlməsinin prosesi. Siz developer komponaiyalarında işləyirsiznisə və ya işləyəndə bu sözü çox eşidəcəksiniz.
 
-> Bu mövzu aşağıdakı bölmələrədn ibarətdir
+SDLC 7 etapdan ibarətdir. Bəzi yerlərdə ilk iki etapı birlikdə göstərirlər. Və son vaxtlar artıq API First dizayn bu prosesin əsas hissəini təşkil edir.
+
 >
 >
 >
-> 1. Overview of REST API specification formats&#x20;
-> 2. Introduction to the OpenAPI specification&#x20;
-> 3. Stoplight: Visual modeling tools for creating your spec&#x20;
-> 4. Getting started tutorial: Using Stoplight Studio to create an OpenAPI specification document&#x20;
-> 5. Swagger UI tutorial&#x20;
-> 6. SwaggerHub introduction and tutorial&#x20;
-> 7. Swagger UI Demo&#x20;
-> 8. Integrating Swagger UI with the rest of your docs&#x20;
-> 9. Redocly tutorial -- authoring and publishing API docs with Redocly's command-line tools
-> 10. Redoc Community Edition Basic Demo
-
-
-
+>
+>
+>
+>
+>
+>
+>
+> The first phase of SDLC is analysis and planning.
+>
+> In this phase, customer will analyze their teams working companies processes and come up with the projects
+>
+> which will ease their work at this phase.
+>
+> Customer will have project plan requirement and their budget.
+>
+> The second Cleartrip requirement phase where customer will hand over these requirements or our project
+>
+> plan to the project team who will going to work on that project.
+>
+> The third phase is design and prototyping.
+>
+> In this phase, the project team will go through the requirement and come up with the smart designs
+>
+> and prototypes.
+>
+> We showed customers how their final product will look like.
+>
+> The port phases, software development, both customer approval on design and buying phase project team
+>
+> will start coding those requirements.
+>
+> The fifth place is testing in this phase, the audit functionalities will be tested not only by the
+>
+> testing team against the defined requirements.
+>
+> The six phase is deployment.
+>
+> Once testing is completed, application will be deployed to what means it is released for customers
+>
+> who use the seven phases maintenance and updates, both releasing project to customer art public.
+>
+> They will keep on discovering nationalities or bugs in the existing functionalities.
+>
+> These new use cases are requirements, and bugs will be provided to project team for fixing.
+>
+> Bugs will be fixed and the updates will be released in the application.
+>
+> However, for the new requirement, entire SDLC cycle will be repeated again.
+>
+> This is just a high level view of SDLC, but in the upcoming session, we'll see what exactly happens
+>
+> at the top level at each step.
+>
+> Autoscroll
+>
+>
+>
+> \
+>
