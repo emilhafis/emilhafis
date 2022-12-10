@@ -4,23 +4,29 @@ Software development lifecycle həmçinin də SDLC adlanır. Yəni Proqram təmi
 
 SDLC 7 etapdan ibarətdir. Bəzi yerlərdə ilk iki etapı birlikdə göstərirlər. Və son vaxtlar artıq API First dizayn bu prosesin əsas hissəini təşkil edir.
 
+### Analysis and planing
+
+İlk faza analiz və planlaşdırmadır.  İlk mərhələdə müştəri istəkləri təhlil olunur və ya şirkət prosesləri təhlil edilərək şirkət daxili nə iş görmək lazım olduğu aydınlaşdırılır. Bu etapda layihə planı və büdcəsi müəyyən edilir.
+
+### Requirements
+
+Bu mərhələdə layihə tələbləri müəyyənləşdirir.&#x20;
+
+### &#x20;Design and prototyping
+
+Burada məhsulun dizaynı və prototipi hazırlanır. Burada məhsul üzrə görünüş screen lərin hazırlanır və müştəriyə göstərilib məhsulun necə görünəcəyi ona bildirirlir. Lazım olduqda feedbacklar alınıb ona uyğun düzəlişlər edilir.
+
+Bəzi layihələrdə Design and prototyping-ə ehtiyac olmur. Beləki biz əgər backend sistemləri arasında hər hansı bir layihə icra ediriksə bunun üçün dizyana ehtiyac qalmır. Çünki müştəri bu tərəfləri görmür. Dizayn bizə müştərinin görəcəyi tərəf üçün lazımdır. Yəni Frontend development .
+
+**Frontend və Backend nədir&**
+
+
+
 >
 >
 >
 >
 >
->
->
->
->
->
-> The first phase of SDLC is analysis and planning.
->
-> In this phase, customer will analyze their teams working companies processes and come up with the projects
->
-> which will ease their work at this phase.
->
-> Customer will have project plan requirement and their budget.
 >
 > The second Cleartrip requirement phase where customer will hand over these requirements or our project
 >
