@@ -20,7 +20,9 @@ Bəzi layihələrdə Design and prototyping-ə ehtiyac olmur. Beləki biz əgər
 
 **Frontend və Backend nədir&**
 
+Biz bu mövzulara kimi bunu bir neçə dəfə müzakirə etmişik. Front end məsələn şəkildə gördüyünüz kimi bizim mobil tətbiqimizin üst tərəfidir. Backend isə arxa tərəfə deyilir. Yəni server və orada olan applikasiyamız. Gördüyünüz kimi istifadəçi mobil tətbiqə girən kimi Front end backendə müraciət edib lazımı məlumatları sorğulayır.  Backend sorğunu alanda ona uyğun məlumatı qaytarır. Backend daxilində bir neçə application olur və hər endpointə biri baxa bilir. Microservisdə hər app-ın arxasında bir DB dayanır. Monilitdə isə 1. Bütün bunların hamsı isə serverdə yerləşir.
 
+Gördüyünüz kimi ilk görünüş bu formada olur. Çünki Front hələ backenddən məlumatları almayıb. Gördüyünüz elementlər isə Frontendin öz proqramında qeyd edilib. Məsələn siz app yükləyirsiz, bütün proqramlaşdırma onun içərisində olur. Ona görə bəzi app-lara baxırıq 100 mg ytdır bəziləri 10 . Frontda nə qədər çox iş olarsa bir o qədər proqram həcmi artır. Nəticədə front bu məlumatları alıb lazımı yerlərə otuzdurub bizə göstərir. Bizim yazdıqlarımız API larda isə biz fronta deyirikki sən bu balansı almaq üçün necə request göndərməlisən. Backa da çatdırırıq ki, sən bu sorğuya nə cavab verməlisən.
 
 >
 >
