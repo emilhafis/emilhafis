@@ -16,6 +16,8 @@ Bu mərhələdə layihə tələbləri müəyyənləşdirir.&#x20;
 
 Burada məhsulun dizaynı və prototipi hazırlanır. Burada məhsul üzrə görünüş screen lərin hazırlanır və müştəriyə göstərilib məhsulun necə görünəcəyi ona bildirirlir. Lazım olduqda feedbacklar alınıb ona uyğun düzəlişlər edilir.
 
+Prorotoip dizayndan qabaqkı cızma qaradır. Dizayn isə son görünüş ekran. Əsasən prortip məhsulu başa düşmək üçün istifadə olunur və ilk olaraq cızma qara edilib steykholderlə razılaşdırılır. Məhz dizaynerlərədə bu verilir. Bunlar xüsusi proqramlarla hazırlanır. Əsasən prototip analitik tərəfind.n ağır proyektlər üzrə hazırlanır. məhz bu səbəbdəndə xaricdə bir çox analitikdən vireframe hazırlamaq bacarığı tələb olunur. Çox sadə məsələdir, qarşıdakı dərslərdə sizə göstərəcəm. Özünüzünzdə produktu tam başa düşüb onun tələblərini yazmaası üçün bəzən vireframe lazım olur.
+
 Bəzi layihələrdə Design and prototyping-ə ehtiyac olmur. Beləki biz əgər backend sistemləri arasında hər hansı bir layihə icra ediriksə bunun üçün dizyana ehtiyac qalmır. Məsələn bizim hazırladığımız Open bankingdə dizayna ehtiyac olmur. Çünki backend sistemlər bir biri ilə inteqrasiya edir. Ona görə burada dizayna ehtiyac yoxdur. Çünki müştəri bu tərəfləri görmür. Dizayn bizə müştərinin görəcəyi tərəf üçün lazımdır. Yəni Frontend development .
 
 **Frontend və Backend nədir&**
@@ -23,6 +25,10 @@ Bəzi layihələrdə Design and prototyping-ə ehtiyac olmur. Beləki biz əgər
 Biz bu mövzulara kimi bunu bir neçə dəfə müzakirə etmişik. Front end məsələn şəkildə gördüyünüz kimi bizim mobil tətbiqimizin üst tərəfidir. Backend isə arxa tərəfə deyilir. Yəni server və orada olan applikasiyamız. Gördüyünüz kimi istifadəçi mobil tətbiqə girən kimi Front end backendə müraciət edib lazımı məlumatları sorğulayır.  Backend sorğunu alanda ona uyğun məlumatı qaytarır. Backend daxilində bir neçə application olur və hər endpointə biri baxa bilir. Microservisdə hər app-ın arxasında bir DB dayanır. Monilitdə isə 1. Bütün bunların hamsı isə serverdə yerləşir.
 
 Gördüyünüz kimi ilk görünüş bu formada olur. Çünki Front hələ backenddən məlumatları almayıb. Gördüyünüz elementlər isə Frontendin öz proqramında qeyd edilib. Məsələn siz app yükləyirsiz, bütün proqramlaşdırma onun içərisində olur. Ona görə bəzi app-lara baxırıq 100 mg ytdır bəziləri 10 . Frontda nə qədər çox iş olarsa bir o qədər proqram həcmi artır. Nəticədə front bu məlumatları alıb lazımı yerlərə otuzdurub bizə göstərir. Bizim yazdıqlarımız API larda isə biz fronta deyirikki sən bu balansı almaq üçün necə request göndərməlisən. Backa da çatdırırıq ki, sən bu sorğuya nə cavab verməlisən.
+
+4\. API First and conditions
+
+Dizayn lazım olan layihəlrədə Dizayn və ya prototipdən sonra, lazım olmayanda isə reqeuirementlərə əsasən API First hazırlanır və şərtlər yazılır. Bu mərhələ olmayanda developer birbaşa tələb üzrə özü bir daha analiz aparıb development etməlidir.
 
 >
 >
