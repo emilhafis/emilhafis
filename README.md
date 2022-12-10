@@ -26,57 +26,18 @@ Biz bu mövzulara kimi bunu bir neçə dəfə müzakirə etmişik. Front end mə
 
 Gördüyünüz kimi ilk görünüş bu formada olur. Çünki Front hələ backenddən məlumatları almayıb. Gördüyünüz elementlər isə Frontendin öz proqramında qeyd edilib. Məsələn siz app yükləyirsiz, bütün proqramlaşdırma onun içərisində olur. Ona görə bəzi app-lara baxırıq 100 mg ytdır bəziləri 10 . Frontda nə qədər çox iş olarsa bir o qədər proqram həcmi artır. Nəticədə front bu məlumatları alıb lazımı yerlərə otuzdurub bizə göstərir. Bizim yazdıqlarımız API larda isə biz fronta deyirikki sən bu balansı almaq üçün necə request göndərməlisən. Backa da çatdırırıq ki, sən bu sorğuya nə cavab verməlisən.
 
-4\. API First and conditions
+### 4. API First and conditions
 
 Dizayn lazım olan layihəlrədə Dizayn və ya prototipdən sonra, lazım olmayanda isə reqeuirementlərə əsasən API First hazırlanır və şərtlər yazılır. Bu mərhələ olmayanda developer birbaşa tələb üzrə özü bir daha analiz aparıb development etməlidir.
 
->
->
->
->
->
->
-> The second Cleartrip requirement phase where customer will hand over these requirements or our project
->
-> plan to the project team who will going to work on that project.
->
-> The third phase is design and prototyping.
->
-> In this phase, the project team will go through the requirement and come up with the smart designs
->
-> and prototypes.
->
-> We showed customers how their final product will look like.
->
-> The port phases, software development, both customer approval on design and buying phase project team
->
-> will start coding those requirements.
->
-> The fifth place is testing in this phase, the audit functionalities will be tested not only by the
->
-> testing team against the defined requirements.
->
-> The six phase is deployment.
->
-> Once testing is completed, application will be deployed to what means it is released for customers
->
-> who use the seven phases maintenance and updates, both releasing project to customer art public.
->
-> They will keep on discovering nationalities or bugs in the existing functionalities.
->
-> These new use cases are requirements, and bugs will be provided to project team for fixing.
->
-> Bugs will be fixed and the updates will be released in the application.
->
-> However, for the new requirement, entire SDLC cycle will be repeated again.
->
-> This is just a high level view of SDLC, but in the upcoming session, we'll see what exactly happens
->
-> at the top level at each step.
->
-> Autoscroll
->
->
->
-> \
->
+### 5. Softvare development
+
+Artıq məhsulun hazırlanma mərhələsidir. Proqramçılar bizim hazırladığımız API First və şərtlər əsasında develolmetn aparırlar.
+
+### 6. Testing
+
+Növbəti mərhələ isə hazırlanmış məhsulun testləşdirilməsidir. Testləşdirməninin bir neçə növü vardır. Məsələn, sistemin davmlılığın yoxlamaq üçün stress testing. İstifadəçi tərəfindən qəbul testi, user acceptance test və s. Əgər testləşdirmə zamanı bug olarsa, bug hər hansı bir problem. o zaman buna düzəliş olunur. Və bütün prosesi təzəədən keçirilir.
+
+### 7. Deployment
+
+Yekunda isə məhsul istifdəyə verili
