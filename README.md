@@ -16,7 +16,7 @@ Bu mərhələdə layihə tələbləri müəyyənləşdirir.&#x20;
 
 Burada məhsulun dizaynı və prototipi hazırlanır. Burada məhsul üzrə görünüş screen lərin hazırlanır və müştəriyə göstərilib məhsulun necə görünəcəyi ona bildirirlir. Lazım olduqda feedbacklar alınıb ona uyğun düzəlişlər edilir.
 
-Bəzi layihələrdə Design and prototyping-ə ehtiyac olmur. Beləki biz əgər backend sistemləri arasında hər hansı bir layihə icra ediriksə bunun üçün dizyana ehtiyac qalmır. Çünki müştəri bu tərəfləri görmür. Dizayn bizə müştərinin görəcəyi tərəf üçün lazımdır. Yəni Frontend development .
+Bəzi layihələrdə Design and prototyping-ə ehtiyac olmur. Beləki biz əgər backend sistemləri arasında hər hansı bir layihə icra ediriksə bunun üçün dizyana ehtiyac qalmır. Məsələn bizim hazırladığımız Open bankingdə dizayna ehtiyac olmur. Çünki backend sistemlər bir biri ilə inteqrasiya edir. Ona görə burada dizayna ehtiyac yoxdur. Çünki müştəri bu tərəfləri görmür. Dizayn bizə müştərinin görəcəyi tərəf üçün lazımdır. Yəni Frontend development .
 
 **Frontend və Backend nədir&**
 
