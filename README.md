@@ -41,3 +41,5 @@ Növbəti mərhələ isə hazırlanmış məhsulun testləşdirilməsidir. Testl
 ### 7. Deployment
 
 Yekunda isə məhsul istifdəyə verili
+
+Analitikin iştirakı burada 1, 2,4 cü bəndlər üzrə keçirilir.
