@@ -24,6 +24,18 @@ OAuth **Access token** (giriş token) müəyyən bir müddət ərzində xüsusi 
 Əgər siz tech writer kimi access token istifadə etməyə qərar vermisinizsə, o zaman bu dəyəri Authorisation header-də istifadə edərək, "bearer token" kimi göndərilməsini qeyd edin.
 {% endhint %}
 
+> The `Authorization: <type> <credentials>` pattern was introduced by the W3C in [HTTP 1.0](https://www.rfc-editor.org/rfc/rfc1945), and has been reused in many places since. Many web servers support multiple methods of authorization. In those cases sending just the token isn't sufficient.
+>
+> Sites that use the
+>
+> ```
+> Authorization : Bearer cn389ncoiwuencr
+> ```
+>
+> format are most likely implementing OAuth 2.0 [bearer tokens](https://www.rfc-editor.org/rfc/rfc6750).The [OAuth 2.0 Authorization Framework](https://www.rfc-editor.org/rfc/rfc6749) sets a number of other requirements to keep authorization secure, for instance requiring the use of HTTPS/TLS.
+>
+> If you're integrating with a service that is using OAuth 2.0 it is a good idea to get familiar with the framework so that the flow you're using is implemented correctly, and avoiding unnecessary vulnerabilities. There are a number of good tutorials available online.
+
 ### Access token necə əldə edilir?
 
 > İlk öncə, tətbiq avtorizasiya serveri ilə autentifikasiya edilməlidir. OAuth protokolunda bu proses **Client ID** və **Client secret** dən istifadə edilməklə həyata keçirilir.&#x20;
