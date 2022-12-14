@@ -107,14 +107,14 @@ x-robots-tag: noindex
 {"success":true,"data":[{"origin":"BAK","destination":"IST","origin_airport":"GYD","destination_airport":"SAW","price":8967,"airline":"TK","flight_number":"7703","departure_at":"2023-03-26T05:15:00+04:00","transfers":0,"return_transfers":0,"duration":185,"link":"/search/BAK2603IST2?t=TK16797933001679804400000185GYDSAW_d8b41db8fd891a5f27e406371756c862_17934\u0026search_date=06112022\u0026expected_price_uuid=3d5f4ee6-0303-4e73-9b58-44fc59546b99\u0026expected_price_currency=rub"}],"currency":"rub"}% 
 ```
 
-![](<../.gitbook/assets/image (18).png>)
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 > Bunlardan birincisi **HEAD** requestdir. Normal sorğularda bildiyimiz kimi HEAD response-da görünmür. Amma onu bildirdiyimi zkimi sorğulasaq görünəcəkdir.
 >
 > Digəri isə ən geniş istifadə olunan **GET** metodudur.&#x20;
 
 {% hint style="danger" %}
-GET metodu nədir?
+&#x20;GET metodu nədir?
 
 POST nədir?
 
@@ -131,29 +131,23 @@ Idempotency nədir (So a couple of things about these types of requests. The HEA
 
 ![](<../.gitbook/assets/image (11).png>)
 
-> DELETE is the next one, this allows you to delete a resource. TRACE echoes back a received response. OPTIONS returns the HTTP methods that the server supports for that specific resource. CONNECT converts the request connection to a TCP/IP tunnel. This is what's used to facilitate a TSL or SSL encrypted communication to HTTPS. And then finally PATCH allows you to apply a partial modification to a resource.
 
-![](<../.gitbook/assets/image (17).png>)
-
-
-
-![](<../.gitbook/assets/image (8) (2).png>)
 
 >
 
 ![](<../.gitbook/assets/image (15) (1).png>)
 
-> On the client side, let's talk about now the header. Again, we talked about there's a request line, a header, and then a message body, so this is the second piece. The HTTP message header is the primary part of the request. Here's a typical syntax. There's a field\_name: and then the value for that field. Here's an example, you might see something the header that looks like Accept: text/plain. This is saying that the browser can accept just plain text
+> On the client side, let's talk about now the header. Again, we talked about there's a request line, a header, and then a message body, so this is the second piece. The HTTP message header is the primary part of the request. Here's a typical syntax. There's a field\_name: and then the value for that field. Here's an example, you might see something the header that looks like Accept:    text/plain. This is saying that the browser can accept just plain text
 
 ![](<../.gitbook/assets/image (13).png>)
 
-> An HTTP message header must be separated from the message body by a blank line. So after the header, blank line, and then here comes the third part, the body. So the message body is optional. Doesn't have to appear in a request. It's typically included if there's user-entered data that needs to be uploaded to the server side. If an HTTP request includes a body, there are usually header fields that describe what is up in the body. So, for example, you might see something like Content-Type is text/html or the Content-Length is 3495 bytes. So these things are describing the body itself. So these are the three parts of the request, the request line, the header, and then the message body.
+> An HTTP message header must be separated from the message body by a blank line. So after the header, blank line, and then here comes the third part, the body. So the message body is optional. Doesn't have to appear in a request. It's typically included if there's user-entered data  that needs to be uploaded to the server side. If an HTTP request includes a body, there are usually header fields that describe what is up in the body. So, for example, you might see something like Content-Type is text/html or the Content-Length is 3495 bytes. So these things are describing the body itself. So these are the three parts of the request, the request line, the header, and then the message body.
 
 
 
-![](<../.gitbook/assets/image (14).png>)
+&#x20;![](<../.gitbook/assets/image (14).png>)
 
-> So the message body is optional. Doesn't have to appear in a request. It's typically included if there's user-entered data that needs to be uploaded to the server side. If an HTTP request includes a body, there are usually header fields that describe what is up in the body. So, for example, you might see something like Content-Type is text/html or the Content-Length is 3495 bytes. So these things are describing the body itself. So these are the three parts of the request, the request line, the header, and then the message body. To make this a little bit more concrete, let me pull up a website.
+> So the message body is optional. Doesn't have to appear in a request. It's typically included if there's user-entered data that needs to be uploaded to the server side. If an HTTP request includes a body, there are usually header fields that describe what is up in the body. So, for example, you might see something like Content-Type is text/html or the Content-Length is 3495 bytes. So these things are describing the body itself. So these are the three parts of the request,  the request line, the header, and then the message body. To make this a little bit more concrete, let me pull up a website.
 
 
 
@@ -206,7 +200,8 @@ sec-fetch-mode: navigate
 sec-fetch-site: none
 sec-fetch-user: ?1
 upgrade-insecure-requests: 1
-user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36ba</code></pre>
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36ba
+</code></pre>
 
 [https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)
 
