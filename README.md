@@ -16,3 +16,14 @@ Məlumdurki bütün işləri görmək üçün böyük və ya kiçik team-lərə 
 
 Ən birincisi prosudr və instruksiyadır. Adətən bunlar uzun və mürəkkəb sənədlər olur. Buna görədə onlar user friendly olmur.  Sonra diaqramlar var. Diaqramlar daha yaxşıdır, çünki onlar qrafikdir, ona görə də başa düşmək daha asandır mənası nədir. Lakin problem ondadır ki, diaqramlar bir çox formada ola bilər və onların hamısı formal deyil və bəziləri sadəcə gözəl şəkillərdir.
 
+
+
+Amma biz öz məqsədlərimizə çatmaq üçün və oxuyucalara aydın mesaj ötürmək üçün prosess diaqramdan istifadə edəəcyik. Bizim proses diaqramımız aşağıdakı suallara cavab verəcəkdir
+
+1. Prosesi nə başladır
+2. Prosesimiz haradan başlayır
+
+Bundan sonra biz dəqiq biləcəyik ki, nələr icra edilməlidir. Hansı işlər görülməlidir və razılaşdırılmış mərhələlər üçün nələr lazımdır. Sonra, adətən, bir neçə addımı yerinə yetirməyimiz həmin addımlar vaxtı nələr baş verdiyini və əksər vaxtı addımın dərhal bitmədiyini və bir neçə sub proses olduğunu görcəyik.
+
+Ən əsası bizim oxuyucalar ilə eyni dilmizi olur yəni komanda üzvlərimiz prosesə baxmaqla nəyin necə getdiyini başa düşür.
+
