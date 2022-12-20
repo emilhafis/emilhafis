@@ -13,42 +13,21 @@ Bunun üçün mən Lucidchart dan istifadə edəcəm. Amma siz digərlərindən,
 1. ilk olaraq biz özümüzə sual verməliyik ki, nə baş verməlidir ki, bizim prosesimiz start olsun? Bu keysdə bildirdiyim kimi, qeyd edə bilərik ki, **Cofee needed.** Start event edib yazırıq.
 2. Bundan sonra biz prosesləri əlavə etməliyki və biz təyin etməliyik ki, nə baş verməlidir. Təsəvvür edinki kofee maşını qarşısındasız nə etməlisiniz ilk öncə? Mümkün vkofee variantların seçməlisiniz. BElə ki, biz Task əlavə edib yazırıq - **Check available options**
 3. Deməli biz seçimləri gördük və onların arasından seçməliyik. Məsələn latte, Americano və s. Deyəkki sçim etməliyik. Yenədə sadə Task artırıb qeyd edirik - **Select coffee**
+4. Biz seçdikdən sonra adətən pulun ödəyirik. Bu isə bir az mürəkkəb prosesdir. Burada bir çox proses var və biz istəmirikki onları ümumi floda göstərək və qarışıqlıq olsun. Ona görə Sub-Process artırırıq. Və adını Payment qoyuruq. Fikir verirsinizsə burda sub process olduğu üçün icraya uyğun Fel qoymadıq.&#x20;
+
+{% hint style="info" %}
+Lazımsız mürəkkəbliyi gizlətmək üçün ümumiyyətlə çox böyük diaqramlar yaratmaq yaxşı təcrübə deyil. Auditoriya üçün lazım olmayan elementləri Sub-Process də gizlətməlisiniz.
+
+Bu həm də daha yaxşı görüntü yaratmaqla yanaşı, aşağı səviyyəli diaqramlardan yenidən istifadə etməyə imkan verən təcrübədir. API modeli xatırlayın. buna sonra baxacağıq.
+{% endhint %}
+
+5\. Cofee üçün pulu ödədikdən sonra biz kofemizi götürməliyik. Bu da bizim sadə taskımızdır. Take cofee
+
+6\. Və nəhayət happy ednimizə çatdır.q  Beləki biz End event əlavə edib Coffee ready to drink əlavə edirik. Prosesdə ən xoşladığımız fiur bu olacaq çünki yekunlaşdırırq.
 
 >
 >
-> Now after we know what is available \[in the vending machine]
 >
-> So whether this is Cappuccino or something else we can select one of the options.
->
-> So again it will be a simple process step - a Task. \[Let's call it "Select coffee"].
->
-> After we selected most likely we'll need to pay for the coffee.
->
-> This is something a little bit more complicated.
->
-> There are more steps here \[that we don't want to show], so I'll be adding a Sub-Process.
->
-> This is just for the purpose of hiding this unnecessary complexity, because generally it is not a good
->
-> practice to create very very big diagrams. If it is possible you should hide elements that may be not necessary
->
-> for audience into Sub-processes.
->
-> This is also something that not only creates better visibility but also allows you to reuse those lower
->
-> level diagrams.
->
-> But this is something that we'll be covering later on. For the time being I'll add a Sub-process
->
-> and this will be \[called] "Payment".
->
-> Now, after we've paid for the coffee we need to take the coffee \[this will be a simple Task].
->
-> And finally we reached our "happy end",
->
-> so we'll be adding our End event "Coffee ready to drink". \[This is a desired end state of a process]
->
-> And this is it!
 >
 > Now, I'll tell you few words about tool usage \[of ADONIS:CE]. As you could see I was using option called Hover modeling
 >
