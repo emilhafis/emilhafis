@@ -8,47 +8,13 @@ Kofesiz işə başlaya bilmirik və cofee aparatına gedib kofemizi almalıyıq.
 
 Biz bu prosesi BPMn də quracağıq və siz real olaraq görəcəksiniz ki, proses hansı formada baş verir.&#x20;
 
-Bunun üçün mən Lucidchart dan istifadə edəcəm. Amma siz digərlərindən, Visio BPMn və d istifadə edə bilərsiniz. Fikir verinki export və import olsun. Dediyimiz kimi bu bir standartdır və digər toollar bunu emal edib göstərə bilir.
+Bunun üçün mən Lucidchart dan istifadə edəcəm. Amma siz digərlərindən, Visio BPMn və d istifadə edə bilərsiniz. Fikir verinki export və import olsun. Dediyimiz kimi bu bir standartdır və digər toollar bunu emal edib göstərə bilir. Biz [https://demo.bpmn.io/](https://demo.bpmn.io/) istifadə edəcəyik.
 
-> Now it's time for a quick demonstration.
+1. ilk olaraq biz özümüzə sual verməliyik ki, nə baş verməlidir ki, bizim prosesimiz start olsun? Bu keysdə bildirdiyim kimi, qeyd edə bilərik ki, **Cofee needed.** Start event edib yazırıq.
+2. Bundan sonra biz prosesləri əlavə etməliyki və biz təyin etməliyik ki, nə baş verməlidir. Təsəvvür edinki kofee maşını qarşısındasız nə etməlisiniz ilk öncə? Mümkün vkofee variantların seçməlisiniz. BElə ki, biz Task əlavə edib yazırıq - **Check available options**
+3. Deməli biz seçimləri gördük və onların arasından seçməliyik. Məsələn latte, Americano və s. Deyəkki sçim etməliyik. Yenədə sadə Task artırıb qeyd edirik - **Select coffee**
+
 >
-> So let's imagine that we have a process as follows:
->
-> You have just begun your work day and you're feeling that without coffee
->
-> you cannot work anymore.
->
-> So you need to buy coffee at a vending machine.
->
-> We'll try to create this process in BPMN, so that you can see how those elements are used in practice.
->
-> Let's go to a tool! Here I will create a new process diagram in BPMN.
->
-> Let's call it "Ordering coffee from a vending machine".
->
-> For the time being I won't be adding any other elements
->
-> that you can see here because they are not part of the BPMN specification.
->
-> Those are just tool specific extensions. The first thing we need to ask ourselves is: "what needs to happen
->
-> so that our process starts".
->
-> So \[in other words] what will be our starting point.
->
-> In this case it would be probably \[event] "Coffee needed".
->
-> I'll insert a Start Event by clicking
->
-> and adding one here. \[As you can see] I can directly add a name
->
-> So it will be "Coffee needed". \[Hit Enter when you're done]
->
-> Now
->
-> we want to add some elements. Probably the first step would be that we need to check available options
->
-> in the vending machine. So I'll insert Task \[by directly clicking option from the right arc with suggestions] and name it properly: "Check available options".
 >
 > Now after we know what is available \[in the vending machine]
 >
