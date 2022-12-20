@@ -39,36 +39,4 @@ Bu həm də daha yaxşı görüntü yaratmaqla yanaşı, aşağı səviyyəli di
 1. Burada ilk işimiz event start-dır.
 2. İkinci nə ola bilər? Select Payment option
 
->
->
->
->
->
->
-> Here you can see only mark element of payments if you would like to show what is happening inside us.
->
-> We would need to link this element this sub process with a lower level diagram to save your time.
->
-> I created one for you so we have it here telling them they can double click to open a notebook.
->
-> And simply the and grew up to link those highlights now if needed.
->
-> I can either read that diagram or if I prefer I can click and come inside here process will be a little
->
-> bit more interesting.
->
-> When payment is needed we do verify payment options.
->
-> If hopefully the vending machine is smarter we can pay with our car then event will simply pay and then
->
-> bring this down.
->
-> But if it is old one probably need to prepare coins with coins and on the other works we can complete
->
-> with our higher level process so we can take a copy and continue.
->
-> So here you could see those moves and basic elements you could see in practice starting those and events
->
-> tasks such processes gateways and sequence flows and those are the most important elements you'll be
->
-> using every repeal and dagger.
+Sub-Prosesdə baş verənləri görmək üçün klik edib daxil ola bilərsiniz. əlaqələndirməliyik. Mən sizin üçün bir dəftər yaratdım, ona görə də qeyd edək ki, qeyd dəftərini açmaq üçün iki dəfə klikləyə bilsinlər. Və sadəcə olaraq və lazım gələrsə, bu məqamları indi əlaqələndirmək üçün böyüdü. O diaqramı ya oxuya bilərəm, ya da istəsəm klikləyib içəri girə bilərəm bura proses bir az olacaq biraz daha maraqlıdır. Ödəniş tələb olunduqda biz ödəniş variantlarını yoxlayırıq. Ümid edirik ki, satış avtomatı daha ağıllıdırsa, biz avtomobilimizlə ödəyə bilərik, onda hadisə sadəcə ödəyəcək və sonra bunu azaldacaq. Ancaq köhnədirsə, yəqin ki, sikkələrlə sikkələr hazırlamaq lazımdır və digər işlərdə daha yüksək səviyyəli prosesimizi tamamlaya bilərik ki, surətini götürüb davam edə bilək. Beləliklə, burada siz o hərəkətləri və əsas elementləri görə bilərsiniz ki, bu və hadisələrin tapşırıqlarını, məsələn, proseslərin şlüzləri və axınları ardıcıllığı və bunlar hər bir ləğv və xəncərdən istifadə edəcəyiniz ən vacib elementlərdir.
