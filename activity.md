@@ -25,29 +25,22 @@ Bu həm də daha yaxşı görüntü yaratmaqla yanaşı, aşağı səviyyəli di
 
 6\. Və nəhayət happy ednimizə çatdır.q  Beləki biz End event əlavə edib Coffee ready to drink əlavə edirik. Prosesdə ən xoşladığımız fiur bu olacaq çünki yekunlaşdırırq.
 
+
+
+İndi isə sizə bir az tool haqqında deyim.&#x20;
+
+1. İmport və Export göstərmək
+2. IBM də import etmək
+
+İndi isə sizə elemtlərin bir biri ilə necə birləşdiyini göstərim. Yəni Sequenc floları.
+
+İndi isə keçək sub process-ə və baxaqki orada nə baş verir
+
 >
 >
 >
 >
-> Now, I'll tell you few words about tool usage \[of ADONIS:CE]. As you could see I was using option called Hover modeling
 >
-> or modeling assistant. So every time I clicked, tool suggested me next elements. This is just element of "tool smarts" \[usability]
->
-> so it will differ from a tool to a tool.
->
-> But what will be the same is that every argument will be circle with the fin barter average and then
->
-> the circle with a thick marker and every task will be rounded.
->
-> Now I'll show you how I could use other methods of joining elements of sequence flows.
->
-> So let's assume that I would like for zealots first of all it would be simpler to click on the arrow
->
-> click here on the stomach and drag it to the carpet.
->
-> And now this is ready or I could also click to have a modeling assistant select the arrow and simply
->
-> select an element so we can create.
 >
 > Here you can see only mark element of payments if you would like to show what is happening inside us.
 >
