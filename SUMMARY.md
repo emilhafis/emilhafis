@@ -7,3 +7,4 @@
   * [Payment Sub-Process](activity/payment-sub-process.md)
 * [Token in Practice](token-in-practice.md)
 * [Gateway](gateway.md)
+* [Parallel Gateway (AND)](parallel-gateway-and.md)
