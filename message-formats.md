@@ -274,3 +274,9 @@ This message generated when Debtor bank (driver's bank) does not respond message
 
 </details>
 
+{% hint style="info" %}
+You can get find [all the rejection](rejection-motives.md) motives that Banks can send to IPS
+{% endhint %}
+
+
+
