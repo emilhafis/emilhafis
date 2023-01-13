@@ -27,4 +27,4 @@ If IPS not receives response from Creditor bank (Driver's bank) within 5 minutes
 
 ## Pain.002 processing by MSolution
 
-<figure><img src=".gitbook/assets/diagram(1) (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/diagram(2).svg" alt=""><figcaption></figcaption></figure>
