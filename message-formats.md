@@ -150,7 +150,7 @@ This message generated when insufficient balance in Debtor customer (Taxi Park)
 
 <summary>pain.002 unsuccess - EL202</summary>
 
-This message generated when Creditor bank does not respond message received from IPS within 5 minutes
+This message generated when Creditor bank (Taxi Park Bank) does not respond message received from IPS within 5 minutes
 
 ```xml
 <Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.002.001.10">  
@@ -210,4 +210,73 @@ This message generated when Creditor bank does not respond message received from
 
 
 </details>
+
+<details>
+
+<summary>pain.002 unsuccess - EP252</summary>
+
+This message generated when Debtor bank (driver's bank) does not respond message received from IPS within 5 minutes
+
+```xml
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.002.001.10">  
+  <CstmrPmtStsRpt> 
+    <GrpHdr> 
+      <MsgId>Q9337319/p92</MsgId>  
+      <CreDtTm>2023-01-08T03:12:06.693</CreDtTm>  
+      <InitgPty> 
+        <Id> 
+          <OrgId> 
+            <AnyBIC>NABZAZ2CIPS</AnyBIC> 
+          </OrgId> 
+        </Id> 
+      </InitgPty>  
+      <FwdgAgt> 
+        <FinInstnId> 
+          <BICFI>NABZAZ2CMEP</BICFI> 
+        </FinInstnId> 
+      </FwdgAgt> 
+    </GrpHdr>  
+    <OrgnlGrpInfAndSts> 
+      <OrgnlMsgId>NABZAZ2CAMEP230108939550000256461</OrgnlMsgId>  
+      <OrgnlMsgNmId>pain.001.001.09</OrgnlMsgNmId>  
+      <OrgnlCreDtTm>2023-01-08T03:11:46</OrgnlCreDtTm>  
+      <GrpSts>RJCT</GrpSts> 
+    </OrgnlGrpInfAndSts>  
+    <OrgnlPmtInfAndSts> 
+      <OrgnlPmtInfId>NABZAZ2CAMEP230108939550000256461</OrgnlPmtInfId>  
+      <TxInfAndSts> 
+        <OrgnlInstrId>PAYMFROMMERCHANT</OrgnlInstrId>  
+        <OrgnlEndToEndId>PAYM0001</OrgnlEndToEndId>  
+        <TxSts>RJCT</TxSts>  
+        <StsRsnInf> 
+          <Rsn> 
+            <Prtry>EP252</Prtry> 
+          </Rsn>  
+          <AddtlInf>Query rejected by timeout</AddtlInf> 
+        </StsRsnInf>  
+        <OrgnlTxRef> 
+          <IntrBkSttlmAmt Ccy="AZN">20.00</IntrBkSttlmAmt>  
+          <ReqdExctnDt> 
+            <Dt>2023-01-08</Dt> 
+          </ReqdExctnDt>  
+          <PmtTpInf> 
+            <LclInstrm> 
+              <Prtry>CPRQ</Prtry> 
+            </LclInstrm> 
+          </PmtTpInf>  
+          <PmtMtd>TRF</PmtMtd> 
+        </OrgnlTxRef> 
+      </TxInfAndSts> 
+    </OrgnlPmtInfAndSts> 
+  </CstmrPmtStsRpt> 
+</Document>
+```
+
+</details>
+
+{% hint style="info" %}
+You can get find [all the rejection](rejection-motives.md) motives that Banks can send to IPS
+{% endhint %}
+
+
 
