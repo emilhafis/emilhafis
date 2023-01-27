@@ -31,12 +31,6 @@
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-> Now the whole point of relational databases
->
-> is that the tables held within the database
->
-> can be linked together or they share a relation
->
 > Dem'li realtional database əsasını databasedə saxlanılan table-lar təşkil edir və table-lar bi biri ilə əlaqələndirilə bilnir.&#x20;
 
 {% hint style="info" %}
