@@ -6,7 +6,7 @@
 * [MySQL installation](mysql-installation.md)
 * [MySQL Workbench](mysql-workbench.md)
 * [Create Database](create-database.md)
-* [SQL for creating the electron\_banking database](sql-for-creating-the-electron\_banking-database.md)
+* [SQL for creating the electron\_banking database tables](sql-for-creating-the-electron\_banking-database-tables.md)
 
 ## Selecting from a Table
 
